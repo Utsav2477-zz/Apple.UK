@@ -1,0 +1,613 @@
+[lang]:lang(en) * {
+  font-family: "SF Pro Display", "SF Pro AR", "SF Pro Gulf", "SF Pro Text",
+    "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  letter-spacing: 0 !important;
+}
+
+html.hero-animation .section-hero:not(.fallback) .hero-section-content {
+  transform: scaleX(-1);
+}
+
+html.hero-animation .section-hero:not(.fallback) .hero-section-content p,
+html.hero-animation .section-hero:not(.fallback) .hero-section-content h1,
+html.hero-animation .section-hero:not(.fallback) .hero-section-content h2 {
+  animation: flip 0.01s ease-out forwards;
+}
+
+html:not(.touch) .section-smart-hdr .gallery-container .gallery .item-wrapper,
+html:not(.touch)
+  .section-smart-hdr
+  .gallery-container
+  .gallery
+  .item-wrapper
+  figure {
+  transform: scaleX(-1);
+}
+html.touch .section-smart-hdr .gallery-container .gallery .dotnav-items {
+  transform: scaleX(-1);
+}
+
+@-webkit-keyframes flip {
+  100% {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+}
+
+@keyframes flip {
+  100% {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+}
+
+.section-hero .image-hero-design {
+  margin-left: unset;
+  right: 50%;
+  left: unset;
+  margin-right: calc(-8.33333% - 160px);
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-hero .image-hero-design {
+    margin-right: calc(-8.33333% - 128px);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-hero .image-hero-design {
+    margin-right: calc(-8.33333% - 138px);
+  }
+}
+
+.section-hero .image-hero-display {
+  margin-left: unset;
+  left: unset;
+  right: 50%;
+  margin-right: calc(8.33333%);
+}
+
+.section-portrait .portrait-intro .img-portrait-hero {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/portrait_hero__go2w7le2rvmi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-portrait .portrait-intro .img-portrait-hero {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/portrait_hero__go2w7le2rvmi_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-portrait .portrait-intro .img-portrait-hero {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/portrait_hero__go2w7le2rvmi_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-portrait .portrait-intro .img-portrait-hero {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/portrait_hero__go2w7le2rvmi_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-portrait .portrait-intro .img-portrait-hero {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/portrait_hero__go2w7le2rvmi_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-portrait .portrait-intro .img-portrait-hero {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/portrait_hero__go2w7le2rvmi_small_2x.jpg");
+  }
+}
+
+.section-a13 .a13-intro .camera-hardware-container .offset-start-content {
+  margin-right: unset;
+  margin-left: calc(100vw / 2 - 980px / 2);
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-a13 .a13-intro .camera-hardware-container .offset-start-content {
+    margin-left: calc(100vw / 2 - 692px / 2);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-a13 .a13-intro .camera-hardware-container .offset-start-content {
+    margin-left: calc(100vw / 2 - 87.5% / 2);
+  }
+}
+
+.section-a13 .a13-intro .camera-hardware-container .inline-video-media {
+  right: auto;
+  left: 0;
+}
+
+.section-a13 .playback-control {
+  left: auto;
+  right: 20px;
+}
+
+.section-ar .colornav li {
+  float: right;
+}
+
+.section-colors .typography-section-headline-super {
+  font-size: 58px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-colors .typography-section-headline-super {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-colors .typography-section-headline-super {
+    font-size: 39px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-portrait .portrait-lighting-grid .img-lighting {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(50%);
+    margin-right: 50%;
+  }
+}
+
+.section-a13 .a13-intro .camera-hardware-container .row {
+  margin-right: unset;
+  margin-left: 8.33333%;
+}
+
+.section-hero .hero-subhead.hero-display-text {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.typography-cta {
+  font-size: 12px;
+  line-height: 1.14286;
+  font-weight: 600;
+  top: -20px;
+  left: -30px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+@media screen and (max-width: 735px) {
+  .typography-cta {
+    left: -10px;
+  }
+}
+
+.typography-cta a {
+  color: #86868b;
+}
+
+.typography-cta a:hover .icon {
+  text-decoration: none;
+}
+
+.section-ios-13 .image-ios-13 {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13__bwsrc6p1ka4i_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13__bwsrc6p1ka4i_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13__bwsrc6p1ka4i_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13__bwsrc6p1ka4i_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13__bwsrc6p1ka4i_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13__bwsrc6p1ka4i_small_2x.jpg");
+  }
+}
+
+.no-facetime .section-ios-13 .image-ios-13 {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_facetime__bwsrc6p1ka4i_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-facetime .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_facetime__bwsrc6p1ka4i_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-facetime .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_facetime__bwsrc6p1ka4i_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-facetime .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_facetime__bwsrc6p1ka4i_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .no-facetime .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_facetime__bwsrc6p1ka4i_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .no-facetime .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_facetime__bwsrc6p1ka4i_small_2x.jpg");
+  }
+}
+
+.no-tv .section-ios-13 .image-ios-13 {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_tv__bwsrc6p1ka4i_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-tv .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_tv__bwsrc6p1ka4i_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-tv .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_tv__bwsrc6p1ka4i_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-tv .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_tv__bwsrc6p1ka4i_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .no-tv .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_tv__bwsrc6p1ka4i_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .no-tv .section-ios-13 .image-ios-13 {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/ios13_no_tv__bwsrc6p1ka4i_small_2x.jpg");
+  }
+}
+
+.no-tv .section-battery .image-battery {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/battery_no_tv__dkv8umyqg0a6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-tv .section-battery .image-battery {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/battery_no_tv__dkv8umyqg0a6_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-tv .section-battery .image-battery {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/battery_no_tv__dkv8umyqg0a6_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-tv .section-battery .image-battery {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/battery_no_tv__dkv8umyqg0a6_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .no-tv .section-battery .image-battery {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/battery_no_tv__dkv8umyqg0a6_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .no-tv .section-battery .image-battery {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/battery_no_tv__dkv8umyqg0a6_small_2x.jpg");
+  }
+}
+
+.section-ar .image-ar-black {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_black__epg7kqtjuw4m_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-ar .image-ar-black {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_black__epg7kqtjuw4m_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-ar .image-ar-black {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_black__epg7kqtjuw4m_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-ar .image-ar-black {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_black__epg7kqtjuw4m_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-ar .image-ar-black {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_black__epg7kqtjuw4m_small.png");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-ar .image-ar-black {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_black__epg7kqtjuw4m_small_2x.png");
+  }
+}
+
+.section-battery .image-battery {
+  right: 50%;
+  margin-right: -655.5px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-battery .image-battery {
+    right: 50%;
+    margin-right: -518px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-battery .image-battery {
+    right: 50%;
+    margin-right: -266.5px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-water-resistance .section-intro,
+  .section-water-resistance .section-headline,
+  .section-water-resistance .interactive-headline {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-water-resistance .header-column {
+    z-index: 4;
+  }
+}
+
+.section-ar .image-ar-white {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_white__cjig29vc6jhy_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-ar .image-ar-white {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_white__cjig29vc6jhy_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-ar .image-ar-white {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_white__cjig29vc6jhy_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-ar .image-ar-white {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_white__cjig29vc6jhy_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-ar .image-ar-white {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_white__cjig29vc6jhy_small.png");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-ar .image-ar-white {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_white__cjig29vc6jhy_small_2x.png");
+  }
+}
+
+.section-ar .image-ar-red {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_red__fttytux5ptea_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-ar .image-ar-red {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_red__fttytux5ptea_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-ar .image-ar-red {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_red__fttytux5ptea_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-ar .image-ar-red {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_red__fttytux5ptea_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-ar .image-ar-red {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_red__fttytux5ptea_small.png");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-ar .image-ar-red {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/ar/use_ar_red__fttytux5ptea_small_2x.png");
+  }
+}
+
+.typography-hero-intro-elevated {
+  line-height: 1.24;
+}
+
+.typography-section-headline-super-elevated {
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 734px) {
+  .typography-hero-headline {
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-a13 .a13-intro.enhanced .section-headline {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-portrait .portrait-intro.enhanced .section-headline {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-water-resistance .interactive-headline-container {
+    text-align: right;
+    margin-top: 16em;
+    left: 0;
+  }
+  .section-water-resistance .interactive-headline {
+    text-align: right;
+    line-height: 1.4;
+  }
+  .section-water-resistance .water-image {
+    left: 380px;
+    right: unset;
+    margin-right: unset;
+    margin-left: -433px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-ios-13 .image-ios-13 {
+    margin-top: -86px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-ios-13 .image-ios-13 {
+    margin-top: 26px;
+  }
+}
+
+.section-hero .hero-headline,
+.section-water-resistance .section-headline {
+  line-height: 1.2;
+}
+
+.ac-gf-sosumi li a {
+  white-space: nowrap;
+}
+
+.section-other-features .image-icon-wifi-only {
+  background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/icon_lte__cny5971gdeqa_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-other-features .image-icon-wifi-only {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/icon_lte__cny5971gdeqa_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-other-features .image-icon-wifi-only {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/icon_lte__cny5971gdeqa_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-other-features .image-icon-wifi-only {
+    background-image: url("https://www.apple.com/mideast/iphone-se/b/images/overview/icon_lte__cny5971gdeqa_small_2x.jpg");
+  }
+}

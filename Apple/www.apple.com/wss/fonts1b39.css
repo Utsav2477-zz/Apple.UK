@@ -1,0 +1,51 @@
+@font-face {
+	font-family:'SF Pro TC';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Light.woff2") format("woff2"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Light.woff") format("woff"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Light.ttf") format("truetype");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro TC 300';
+	src:url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Light.eot");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro TC';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Medium.woff2") format("woff2"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Medium.woff") format("woff"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Medium.ttf") format("truetype");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro TC 500';
+	src:url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Medium.eot");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro TC';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Semibold.woff2") format("woff2"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Semibold.woff") format("woff"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Semibold.ttf") format("truetype");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro TC 600';
+	src:url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Semibold.eot");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro TC';
+	font-style:normal;
+	font-weight:400;
+	src:url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Regular.eot");
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Regular.woff2") format("woff2"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Regular.woff") format("woff"), url("https://www.apple.com/wss/fonts/SF-Pro-TC/v1/PingFangTC-Regular.ttf") format("truetype");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+

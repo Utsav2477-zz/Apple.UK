@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<!-- Mirrored from www.apple.com/feedback/itunes.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 08:30:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8" />
+<link rel="canonical" href="https://www.apple.com/feedback/itunes.html" />
+
+
+	
+	<link rel="alternate" href="https://www.apple.com/feedback/itunes.html" hreflang="en-US" /><link rel="alternate" href="https://www.apple.com/jp/feedback/itunes.html" hreflang="ja-JP" />
+
+
+	
+<meta name="viewport" content="width=1024" />
+
+	
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalnav/5/en_US/styles/ac-globalnav.fixed.built.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/localnav/3.0/styles/ac-localnav.fixed.built.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalfooter/5/en_US/styles/ac-globalfooter.fixed.built.css" />
+
+
+	<title>Feedback - iTunes Store Requests - Apple</title>
+	<meta name="omni_page" content="iTunes - Make Request for the iTunes Store" />
+	<meta name="Category" content="products,apps" />
+	<meta name="Description" content="Apple wants to hear from you. Send us your requests and feedback on iTunes Store." />
+
+	
+	
+	
+	
+
+
+		
+	<script src="https://www.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/lib/sizzle.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/ac_base/ac_base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/feedstatistics.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/ac_retina/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	function resetRequired(value) {
+		requiredElements = new Array();
+		var tempInputs = document.getElementsByTagName('input');
+		var tempLabels = document.getElementsByTagName('label');
+		var tempSelects = document.getElementsByTagName('select');
+		var tempTextareas = document.getElementsByTagName('textarea');
+		var tempElements = new Array();
+		for (var i = 0; i < tempInputs.length; i++) {tempElements[tempElements.length] = tempInputs[i];}
+		for (var i = 0; i < tempSelects.length; i++) {tempElements[tempElements.length] = tempSelects[i];}
+		for (var i = 0; i < tempTextareas.length; i++) {tempElements[tempElements.length] = tempTextareas[i];}
+		for (var i = 0; i < tempElements.length; i++) {
+			if (tempElements[i].className && tempElements[i].className.indexOf('required') != -1 || tempElements[i].className.indexOf(value) != -1) {
+				var tempType = (tempElements[i].type) ? tempElements[i].type : tempElements[i].tagName.toLowerCase();
+				var pathToLabel;
+				for (var j = 0; j < tempLabels.length; j++) {
+					if (tempLabels[j].htmlFor.indexOf(tempElements[i].name) != -1) {
+						pathToLabel = tempLabels[j];
+					}
+				}
+				requiredElements[requiredElements.length] = {path: tempElements[i], name: tempElements[i].name, type: tempType, label: pathToLabel};
+			}
+		}
+	}
+
+	function display_init() {
+		if ( $('feedback_type').value ) {
+			value = $('feedback_type').value;
+			if ( $(value) ) {
+				$(value).style.display = 'block';
+			}
+			resetRequired(value);
+			previous = $('feedback_type').value;
+		} else {
+			previous = '';
+		}
+	}
+
+	/*
+	//js_define_begin
+	"subject" : ["", "song", "artist", "album", "podcast", "ibook", "audiobook", "soundtrack", "tvshow", "movie", "musicvideo", "othervideo", “application”]
+	//js_define_end
+	*/
+
+	function display(objSelect) {
+		// get selected value and assign it to a hidden subject field
+		// commented out following line in order to have the default field clear out previously placed inputs
+		// if (objSelect.selectedIndex<=0) return false;
+		var objOpt = objSelect.options[objSelect.selectedIndex];
+		var fieldSubject = $('subject');
+		fieldSubject.value = objOpt.value;
+
+		// used validation.add (and the required-option class) to add all hidden fields so that the id driven error validation html can be added (feedback.js)
+		// remove the class so that the fields will only be validated when visible
+		replaceChildren = $('itunes').getElementsByClassName('required-option');
+		for( x = replaceChildren.length - 1; x>-1; x-- )
+		{
+			replaceChildren[x].addClassName('required-option-replace');
+			replaceChildren[x].removeClassName('required-option');
+		}
+
+		// now set visibilities
+		value = $('feedback_type').value;
+		if ( $(value) ) {
+			$('itunes').className = "validate-" + value;
+			$(value).style.display = 'block';
+
+			// remove required-option and add required class
+			parentElement = $(value)
+			childElements = parentElement.getElementsByClassName('required-option-replace');
+			for( x = childElements.length - 1; x>-1; x-- )
+			{
+				childElements[x].addClassName('required');
+				childElements[x].removeClassName('required-option-replace');
+				var holder = 2;
+			}
+
+		}
+		if ( $(previous) ) {
+			// remove required-option and add required class
+			parentElement = $(previous)
+			childElements = parentElement.getElementsByClassName('required-option-replace');
+			for( x = childElements.length - 1; x>-1; x-- )
+			{
+				childElements[x].addClassName('required-option-replace');
+				childElements[x].removeClassName('required');
+			}
+
+			$(previous).style.display = 'none';
+
+		}
+		resetRequired(value);
+		previous = value;
+	}
+	// -->
+	</script>
+	<script src="https://km.support.apple.com/kb/resources/js/KmLoader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/scripts/lib/validation.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/feedback/scripts/feedback-gdpr.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Myriad+Set+Pro&amp;v=1" type="text/css" />
+	<link rel="stylesheet" href="https://www.apple.com/global/styles/base.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.apple.com/feedback/styles/feedback.css" type="text/css" />
+	<style type="text/css" media="all">
+		div.display { display:none; }
+		.maincap.bottom { width:984px; margin:0px auto 0; _margin-top:-9px; display:block; background-color:#fff; }
+		div.hr { border-bottom:1px solid #eee; margin-top:20px; margin-bottom:18px; }
+	</style>
+</head>
+<body id="itunes" class="feedback ac-platter-content ac-nav-margin">
+	
+<meta name="ac-gn-store-key" content="SFX9YPYY9PPXCU9KH" />
+<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-US" dir="ltr" data-strings="{ 'exit': 'Exit', 'view': '{%STOREFRONT%} Store Home', 'segments': { 'smb': 'Business Store Home', 'eduInd': 'Education Store Home', 'other': 'Store Home' } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global" data-hires="false" data-analytics-region="global nav" lang="en-US" dir="ltr" data-www-domain="www.apple.com" data-store-locale="us" data-store-root-path="/us" data-store-api="/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-locale="en_US" data-search-suggestions-api="/search-services/suggestions/" data-search-defaultlinks-api="/search-services/suggestions/defaultlinks/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Global Nav Open Menu</span>
+				</a>
+				<a href="#" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Global Nav Close Menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count :">
+						<span class="ac-gn-link-text">Shopping Bag</span>
+					</a>
+					<span class="ac-gn-bag-badge">
+						<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<div class="ac-gn-search-placeholder-container" role="search">
+			<div class="ac-gn-search ac-gn-search-small">
+				<a id="ac-gn-link-search-small" class="ac-gn-link" href="https://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="Search apple.com">
+					<div class="ac-gn-search-placeholder-bar">
+						<div class="ac-gn-search-placeholder-input">
+							<div class="ac-gn-search-placeholder-input-text" aria-hidden="true">
+								<div class="ac-gn-link-search ac-gn-search-placeholder-input-icon"></div>
+								<span class="ac-gn-search-placeholder">Search apple.com</span>
+							</div>
+						</div>
+						<div class="ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close">
+							<span class="ac-gn-searchview-close-cancel" aria-hidden="true">Cancel</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+						<span class="ac-gn-link-text">Apple</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/mac/" data-analytics-title="mac">
+						<span class="ac-gn-link-text">Mac</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/ipad/" data-analytics-title="ipad">
+						<span class="ac-gn-link-text">iPad</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/iphone/" data-analytics-title="iphone">
+						<span class="ac-gn-link-text">iPhone</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/watch/" data-analytics-title="watch">
+						<span class="ac-gn-link-text">Watch</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/tv/" data-analytics-title="tv">
+						<span class="ac-gn-link-text">TV</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/music/" data-analytics-title="music">
+						<span class="ac-gn-link-text">Music</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/" data-analytics-title="support">
+						<span class="ac-gn-link-text">Support</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="https://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="Search apple.com"></a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count : {%BAGITEMCOUNT%}">
+							<span class="ac-gn-link-text">Shopping Bag</span>
+						</a>
+					<span class="ac-gn-bag-badge" aria-hidden="true">
+								<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<div class="ac-gn-searchview-bar">
+					<div class="ac-gn-searchview-bar-wrapper">
+						<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/us/search" method="get">
+							<div class="ac-gn-searchform-wrapper">
+								<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions" />
+								<input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
+								<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit Search"></button>
+								<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search">
+										<span class="ac-gn-searchform-reset-background"></span>
+									</button>
+							</div>
+						</form>
+						<button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
+								<span class="ac-gn-searchview-close-cancel" aria-hidden="true">
+									Cancel
+								</span>
+							</button>
+					</div>
+				</div>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults=""></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div class="ac-gn-blur"></div>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+<script type="text/javascript" src="https://www.apple.com/ac/globalnav/5/en_US/scripts/ac-globalnav.built.js"></script>
+
+	<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+	
+
+<div id="top" data-analytics-locale="us">
+
+
+	
+
+
+
+
+<script type="text/javascript">
+
+	var s_account="appleglobal,applestoreww";	
+
+</script>
+
+
+	<script type="text/javascript" src="https://www.apple.com/metrics/scripts/s_code_h.js"></script>
+
+
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (us)";
+
+	s.channel="www.us.feedback"
+
+
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code = s.t();</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+
+	<div id="main" class="content" data-hires="true">
+		<div id="content" class="grid2cola">
+			<div class="column last sidebar">
+				<div class="box support">
+					<a class="block" href="https://www.apple.com/support/itunes/">
+						<img class="left" src="https://www.apple.com/feedback/images/support_icon.png" width="41" height="59" alt="" />
+						<h3>Looking for support?</h3>
+						<p><em class="more">Visit the Apple support site</em></p>
+					</a>
+				</div><!--/box-->
+			</div>
+			<div class="column first">
+				<img class="left icon" src="https://www.apple.com/feedback/images/icon_itunes.jpg" width="85" height="85" alt="" />
+				<h1><img src="https://www.apple.com/feedback/images/title_itunes.gif" width="282" height="30" alt="iTunes Store Requests" /></h1>
+				<p class="intro">Can’t find something on the iTunes Store? We’re constantly improving our catalog of music, audiobooks and videos. Use the form below to let us know what you’re looking for. If you provide your email address, you agree that we may contact you to better understand the comments you submitted.</p>
+
+				<form name="formname" action="https://comentarios.apple.com/feedback" method="post">
+					<input type="hidden" name="formId" value="10815" />
+					<input type="hidden" name="form_url" value="https://www.apple.com/feedback/itunes.html" />
+					<input type="hidden" name="thankyou" value="https://www.apple.com/feedback/itunes_thankyou.html" />
+					<input type="hidden" name="product" value="iTunes Request Music" />
+					<ul class="inputs noborder">
+						<li>
+							<label for="customer_name">Name:</label>
+							<span class="formwrap"><input type="text" name="customer_name" maxlength="50" class="required" />
+							<i>Required</i></span>
+						</li>
+						<li>
+							<label for="customer_email">Email Address:</label>
+							<span class="formwrap"><input type="text" id="customer_email" name="customer_email" maxlength="50" class="validate-required-email required"/>
+							<i aria-hidden="true">Required</i></span>
+						</li>
+						<li>
+							<input type="hidden" id="subject" name="subject" value="" />
+						</li>
+						<li class="dropdown">
+							<label for="os_version">Which operating system are you using?</label>
+							<select name="os_version" class="required">
+								<option value="">Select Version:</option>
+								
+<option value="iOS 13.4">iOS 13.4</option>
+<option value="iOS 13.3">iOS 13.3</option>
+<option value="iOS 13.2">iOS 13.2</option>
+<option value="iOS 13.1">iOS 13.1</option>
+<option value="iOS 13.0">iOS 13.0</option>
+
+<option value="iOS 12.4">iOS 12.4</option>
+<option value="iOS 12.3.2">iOS 12.3.2</option>
+<option value="iOS 12.3.1">iOS 12.3.1</option>
+<option value="iOS 12.3">iOS 12.3</option>
+<option value="iOS 12.2">iOS 12.2</option>
+<option value="iOS 12.1.4">iOS 12.1.4</option>
+<option value="iOS 12.1.3">iOS 12.1.3</option>
+<option value="iOS 12.1.2">iOS 12.1.2</option>
+<option value="iOS 12.1.1">iOS 12.1.1</option>
+<option value="iOS 12.1">iOS 12.1</option>
+<option value="iOS 12.0.1">iOS 12.0.1</option>
+<option value="iOS 12.0">iOS 12.0</option>
+
+<option value="iOS 11.4">iOS 11.4</option>
+<option value="iOS 11.3">iOS 11.3</option>
+<option value="iOS 11.2.5">iOS 11.2.5</option>
+<option value="iOS 11.2">iOS 11.2</option>
+<option value="iOS 11.1.2">iOS 11.1.2</option>
+<option value="iOS 11.1.1">iOS 11.1.1</option>
+<option value="iOS 11.1">iOS 11.1</option>
+<option value="iOS 11.0.3">iOS 11.0.3</option>
+<option value="iOS 11.0.2">iOS 11.0.2</option>
+<option value="iOS 11.0.1">iOS 11.0.1</option>
+<option value="iOS 11.0">iOS 11.0</option>
+
+<option value="iOS 10.3.3">iOS 10.3.3</option>
+<option value="iOS 10.3.2">iOS 10.3.2</option>
+<option value="iOS 10.3.1">iOS 10.3.1</option>
+<option value="iOS 10.3">iOS 10.3</option>
+
+<option value="iOS 10.2">iOS 10.2</option>
+<option value="iOS 10.1.1">iOS 10.1.1</option>
+<option value="iOS 10.1">iOS 10.1</option>
+<option value="iOS 10.0.1">iOS 10.0.1</option>
+<option value="iOS 10.0">iOS 10.0</option>
+<option value="iOS 9.3.5">iOS 9.3.5</option>
+<option value="iOS 9.3.4">iOS 9.3.4</option>
+<option value="iOS 9.3.3">iOS 9.3.3</option>
+<option value="iOS 9.3.2">iOS 9.3.2</option>
+<option value="iOS 9.3.1">iOS 9.3.1</option>
+<option value="iOS 9.3">iOS 9.3</option>
+<option value="iOS 9.2">iOS 9.2</option>
+<option value="iOS 9.1">iOS 9.1</option>
+
+<option value="iOS 9.0.2">iOS 9.0.2</option>
+<option value="iOS 9.0.1">iOS 9.0.1</option>
+<option value="iOS 9.0">iOS 9.0</option>
+<option value="iOS 8.4.1">iOS 8.4.1</option>
+<option value="iOS 8.4">iOS 8.4</option>
+<option value="iOS 8.3">iOS 8.3</option>
+<option value="iOS 8.2">iOS 8.2</option>
+
+<option value="iOS 8.1.3">iOS 8.1.3</option>
+<option value="iOS 8.1.2">iOS 8.1.2</option>
+<option value="iOS 8.1.1">iOS 8.1.1</option>
+<option value="iOS 8.1">iOS 8.1</option>
+<option value="iOS 8.0">iOS 8.0</option>
+<option value="iOS 7.1.2">iOS 7.1.2</option>
+<option value="iOS 7.1.1">iOS 7.1.1</option>
+<option value="iOS 7.1">iOS 7.1</option>
+<option value="iOS 7.0.4">iOS 7.0.4</option>
+<option value="iOS 7.0.3">iOS 7.0.3</option>
+<option value="iOS 7.0.2">iOS 7.0.2</option>
+<option value="iOS 7.0.1">iOS 7.0.1</option>
+<option value="iOS 7.0">iOS 7.0</option>
+<option value="iOS 6.1.4">iOS 6.1.4</option>
+<option value="iOS 6.1.3">iOS 6.1.3</option>
+<option value="iOS 6.1.2">iOS 6.1.2</option>
+<option value="iOS 6.1.1">iOS 6.1.1</option>
+<option value="iOS 6.1">iOS 6.1</option>
+<option value="iOS 6.0">iOS 6.0</option>
+<option value="iOS 5.1">iOS 5.1</option>
+<option value="iOS 5.0.1">iOS 5.0.1</option>
+<option value="iOS 5.0">iOS 5.0</option>
+<option value="iOS 4.3">iOS 4.3</option>
+<option value="iOS 4.2.1">iOS 4.2.1</option>
+<option value="iOS 4.2">iOS 4.2</option>
+<option value="iOS 4.1">iOS 4.1</option>
+<option value="iOS 4.0">iOS 4.0</option>
+<option value="iOS 3.2">iOS 3.2</option>
+
+
+
+
+
+
+								<option value="" disabled="disabled">— — — — — — — — — —</option>
+								
+
+<option value="macOS Catalina 10.15.4">macOS Catalina 10.15.4</option>
+<option value="macOS Catalina 10.15.3">macOS Catalina 10.15.3</option>
+<option value="macOS Catalina 10.15.2">macOS Catalina 10.15.2</option>
+<option value="macOS Catalina 10.15.1">macOS Catalina 10.15.1</option>
+<option value="macOS Catalina 10.15">macOS Catalina 10.15</option>
+<option value="macOS Mojave 10.14.6">macOS Mojave 10.14.6</option>
+<option value="macOS Mojave 10.14.5">macOS Mojave 10.14.5</option>
+<option value="macOS Mojave 10.14.4">macOS Mojave 10.14.4</option>
+<option value="macOS Mojave 10.14.3">macOS Mojave 10.14.3</option>
+<option value="macOS Mojave 10.14.2">macOS Mojave 10.14.2</option>
+<option value="macOS Mojave 10.14.1">macOS Mojave 10.14.1</option>
+<option value="macOS Mojave 10.14">macOS Mojave 10.14</option>
+<option value="macOS High Sierra 10.13.x">macOS High Sierra 10.13.x</option>
+<option value="macOS Sierra 10.12.x">macOS Sierra 10.12.x</option>
+
+<option value="OS X El Capitan 10.11.x">OS X El Capitan 10.11.x</option>
+<option value="OS X Yosemite 10.10.x">OS X Yosemite 10.10.x</option>
+<option value="OS X Mavericks 10.9.x">OS X Mavericks 10.9.x</option>
+<option value="OS X Mountain Lion 10.8.x">OS X Mountain Lion 10.8.x</option>
+<option value="OS X Lion 10.7.x or earlier">OS X Lion 10.7.x or earlier</option>
+
+
+
+								<option value="" disabled="disabled">— — — — — — — — — —</option>
+								<option value="Windows 10">Windows 10</option>
+<option value="Earlier versions of Windows">Earlier versions of Windows</option>
+
+								<option value="" disabled="disabled">— — — — — — — — — —</option>
+								<option value="Other">Other</option>
+							</select>
+							<i>Required</i>
+							<span></span>
+						</li>
+						<li class="dropdown">
+							<label for="itunes_version">Which version of iTunes are you using?</label>
+							<select name="itunes_version" id="itunes_version" class="required">
+								<option value="">Select iTunes Version:</option>
+								<option value="iTunes 12.9.3">iTunes 12.9.3</option>
+<option value="iTunes 12.9.2">iTunes 12.9.2</option>
+<option value="iTunes 12.9.1">iTunes 12.9.1</option>
+<option value="iTunes 12.9">iTunes 12.9</option>
+<option value="iTunes 12.8.2">iTunes 12.8.2</option>
+<option value="iTunes 12.8.1">iTunes 12.8.1</option>
+<option value="iTunes 12.8">iTunes 12.8</option>
+<option value="iTunes 12.7.5">iTunes 12.7.5</option>
+<option value="iTunes 12.7.4">iTunes 12.7.4</option>
+<option value="iTunes 12.7.3">iTunes 12.7.3</option>
+<option value="iTunes 12.7.2">iTunes 12.7.2</option>
+<option value="iTunes 12.7.1">iTunes 12.7.1</option>
+<option value="iTunes 12.7">iTunes 12.7</option>
+<option value="iTunes 12.6.2">iTunes 12.6.2</option>
+<option value="iTunes 12.6.1">iTunes 12.6.1</option>
+<option value="iTunes 12.6">iTunes 12.6</option>
+
+<option value="iTunes 12.5.3">iTunes 12.5.5</option>
+<option value="iTunes 12.5.3">iTunes 12.5.3</option>
+<option value="iTunes 12.5.1">iTunes 12.5.1</option>
+<option value="iTunes 12.4.3">iTunes 12.4.3</option>
+<option value="iTunes 12.4.2">iTunes 12.4.2</option>
+<option value="iTunes 12.4">iTunes 12.4</option>
+<option value="iTunes 12.3.3">iTunes 12.3.3</option>
+<option value="iTunes 12.3.2">iTunes 12.3.2</option>
+<option value="iTunes 12.3.1">iTunes 12.3.1</option>
+<option value="iTunes 12.3">iTunes 12.3</option>
+<option value="iTunes 12.2.2">iTunes 12.2.2</option>
+<option value="iTunes 12.2.1">iTunes 12.2.1</option>
+<option value="iTunes 12.2">iTunes 12.2</option>
+<option value="iTunes 12.1.1">iTunes 12.1.1</option>
+<option value="iTunes 12.1">iTunes 12.1</option>
+<option value="iTunes 12.0.1">iTunes 12.0.1</option>
+<option value="iTunes 12">iTunes 12</option>
+<option value="iTunes 11.4">iTunes 11.4</option>
+<option value="iTunes 11.3.1">iTunes 11.3.1</option>
+<option value="iTunes 11.3">iTunes 11.3</option>
+<option value="iTunes 11.2.2">iTunes 11.2.2</option>
+<option value="iTunes 11.2.1">iTunes 11.2.1</option>
+<option value="iTunes 11.2">iTunes 11.2</option>
+<option value="iTunes 11.1.5">iTunes 11.1.5</option>
+<option value="iTunes 11.1.4">iTunes 11.1.4</option>
+<option value="iTunes 11.1.3">iTunes 11.1.3</option>
+<option value="iTunes 11.1.2">iTunes 11.1.2</option>
+<option value="iTunes 11.1.1">iTunes 11.1.1</option>
+<option value="iTunes 11.1">iTunes 11.1</option>
+<option value="iTunes 11">iTunes 11</option>
+<option value="iTunes 10.7">iTunes 10.7</option>
+<option value="iTunes 10.6.3">iTunes 10.6.3</option>
+<option value="iTunes 10.6.1">iTunes 10.6.1</option>
+<option value="iTunes 10.6">iTunes 10.6</option>
+<option value="iTunes 10.5.2">iTunes 10.5.2</option>
+<option value="iTunes 10.5.1">iTunes 10.5.1</option>
+<option value="iTunes 10.5">iTunes 10.5</option>
+<option value="iTunes 10.4">iTunes 10.4</option>
+<option value="iTunes 10.2">iTunes 10.2</option>
+<option value="iTunes 10.1">iTunes 10.1</option>
+<option value="iTunes 10.0.1">iTunes 10.0.1</option>
+<option value="iTunes 10">iTunes 10</option>
+<option value="iTunes 9.0.1">iTunes 9.0.1</option>
+<option value="iTunes 9.0">iTunes 9.0</option>
+<option value="iTunes 8.1">iTunes 8.1</option>
+<option value="iTunes 8.0">iTunes 8.0</option>
+<option value="iTunes 7.7.1">iTunes 7.7.1</option>
+<option value="iTunes 7.7">iTunes 7.7</option>
+<option value="iTunes 7.6.2">iTunes 7.6.2</option>
+<option value="iTunes 7.6.1">iTunes 7.6.1</option>
+<option value="iTunes 7.6">iTunes 7.6</option>
+<option value="iTunes 7.5">iTunes 7.5</option>
+<option value="iTunes 7.4">iTunes 7.4</option>
+<option value="iTunes 7.3">iTunes 7.3</option>
+<option value="iTunes 7.2">iTunes 7.2</option>
+<option value="iTunes 7.1">iTunes 7.1</option>
+<option value="iTunes 7.0">iTunes 7.0</option>
+<option value="iTunes 6.0">iTunes 6.0</option>
+<option value="iTunes 5.0">iTunes 5.0</option>
+<option value="iTunes 4.9">iTunes 4.9</option>
+<option value="iTunes 4.8">iTunes 4.8</option>
+<option value="iTunes 4.7">iTunes 4.7</option>
+<option value="iTunes 4.6">iTunes 4.6</option>
+<option value="iTunes 4.5 or older">iTunes 4.5 or older</option>
+
+							</select>
+							<i>Required</i>
+							<span></span>
+						</li>
+						<li class="dropdown">
+							<label for="age">What is your age?</label>
+							<select name="age">
+								<option value="">Select Age:</option>
+								<option value="Under 18">Under 18</option>
+								<option value="18-25">18-25</option>
+								<option value="26-35">26-35</option>
+								<option value="36-45">36-45</option>
+								<option value="45-55">46-55</option>
+								<option value="55-65">56-65</option>
+								<option value="Over 65">Over 65</option>
+							</select>
+							<span></span>
+						</li>
+						<li class="dropdown">
+							<label for="feedback_type">What would you like to request?</label>
+							<select name="feedback_type" id="feedback_type" onChange="display(this)" class="required">
+								<option value="">Select Request Type:</option>
+								<option value="song">Request a Song</option>
+								<option value="artist">Request an Artist</option>
+								<option value="album">Request an Album</option>
+								<option value="movie">Request a Movie</option>
+								<option value="tvshow">Request a TV Show</option>
+								<option value="application">Request an Application</option>
+								<option value="ibook">Request a Book</option>
+								<option value="audiobook">Request an Audiobook</option>
+								<option value="musicvideo">Request a Music Video</option>
+								<option value="ringtone">Request a Ringtone</option>
+								<option value="podcast">Request a Podcast</option>
+								<option value="othervideo">Request Other Video</option>
+							</select>
+							<i>Required</i>
+							<span></span>
+						</li>
+
+						<li class="comments">
+							<label for="feedback_comment">Comments:</label>
+							<span class="formwrap"><textarea id="feedback_comment" name="feedback_comment" maxlength="800"></textarea></span>
+						</li>
+					</ul>
+
+						<div class="clearer"> </div>
+
+						<div id="song" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="song_title">Song Title:</label>
+									<span class="formwrap"><input type="text" name="song_title" maxlength="100" class="required-option song" />
+									<i>Required</i></span><!-- class song means this field is required -->
+								</li>
+								<li>
+									<label for="song_artist">Artist:</label>
+									<span class="formwrap"><input type="text" name="song_artist" maxlength="150" class="required-option song" />
+									<i>Required</i></span><!-- class song means this field is required -->
+								</li>
+								<li>
+									<label for="song_album">Album:</label>
+									<span class="formwrap"><input type="text" name="song_album" maxlength="150" /></span>
+								</li>
+								<li>
+									<label for="song_year">Year:</label>
+									<span class="formwrap"><input type="text" name="song_year" maxlength="4" /></span>
+								</li>
+								<li>
+									<label for="song_recordlabel">Record Label:</label>
+									<span class="formwrap"><input type="text" name="song_recordlabel" maxlength="100" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="artist" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="artist_artist">Artist:</label>
+									<span class="formwrap"><input type="text" name="artist_artist" maxlength="150" class="required-option artist" />
+									<i>Required</i></span><!-- class artist means this field is required -->
+								</li>
+								<li>
+									<label for="artist_recordlabel">Record Label:</label>
+									<span class="formwrap"><input type="text" name="artist_recordlabel" maxlength="100" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="album" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="album_artist">Artist:</label>
+									<span class="formwrap"><input type="text" name="album_artist" maxlength="150" class="required-option album" />
+									<i>Required</i></span><!-- class album means this field is required -->
+								</li>
+								<li>
+									<label for="album_album">Album:</label>
+									<span class="formwrap"><input type="text" name="album_album" maxlength="150" class="required-option album" />
+									<i>Required</i></span><!-- class album means this field is required -->
+								</li>
+								<li>
+									<label for="album_recordlabel">Record Label</label>
+									<span class="formwrap"><input type="text" name="album_recordlabel" maxlength="100" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="podcast" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="podcast_title">Podcast Name:</label>
+									<span class="formwrap"><input type="text" name="podcast_title" maxlength="150" class="required-option podcast" />
+									<i>Required</i></span><!-- class podcast means this field is required -->
+								</li>
+								<li>
+									<label for="podcast_url">Podcast URL:</label>
+									<span class="formwrap"><input type="text" name="podcast_url" maxlength="150" class="required-option podcast" />
+									<i>Required</i></span><!-- class podcast means this field is required -->
+								</li>
+							</ul>
+						</div>
+
+						<div id="ibook" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="ibook_title">Title:</label>
+									<span class="formwrap"><input type="text" name="ibook_title" maxlength="150" class="required-option ibook" />
+									<i>Required</i></span><!-- class ibook means this field is required -->
+								</li>
+								<li>
+									<label for="ibook_author">Author:</label>
+									<span class="formwrap"><input type="text" name="ibook_author" maxlength="150" class="required-option ibook" />
+									<i>Required</i></span><!-- class ibook means this field is required -->
+								</li>
+								<li>
+									<label for="ibook_publisher">Publisher:</label>
+									<span class="formwrap"><input type="text" name="ibook_publisher" maxlength="150" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="audiobook" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="audiobook_title">Title:</label>
+									<span class="formwrap"><input type="text" name="audiobook_title" maxlength="150" class="required-option audiobook" />
+									<i>Required</i></span><!-- class audiobook means this field is required -->
+								</li>
+								<li>
+									<label for="audiobook_author">Author:</label>
+									<span class="formwrap"><input type="text" name="audiobook_author" maxlength="150" class="required-option audiobook" />
+									<i>Required</i></span><!-- class audiobook means this field is required -->
+								</li>
+								<li>
+									<label for="audiobook_narrator">Narrator:</label>
+									<span class="formwrap"><input type="text" name="audiobook_narrator" maxlength="150" /></span>
+								</li>
+								<li>
+									<label for="audiobook_publisher">Publisher:</label>
+									<span class="formwrap"><input type="text" name="audiobook_publisher" maxlength="150" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="soundtrack" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="soundtrack_movie">Movie:</label>
+									<span class="formwrap"><input type="text" name="soundtrack_movie" maxlength="150" class="required-option soundtrack" />
+									<i>Required</i></span><!-- class soundtrack means this field is required -->
+								</li>
+								<li>
+									<label for="soundtrack_year">Year:</label>
+									<span class="formwrap"><input type="text" name="soundtrack_year" maxlength="4" class="required-option soundtrack" />
+									<i>Required</i></span><!-- class soundtrack means this field is required -->
+								</li>
+								<li>
+									<label for="soundtrack_studio">Studio:</label>
+									<span class="formwrap"><input type="text" name="soundtrack_studio" maxlength="150" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="tvshow" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="tvshow_showname">Show Name:</label>
+									<span class="formwrap"><input type="text" name="tvshow_showname" maxlength="150" class="required-option tvshow" />
+									<i>Required</i></span><!-- class tvshow means this field is required -->
+								</li>
+								<li>
+									<label for="tvshow_season">Season Number:</label>
+									<span class="formwrap"><input type="text" name="tvshow_season" maxlength="20" /></span>
+								</li>
+								<li>
+									<label for="tvshow_episode">Episode Name or Number:</label>
+									<span class="formwrap"><input type="text" name="tvshow_episode" maxlength="150" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="movie" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="movie_movietitle">Movie Title:</label>
+									<span class="formwrap"><input type="text" name="movie_movietitle" maxlength="150" class="required-option movie" />
+									<i>Required</i></span><!-- class movie means this field is required -->
+								</li>
+								<li>
+									<label for="movie_year">Release Year:</label>
+									<span class="formwrap"><input type="text" name="movie_year" maxlength="20" /></span>
+								</li>
+								<li>
+									<label for="movie_studio">Movie Studio Name:</label>
+									<span class="formwrap"><input type="text" name="movie_studio" maxlength="150" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<div id="musicvideo" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="musicvideo_artist">Artist:</label>
+									<span class="formwrap"><input type="text" name="musicvideo_artist" maxlength="150" class="required-option musicvideo" />
+									<i>Required</i></span><!-- class musicvideo means this field is required -->
+								</li>
+								<li>
+									<label for="musicvideo_song">Song:</label>
+									<span class="formwrap"><input type="text" name="musicvideo_song" maxlength="150" class="required-option musicvideo" />
+									<i>Required</i></span><!-- class musicvideo means this field is required -->
+								</li>
+							</ul>
+						</div>
+
+						<div id="ringtone" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="ringtone_artist">Artist:</label>
+									<span class="formwrap"><input type="text" name="ringtone_artist" maxlength="150" class="required-option ringtone" />
+									<i>Required</i></span><!-- class ringtone means this field is required -->
+								</li>
+								<li>
+									<label for="ringtone_song">Song:</label>
+									<span class="formwrap"><input type="text" name="ringtone_song" maxlength="150" class="required-option ringtone" />
+									<i>Required</i></span><!-- class ringtone means this field is required -->
+								</li>
+							</ul>
+						</div>
+
+						<div id="application" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="application_developer">Developer</label>
+									<span class="formwrap"><input type="text" name="application_developer" maxlength="150" /></span>
+								</li>
+								<li>
+									<label for="application_title">Title</label>
+									<span class="formwrap"><input type="text" name="application_title" maxlength="150" /></span>
+								</li>
+								<li class="textarea">
+									<label for="application_description">Description:</label>
+									<span class="formwrap"><textarea name="application_description" class="required-option application" maxlength="800"></textarea>
+									<i>Required</i></span><!-- class othervideo means this field is required -->
+								</li>
+							</ul>
+						</div>
+
+						<div id="othervideo" class="display">
+							<ul class="inputs noborder">
+								<li>
+									<label for="othervideo_title">Video Title:</label>
+									<span class="formwrap"><input type="text" name="othervideo_title" maxlength="150" class="required-option othervideo" />
+									<i>Required</i></span><!-- class othervideo means this field is required -->
+								</li>
+								<li>
+									<label for="othervideo_studio">Studio:</label>
+									<span class="formwrap"><input type="text" name="othervideo_studio" maxlength="150" class="required-option othervideo" />
+									<i>Required</i></span><!-- class othervideo means this field is required -->
+								</li>
+								<li>
+									<label for="othervideo_directorproducer">Director or Producer</label>
+									<span class="formwrap"><input type="text" name="othervideo_directorproducer" maxlength="150" /></span>
+								</li>
+								<li>
+									<label for="othervideo_year">Year</label>
+									<span class="formwrap"><input type="text" name="othervideo_year" maxlength="4" /></span>
+								</li>
+							</ul>
+						</div>
+
+						<script language="javascript" type="text/javascript">
+							display_init();
+						</script>
+
+						<div class="hr"></div>
+						<div class="clearer"></div>
+					<p class="sosumi policy">Please read <a href="https://www.apple.com/legal/intellectual-property/policies/ideas.html">Apple’s Unsolicited Idea Submission Policy</a> before you send us your feedback.</p>
+
+					<input type="submit" name="submit" value="Submit Feedback" class="submit" />
+				</form>
+			</div>
+		</div><!--/content-->
+		<div class="clearer"></div>
+	</div><!--/main-->
+
+	<footer id="ac-globalfooter" class="no-js" lang="en-US" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+		<div class="ac-gf-content">
+			<h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
+			<nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+				<a href="https://www.apple.com/" class="home ac-gf-breadcrumbs-home">
+					<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+					<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+					<span class="ac-gf-breadcrumbs-home-chevron"></span>
+					<span class="ac-gf-breadcrumbs-home-mask"></span>
+				</a>
+				<div class="ac-gf-breadcrumbs-path">
+					<ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+						<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><a class="ac-gf-breadcrumbs-link" href="https://www.apple.com/feedback/" property="item" typeof="WebPage" ><span property="name">Feedback</span></a><meta property="position" content="1" /></li>
+						<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name">iTunes Store Requests</span><meta property="position" content="2" /></li>
+					</ol>
+				</div>
+			</nav>
+			<nav class="ac-gf-directory with-5-columns" aria-label="Apple Directory" role="navigation">
+	<!--googleoff: all-->
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-products" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-products">
+		<h3 class="ac-gf-directory-column-section-title">Shop and Learn</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-products" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/mac/" data-analytics-title="mac">Mac</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/ipad/" data-analytics-title="ipad">iPad</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/iphone/" data-analytics-title="iphone">iPhone</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/watch/" data-analytics-title="watch">Watch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/tv/" data-analytics-title="tv">TV</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/music/" data-analytics-title="music">Music</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/airpods/" data-analytics-title="airpods">AirPods</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/homepod/" data-analytics-title="homepod">HomePod</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/ipod-touch/" data-analytics-title="ipod touch">iPod touch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/buy_accessories" data-analytics-title="accessories">Accessories</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/giftcards" data-analytics-title="gift cards">Gift Cards</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-services" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-services">
+		<h3 class="ac-gf-directory-column-section-title">Services</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-services" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/apple-music/" data-analytics-title="apple music">Apple Music</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/apple-news/" data-analytics-title="apple news plus">Apple News+</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/apple-tv-plus/" data-analytics-title="apple tv plus">Apple TV+</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/apple-arcade/" data-analytics-title="apple arcade">Apple Arcade</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/apple-card/" data-analytics-title="apple card">Apple Card</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/icloud/" data-analytics-title="icloud">iCloud</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-accounts" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-accounts">
+		<h3 class="ac-gf-directory-column-section-title">Account</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-accounts" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://appleid.apple.com/us/" data-analytics-title="manage your apple id" data-analytics-exit-link>Manage Your Apple ID</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/account" data-analytics-title="apple store account">Apple Store Account</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.icloud.com/" data-analytics-title="icloud.com" data-analytics-exit-link>iCloud.com</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-storeservices" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-storeservices">
+		<h3 class="ac-gf-directory-column-section-title">Apple Store</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-storeservices" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/retail/" data-analytics-title="find a store">Find a Store</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/retail/geniusbar/" data-analytics-title="genius bar">Genius Bar</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/today/" data-analytics-title="today at apple">Today at Apple</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/today/camp/" data-analytics-title="apple camp">Apple Camp</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/retail/fieldtrip/" data-analytics-title="field trip">Field Trip</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&amp;ct=footer&amp;mt=8" data-analytics-title="apple store app" data-analytics-exit-link>Apple Store App</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/special_deals" data-analytics-title="refurbished and clearance">Refurbished and Clearance</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/payment_plan" data-analytics-title="financing">Financing</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/trade_in" data-analytics-title="apple trade in">Apple Trade In</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/order/list" data-analytics-title="order status">Order Status</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/help" data-analytics-title="shopping help">Shopping Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-business" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-business">
+		<h3 class="ac-gf-directory-column-section-title">For Business</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-business" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/business/" data-analytics-title="apple and business">Apple and Business</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/retail/business/" data-analytics-title="shop for business">Shop for Business</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-education" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-education">
+		<h3 class="ac-gf-directory-column-section-title">For Education</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-education" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/education/" data-analytics-title="apple and education">Apple and Education</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/education/k12/how-to-buy/" data-analytics-title="shop for k12">Shop for K-12</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/educationrouting" data-analytics-title="shop for college">Shop for College</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-healthcare" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-healthcare">
+		<h3 class="ac-gf-directory-column-section-title">For Healthcare</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-healthcare" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/healthcare/" data-analytics-title="apple in healthcare">Apple in Healthcare</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/healthcare/apple-watch/" data-analytics-title="health on apple watch">Health on Apple Watch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/healthcare/health-records/" data-analytics-title="health records on iphone">Health Records on iPhone</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-government" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-government">
+		<h3 class="ac-gf-directory-column-section-title">For Government</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-government" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/r/store/government/" data-analytics-title="shop for government">Shop for Government</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary" data-analytics-title="shop for veterans and military">Shop for Veterans and Military</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-responsibility" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-responsibility">
+		<h3 class="ac-gf-directory-column-section-title">Apple Values</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-responsibility" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/accessibility/" data-analytics-title="accessibility">Accessibility</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/education/connectED/" data-analytics-title="education">Education</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/environment/" data-analytics-title="environment">Environment</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/diversity/" data-analytics-title="inclusion and diversity">Inclusion and Diversity</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/privacy/" data-analytics-title="privacy">Privacy</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/supplier-responsibility/" data-analytics-title="supplier responsibility">Supplier Responsibility</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-about" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-about">
+		<h3 class="ac-gf-directory-column-section-title">About Apple</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-about" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/newsroom/" data-analytics-title="newsroom">Newsroom</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/leadership/" data-analytics-title="apple leadership">Apple Leadership</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/jobs/us/" data-analytics-title="job opportunities">Job Opportunities</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://investor.apple.com/" data-analytics-title="investors" data-analytics-exit-link>Investors</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/apple-events/" data-analytics-title="events">Events</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/contact/" data-analytics-title="contact apple">Contact Apple</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--googleon: all-->
+</nav>
+
+<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		More ways to shop: <a href="https://www.apple.com/retail/" data-analytics-title="find an apple store">Find an Apple Store</a> or <a href="https://locate.apple.com/" data-analytics-title="other retailers or resellers" data-analytics-exit-link>other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="https://www.apple.com/choose-country-region/" title="Choose your country or region" aria-label="United States. Choose your country or region" data-analytics-title="choose your country"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>United States</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright ©
+			
+			2020
+			Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/us/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales and Refunds</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/" data-analytics-title="legal">Legal</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sitemap/" data-analytics-title="site map">Site Map</a>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript" src="https://www.apple.com/ac/globalfooter/5/en_US/scripts/ac-globalfooter.built.js"></script>
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@id": "https://www.apple.com/#organization",
+		"@type": "Organization",
+		"name": "Apple",
+		"url": "https://www.apple.com/",
+		"logo": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201910071405",
+		"subOrganization": {
+			"@type": "Organization",
+			"name": "Apple Support",
+			"url": "https://support.apple.com",
+	    "@id": "https://support.apple.com/#organization"
+		},
+		"contactPoint": [
+			{
+				"@type": "ContactPoint",
+				"telephone": "+1-800-692-7753",
+				"contactType": "sales",
+				"areaServed": "US"
+			},
+			{
+				"@type": "ContactPoint",
+				"telephone": "+1-800-275-2273",
+				"contactType": "technical support",
+				"areaServed": "US",
+				"availableLanguage": ["EN", "ES"]
+			},
+			{
+				"@type": "ContactPoint",
+				"telephone": "+1-800-275-2273",
+				"contactType": "customer support",
+				"areaServed": "US",
+				"availableLanguage": ["EN", "ES"]
+			}
+		],
+		"sameAs": [
+			"http://www.wikidata.org/entity/Q312",
+			"https://www.youtube.com/user/Apple",
+			"https://www.linkedin.com/company/apple",
+			"https://www.facebook.com/Apple",
+			"https://www.twitter.com/Apple"
+		]
+	}
+</script>
+
+<script type="text/javascript" src="https://www.apple.com/ac/localeswitcher/2/en_US/scripts/localeswitcher.built.js"></script>
+
+		</div>
+	</footer><!--/globalfooter-->
+</body>
+
+<!-- Mirrored from www.apple.com/feedback/itunes.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 08:30:37 GMT -->
+</html>

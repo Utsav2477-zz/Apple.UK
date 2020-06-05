@@ -1,0 +1,51 @@
+
+/* BAG CSS
+	=============================================== */
+@media only screen and (min-device-width: 768px) and (max-width: 1068px) {
+    .as-bagrecommendations-recommendations .as-bagrecommendations-tile {
+        width: 246px;
+    }
+}
+
+.rs-iteminfo-title.rs-iteminfo-extraheight {
+    min-height: 55px;
+    height: auto;
+}
+
+.cn .as-bagrecommendations .colornav-logo-productred {
+    display: none;
+}
+
+/* fixing https://cst.apple.com/tkt.do?tkt=INC071237189 */
+.rr-overlay-open {
+    position: relative;
+    z-index: -1;
+}
+
+.rr-overlay-open-ios {
+    position: fixed;
+}
+
+.as-buyflow-messages .as-buttonlink::after {
+    content: '\F301';
+    padding-left: 0.3em;
+    top: 0;
+    text-decoration: none;
+    font-family: "SF Pro Icons", "AOS Icons";
+    color: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    alt: '';
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-buyflow-messages .as-buttonlink {
+        padding-right: 20px;
+    }
+}
+

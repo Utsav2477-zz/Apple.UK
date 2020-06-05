@@ -1,0 +1,639 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 17 Apr 2020 08:06:35 at https://www.apple.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.apple.com/ -O1 "C:\Users\Utsav\Desktop\apple\Apple" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:17:48	Warning: 	Unable to test https://www.apple.com/ca_edu_93120/shop (loop to same filename)
+08:17:48	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/ca_edu_93120/shop
+08:19:13	Warning: 	Unable to test https://www.apple.com/xf_edu_428531/shop (loop to same filename)
+08:19:13	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/xf_edu_428531/shop
+09:09:23	Warning: 	Link https://www.apple.com/shop/bag not scanned (follow robots meta tag)
+09:09:24	Warning: 	Link https://www.apple.com/us/search not scanned (follow robots meta tag)
+09:33:05	Warning: 	Moved Permanently for https://www.apple.com/education/
+09:33:05	Warning: 	File has moved from https://www.apple.com/education/ to http://www.apple.com/education/k12/
+09:41:49	Warning: 	Unable to test https://www.apple.com/us-hed/shop/product/BMGE2Z/A/pro-apps-bundle-for-education (loop to same filename)
+09:41:49	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/us-hed/shop/product/BMGE2Z/A/pro-apps-bundle-for-education
+09:42:52	Warning: 	Unable to test https://www.apple.com/ca_edu_93120/shop (loop to same filename)
+09:42:52	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/ca_edu_93120/shop
+09:42:58	Warning: 	Unable to test https://www.apple.com/xf_edu_428531/shop (loop to same filename)
+09:42:58	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/xf_edu_428531/shop
+09:43:04	Warning: 	Unable to test https://www.apple.com/us-hed/shop/unsupported (loop to same filename)
+09:43:04	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/us-hed/shop/unsupported
+10:27:38	Warning: 	Moved Permanently for https://www.apple.com/education/connectED/
+10:27:38	Warning: 	File has moved from https://www.apple.com/education/connectED/ to http://www.apple.com/connectED/
+11:00:09	Error: 	"Not Found" (404) at link https://www.apple.com/Unable to load target-vec.js (from https://www.apple.com/metrics/target/scripts/1.0/at.js)
+11:00:09	Error: 	"Not Found" (404) at link https://www.apple.com/Loading target-vec.js (from https://www.apple.com/metrics/target/scripts/1.0/at.js)
+11:13:09	Warning: 	Link https://www.apple.com/ae-ar/retail/camp/ not scanned (follow robots meta tag)
+11:16:52	Warning: 	Moved Permanently for https://www.apple.com/ae-ar/education/
+11:16:52	Warning: 	File has moved from https://www.apple.com/ae-ar/education/ to http://www.apple.com/ae-ar/education/k12/
+11:17:07	Warning: 	file not stored in cache due to bogus state (broken size, expected 155196081 got 12819448): https://www.apple.com/105/media/aear/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-aear-2019_1280x720h.mp4
+11:21:34	Warning: 	file not stored in cache due to bogus state (broken size, expected 27310490 got 12302608): https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/carlos/accessibility-carlos-tpl-me-20180517_1280x720h.mp4
+11:29:12	Warning: 	file not stored in cache due to bogus state (broken size, expected 31462258 got 18768948): https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/ian/accessibility-ian-tpl-me-20180517_1280x720h.mp4
+11:33:34	Warning: 	file not stored in cache due to bogus state (broken size, expected 25421956 got 15459128): https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/meera/accessibility-meera-tpl-me-20180517_1280x720h.mp4
+12:08:52	Warning: 	Link https://www.apple.com/ae-ar/privacy/privacy-policy/ not scanned (follow robots meta tag)
+12:08:52	Warning: 	Link https://www.apple.com/ae/legal/ not scanned (follow robots meta tag)
+12:11:33	Warning: 	Link https://www.apple.com/ae/shop/bag not scanned (follow robots meta tag)
+12:11:33	Warning: 	Link https://www.apple.com/ae/search not scanned (follow robots meta tag)
+12:18:46	Warning: 	Moved Permanently for https://www.apple.com/ae/education/
+12:18:46	Warning: 	File has moved from https://www.apple.com/ae/education/ to http://www.apple.com/ae/education/k12/
+12:18:48	Warning: 	Unable to test https://www.apple.com/ca_edu_93120/shop (loop to same filename)
+12:18:48	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/ca_edu_93120/shop
+12:18:49	Warning: 	Unable to test https://www.apple.com/xf_edu_428531/shop (loop to same filename)
+12:18:49	Warning: 	link is probably looping, type unknown, aborting: https://www.apple.com/xf_edu_428531/shop
+12:39:52	Warning: 	Moved Permanently for https://www.apple.com/ae/privacy/privacy-policy/
+12:39:52	Warning: 	File has moved from https://www.apple.com/ae/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/en-ww/
+12:56:18	Warning: 	Link https://www.apple.com/am/search not scanned (follow robots meta tag)
+13:05:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 154924721 got 11978488): https://www.apple.com/105/media/ww/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-ww-2019_1280x720h.mp4
+13:09:42	Warning: 	file not stored in cache due to bogus state (broken size, expected 100531957 got 11673348): https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/for-all-mankind/apple-tv-plus-for-all-mankind-tpl-ww-2019_1280x720h.mp4
+13:28:15	Warning: 	file not stored in cache due to bogus state (broken size, expected 57966501 got 44632790): https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/snoopy/apple-tv-plus-snoopy-tpl-ww-2019_1280x720h.mp4
+13:30:37	Warning: 	file not stored in cache due to bogus state (broken size, expected 111059165 got 59265840): https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/morning-show/apple-tv-plus-morning-show-tpl-ww-2019_1280x720h.mp4
+13:30:41	Warning: 	file not stored in cache due to bogus state (broken size, expected 82580401 got 15368608): https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/elephant-queen/apple-tv-plus-elephant-queen-tpl-cc-us-2019_1280x720h.mp4
+13:38:35	Warning: 	file not stored in cache due to bogus state (broken size, expected 105291045 got 14686788): https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/truth-be-told/apple-tv-plus-truth-be-told-tpl-cc-us-2019_1280x720h.mp4
+13:41:10	Warning: 	file not stored in cache due to bogus state (broken size, expected 48173909 got 23189828): https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/helpsters/apple-tv-plus-helpsters-tpl-cc-us-2019_1280x720h.mp4
+13:41:26	Warning: 	file not stored in cache due to bogus state (broken size, expected 28487186 got 20048476): https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/ghostwriter/apple-tv-plus-ghostwriter-tpl-cc-us-2019_1280x720h.mp4
+13:50:12	Warning: 	Link https://www.apple.com/at/shop/bag not scanned (follow robots meta tag)
+13:50:12	Warning: 	Link https://www.apple.com/at/search not scanned (follow robots meta tag)
+13:50:53	Error: 	Exit requested by shell or user
+13:51:36	Warning: 	Link https://www.apple.com/au/shop/bag not scanned (follow robots meta tag)
+13:51:36	Warning: 	Link https://www.apple.com/au/search not scanned (follow robots meta tag)
+13:51:41	Warning: 	Link https://www.apple.com/au/education/ not scanned (follow robots meta tag)
+13:51:43	Warning: 	Link https://www.apple.com/be-fr/shop/bag not scanned (follow robots meta tag)
+13:51:43	Warning: 	Link https://www.apple.com/be-fr/search not scanned (follow robots meta tag)
+13:51:48	Warning: 	Moved Permanently for https://www.apple.com/befr/apple-events/
+13:51:48	Warning: 	File has moved from https://www.apple.com/befr/apple-events/ to http://www.apple.com/apple-events/
+13:51:49	Warning: 	Link https://www.apple.com/be-nl/shop/bag not scanned (follow robots meta tag)
+13:51:50	Warning: 	Link https://www.apple.com/be-nl/search not scanned (follow robots meta tag)
+13:51:55	Warning: 	Moved Permanently for https://www.apple.com/benl/apple-events/
+13:51:55	Warning: 	File has moved from https://www.apple.com/benl/apple-events/ to http://www.apple.com/apple-events/
+13:51:56	Warning: 	Link https://www.apple.com/bg/search not scanned (follow robots meta tag)
+13:51:59	Warning: 	Link https://www.apple.com/bh-ar/search not scanned (follow robots meta tag)
+13:52:00	Warning: 	Link https://www.apple.com/bh-ar/buy/ not scanned (follow robots meta tag)
+13:52:01	Warning: 	Link https://www.apple.com/bh/search not scanned (follow robots meta tag)
+13:52:03	Warning: 	Link https://www.apple.com/br/shop/bag not scanned (follow robots meta tag)
+13:52:03	Warning: 	Link https://www.apple.com/br/search not scanned (follow robots meta tag)
+13:52:09	Warning: 	Link https://www.apple.com/bw/search not scanned (follow robots meta tag)
+13:52:12	Warning: 	Link https://www.apple.com/ca/shop/bag not scanned (follow robots meta tag)
+13:52:12	Warning: 	Link https://www.apple.com/ca/search not scanned (follow robots meta tag)
+13:52:17	Warning: 	Moved Permanently for https://www.apple.com/ca/education/
+13:52:17	Warning: 	File has moved from https://www.apple.com/ca/education/ to http://www.apple.com/ca/education/k12/
+13:52:18	Warning: 	Link https://www.apple.com/xf/shop/bag not scanned (follow robots meta tag)
+13:52:19	Warning: 	Link https://www.apple.com/xf/search not scanned (follow robots meta tag)
+13:52:23	Warning: 	Moved Permanently for https://www.apple.com/ca/fr/education/
+13:52:23	Warning: 	File has moved from https://www.apple.com/ca/fr/education/ to http://www.apple.com/ca/fr/education/k12/
+13:52:26	Warning: 	Link https://www.apple.com/cf/search not scanned (follow robots meta tag)
+13:52:29	Warning: 	Link https://www.apple.com/ch-de/shop/bag not scanned (follow robots meta tag)
+13:52:29	Warning: 	Link https://www.apple.com/ch-de/search not scanned (follow robots meta tag)
+13:52:34	Warning: 	Moved Permanently for https://www.apple.com/chde/apple-events/
+13:52:34	Warning: 	File has moved from https://www.apple.com/chde/apple-events/ to http://www.apple.com/apple-events/
+13:52:35	Warning: 	Link https://www.apple.com/ch-fr/shop/bag not scanned (follow robots meta tag)
+13:52:35	Warning: 	Link https://www.apple.com/ch-fr/search not scanned (follow robots meta tag)
+13:52:40	Warning: 	Moved Permanently for https://www.apple.com/chfr/apple-events/
+13:52:40	Warning: 	File has moved from https://www.apple.com/chfr/apple-events/ to http://www.apple.com/apple-events/
+13:52:41	Warning: 	Link https://www.apple.com/ci/search not scanned (follow robots meta tag)
+13:52:43	Warning: 	Link https://www.apple.com/cl/search not scanned (follow robots meta tag)
+13:52:45	Warning: 	Moved Permanently for https://www.apple.com/cl/privacy/privacy-policy/
+13:52:45	Warning: 	File has moved from https://www.apple.com/cl/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/es-la/
+13:52:46	Warning: 	Link https://www.apple.com/cm/search not scanned (follow robots meta tag)
+13:52:48	Warning: 	Link https://www.apple.com/co/search not scanned (follow robots meta tag)
+13:52:50	Warning: 	Moved Permanently for https://www.apple.com/co/privacy/privacy-policy/
+13:52:50	Warning: 	File has moved from https://www.apple.com/co/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/es-la/
+13:52:50	Warning: 	Link https://www.apple.com/cz/shop/bag not scanned (follow robots meta tag)
+13:52:51	Warning: 	Link https://www.apple.com/cz/search not scanned (follow robots meta tag)
+13:52:55	Warning: 	Link https://www.apple.com/de/shop/bag not scanned (follow robots meta tag)
+13:52:55	Warning: 	Link https://www.apple.com/de/search not scanned (follow robots meta tag)
+13:53:01	Warning: 	Moved Permanently for https://www.apple.com/legal/privacy/de/cookies/
+13:53:01	Warning: 	File has moved from https://www.apple.com/legal/privacy/de/cookies/ to http://www.apple.com/legal/privacy/de-ww/cookies/
+13:53:02	Warning: 	Link https://www.apple.com/dk/shop/bag not scanned (follow robots meta tag)
+13:53:02	Warning: 	Link https://www.apple.com/dk/search not scanned (follow robots meta tag)
+13:53:06	Warning: 	Moved Permanently for https://www.apple.com/dk/apple-events/
+13:53:06	Warning: 	File has moved from https://www.apple.com/dk/apple-events/ to http://www.apple.com/apple-events/
+13:53:07	Warning: 	Link https://www.apple.com/ee/search not scanned (follow robots meta tag)
+13:53:10	Warning: 	Link https://www.apple.com/eg-ar/search not scanned (follow robots meta tag)
+13:53:10	Warning: 	Link https://www.apple.com/eg-ar/buy/ not scanned (follow robots meta tag)
+13:53:12	Warning: 	Link https://www.apple.com/eg/search not scanned (follow robots meta tag)
+13:53:14	Warning: 	Link https://www.apple.com/es/shop/bag not scanned (follow robots meta tag)
+13:53:14	Warning: 	Link https://www.apple.com/es/search not scanned (follow robots meta tag)
+13:53:21	Warning: 	Link https://www.apple.com/fi/shop/bag not scanned (follow robots meta tag)
+13:53:21	Warning: 	Link https://www.apple.com/fi/search not scanned (follow robots meta tag)
+13:53:26	Warning: 	Link https://www.apple.com/fr/shop/bag not scanned (follow robots meta tag)
+13:53:26	Warning: 	Link https://www.apple.com/fr/search not scanned (follow robots meta tag)
+13:53:33	Warning: 	Moved Permanently for https://www.apple.com/legal/privacy/fr/cookies/
+13:53:33	Warning: 	File has moved from https://www.apple.com/legal/privacy/fr/cookies/ to http://www.apple.com/legal/privacy/fr-ww/cookies/
+13:53:33	Warning: 	Link https://www.apple.com/gn/search not scanned (follow robots meta tag)
+13:53:35	Warning: 	Link https://www.apple.com/gq/search not scanned (follow robots meta tag)
+13:53:37	Warning: 	Link https://www.apple.com/gr/search not scanned (follow robots meta tag)
+13:53:40	Warning: 	Link https://www.apple.com/gw/search not scanned (follow robots meta tag)
+13:53:43	Warning: 	Link https://www.apple.com/hk-zh/shop/bag not scanned (follow robots meta tag)
+13:53:43	Warning: 	Link https://www.apple.com/hk-zh/search not scanned (follow robots meta tag)
+13:53:49	Warning: 	Moved Permanently for https://www.apple.com/hk/privacy/privacy-policy/
+13:53:49	Warning: 	File has moved from https://www.apple.com/hk/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/tzh-hk/
+13:53:50	Warning: 	Link https://www.apple.com/hk/shop/bag not scanned (follow robots meta tag)
+13:53:50	Warning: 	Link https://www.apple.com/hk/search not scanned (follow robots meta tag)
+13:53:56	Warning: 	Moved Permanently for https://www.apple.com/hk/en/privacy/privacy-policy/
+13:53:56	Warning: 	File has moved from https://www.apple.com/hk/en/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/en-ww/
+13:53:56	Warning: 	Link https://www.apple.com/hr/search not scanned (follow robots meta tag)
+13:53:59	Warning: 	Link https://www.apple.com/hu/shop/bag not scanned (follow robots meta tag)
+13:53:59	Warning: 	Link https://www.apple.com/hu/search not scanned (follow robots meta tag)
+13:54:06	Error: 	"File Cache Entry Not Found" (-1) at link https://www.apple.com/id/search (from https://www.apple.com/id/)
+13:54:08	Warning: 	Moved Permanently for https://www.apple.com/id/education/
+13:54:08	Warning: 	File has moved from https://www.apple.com/id/education/ to http://www.apple.com/id/education/k12/
+13:54:09	Warning: 	Link https://www.apple.com/ie/shop/bag not scanned (follow robots meta tag)
+13:54:10	Warning: 	Link https://www.apple.com/ie/search not scanned (follow robots meta tag)
+13:54:15	Warning: 	Link https://www.apple.com/il/search not scanned (follow robots meta tag)
+13:54:19	Warning: 	Link https://www.apple.com/in/search not scanned (follow robots meta tag)
+13:54:20	Warning: 	Moved Permanently for https://www.apple.com/in/education/
+13:54:20	Warning: 	File has moved from https://www.apple.com/in/education/ to http://www.apple.com/in/education/k12/
+13:54:22	Warning: 	Link https://www.apple.com/it/shop/bag not scanned (follow robots meta tag)
+13:54:23	Warning: 	Link https://www.apple.com/it/search not scanned (follow robots meta tag)
+13:54:30	Warning: 	Link https://www.apple.com/jo-ar/search not scanned (follow robots meta tag)
+13:54:30	Warning: 	Link https://www.apple.com/jo-ar/buy/ not scanned (follow robots meta tag)
+13:54:31	Warning: 	Link https://www.apple.com/jo/search not scanned (follow robots meta tag)
+13:54:33	Warning: 	Link https://www.apple.com/jp/shop/bag not scanned (follow robots meta tag)
+13:54:34	Warning: 	Link https://www.apple.com/jp/search not scanned (follow robots meta tag)
+13:54:41	Warning: 	Link https://www.apple.com/ke/search not scanned (follow robots meta tag)
+13:54:43	Warning: 	Link https://www.apple.com/kr/shop/bag not scanned (follow robots meta tag)
+13:54:44	Warning: 	Link https://www.apple.com/kr/search not scanned (follow robots meta tag)
+13:54:50	Warning: 	Link https://www.apple.com/kw-ar/search not scanned (follow robots meta tag)
+13:54:50	Warning: 	Link https://www.apple.com/kw-ar/buy/ not scanned (follow robots meta tag)
+13:54:51	Warning: 	Link https://www.apple.com/kw/search not scanned (follow robots meta tag)
+13:54:53	Warning: 	Link https://www.apple.com/la/search not scanned (follow robots meta tag)
+13:54:56	Warning: 	Moved Permanently for https://www.apple.com/la/privacy/privacy-policy/
+13:54:56	Warning: 	File has moved from https://www.apple.com/la/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/es-la/
+13:54:56	Warning: 	Link https://www.apple.com/lae/search not scanned (follow robots meta tag)
+13:54:58	Warning: 	Moved Permanently for https://www.apple.com/lae/privacy/privacy-policy/
+13:54:58	Warning: 	File has moved from https://www.apple.com/lae/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/en-ww/
+13:54:59	Warning: 	Link https://www.apple.com/li/search not scanned (follow robots meta tag)
+13:55:01	Warning: 	Link https://www.apple.com/lt/search not scanned (follow robots meta tag)
+13:55:04	Warning: 	Link https://www.apple.com/lu/shop/bag not scanned (follow robots meta tag)
+13:55:04	Warning: 	Link https://www.apple.com/lu/search not scanned (follow robots meta tag)
+13:55:08	Warning: 	Link https://www.apple.com/lv/search not scanned (follow robots meta tag)
+13:55:10	Warning: 	Link https://www.apple.com/ma/search not scanned (follow robots meta tag)
+13:55:13	Warning: 	Link https://www.apple.com/md/search not scanned (follow robots meta tag)
+13:55:15	Warning: 	Link https://www.apple.com/me/search not scanned (follow robots meta tag)
+13:55:17	Warning: 	Link https://www.apple.com/mg/search not scanned (follow robots meta tag)
+13:55:19	Warning: 	Link https://www.apple.com/mk/search not scanned (follow robots meta tag)
+13:55:21	Warning: 	Link https://www.apple.com/ml/search not scanned (follow robots meta tag)
+13:55:25	Warning: 	Moved Permanently for https://www.apple.com/mo/business/
+13:55:25	Warning: 	File has moved from https://www.apple.com/mo/business/ to http://www.apple.com/hk/business/
+13:55:25	Warning: 	Moved Permanently for https://www.apple.com/mo/education/
+13:55:25	Warning: 	File has moved from https://www.apple.com/mo/education/ to http://www.apple.com/hk/education/
+13:55:26	Warning: 	Moved Permanently for https://www.apple.com/mo/privacy/privacy-policy/
+13:55:26	Warning: 	File has moved from https://www.apple.com/mo/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/tzh-hk/
+13:55:26	Warning: 	Moved Permanently for https://www.apple.com/mo/legal/
+13:55:26	Warning: 	File has moved from https://www.apple.com/mo/legal/ to http://www.apple.com/legal/
+13:55:26	Warning: 	Link https://www.apple.com/mt/search not scanned (follow robots meta tag)
+13:55:29	Warning: 	Link https://www.apple.com/mu/search not scanned (follow robots meta tag)
+13:55:31	Warning: 	Link https://www.apple.com/mx/shop/bag not scanned (follow robots meta tag)
+13:55:32	Warning: 	Link https://www.apple.com/mx/search not scanned (follow robots meta tag)
+13:55:38	Warning: 	Link https://www.apple.com/my/shop/bag not scanned (follow robots meta tag)
+13:55:38	Warning: 	Link https://www.apple.com/my/search not scanned (follow robots meta tag)
+13:55:41	Warning: 	Moved Permanently for https://www.apple.com/my/education/
+13:55:41	Warning: 	File has moved from https://www.apple.com/my/education/ to http://www.apple.com/my/education/k12/
+13:55:42	Warning: 	Moved Permanently for https://www.apple.com/my/privacy/privacy-policy/
+13:55:42	Warning: 	File has moved from https://www.apple.com/my/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/en-ww/
+13:55:42	Warning: 	Link https://www.apple.com/mz/search not scanned (follow robots meta tag)
+13:55:45	Warning: 	Link https://www.apple.com/ne/search not scanned (follow robots meta tag)
+13:55:47	Warning: 	Link https://www.apple.com/ng/search not scanned (follow robots meta tag)
+13:55:50	Warning: 	Link https://www.apple.com/nl/shop/bag not scanned (follow robots meta tag)
+13:55:50	Warning: 	Link https://www.apple.com/nl/search not scanned (follow robots meta tag)
+13:55:56	Warning: 	Moved Permanently for https://www.apple.com/nl/apple-events/
+13:55:56	Warning: 	File has moved from https://www.apple.com/nl/apple-events/ to http://www.apple.com/apple-events/
+13:55:57	Warning: 	Link https://www.apple.com/no/shop/bag not scanned (follow robots meta tag)
+13:55:58	Warning: 	Link https://www.apple.com/no/search not scanned (follow robots meta tag)
+13:56:02	Warning: 	Moved Permanently for https://www.apple.com/no/apple-events/
+13:56:02	Warning: 	File has moved from https://www.apple.com/no/apple-events/ to http://www.apple.com/apple-events/
+13:56:03	Warning: 	Link https://www.apple.com/nz/shop/bag not scanned (follow robots meta tag)
+13:56:03	Warning: 	Link https://www.apple.com/nz/search not scanned (follow robots meta tag)
+13:56:07	Warning: 	Link https://www.apple.com/nz/education/ not scanned (follow robots meta tag)
+13:56:09	Warning: 	Link https://www.apple.com/om-ar/search not scanned (follow robots meta tag)
+13:56:10	Warning: 	Link https://www.apple.com/om-ar/buy/ not scanned (follow robots meta tag)
+13:56:11	Warning: 	Link https://www.apple.com/om/search not scanned (follow robots meta tag)
+13:56:13	Warning: 	Link https://www.apple.com/ph/shop/bag not scanned (follow robots meta tag)
+13:56:14	Warning: 	Link https://www.apple.com/ph/search not scanned (follow robots meta tag)
+13:56:17	Warning: 	Moved Permanently for https://www.apple.com/ph/education/
+13:56:17	Warning: 	File has moved from https://www.apple.com/ph/education/ to http://www.apple.com/ph/education/k12/
+13:56:17	Warning: 	Link https://www.apple.com/ph-k12/shop not scanned (follow robots meta tag)
+13:56:18	Warning: 	Link https://www.apple.com/pl/shop/bag not scanned (follow robots meta tag)
+13:56:18	Warning: 	Link https://www.apple.com/pl/search not scanned (follow robots meta tag)
+13:56:23	Warning: 	Link https://www.apple.com/pt/shop/bag not scanned (follow robots meta tag)
+13:56:24	Warning: 	Link https://www.apple.com/pt/search not scanned (follow robots meta tag)
+13:56:28	Warning: 	Link https://www.apple.com/qa-ar/search not scanned (follow robots meta tag)
+13:56:29	Warning: 	Link https://www.apple.com/qa-ar/buy/ not scanned (follow robots meta tag)
+13:56:29	Warning: 	Link https://www.apple.com/qa-ar/education/ not scanned (follow robots meta tag)
+13:56:30	Warning: 	Link https://www.apple.com/qa/search not scanned (follow robots meta tag)
+13:56:31	Warning: 	Moved Permanently for https://www.apple.com/qa/education/
+13:56:31	Warning: 	File has moved from https://www.apple.com/qa/education/ to http://www.apple.com/qa/education/k12/
+13:56:32	Warning: 	Link https://www.apple.com/ro/search not scanned (follow robots meta tag)
+13:56:34	Warning: 	Link https://www.apple.com/ru/shop/bag not scanned (follow robots meta tag)
+13:56:35	Warning: 	Link https://www.apple.com/ru/search not scanned (follow robots meta tag)
+13:56:38	Error: 	"Error when decompressing" (-1) at link https://www.apple.com/ru/shop/goto/help (from https://www.apple.com/ru/)
+13:56:40	Warning: 	Link https://www.apple.com/sa-ar/buy/ not scanned (follow robots meta tag)
+13:56:41	Warning: 	Moved Permanently for https://www.apple.com/sa-ar/itunes/gifts/
+13:56:41	Warning: 	File has moved from https://www.apple.com/sa-ar/itunes/gifts/ to http://www.apple.com/shop/gift-cards
+13:56:41	Warning: 	Moved Permanently for https://www.apple.com/sa-ar/education/
+13:56:41	Warning: 	File has moved from https://www.apple.com/sa-ar/education/ to http://www.apple.com/sa/education/
+13:56:42	Warning: 	Link https://www.apple.com/sa-ar/privacy/privacy-policy/ not scanned (follow robots meta tag)
+13:56:42	Warning: 	Link https://www.apple.com/sa/search not scanned (follow robots meta tag)
+13:56:43	Warning: 	Moved Permanently for https://www.apple.com/sa/itunes/gifts/
+13:56:43	Warning: 	File has moved from https://www.apple.com/sa/itunes/gifts/ to http://www.apple.com/shop/gift-cards
+13:56:44	Warning: 	Moved Permanently for https://www.apple.com/sa/education/
+13:56:44	Warning: 	File has moved from https://www.apple.com/sa/education/ to http://www.apple.com/sa/education/k12/
+13:56:44	Warning: 	Moved Permanently for https://www.apple.com/sa/privacy/privacy-policy/
+13:56:44	Warning: 	File has moved from https://www.apple.com/sa/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/en-ww/
+13:56:44	Warning: 	Link https://www.apple.com/sa/legal/ not scanned (follow robots meta tag)
+13:56:45	Warning: 	Link https://www.apple.com/se/shop/bag not scanned (follow robots meta tag)
+13:56:45	Warning: 	Link https://www.apple.com/se/search not scanned (follow robots meta tag)
+13:56:50	Warning: 	Moved Permanently for https://www.apple.com/se/apple-events/
+13:56:50	Warning: 	File has moved from https://www.apple.com/se/apple-events/ to http://www.apple.com/apple-events/
+13:56:51	Warning: 	Link https://www.apple.com/sg/shop/bag not scanned (follow robots meta tag)
+13:56:52	Warning: 	Link https://www.apple.com/sg/search not scanned (follow robots meta tag)
+13:56:56	Warning: 	Moved Permanently for https://www.apple.com/sg/education/
+13:56:56	Warning: 	File has moved from https://www.apple.com/sg/education/ to http://www.apple.com/sg/education/k12/
+13:56:58	Warning: 	Link https://www.apple.com/si/search not scanned (follow robots meta tag)
+13:57:01	Warning: 	Link https://www.apple.com/sk/search not scanned (follow robots meta tag)
+13:57:04	Warning: 	Link https://www.apple.com/sn/search not scanned (follow robots meta tag)
+13:57:06	Warning: 	Link https://www.apple.com/th/shop/bag not scanned (follow robots meta tag)
+13:57:07	Warning: 	Link https://www.apple.com/th/search not scanned (follow robots meta tag)
+13:57:11	Warning: 	Moved Permanently for https://www.apple.com/th/recycling/
+13:57:11	Warning: 	File has moved from https://www.apple.com/th/recycling/ to http://www.apple.com/th/trade-in/
+13:57:12	Warning: 	Moved Permanently for https://www.apple.com/th/education/
+13:57:12	Warning: 	File has moved from https://www.apple.com/th/education/ to http://www.apple.com/th/education/k12/
+13:57:14	Warning: 	Link https://www.apple.com/tn/search not scanned (follow robots meta tag)
+13:57:16	Warning: 	Link https://www.apple.com/tr/shop/bag not scanned (follow robots meta tag)
+13:57:17	Warning: 	Link https://www.apple.com/tr/search not scanned (follow robots meta tag)
+13:57:21	Warning: 	Moved Permanently for https://www.apple.com/tr/privacy/privacy-policy/
+13:57:21	Warning: 	File has moved from https://www.apple.com/tr/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/tr/
+13:57:22	Warning: 	Link https://www.apple.com/tw/shop/bag not scanned (follow robots meta tag)
+13:57:22	Warning: 	Link https://www.apple.com/tw/search not scanned (follow robots meta tag)
+13:57:26	Error: 	"Error when decompressing" (-1) at link https://www.apple.com/tw/shop/goto/help (from https://www.apple.com/tw/)
+13:57:28	Warning: 	Moved Permanently for https://www.apple.com/tw/privacy/privacy-policy/
+13:57:28	Warning: 	File has moved from https://www.apple.com/tw/privacy/privacy-policy/ to http://www.apple.com/legal/privacy/tzh/
+13:57:28	Warning: 	Link https://www.apple.com/ug/search not scanned (follow robots meta tag)
+13:57:31	Warning: 	Link https://www.apple.com/uk/shop/bag not scanned (follow robots meta tag)
+13:57:31	Warning: 	Link https://www.apple.com/uk/search not scanned (follow robots meta tag)
+13:57:39	Warning: 	Link https://www.apple.com/vn/search not scanned (follow robots meta tag)
+13:57:41	Warning: 	Moved Permanently for https://www.apple.com/vn/education/
+13:57:41	Warning: 	File has moved from https://www.apple.com/vn/education/ to http://www.apple.com/vn/education/k12/
+13:57:42	Warning: 	Link https://www.apple.com/za/search not scanned (follow robots meta tag)
+13:57:47	Warning: 	Link https://www.apple.com/search not scanned (follow robots meta tag)
+13:57:54	Error: 	"Not Found" (404) at link https://www.apple.com/mac/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-mac_fp-try_tle-apl-avl-191007 (from https://www.apple.com/mac/)
+13:57:54	Warning: 	Moved Permanently for https://www.apple.com/education/products/
+13:57:54	Warning: 	File has moved from https://www.apple.com/education/products/ to http://www.apple.com/education/k12/products/
+13:57:54	Warning: 	Moved Permanently for https://www.apple.com/education/how-to-buy/
+13:57:54	Warning: 	File has moved from https://www.apple.com/education/how-to-buy/ to http://www.apple.com/education/k12/how-to-buy/
+13:58:01	Warning: 	Moved Permanently for https://www.apple.com/education/ipad/
+13:58:01	Warning: 	File has moved from https://www.apple.com/education/ipad/ to http://www.apple.com/education/k12/products/
+13:58:01	Warning: 	Moved Permanently for https://www.apple.com/ipad/business/
+13:58:01	Warning: 	File has moved from https://www.apple.com/ipad/business/ to http://www.apple.com/business/products-platform/
+13:58:14	Error: 	"Not Found" (404) at link https://www.apple.com/iphone/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-iph_fp-try_tle-apl-avl-191007 (from https://www.apple.com/iphone/)
+13:58:23	Error: 	"Not Found" (404) at link https://www.apple.com/tv/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-tv_fp-try_tle-apl-avl-191007 (from https://www.apple.com/tv/)
+13:58:28	Error: 	"Not Found" (404) at link https://www.apple.com/cookie.js (from https://www.apple.com/ac/globalnav/5/en_US/scripts/ac-globalnav.built.js)
+13:58:28	Error: 	"Not Found" (404) at link https://www.apple.com/GET (from https://www.apple.com/ac/globalnav/5/en_US/scripts/ac-globalnav.built.js)
+13:58:28	Error: 	"Not Found" (404) at link https://www.apple.com/helpers/helpers.js (from https://www.apple.com/metrics/ac-analytics/2.9.0/scripts/ac-analytics.js)
+13:58:35	Warning: 	Moved Permanently for https://www.apple.com/support/
+13:58:35	Warning: 	File has moved from https://www.apple.com/support/ to https://support.apple.com/
+13:58:56	Warning: 	Moved Permanently for https://www.apple.com/retail/learn/
+13:58:56	Warning: 	File has moved from https://www.apple.com/retail/learn/ to http://www.apple.com/today/
+13:58:56	Warning: 	Moved Permanently for https://www.apple.com/retail/learn/youth/
+13:58:56	Warning: 	File has moved from https://www.apple.com/retail/learn/youth/ to http://www.apple.com/today/calendar/?topics=kids-and-parents-audience/
+13:59:00	Warning: 	File not added due to mirror cancel: www.apple.com/robots.txt
+13:59:00	Warning: 	Moved Permanently for www.apple.com/itunes/corporatesales/
+13:59:00	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/itunes/corporatesales/ and https://www.apple.com/itunes/corporatesales/
+13:59:00	Warning: 	File has moved from www.apple.com/itunes/corporatesales/ to https://www.apple.com/itunes/corporatesales/
+13:59:00	Warning: 	Moved Permanently for www.apple.com/legal/giftcards/applestore/
+13:59:00	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/legal/giftcards/applestore/ and https://www.apple.com/legal/giftcards/applestore/
+13:59:00	Warning: 	File has moved from www.apple.com/legal/giftcards/applestore/ to https://www.apple.com/legal/giftcards/applestore/
+13:59:05	Error: 	"Not Found" (404) at link https://www.apple.com/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-ovp-try_cnt-apl-btn-200204 (from https://www.apple.com/apple-arcade/)
+13:59:05	Error: 	"Not Found" (404) at link https://www.apple.com/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-ovp-try_vnt-apl-btn-200204 (from https://www.apple.com/apple-arcade/)
+13:59:05	Error: 	"Not Found" (404) at link https://www.apple.com/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_mid-apl-avl-190919 (from https://www.apple.com/apple-arcade/)
+13:59:05	Error: 	"Not Found" (404) at link https://www.apple.com/apple-arcade/itms-appss://arcadeSeeAllGames?itscg=10000&itsct=arc-0-link-all_games-apl-avl-200130 (from https://www.apple.com/apple-arcade/)
+13:59:08	Error: 	"Not Found" (404) at link https://www.apple.com/home/images/og.jpg?201911210958 (from https://www.apple.com/retail/)
+13:59:09	Warning: 	See Other for https://www.apple.com/xc/applestoreapp/
+13:59:09	Warning: 	File has moved from https://www.apple.com/xc/applestoreapp/ to https://www.apple.com/us/shop/go/applestoreapp
+13:59:10	Warning: 	Moved Permanently for https://www.apple.com/cn/retail/parc66jinan/
+13:59:10	Warning: 	File has moved from https://www.apple.com/cn/retail/parc66jinan/ to https://www.apple.com.cn/retail/parc66jinan/
+13:59:11	Error: 	"Not Found" (404) at link https://www.apple.com/home/images/og.jpg?202003201232 (from https://www.apple.com/retail/geniusbar/)
+13:59:12	Warning: 	Moved Temporarily for https://www.apple.com/cn/today/
+13:59:12	Warning: 	File has moved from https://www.apple.com/cn/today/ to https://www.apple.com.cn/today/
+13:59:13	Warning: 	Moved Temporarily for https://www.apple.com/cn/today/camp/
+13:59:13	Warning: 	File has moved from https://www.apple.com/cn/today/camp/ to https://www.apple.com.cn/today/camp/
+13:59:22	Warning: 	Moved Permanently for www.apple.com/support/products/
+13:59:22	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/support/products/ and https://www.apple.com/support/products/
+13:59:22	Warning: 	File has moved from www.apple.com/support/products/ to https://www.apple.com/support/products/
+13:59:23	Warning: 	Moved Permanently for www.apple.com/financing/
+13:59:23	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/financing/ and https://www.apple.com/financing/
+13:59:23	Warning: 	File has moved from www.apple.com/financing/ to https://www.apple.com/financing/
+13:59:27	Warning: 	Moved Permanently for www.apple.com/macos/print-products/
+13:59:27	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/macos/print-products/ and https://www.apple.com/macos/print-products/
+13:59:27	Warning: 	File has moved from www.apple.com/macos/print-products/ to https://www.apple.com/macos/print-products/
+13:59:28	Warning: 	Moved Permanently for www.apple.com/shop/trade-in/
+13:59:28	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/shop/trade-in/ and https://www.apple.com/shop/trade-in/
+13:59:28	Warning: 	File has moved from www.apple.com/shop/trade-in/ to https://www.apple.com/shop/trade-in/
+13:59:30	Warning: 	Moved Permanently for www.apple.com/education/k12/
+13:59:30	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/education/k12/ and https://www.apple.com/education/k12/
+13:59:30	Warning: 	File has moved from www.apple.com/education/k12/ to https://www.apple.com/education/k12/
+13:59:31	Error: 	"Error when decompressing" (-1) at link https://www.apple.com/us/shop/goto/accessories (from https://www.apple.com/education/k12/how-to-buy/)
+13:59:35	Warning: 	Link https://www.apple.com/us-hed/shop/bag not scanned (follow robots meta tag)
+13:59:35	Warning: 	Link https://www.apple.com/us-hed/shop/bag not scanned (follow robots meta tag)
+13:59:35	Warning: 	Link https://www.apple.com/us-hed/search not scanned (follow robots meta tag)
+13:59:53	Warning: 	Moved Permanently for www.apple.com/connectED/
+13:59:53	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/connectED/ and https://www.apple.com/connectED/
+13:59:53	Warning: 	File has moved from www.apple.com/connectED/ to https://www.apple.com/connectED/
+14:00:08	Error: 	"Not Found" (404) at link https://www.apple.com/jobs/eg/ (from https://www.apple.com/jobs/us/)
+14:00:10	Warning: 	Moved Permanently for www.apple.com/retail/camp/
+14:00:10	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/retail/camp/ and https://www.apple.com/retail/camp/
+14:00:10	Warning: 	File has moved from www.apple.com/retail/camp/ to https://www.apple.com/retail/camp/
+14:00:10	Warning: 	Moved Permanently for www.apple.com/privacy/privacy-policy/
+14:00:10	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/privacy/privacy-policy/ and https://www.apple.com/privacy/privacy-policy/
+14:00:10	Warning: 	File has moved from www.apple.com/privacy/privacy-policy/ to https://www.apple.com/privacy/privacy-policy/
+14:00:12	Error: 	"Not Found" (404) at link https://www.apple.com/home/images/og.jpg?202003231432 (from https://www.apple.com/contact/)
+14:00:13	Warning: 	Moved Permanently for https://www.apple.com/orderstatus/
+14:00:13	Warning: 	File has moved from https://www.apple.com/orderstatus/ to http://store.apple.com/orderstatus
+14:00:13	Warning: 	Moved Permanently for https://www.apple.com/buy/locator/
+14:00:13	Warning: 	File has moved from https://www.apple.com/buy/locator/ to https://locate.apple.com/
+14:00:13	Warning: 	Moved Permanently for https://www.apple.com/buy/
+14:00:13	Warning: 	File has moved from https://www.apple.com/buy/ to https://locate.apple.com
+14:00:13	Warning: 	Moved Permanently for https://www.apple.com/support/appleid/
+14:00:13	Warning: 	File has moved from https://www.apple.com/support/appleid/ to https://support.apple.com/apple-id
+14:00:13	Warning: 	Moved Permanently for https://www.apple.com/pr/
+14:00:13	Warning: 	File has moved from https://www.apple.com/pr/ to http://www.apple.com/newsroom/
+14:00:13	Error: 	"Not Found" (404) at link https://www.apple.com/home/images/og.jpg?202002031526 (from https://www.apple.com/choose-country-region/)
+14:00:21	Warning: 	Moved Permanently for www.apple.com/legal/sales-support/iphoneupgrade_us/
+14:00:21	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/legal/sales-support/iphoneupgrade_us/ and https://www.apple.com/legal/sales-support/iphoneupgrade_us/
+14:00:21	Warning: 	File has moved from www.apple.com/legal/sales-support/iphoneupgrade_us/ to https://www.apple.com/legal/sales-support/iphoneupgrade_us/
+14:00:21	Warning: 	Moved Permanently for https://www.apple.com/retail/personalsetup/
+14:00:21	Warning: 	File has moved from https://www.apple.com/retail/personalsetup/ to http://www.apple.com/shop/goto/personal_session
+14:00:26	Warning: 	Moved Permanently for https://www.apple.com/remotedesktop/
+14:00:26	Warning: 	File has moved from https://www.apple.com/remotedesktop/ to https://support.apple.com/remote-desktop
+14:00:35	Warning: 	Moved Permanently for www.apple.com/watch/battery/
+14:00:35	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/watch/battery/ and https://www.apple.com/watch/battery/
+14:00:35	Warning: 	File has moved from www.apple.com/watch/battery/ to https://www.apple.com/watch/battery/
+14:00:37	Warning: 	Moved Permanently for https://www.apple.com/education/it/vpp/
+14:00:37	Warning: 	File has moved from https://www.apple.com/education/it/vpp/ to http://www.apple.com/education/k12/it/
+14:00:37	Warning: 	Link https://www.apple.com/itunes/link/ not scanned (follow robots meta tag)
+14:00:38	Warning: 	Moved Permanently for https://www.apple.com/support/exchange_repair/
+14:00:38	Warning: 	File has moved from https://www.apple.com/support/exchange_repair/ to https://support.apple.com/exchange_repair
+14:00:38	Warning: 	Moved Permanently for https://www.apple.com/support/programs/
+14:00:38	Warning: 	File has moved from https://www.apple.com/support/programs/ to https://support.apple.com/aasp-program
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tests/ (from https://www.apple.com/ac/localeswitcher/2/en_US/scripts/localeswitcher.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/js/TextZoomManager.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/js/extendedHomepageSectionsLib.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/js/BaseHomepageSection.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/built-in-module-templates/generic/generic.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.generic.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.heroes.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/iphone-takeover/iphone-takeover.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.iphone-takeover.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.promos.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.ribbon.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.supports-shared-modals.built.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/e,window.location (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/.release-info.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/Model/AnimSystemModel.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/SourceTemplate.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:38	Error: 	"Not Found" (404) at link https://www.apple.com/supports-shared-modals/collection-unit-support/collection-unit-support.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/shame.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/promos/arcade-ultimate/arcade-ultimate.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/promos/apple-music/apple-music.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/promos/apple-card-installments/apple-card-installments.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/supports-shared-modals/collection-unit-support/collection-unit-support.js (from https://www.apple.com/v/home/f/built/scripts/main.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/$1/ (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/slider.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/lib/ (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/default-controls.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/progress-slider.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/volume-slider.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/states/EndStateItem.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/overlays/trickplay-overlay.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:39	Error: 	"Not Found" (404) at link https://www.apple.com/templates/states/SharingState.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:40	Error: 	"Not Found" (404) at link https://www.apple.com/templates/states/IFrameEmbed.html (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:40	Error: 	"Not Found" (404) at link https://www.apple.com/_thumbnails.jpg (from https://www.apple.com/ac/ac-films/6.3.1/scripts/autofilms.built.js)
+14:00:40	Error: 	"Not Found" (404) at link https://www.apple.com/l.url (from https://www.apple.com/metrics/data-relay/1.1.4/scripts/data-relay.js)
+14:00:46	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/mac/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-mac_fp-try_tle-apl-avl-191007 (from https://www.apple.com/ae-ar/mac/)
+14:00:46	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/education/products/ (from https://www.apple.com/ae-ar/mac/)
+14:00:46	Warning: 	Moved Permanently for https://www.apple.com/ae-ar/education/how-to-buy/
+14:00:46	Warning: 	File has moved from https://www.apple.com/ae-ar/education/how-to-buy/ to http://www.apple.com/ae-ar/education/k12/how-to-buy/
+14:00:48	Warning: 	Moved Permanently for www.apple.com/ae-ar/buy/?select=ipad-pro
+14:00:48	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae-ar/buy/?select=ipad-pro and https://www.apple.com/ae-ar/buy/?select=ipad-pro
+14:00:48	Warning: 	File has moved from www.apple.com/ae-ar/buy/?select=ipad-pro to https://www.apple.com/ae-ar/buy/?select=ipad-pro
+14:00:49	Warning: 	Link https://www.apple.com/ae/education/ipad/ not scanned (follow robots meta tag)
+14:00:49	Warning: 	Moved Permanently for https://www.apple.com/ae/ipad/business/
+14:00:49	Warning: 	File has moved from https://www.apple.com/ae/ipad/business/ to http://www.apple.com/ae/business/products-platform/
+14:00:56	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/iphone/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-iph_fp-try_tle-apl-avl-191007 (from https://www.apple.com/ae-ar/iphone/)
+14:01:01	Warning: 	Moved Permanently for www.apple.com/ae/tv/?cid=AOS_ASA
+14:01:01	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae/tv/?cid=AOS_ASA and https://www.apple.com/ae/tv/?cid=AOS_ASA
+14:01:01	Warning: 	File has moved from www.apple.com/ae/tv/?cid=AOS_ASA to https://www.apple.com/ae/tv/?cid=AOS_ASA
+14:01:03	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/tv/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-tv_fp-try_tle-apl-avl-191007 (from https://www.apple.com/ae-ar/tv/)
+14:01:05	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/shop/goto/giftcards (from https://www.apple.com/ae-ar/music/)
+14:01:06	Error: 	"Not Found" (404) at link https://www.apple.com/home/images/og.jpg?201906100120 (from https://www.apple.com/ae-ar/buy/)
+14:01:06	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/cookie.js (from https://www.apple.com/ac/globalnav/5/ar_AE/scripts/ac-globalnav.built.js)
+14:01:06	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/GET (from https://www.apple.com/ac/globalnav/5/ar_AE/scripts/ac-globalnav.built.js)
+14:01:08	Warning: 	Moved Permanently for https://www.apple.com/ae-ar/ios/ios-12/
+14:01:08	Warning: 	File has moved from https://www.apple.com/ae-ar/ios/ios-12/ to http://www.apple.com/ae-ar/ios/ios-13/
+14:01:08	Warning: 	Link https://www.apple.com/ae/search/BeatsX-Earphones-Satin-Silver?rdt=redirectionFromProductPage&tab=accessories not scanned (follow robots meta tag)
+14:01:11	Error: 	"Not Found" (404) at link https://www.apple.com/v/apple-arcade/f/images/meta/og__f9s98cu7j1ym.png?202002120027 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:01:12	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-try_hro-apl-avl-190919 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:01:12	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_mid-apl-avl-190919 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:01:12	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_low-apl-avl-190919 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:01:13	Error: 	"Not Found" (404) at link https://www.apple.com/ae-ar/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-try_ftr-apl-avl-190919 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:01:13	Warning: 	Retry after error -4 (Incorrect length (12819448 Bytes, 155196081 expected)) at link https://www.apple.com/105/media/aear/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-aear-2019_1280x720h.mp4 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:01:16	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/105/media/us/business/success-stories/2017/032a8f1e_203d_411f_a745_6a671a9293a0/films/capital-one/business-capital-one-cc-us-20170322_1280x720h.mp4 (from https://www.apple.com/ae/business/)
+14:01:17	Warning: 	Moved Permanently for www.apple.com/ae-ar/education/k12/
+14:01:17	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae-ar/education/k12/ and https://www.apple.com/ae-ar/education/k12/
+14:01:17	Warning: 	File has moved from www.apple.com/ae-ar/education/k12/ to https://www.apple.com/ae-ar/education/k12/
+14:01:17	Error: 	"Not Found" (404) at link https://www.apple.com/v/accessibility/n/images/overview/og.png?201910070742 (from https://www.apple.com/ae-ar/accessibility/)
+14:01:19	Warning: 	Retry after error -4 (Incorrect length (12302608 Bytes, 27310490 expected)) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/carlos/accessibility-carlos-tpl-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae-ar/accessibility/)
+14:01:19	Warning: 	Retry after error -4 (Incorrect length (18768948 Bytes, 31462258 expected)) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/ian/accessibility-ian-tpl-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae-ar/accessibility/)
+14:01:19	Warning: 	Retry after error -4 (Incorrect length (15459128 Bytes, 25421956 expected)) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/meera/accessibility-meera-tpl-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae-ar/accessibility/)
+14:01:19	Warning: 	Moved Temporarily for https://www.apple.com/ae-ar/today/collection/accessibility-collection/
+14:01:19	Warning: 	File has moved from https://www.apple.com/ae-ar/today/collection/accessibility-collection/ to https://www.apple.com/404
+14:01:20	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/mideast/environment/pdf/en/products/notebooks/13-inch_MacBookPro_PER_June2019.pdf (from https://www.apple.com/ae-ar/environment/)
+14:01:20	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/mideast/environment/pdf/en/products/desktops/27-inch_iMac_with_Retina5KDisplay_PER_Mar2019.pdf (from https://www.apple.com/ae-ar/environment/)
+14:01:20	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/mideast/environment/pdf/en/products/desktops/21.5-inch_iMac_with_Retina4KDisplay_PER_Mar2019.pdf (from https://www.apple.com/ae-ar/environment/)
+14:01:23	Warning: 	Moved Permanently for www.apple.com/ae/itunes/
+14:01:23	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae/itunes/ and https://www.apple.com/ae/itunes/
+14:01:23	Warning: 	File has moved from www.apple.com/ae/itunes/ to https://www.apple.com/ae/itunes/
+14:01:23	Warning: 	Moved Permanently for www.apple.com/ae/retail/camp/
+14:01:23	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae/retail/camp/ and https://www.apple.com/ae/retail/camp/
+14:01:23	Warning: 	File has moved from www.apple.com/ae/retail/camp/ to https://www.apple.com/ae/retail/camp/
+14:01:25	Warning: 	Moved Permanently for https://www.apple.com/ae/support/
+14:01:25	Warning: 	File has moved from https://www.apple.com/ae/support/ to https://support.apple.com/en-ae
+14:01:25	Warning: 	Moved Permanently for https://www.apple.com/ae/pr/
+14:01:25	Warning: 	File has moved from https://www.apple.com/ae/pr/ to http://www.apple.com/ae/newsroom/
+14:01:25	Warning: 	Moved Permanently for https://www.apple.com/investor/
+14:01:25	Warning: 	File has moved from https://www.apple.com/investor/ to http://investor.apple.com/
+14:01:25	Warning: 	Moved Permanently for https://www.apple.com/support/feedback/
+14:01:25	Warning: 	File has moved from https://www.apple.com/support/feedback/ to http://www.apple.com/feedback/
+14:01:25	Warning: 	Moved Permanently for https://www.apple.com/ae-ar/recycling/
+14:01:25	Warning: 	File has moved from https://www.apple.com/ae-ar/recycling/ to http://www.apple.com/ae-ar/trade-in/
+14:01:25	Warning: 	Moved Permanently for https://www.apple.com/ae-ar/remotedesktop/
+14:01:25	Warning: 	File has moved from https://www.apple.com/ae-ar/remotedesktop/ to https://support.apple.com/remote-desktop
+14:01:27	Warning: 	Moved Permanently for www.apple.com/ae-ar/watch/battery/
+14:01:27	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae-ar/watch/battery/ and https://www.apple.com/ae-ar/watch/battery/
+14:01:27	Warning: 	File has moved from www.apple.com/ae-ar/watch/battery/ to https://www.apple.com/ae-ar/watch/battery/
+14:01:27	Warning: 	Link https://www.apple.com/ae-ar/education/it/ not scanned (follow robots meta tag)
+14:01:30	Error: 	"Not Found" (404) at link https://www.apple.com/ae/mac/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-mac_fp-try_tle-apl-avl-191007 (from https://www.apple.com/ae/mac/)
+14:01:30	Warning: 	Moved Permanently for https://www.apple.com/ae/education/products/
+14:01:30	Warning: 	File has moved from https://www.apple.com/ae/education/products/ to http://www.apple.com/ae/education/k12/products/
+14:01:30	Warning: 	Moved Permanently for https://www.apple.com/ae/education/how-to-buy/
+14:01:30	Warning: 	File has moved from https://www.apple.com/ae/education/how-to-buy/ to http://www.apple.com/ae/education/k12/how-to-buy/
+14:01:30	Error: 	"Not Found" (404) at link https://www.apple.com/en-ae/macos/how-to-upgrade/ (from https://www.apple.com/ae/mac/)
+14:01:30	Error: 	"Error when decompressing" (-1) at link https://www.apple.com/ae/shop/goto/account (from https://www.apple.com/ae/mac/)
+14:01:33	Error: 	"Not Found" (404) at link https://www.apple.com/ae/shop/campaigns/financing (from https://www.apple.com/ae/ipad/)
+14:01:35	Error: 	"Not Found" (404) at link https://www.apple.com/ae/iphone/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-iph_fp-try_tle-apl-avl-191007 (from https://www.apple.com/ae/iphone/)
+14:01:37	Error: 	"Not Found" (404) at link https://www.apple.com/ae/tv/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-tv_fp-try_tle-apl-avl-191007 (from https://www.apple.com/ae/tv/)
+14:01:38	Error: 	"Not Found" (404) at link https://www.apple.com/ae/cookie.js (from https://www.apple.com/ac/globalnav/5/en_AE/scripts/ac-globalnav.built.js)
+14:01:38	Error: 	"Not Found" (404) at link https://www.apple.com/ae/GET (from https://www.apple.com/ac/globalnav/5/en_AE/scripts/ac-globalnav.built.js)
+14:01:39	Warning: 	Moved Permanently for https://www.apple.com/ae/ios/ios-12/
+14:01:39	Warning: 	File has moved from https://www.apple.com/ae/ios/ios-12/ to http://www.apple.com/ae/ios/ios-13/
+14:01:51	Warning: 	Moved Permanently for https://www.apple.com/ae/retail/learn/
+14:01:51	Warning: 	File has moved from https://www.apple.com/ae/retail/learn/ to http://www.apple.com/ae/today/
+14:01:51	Warning: 	Moved Permanently for https://www.apple.com/ae/retail/learn/youth/
+14:01:51	Warning: 	File has moved from https://www.apple.com/ae/retail/learn/youth/ to http://www.apple.com/ae/today/calendar/?topics=kids-and-parents-audience/
+14:01:51	Warning: 	Moved Permanently for www.apple.com/legal/giftcards/applestore/ae/
+14:01:51	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/legal/giftcards/applestore/ae/ and https://www.apple.com/legal/giftcards/applestore/ae/
+14:01:51	Warning: 	File has moved from www.apple.com/legal/giftcards/applestore/ae/ to https://www.apple.com/legal/giftcards/applestore/ae/
+14:01:52	Error: 	"Not Found" (404) at link https://www.apple.com/ae/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-try_hro-apl-avl-190919 (from https://www.apple.com/ae/apple-arcade/)
+14:01:52	Error: 	"Not Found" (404) at link https://www.apple.com/ae/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_mid-apl-avl-190919 (from https://www.apple.com/ae/apple-arcade/)
+14:01:52	Error: 	"Not Found" (404) at link https://www.apple.com/ae/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_low-apl-avl-190919 (from https://www.apple.com/ae/apple-arcade/)
+14:01:52	Warning: 	Retry after error -4 (Incorrect length (53030954 Bytes, 157948058 expected)) at link https://www.apple.com/105/media/ae/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-cc-ae-2019_1280x720h.mp4 (from https://www.apple.com/ae/apple-arcade/)
+14:01:55	Warning: 	Moved Permanently for www.apple.com/ae/education/k12/
+14:01:55	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae/education/k12/ and https://www.apple.com/ae/education/k12/
+14:01:55	Warning: 	File has moved from www.apple.com/ae/education/k12/ to https://www.apple.com/ae/education/k12/
+14:01:55	Warning: 	Link https://www.apple.com/ae-edu/shop/bag not scanned (follow robots meta tag)
+14:01:55	Warning: 	Link https://www.apple.com/ae-edu/shop/bag not scanned (follow robots meta tag)
+14:01:59	Warning: 	Moved Permanently for www.apple.com/ae/support/products/
+14:01:59	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae/support/products/ and https://www.apple.com/ae/support/products/
+14:01:59	Warning: 	File has moved from www.apple.com/ae/support/products/ to https://www.apple.com/ae/support/products/
+14:02:01	Warning: 	Retry after error -4 (Incorrect length (49879899 Bytes, 162486987 expected)) at link https://www.apple.com/105/media/ww/healthcare/2019/cE249dd1_58dc_487a_880b_6a1bc197cc43/films/uva-childrens-hospital/healthcare-uva-childrens-hospital-tpl-ww-20190307_1280x720h.mp4 (from https://www.apple.com/ae/healthcare/)
+14:02:01	Error: 	"Not Found" (404) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/shane/accessibility-shane-tpl-cc-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae/accessibility/)
+14:02:04	Warning: 	Moved Permanently for https://www.apple.com/ae/buy/
+14:02:04	Warning: 	File has moved from https://www.apple.com/ae/buy/ to https://locate.apple.com
+14:02:04	Error: 	"Error when decompressing" (-1) at link https://www.apple.com/ae/shop (from https://www.apple.com/ae/shop/browse/open/salespolicies)
+14:02:04	Warning: 	Moved Permanently for https://www.apple.com/ae/retail/personalsetup/
+14:02:04	Warning: 	File has moved from https://www.apple.com/ae/retail/personalsetup/ to http://www.apple.com/ae/shop/goto/personal_session
+14:02:07	Warning: 	Moved Permanently for https://www.apple.com/ae/remotedesktop/
+14:02:07	Warning: 	File has moved from https://www.apple.com/ae/remotedesktop/ to https://support.apple.com/remote-desktop
+14:02:07	Warning: 	Moved Permanently for https://www.apple.com/ae/downloads/
+14:02:07	Warning: 	File has moved from https://www.apple.com/ae/downloads/ to https://support.apple.com/en_AE/downloads
+14:02:11	Warning: 	Moved Permanently for www.apple.com/ae/watch/battery/
+14:02:11	Warning: 	Redirected link is identical because of 'URL Hack' option: www.apple.com/ae/watch/battery/ and https://www.apple.com/ae/watch/battery/
+14:02:11	Warning: 	File has moved from www.apple.com/ae/watch/battery/ to https://www.apple.com/ae/watch/battery/
+14:02:11	Warning: 	Moved Permanently for https://www.apple.com/ae/education/it/vpp/
+14:02:11	Warning: 	File has moved from https://www.apple.com/ae/education/it/vpp/ to http://www.apple.com/ae/education/k12/it/
+14:02:11	Error: 	"Error when decompressing" (-1) at link https://www.apple.com/ae/shop/goto/accessories (from https://www.apple.com/ae/sitemap/)
+14:02:12	Warning: 	Moved Permanently for https://www.apple.com/ae/support/exchange_repair/
+14:02:12	Warning: 	File has moved from https://www.apple.com/ae/support/exchange_repair/ to https://support.apple.com/en-ae/exchange_repair
+14:02:12	Warning: 	Moved Permanently for https://www.apple.com/ae/support/programs/
+14:02:12	Warning: 	File has moved from https://www.apple.com/ae/support/programs/ to https://support.apple.com/en-ae/aasp-program
+14:02:12	Warning: 	Retry after error -4 (Incorrect length (35080 Bytes, 81896 expected)) at link https://www.apple.com/v/home/er/images/heroes/airpods-engraving/hero__dvsxv8smkkgi_mediumtall_2x.jpg (from https://www.apple.com/v/home/er/built/styles/main.built.css)
+14:02:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.apple.com/v/home/er/images/heroes/black-friday-last/sprite__61acymhj0kim_large.png (from https://www.apple.com/v/home/er/built/styles/main.built.css)
+14:02:14	Error: 	"Not Found" (404) at link https://www.apple.com/am/mac/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-mac_fp-try_tle-apl-avl-191007 (from https://www.apple.com/am/mac/)
+14:02:19	Warning: 	Moved Permanently for https://www.apple.com/contact/myinfo/
+14:02:19	Warning: 	File has moved from https://www.apple.com/contact/myinfo/ to https://appleid.apple.com
+14:02:19	Error: 	"Not Found" (404) at link https://www.apple.com/am/pr/ (from https://www.apple.com/am/buy/)
+14:02:19	Warning: 	Moved Permanently for https://www.apple.com/choose-your-country/
+14:02:19	Warning: 	File has moved from https://www.apple.com/choose-your-country/ to http://www.apple.com/choose-country-region/
+14:02:19	Error: 	"Not Found" (404) at link https://www.apple.com/am/cookie.js (from https://www.apple.com/ac/globalnav/5/en_AM/scripts/ac-globalnav.built.js)
+14:02:19	Error: 	"Not Found" (404) at link https://www.apple.com/am/GET (from https://www.apple.com/ac/globalnav/5/en_AM/scripts/ac-globalnav.built.js)
+14:02:33	Error: 	"Not Found" (404) at link https://www.apple.com/am/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-ovp-try_cnt-apl-191216 (from https://www.apple.com/am/apple-arcade/)
+14:02:33	Error: 	"Not Found" (404) at link https://www.apple.com/am/apple-arcade/itms-appss://arcadeSubscribePage?itscg=10000&itsct=arc-0-ovp-try_vnt-apl-191216 (from https://www.apple.com/am/apple-arcade/)
+14:02:33	Error: 	"Not Found" (404) at link https://www.apple.com/am/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_mid-apl-avl-190919 (from https://www.apple.com/am/apple-arcade/)
+14:02:34	Error: 	"Not Found" (404) at link https://www.apple.com/am/apple-arcade/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-arc_ovp-exp_low-apl-avl-190919 (from https://www.apple.com/am/apple-arcade/)
+14:02:34	Warning: 	Retry after error -4 (Incorrect length (11978488 Bytes, 154924721 expected)) at link https://www.apple.com/105/media/ww/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-arcade/)
+14:02:39	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/befr/macbook-pro-16/ (from https://www.apple.com/am/macbook-pro-16/)
+14:02:40	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/hk/en/macbook-pro-16/ (from https://www.apple.com/am/macbook-pro-16/)
+14:02:42	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.apple.com/ph/macbook-pro-16/ (from https://www.apple.com/am/macbook-pro-16/)
+14:02:45	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.apple.com/105/media/us/macbook-pro-16/2019/fa0563a0-8534-4e01-a62a-081b87805fea/films/product/macbookpro-16-product-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/macbook-pro-16/)
+14:02:46	Warning: 	Retry after error -4 (Incorrect length (59265840 Bytes, 111059165 expected)) at link https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/morning-show/apple-tv-plus-morning-show-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:06	Warning: 	Retry after error -4 (Incorrect length (11673348 Bytes, 100531957 expected)) at link https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/for-all-mankind/apple-tv-plus-for-all-mankind-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:06	Warning: 	Retry after error -4 (Incorrect length (44632790 Bytes, 57966501 expected)) at link https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/snoopy/apple-tv-plus-snoopy-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:06	Warning: 	Retry after error -4 (Incorrect length (15368608 Bytes, 82580401 expected)) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/elephant-queen/apple-tv-plus-elephant-queen-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:06	Warning: 	Retry after error -4 (Incorrect length (23189828 Bytes, 48173909 expected)) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/helpsters/apple-tv-plus-helpsters-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:06	Warning: 	Retry after error -4 (Incorrect length (20048476 Bytes, 28487186 expected)) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/ghostwriter/apple-tv-plus-ghostwriter-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:06	Warning: 	Retry after error -4 (Incorrect length (14686788 Bytes, 105291045 expected)) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/truth-be-told/apple-tv-plus-truth-be-told-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:07	Warning: 	Moved Permanently for https://www.apple.com/am/ipad/why-ipad/
+14:06:07	Warning: 	File has moved from https://www.apple.com/am/ipad/why-ipad/ to http://www.apple.com/am/ipad/
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/am/js/TextZoomManager.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/am/js/extendedHomepageSectionsLib.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/apple-card-ribbon/apple-card-ribbon.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.apple-card-ribbon.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.apple-pay-promo.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.black-friday-offer.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.black-friday-teaser.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/holiday-2019-takeover/holiday-2019-takeover.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.holiday-2019-takeover.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/src/content/modules/holiday-ribbon/holiday-ribbon.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.holiday-ribbon.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.holiday-ribbon-last.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:07	Error: 	"Not Found" (404) at link https://www.apple.com/tmp/collection-units.red-cross.built.js (from https://www.apple.com/v/home/er/built/scripts/main.built.js)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/mac/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-mctlna-try-apl-avl-190919
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/mac/itms-apps://?action=arcade&itscg=10000&itsct=arc-0-mctlna-try-apl-avl-190919 (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/education/products/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/education/products/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/education/how-to-buy/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/education/how-to-buy/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/education/higher-education/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/education/higher-education/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/business/products-platform/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/business/products-platform/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/macos/how-to-upgrade/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/macos/how-to-upgrade/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/batteries/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/batteries/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/at/promo/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/at/promo/ (from https://www.apple.com/at/mac/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/aear/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-aear-2019_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/aear/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-aear-2019_1280x720h.mp4 (from https://www.apple.com/ae-ar/apple-arcade/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/us/business/success-stories/2017/032a8f1e_203d_411f_a745_6a671a9293a0/films/capital-one/business-capital-one-cc-us-20170322_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/us/business/success-stories/2017/032a8f1e_203d_411f_a745_6a671a9293a0/films/capital-one/business-capital-one-cc-us-20170322_1280x720h.mp4 (from https://www.apple.com/ae/business/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/carlos/accessibility-carlos-tpl-me-20180517_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/carlos/accessibility-carlos-tpl-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae-ar/accessibility/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/ian/accessibility-ian-tpl-me-20180517_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/ian/accessibility-ian-tpl-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae-ar/accessibility/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/meera/accessibility-meera-tpl-me-20180517_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/me/accessibility/2018/b15f99da_fc43_4dac_addc_103b9085b648/films/meera/accessibility-meera-tpl-me-20180517_1280x720h.mp4 (from https://www.apple.com/ae-ar/accessibility/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/mideast/environment/pdf/en/products/notebooks/13-inch_MacBookPro_PER_June2019.pdf
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/mideast/environment/pdf/en/products/notebooks/13-inch_MacBookPro_PER_June2019.pdf (from https://www.apple.com/ae-ar/environment/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/mideast/environment/pdf/en/products/desktops/27-inch_iMac_with_Retina5KDisplay_PER_Mar2019.pdf
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/mideast/environment/pdf/en/products/desktops/27-inch_iMac_with_Retina5KDisplay_PER_Mar2019.pdf (from https://www.apple.com/ae-ar/environment/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/mideast/environment/pdf/en/products/desktops/21.5-inch_iMac_with_Retina4KDisplay_PER_Mar2019.pdf
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/mideast/environment/pdf/en/products/desktops/21.5-inch_iMac_with_Retina4KDisplay_PER_Mar2019.pdf (from https://www.apple.com/ae-ar/environment/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/ae/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-cc-ae-2019_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/ae/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-cc-ae-2019_1280x720h.mp4 (from https://www.apple.com/ae/apple-arcade/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/ww/healthcare/2019/cE249dd1_58dc_487a_880b_6a1bc197cc43/films/uva-childrens-hospital/healthcare-uva-childrens-hospital-tpl-ww-20190307_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/ww/healthcare/2019/cE249dd1_58dc_487a_880b_6a1bc197cc43/films/uva-childrens-hospital/healthcare-uva-childrens-hospital-tpl-ww-20190307_1280x720h.mp4 (from https://www.apple.com/ae/healthcare/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/v/home/er/images/heroes/airpods-engraving/hero__dvsxv8smkkgi_mediumtall_2x.jpg
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/v/home/er/images/heroes/airpods-engraving/hero__dvsxv8smkkgi_mediumtall_2x.jpg (from https://www.apple.com/v/home/er/built/styles/main.built.css)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/v/home/er/images/heroes/black-friday-last/sprite__61acymhj0kim_large.png
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/v/home/er/images/heroes/black-friday-last/sprite__61acymhj0kim_large.png (from https://www.apple.com/v/home/er/built/styles/main.built.css)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/ww/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-ww-2019_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/ww/apple-arcade/2019/77394d94-8ea5-48ab-a9a5-6b79c141c58b/films/creator/arcade-creator-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-arcade/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/befr/macbook-pro-16/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/befr/macbook-pro-16/ (from https://www.apple.com/am/macbook-pro-16/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/hk/en/macbook-pro-16/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/hk/en/macbook-pro-16/ (from https://www.apple.com/am/macbook-pro-16/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/ph/macbook-pro-16/
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/ph/macbook-pro-16/ (from https://www.apple.com/am/macbook-pro-16/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/us/macbook-pro-16/2019/fa0563a0-8534-4e01-a62a-081b87805fea/films/product/macbookpro-16-product-tpl-cc-us-2019_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/us/macbook-pro-16/2019/fa0563a0-8534-4e01-a62a-081b87805fea/films/product/macbookpro-16-product-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/macbook-pro-16/)
+14:06:09	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/morning-show/apple-tv-plus-morning-show-tpl-ww-2019_1280x720h.mp4
+14:06:09	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/morning-show/apple-tv-plus-morning-show-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:10	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/for-all-mankind/apple-tv-plus-for-all-mankind-tpl-ww-2019_1280x720h.mp4
+14:06:10	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/for-all-mankind/apple-tv-plus-for-all-mankind-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:10	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/snoopy/apple-tv-plus-snoopy-tpl-ww-2019_1280x720h.mp4
+14:06:10	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/ww/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/snoopy/apple-tv-plus-snoopy-tpl-ww-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:10	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/elephant-queen/apple-tv-plus-elephant-queen-tpl-cc-us-2019_1280x720h.mp4
+14:06:10	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/elephant-queen/apple-tv-plus-elephant-queen-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:10	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/helpsters/apple-tv-plus-helpsters-tpl-cc-us-2019_1280x720h.mp4
+14:06:10	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/helpsters/apple-tv-plus-helpsters-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:10	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/ghostwriter/apple-tv-plus-ghostwriter-tpl-cc-us-2019_1280x720h.mp4
+14:06:10	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/ghostwriter/apple-tv-plus-ghostwriter-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+14:06:10	Warning: 	File not added due to mirror cancel: https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/truth-be-told/apple-tv-plus-truth-be-told-tpl-cc-us-2019_1280x720h.mp4
+14:06:10	Error: 	"mirror stopped by user" (-1) at link https://www.apple.com/105/media/us/apple-tv-plus/2019/ca7883f2_885a_42c7_b0cc_529b287c1925/films/truth-be-told/apple-tv-plus-truth-be-told-tpl-cc-us-2019_1280x720h.mp4 (from https://www.apple.com/am/apple-tv-plus/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 hours 59 minutes 35 seconds : 8858 links scanned, 8584 files written (3646014618 bytes overall) [3647195757 bytes received at 169047 bytes/sec], 548083480 bytes transferred using HTTP compression in 6979 files, ratio 15%, 11.0 requests per connection
+(137 errors, 491 warnings, 0 messages)

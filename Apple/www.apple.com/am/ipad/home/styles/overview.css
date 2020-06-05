@@ -1,0 +1,473 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+
+.section-ipad-air .image-hero-ipad-air { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_air__de99jh4astea_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+.section-ipad-air .image-hero-ipad-air { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_air__de99jh4astea_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+.section-ipad-air .image-hero-ipad-air { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_air__de99jh4astea_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+.section-ipad-air .image-hero-ipad-air { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_air__de99jh4astea_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+.section-ipad-air .image-hero-ipad-air { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_air__de99jh4astea_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+.section-ipad-air .image-hero-ipad-air { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_air__de99jh4astea_small_2x.jpg"); }
+}
+
+.section-ipados .ipados .promo-image-wrapper .promo-image { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_os_banner__bhlob0bn3rg2_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .section-ipados .ipados .promo-image-wrapper .promo-image { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_os_banner__bhlob0bn3rg2_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .section-ipados .ipados .promo-image-wrapper .promo-image { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_os_banner__bhlob0bn3rg2_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-ipados .ipados .promo-image-wrapper .promo-image { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_os_banner__bhlob0bn3rg2_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .section-ipados .ipados .promo-image-wrapper .promo-image { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_os_banner__bhlob0bn3rg2_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-ipados .ipados .promo-image-wrapper .promo-image { background-image:url("https://www.apple.com/euro/ipad/home/t/screens_alt/images/overview/ipad_os_banner__bhlob0bn3rg2_small_2x.jpg"); }
+}
+
+.services-subsection .apple-arcade.apple-arcade-rivals { background-image:url("https://www.apple.com/v/ipad/home/aw/images/overview/apple_arcade_tile_narrow__ffideqt3c5aq_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .services-subsection .apple-arcade.apple-arcade-rivals { background-image:url("https://www.apple.com/euro/ipad/home/v/screens_alt/images/overview/apple_arcade_tile_narrow__ffideqt3c5aq_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .services-subsection .apple-arcade.apple-arcade-rivals { background-image:url("https://www.apple.com/euro/ipad/home/v/screens_alt/images/overview/apple_arcade_tile_narrow__ffideqt3c5aq_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .services-subsection .apple-arcade.apple-arcade-rivals { background-image:url("https://www.apple.com/euro/ipad/home/v/screens_alt/images/overview/apple_arcade_tile_narrow__ffideqt3c5aq_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .services-subsection .apple-arcade.apple-arcade-rivals { background-image:url("https://www.apple.com/euro/ipad/home/v/screens_alt/images/overview/apple_arcade_tile_narrow__ffideqt3c5aq_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .services-subsection .apple-arcade.apple-arcade-rivals { background-image:url("https://www.apple.com/euro/ipad/home/v/screens_alt/images/overview/apple_arcade_tile_narrow__ffideqt3c5aq_small_2x.jpg"); }
+}
+.section-essentials .airpods-pro .promo-image {
+    width: 791px;
+    height: 425px;
+    background-size: 791px 425px;
+    background-image: url("https://www.apple.com/euro/ipad/home/u/screens_alt/images/overview/airpods_family__dqikrifl3u0y_large.png");
+    position: relative;
+    left: 50%;
+    margin-left: -380px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-essentials .airpods-pro .promo-image {
+        background-image: url("https://www.apple.com/euro/ipad/home/u/screens_alt/images/overview/airpods_family__dqikrifl3u0y_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-essentials .airpods-pro .promo-image {
+        width: 350px;
+        height: 296px;
+        background-size: 350px 296px;
+        background-image: url("https://www.apple.com/euro/ipad/home/u/screens_alt/images/overview/airpods_family__dqikrifl3u0y_medium.png");
+        margin-left: -161px;
+        margin-top: 14px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-essentials .airpods-pro .promo-image {
+        background-image: url("https://www.apple.com/euro/ipad/home/u/screens_alt/images/overview/airpods_family__dqikrifl3u0y_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-essentials .airpods-pro .promo-image {
+        width: 287px;
+        height: 224px;
+        background-size: 287px 224px;
+        background-image: url("https://www.apple.com/euro/ipad/home/u/screens_alt/images/overview/airpods_family__dqikrifl3u0y_small.png");
+        margin-left: -143px;
+        margin-top: 49px;
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-essentials .airpods-pro .promo-image {
+        background-image: url("https://www.apple.com/euro/ipad/home/u/screens_alt/images/overview/airpods_family__dqikrifl3u0y_small_2x.png");
+    }
+}
+/*------------------------------------*\
+		END LOCAL SCREENS
+\*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+
+.promo-section .airpods .banner-airpods {
+  height: 400px;
+}
+
+@media only screen and (max-width: 735px) {
+  .promo-section .airpods .banner-airpods {
+    height: auto;
+  }
+}
+
+.promo-section .airpods .promo-copy-wrapper.full-height {
+    height: 100%;
+}
+
+.promo-section .airpods .banner-promo {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.promo-section .airpods .banner-promo .promo-copy-alt {
+  position: relative;
+  z-index: 2;
+}
+
+.section-essentials .airpods.tilt .promo-image {
+  width: 617px;
+  height: 334px;
+  background-size: 617px 334px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/euro/ipad/home/s/screens_alt/images/overview/airpods_tilt__b4gfhik6o3yq_large.jpg");
+  position: relative;
+  left: 50%;
+  margin-left: -308.5px;
+  position: absolute;
+  margin-left: -280px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-essentials .airpods.tilt .promo-image {
+    background-image: url("https://www.apple.com/euro/ipad/home/s/screens_alt/images/overview/airpods_tilt__b4gfhik6o3yq_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-essentials .airpods.tilt .promo-image {
+    width: 404px;
+    height: 260px;
+    background-size: 404px 260px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/ipad/home/s/screens_alt/images/overview/airpods_tilt__b4gfhik6o3yq_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-essentials .airpods.tilt .promo-image {
+    background-image: url("https://www.apple.com/euro/ipad/home/s/screens_alt/images/overview/airpods_tilt__b4gfhik6o3yq_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-essentials .airpods.tilt .promo-image {
+    width: 620px;
+    height: 262px;
+    background-size: 620px 262px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/ipad/home/s/screens_alt/images/overview/airpods_tilt__b4gfhik6o3yq_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-essentials .airpods.tilt .promo-image {
+    background-image: url("https://www.apple.com/euro/ipad/home/s/screens_alt/images/overview/airpods_tilt__b4gfhik6o3yq_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-essentials .airpods.tilt .promo-image {
+    left: 50%;
+    margin-left: -240px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-essentials .airpods.tilt .promo-image {
+    left: 50%;
+    position: relative;
+    margin-left: -255px;
+    margin-top: 10px;
+  }
+}
+
+
+
+.icloud.fp-tile-2 {
+  width: 87.5%;
+  margin-right: 2.08333%;
+}
+@media only screen and (max-width: 1068px) {
+  .icloud.fp-tile-2 {
+      margin-left: 2.34082%;
+      margin-right: 2.34082%;
+      width: 87.82772%
+  }
+}
+@media only screen and (max-width: 735px) {
+  .icloud.fp-tile-2 {
+      margin-left: auto;
+      margin-right: auto;
+      width: auto
+  }
+}
+
+.section-ipados .icloud .promo-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 1068px) {
+  .section-ipados .icloud .promo-image {
+      margin-left: -158.5px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .section-ipados .icloud .promo-image {
+      margin-left: -140.5px;
+  }
+}
+
+
+
+.services-subsection .apple-tv-plus {
+  padding-bottom: 342px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .services-subsection .apple-tv-plus {
+      padding-bottom: 200px;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .services-subsection .apple-tv-plus {
+      padding-bottom: 40px;
+      margin-bottom: 15px;
+      min-height: 491px;
+  }
+}
+
+
+
+.services-subsection .music {
+  margin-top: 2.08333vw;
+}
+@media only screen and (min-width: 1440px) {
+  .services-subsection .music {
+      margin-top: 30px
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .services-subsection .music {
+      margin-top: 2.34082vw;
+  }
+}
+
+
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/ 
+
+
+
+/*------------------------------------*\
+  MUSIC ALT
+\*------------------------------------*/
+
+.section-get-more .music {
+  background-color: #d253b1;
+  background-image: -webkit-linear-gradient(105deg, #d253b1, #fb6f4a);
+  background-image: linear-gradient(345deg, #d253b1, #fb6f4a);
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  justify-content: normal
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .music {
+      height: auto;
+      margin: 0 auto 15px
+  }
+}
+
+.section-get-more .music .promo-image-wrapper {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1
+}
+
+.section-get-more .music .promo-image {
+  width: 797px;
+  height: 427px;
+  background-size: 797px 427px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/euro/ipad/home/t/screens/images/overview/apple_music__4nt9r3t3wo2i_large.png");
+  position: absolute;
+  bottom: 0;
+  right: -100px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .section-get-more .music .promo-image {
+      background-image: url("https://www.apple.com/euro/ipad/home/t/screens/images/overview/apple_music__4nt9r3t3wo2i_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .music .promo-image {
+      width: 398px;
+      height: 367px;
+      background-size: 398px 367px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/euro/ipad/home/t/screens/images/overview/apple_music__4nt9r3t3wo2i_medium.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-get-more .music .promo-image {
+      background-image: url("https://www.apple.com/euro/ipad/home/t/screens/images/overview/apple_music__4nt9r3t3wo2i_medium_2x.png")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .music .promo-image {
+      width: 308px;
+      height: 283px;
+      background-size: 308px 283px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/euro/ipad/home/t/screens/images/overview/apple_music__4nt9r3t3wo2i_small.png")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-get-more .music .promo-image {
+      background-image: url("https://www.apple.com/euro/ipad/home/t/screens/images/overview/apple_music__4nt9r3t3wo2i_small_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .music .promo-image {
+      right: -80px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .music .promo-image {
+      left: 50%;
+      margin-left: -125px;
+      position: relative;
+      right: auto;
+      margin-top: 34px
+  }
+}
+
+.section-get-more .music .promo-headline {
+  width: 151px;
+  height: 38px;
+  background-size: 151px 38px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/euro/ipad/home/t/generic/images/overview/apple_music_logo__glczo3qnede2_large.png");
+  position: relative;
+  left: 50%;
+  margin-left: -75.5px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .section-get-more .music .promo-headline {
+      background-image: url("https://www.apple.com/euro/ipad/home/t/generic/images/overview/apple_music_logo__glczo3qnede2_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .music .promo-headline {
+      width: 107px;
+      height: 28px;
+      background-size: 107px 28px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/euro/ipad/home/t/generic/images/overview/apple_music_logo__glczo3qnede2_medium.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-get-more .music .promo-headline {
+      background-image: url("https://www.apple.com/euro/ipad/home/t/generic/images/overview/apple_music_logo__glczo3qnede2_medium_2x.png")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .music .promo-headline {
+      width: 106px;
+      height: 26px;
+      background-size: 106px 26px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/euro/ipad/home/t/generic/images/overview/apple_music_logo__glczo3qnede2_small.png")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-get-more .music .promo-headline {
+      background-image: url("https://www.apple.com/euro/ipad/home/t/generic/images/overview/apple_music_logo__glczo3qnede2_small_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .music .promo-headline {
+      left: 50%;
+      margin-left: -53.5px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .music .promo-headline {
+      left: 50%;
+      margin-left: -53px
+  }
+}
+
+.section-get-more .music .promo-copy {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  padding: 0 5%
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .music .promo-copy {
+      padding-top: 40px
+  }
+}
+
+.section-get-more .music a {
+  color: #fff
+}
+/*------------------------------------*\
+END MUSIC ALT
+\*------------------------------------*/

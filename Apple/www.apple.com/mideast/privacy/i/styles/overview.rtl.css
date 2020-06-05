@@ -1,0 +1,169 @@
+/* ROUTER */
+.main .section-router .router-image {
+  background-image: url("https://www.apple.com/mideast/privacy/i/images/overview/learn_more__djuwynxw3quu_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .main .section-router .router-image {
+    background-image: url("https://www.apple.com/mideast/privacy/i/images/overview/learn_more__djuwynxw3quu_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .main .section-router .router-image {
+    background-image: url("https://www.apple.com/mideast/privacy/i/images/overview/learn_more__djuwynxw3quu_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .main .section-router .router-image {
+    background-image: url("https://www.apple.com/mideast/privacy/i/images/overview/learn_more__djuwynxw3quu_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .main .section-router .router-image {
+    background-image: url("https://www.apple.com/mideast/privacy/i/images/overview/learn_more__djuwynxw3quu_small.png");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .main .section-router .router-image {
+    background-image: url("https://www.apple.com/mideast/privacy/i/images/overview/learn_more__djuwynxw3quu_small_2x.png");
+  }
+}
+
+.section-router .links-stacked li + li {
+  margin-right: 25px;
+  margin-left: unset;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-router .links-stacked li + li {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-router .links-stacked li + li {
+    margin-right: 0;
+  }
+}
+
+/* LOCAL FIXES */
+
+.theme-dark .main-gradient {
+  right: 50%;
+  left: unset;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+@media only screen and (max-width: 1068px) {
+  .main .section-hero .section-content {
+    padding-right: 32px;
+    padding-left: unset;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .main .section-hero .section-content {
+    padding-right: 0;
+    padding-left: unset;
+  }
+}
+
+.main .feature-headline,
+.main .feature-excerpt,
+.main .feature-cta {
+  padding-right: unset;
+  padding-left: 1em;
+}
+
+@media only screen and (max-width: 734px) {
+  .main .feature-headline,
+  .main .feature-excerpt,
+  .main .feature-cta,
+  .main .feature-copy {
+    padding: 0 30px;
+  }
+}
+
+.theme-dark .modal-close:before,
+.theme-dark .modal-close:after {
+  right: 0;
+  left: unset;
+}
+
+.main .feature-cta-text {
+  margin-left: unset;
+  margin-right: 45px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .main .feature-cta-text {
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .main .feature-cta-text {
+    margin-right: 34px;
+  }
+}
+
+.main .feature-copy {
+  padding-left: 6.5em;
+  padding-right: unset;
+}
+
+.main .feature .section-content video,
+.main .feature .section-content .image-tilt-startframe {
+  border-radius: 30px 0px 0px 30px;
+}
+
+@media only screen and (max-width: 734px) {
+  .main .feature .section-content video,
+  .main .feature .section-content .image-tilt-startframe {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .main .features-subheader {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .main .tile {
+    padding: 50px 30px 70px 60px;
+    width: 100%;
+  }
+}
+
+h1 + *,
+h2 + *,
+h3 + *,
+h4 + *,
+h5 + *,
+h6 + * {
+  margin-top: 0;
+}
+
+.main .feature-headline {
+  margin-top: -0.34em;
+}
+
+@media only screen and (max-width: 1068px) {
+  .main .feature-headline {
+    margin-top: 0;
+  }
+}

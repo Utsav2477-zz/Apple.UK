@@ -1,0 +1,221 @@
+/* ==========================================================================
+  Tile Components
+========================================================================== */
+@media only screen and (max-width: 735px) {
+  .tiles {
+    margin: 0 -2.2rem; } }
+
+@media only screen and (min-width: 736px) {
+  .tiles--vertical {
+    margin: 0 auto;
+    max-width: 612px;
+    max-width: 61.2rem; } }
+
+.tiles--vertical .tiles__tile + .tiles__tile {
+  margin-top: 1rem; }
+
+.tiles__tile a {
+  display: block;
+  padding: 0;
+  position: relative; }
+  .tiles__tile a::before {
+    content: "";
+    display: block;
+    padding-top: 115.625%; }
+    @media only screen and (min-width: 736px) {
+      .tiles__tile a::before {
+        padding-top: 120.004042241%; } }
+  @media only screen and (min-width: 736px) {
+    .tiles__tile a {
+      margin: 0 4px; } }
+
+.tiles__tile {
+  margin-top: 10px; }
+  @media only screen and (min-width: 736px) {
+    .tiles__tile {
+      margin-top: 0; } }
+
+.tiles__tile:first-child {
+  margin-top: 0; }
+
+@media only screen and (min-width: 736px) {
+  .tiles__tile:first-child a {
+    margin: 0 8px 0 0; } }
+
+@media only screen and (min-width: 736px) {
+  .tiles__tile:last-child a {
+    margin: 0 0 0 8px; } }
+
+@media only screen and (min-width: 736px) {
+  .tiles--2-cols .tiles__tile:nth-child(2n + 1) a {
+    margin: 0 6px 0 0; } }
+
+@media only screen and (min-width: 736px) {
+  .tiles--2-cols .tiles__tile:nth-child(2n) a {
+    margin: 0 0 0 6px; } }
+
+.tiles--2-cols .tiles__tile:nth-child(2n + 1) {
+  clear: left; }
+
+@media only screen and (min-width: 736px) {
+  .tiles--2-cols .tiles__tile:nth-child(n + 3) a {
+    margin-top: 12px; } }
+
+@media only screen and (min-width: 736px) {
+  .tiles__tile:first-child:last-child a {
+    margin: 0; } }
+
+.tiles--vertical .tiles__tile a:first-child,
+.tiles--vertical .tiles__tile a:last-child {
+  margin: 0; }
+
+@media only screen and (min-width: 736px) {
+  .tiles--2-cols .tiles__tile a::before {
+    padding-top: 79.166666667%; } }
+
+@media only screen and (min-width: 736px) {
+  .tiles--vertical .tiles__tile a::before {
+    padding-top: 60.45751634%; } }
+
+.tiles__tile__text,
+.tiles__tile__image {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.tiles__tile__text {
+  display: block;
+  padding: 3rem 2.5rem;
+  z-index: 1; }
+  @media only screen and (min-width: 1069px) {
+    .tiles__tile__text {
+      padding: 3rem 4rem; } }
+
+.tiles__title__text__heading::after {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  content: ":"; }
+
+@media only screen and (min-width: 736px) {
+  .tiles--vertical .tiles__tile__text {
+    padding: 3rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .tiles--vertical .tiles__tile__text {
+    min-height: 11rem; } }
+
+.tiles__tile__image {
+  bottom: 0; }
+
+.tiles__tile__image img {
+  height: 100%;
+  width: 100%; }
+
+.tiles__tile__text > span {
+  color: #333333;
+  display: block; }
+.theme-light .tiles__tile__text > span {
+	color: #000000; }
+@media (inverted-colors) {
+  .tiles__tile__text > span {
+    color: #ffffff; } }
+
+.tiles__tile--reverse .tiles__tile__text > span {
+  color: #fff; }
+
+.tiles__tile__text > span:first-child {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.53;
+  margin-top: 0; }
+.theme-dark .tiles__tile__text > span:first-child {
+	font-weight: 600; }
+
+.tiles__tile__text > span + span,
+.tiles__tile__text > span:first-child:last-child {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.21;
+  margin-top: .4rem; }
+  @media only screen and (min-width: 736px) and (max-width: 1068px) {
+    .tiles__tile__text > span + span,
+    .tiles__tile__text > span:first-child:last-child {
+      font-size: 20px;
+      font-size: 2rem; } }
+.theme-dark .tiles__tile__text > span + span {
+	font-weight: 700; }
+	@media only screen and (min-width: 736px) {
+		.theme-dark .tiles__tile__text > span + span {
+			font-size: 28px;
+			font-size: 2.8rem; } }	
+	
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+  .tiles--vertical .tiles__tile__text > span + span,
+  .tiles--vertical .tiles__tile__text > span:first-child:last-child {
+    font-size: 30px;
+    font-size: 3rem; } }
+
+/*** For 3 tile with big on top *******/
+@media only screen and (min-width: 736px) {
+	.tiles--2-cols {
+	padding-bottom: 1.2rem; } }
+
+
+@media only screen and (min-width: 736px) {
+ 	.tiles__tile__image.unset_height img {
+		height: unset; }
+	.tiles--1-cols .tiles__tile a::before {
+		padding-top: 40.004042241%; } }
+
+@media only screen and (max-width: 735px) {
+	.tiles--2-cols .tiles__tile__text,
+	.tiles--1-cols .tiles__tile__text {
+		padding: 3rem 5rem; }
+	.tiles__tile:first-child {
+		margin-top: 10px; } }
+
+/*** 2 Text Tile ************/
+.tiles__tile .tiles__tile__text-only a::before {
+	padding-top: 0; }
+
+.text-tiles.row {
+	padding: 7rem;
+	margin: 0 auto; }
+@media only screen and (max-width: 735px) {
+	.text-tiles.row {
+		padding: 4rem;
+		text-align: center; } }
+			
+.text-tiles .tiles__tile a {
+	margin: 0; }
+
+.tiles__tile__text-only .tile__lead {
+	font-size: 42px;
+	font-size: 4.2rem;
+	font-weight: 500; }
+.tiles__tile__text-only .tile__cta {
+	font-size: 27px;
+	font-size: 2.7rem; }
+
+@media only screen and (max-width: 735px) {
+.tiles__tile__text-only .tile__lead {
+	font-size: 28px;
+	font-size: 2.8rem; }
+.tiles__tile__text-only .tile__cta {
+	font-size: 24px;
+	font-size: 2.4rem; }
+}
+
+@media only screen and (max-width: 735px) {
+	.text-tiles .tiles__tile:last-child {
+		margin-top: 30px; } }

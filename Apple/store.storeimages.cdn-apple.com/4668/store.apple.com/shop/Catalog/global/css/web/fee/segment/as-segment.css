@@ -1,0 +1,285 @@
+/*
+	Segment Page CSS
+	===============================================
+*/
+.as-segment-ribbon {
+    border-top: 0;
+}
+
+.as-segment-ribbon + .as-segment-ribbon {
+	border-top: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-segment-ribbon + .as-segment-ribbon {
+        border-top: 0;
+    }
+}
+
+.zh-cn .as-segmentfooter-abcbank .as-segment-banner-footer {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-productgrid .as-pinwheel-tagline {
+        font-size: 17px;
+        line-height: 1.52947;
+        font-weight: 400;
+        letter-spacing: -0.021em;
+        font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(ja) {
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(ko) {
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(th) {
+        letter-spacing: 0em;
+        font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(zh) {
+        letter-spacing: 0em;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .as-productgrid .as-pinwheel-tagline:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+.as-segment-banner-footer {
+    padding: 68px 0 69px;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-segment-banner-footer {
+        padding: 52px 0 45px;
+    }
+}
+
+.as-productgrid .as-pinwheel-tiletitle {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-productgrid .as-pinwheel-tiletitle {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(1),
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(1) ~ section,
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(1) ~ li,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(1),
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(1) ~ section,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(1) ~ li {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(1),
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(1) ~ section,
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(1) ~ li,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(1),
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(1) ~ section,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(1) ~ li {
+        width: 100%;
+    }
+}
+
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(2),
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(2) ~ section,
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(2) ~ li,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(2),
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(2) ~ section,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(2) ~ li {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(2),
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(2) ~ section,
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(2) ~ li,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(2),
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(2) ~ section,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(2) ~ li {
+        width: 100%;
+    }
+}
+
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(3),
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(3) ~ section,
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(3) ~ li,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(3),
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(3) ~ section,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(3) ~ li {
+    width: 33.33333%;
+}
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(3),
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(3) ~ section,
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(3) ~ li,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(3),
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(3) ~ section,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(3) ~ li {
+        width: 100%;
+    }
+}
+
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(4),
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(4) ~ section,
+.as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(4) ~ li,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(4),
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(4) ~ section,
+.as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(4) ~ li {
+    width: 25%;
+}
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(4),
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(4) ~ section,
+    .as-footnotes .as-globalfooter-buystrip section:first-child:nth-last-child(4) ~ li,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(4),
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(4) ~ section,
+    .as-footnotes .as-globalfooter-buystrip li:first-child:nth-last-child(4) ~ li {
+        width: 100%;
+    }
+}
+
+.as-segment-banner-simple .as-segment-banner-content p {
+    padding-bottom: 2px;
+}
+
+.as-segment-banner-simple .as-segment-banner-content a {
+    padding-top: 2px;
+}
+
+
+/* START 35074421 */
+.as-productgrid .as-pinwheel-header {
+  padding-top: 0;
+}
+.as-segment-banner-footer + .as-pinwheel {
+  padding-top: 95px;
+}
+.as-pinwheel ~ .as-pinwheel {
+  margin-top: 85px;
+}
+@media only screen and (max-width: 736px) and (max-device-width: 768px) {
+  .as-segment-banner-footer+.as-pinwheel {
+    padding-top: 38px;
+  }
+  .as-pinwheel ~ .as-pinwheel {
+    margin-top: 32px;
+  }
+  .as-productgrid {
+    padding-bottom: 3px;
+  }
+}
+/* END 35074421 */
+
+/* testing automatic merge */
+
+.as-segment-banner-simple {
+    max-width: 1070px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+.as-segment-banner-simple .as-scalableimage-bg {
+    min-height: 425px;
+}
+
+.as-segment-banner-simple .as-scalableimage-bg img {
+    max-width: 1070px;
+    min-width: 980px;
+    margin-left: 0;
+    position: relative;
+    left: 0;
+}
+
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    /*Reset Overrides*/
+    .as-segment-banner-simple {
+        min-width: 0;
+    }
+
+    .as-segment-ribbon {
+        padding: 53px 0 5px;
+    }
+
+    .as-segment-ribbon:last-child {
+        padding: 0 0 20px;
+    }
+
+    .as-segment-ribbon + .as-segment-banner {
+        margin-top: 0;
+    }
+
+    .as-segment-ribbon .as-ribbon-column {
+        padding: 0 0 53px;
+    }
+
+    .as-segment-banner-simple .as-scalableimage-bg {
+        min-height: 465px;
+    }
+
+    .as-segment-banner-simple .as-scalableimage-bg img {
+        margin-left: -368px;
+        min-width: 736px;
+        width: 736px;
+        left: 50%;
+        position: absolute;
+    }
+}
+
+/* Fix for radar <rdar://problem/36062667> BTS W2 - [MOW][AU][EDU][Landing Page]: Mac Product Grid formatting is inconsistent */
+@media only screen and (max-width: 1023px) and (max-device-width:736px) and (orientation : portrait) {
+    .as-productgrid .as-pinwheel-image {
+        min-height: 144px;
+        line-height: 144px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width:736px) and (orientation : landscape) {
+    .as-productgrid .as-pinwheel-image {
+        min-height: 254px;
+        line-height: 254px;
+    }
+}
+
+.as-scalableimage.as-segment-banner .storename {
+    color: #fff;
+}
+
+/* Fix for radar <rdar://problem/49858956> SMB headline not adjusting properly */
+@media only screen and (min-width: 737px) {
+  .as-segment-banner-footer.large-6.small-10.large-centered.small-centered.as-segmentbanner-noheader {
+    width: 745px;
+  }
+}

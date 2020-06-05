@@ -1,0 +1,14 @@
+/* PRETTY SEARCH */
+input.prettysearch { width:200px; height: 16px; background: url(https://www.apple.com/euro/global/elements/prettysearch/searchfield_repeat.png) center top repeat-x; border: 0px; margin: 0; padding: 3px 0 0 0; *padding-left: 10px; font:11px "Lucida Grande", Geneva, Arial, sans-serif; }
+.search-wrapper { position: relative; width: 200px; }
+.search-wrapper input.prettysearch { width: 171px; margin-left: 20px; *margin-top:-1px; *margin-right:-2px; *margin-left:10px; }
+.search-wrapper .left, 
+.search-wrapper .right { behavior:url(https://www.apple.com/global/scripts/lib/iepngfix.htc); }
+.search-wrapper .left { display: block; position: absolute; left: 0; top: 0; width: 20px; height: 19px; background: url(https://www.apple.com/euro/global/elements/prettysearch/searchfield_leftcap.png) left top no-repeat; }
+.search-wrapper .right { display: block; position: absolute; right: 0; top: 0; width: 10px; height: 19px; background: url(https://www.apple.com/euro/global/elements/prettysearch/searchfield_rightcap.png) right top no-repeat; }
+.search-wrapper.empty.blurred input { color: #7e7e7e; }
+.search-wrapper .reset { position: absolute; width: 11px; height: 11px; overflow:hidden; z-index: 1; right: 4px; top: 4px; background: url(https://www.apple.com/euro/global/elements/prettysearch/close.gif); display: block; cursor: pointer; _cursor:hand; }
+.search-wrapper.empty .reset { display: none; }
+label .prettyplaceholder { display: block; overflow: hidden; text-indent: -9999px; height: 0; width: 0;}
+
+input.prettysearch { height: 19px; padding: 3px 10px 1px 20px; background-image:url("https://www.apple.com/euro/global/elements/prettysearch/searchfield_leftcap.png"),url("https://www.apple.com/euro/global/elements/prettysearch/searchfield_rightcap.png"),url("https://www.apple.com/euro/global/elements/prettysearch/searchfield_repeat.png"); background-position: 0 0, 100% 100%, 50% 0; background-size: 20px 19px, 10px 19px, 180px 19px; background-repeat: no-repeat; -webkit-appearance: none; border: none; }

@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Hero Images Component
+========================================================================== */
+.hero {
+  margin: 0 auto;
+  position: relative; }
+  .hero img {
+    display: block;
+    width: 100%; }
+
+.hero--full-width {
+  max-width: none; }
+
+.hero--with-text {
+  color: #fff;
+  position: relative;
+  overflow: hidden; }
+
+.hero--with-text::before {
+  content: "";
+  display: block;
+  padding-top: 59%; }
+
+.hero--with-text > div {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.hero--overlap-text-image {
+  overflow: hidden; }
+
+.hero--overlap-text-image.hero--under-nav {
+	overflow: visible; }
+
+.hero--overlap-text-image .hero__text {
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  position: relative; }
+
+.hero--overlap-text-image .hero__image {
+  margin-top: -40%; }
+  @media only screen and (min-width: 736px) {
+    .hero--overlap-text-image .hero__image {
+      margin-top: -45%; } }
+
+.hero__text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  max-width: 900px;
+  max-width: 50em; }
+
+.hero__text--top-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 2rem; }
+
+.hero__text--bottom-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 2rem; }
+
+.hero__video {
+  position: relative; }
+
+.hero__video video {
+  display: block;
+  position: absolute;
+  width: 100%; }
+
+.hero__video__controls {
+  color: #fff;
+  display: none;
+  bottom: 20px;
+  left: 50%;
+  max-width: 980px;
+  max-width: 54.44444em;
+  padding: 0 2.2rem;
+  position: absolute;
+  text-align: right;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: calc(100% - 4.4rem); }
+
+.hero__video__controls button {
+  font-size: 30px;
+  font-size: 3rem;
+  opacity: 0.65; }
+
+/*** Re-branding Retail ***/
+.hero--under-nav {
+	margin-top: -52px; }
+
+@media only screen and (min-width: 735px) {
+   .hero--under-nav {
+            margin-top: 0; } }
+
+/* hero.css */
+@media only screen and (min-width: 736px) {
+    .theme-careers .hero--overlap-text-image .hero__image {
+      margin-top: -720px; } }
+/* hero.css */
+@media only screen and (max-width: 735px) {
+    .theme-careers .hero--overlap-text-image .hero__image {
+      margin-top: -275px; }
+    .theme-careers .hero--overlap-text-image .hero__image.sub-hero__image {
+      margin-top: -375px; }}
+
+@media only screen and (min-width: 736px) {
+	.theme-careers .hero--overlap-text-image .hero__image.sub-hero__image {
+		margin-top: -485px; } }

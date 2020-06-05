@@ -1,0 +1,172 @@
+/* IE START */
+.ie-only {
+    display: none;
+}
+/* IE END */
+.icon-chevronright:after, .more:after, .icon-external:after {
+    top: -.08em;
+}
+
+.main [data-module-template="promos"] [data-unit-id="arcade-ultimate"] .unit-copy-wrapper .subhead {
+    max-width: 285px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="arcade-ultimate"] .unit-copy-wrapper .subhead {
+        max-width: 260px;
+    }
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="covid-19"] .section-content {
+	padding:0
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .section-content {
+        padding:0
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .section-content {
+        padding:0
+    }
+}
+
+[data-module-template] [data-unit-id] .unit-wrapper .unit-copy-wrapper {
+    z-index: 5;
+}
+
+
+.main [data-module-template="iphone-takeover"] .tile-waterdust > .tile-image {
+    background-image: url("https://www.apple.com/kr/home/f/images/iphone-takeover/water_dust_resistant__buxq48yeb5qq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .main [data-module-template="iphone-takeover"] .tile-waterdust > .tile-image {
+        background-image: url("https://www.apple.com/kr/home/f/images/iphone-takeover/water_dust_resistant__buxq48yeb5qq_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="iphone-takeover"] .tile-waterdust > .tile-image {
+        background-image: url("https://www.apple.com/kr/home/f/images/iphone-takeover/water_dust_resistant__buxq48yeb5qq_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="iphone-takeover"] .tile-waterdust > .tile-image {
+        background-image: url("https://www.apple.com/kr/home/f/images/iphone-takeover/water_dust_resistant__buxq48yeb5qq_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="iphone-takeover"] .tile-waterdust > .tile-image {
+        width: 322px;
+        height: 301px;
+        background-size: 322px 301px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/kr/home/f/images/iphone-takeover/water_dust_resistant__buxq48yeb5qq_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="iphone-takeover"] .tile-waterdust > .tile-image {
+        background-image: url("https://www.apple.com/kr/home/f/images/iphone-takeover/water_dust_resistant__buxq48yeb5qq_small_2x.jpg")
+    }
+}
+
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-tile-aws5 {
+    width: 356px;
+    height: 324px;
+    background-size: 356px 324px;
+    background-image: url("https://www.apple.com/kr/home/f/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-tile-aws5 {
+        background-image: url("https://www.apple.com/kr/home/f/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-tile-aws5 {
+        width: 356px;
+        height: 324px;
+        background-size: 356px 324px;
+        background-image: url("https://www.apple.com/kr/home/f/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-tile-aws5 {
+        background-image: url("https://www.apple.com/kr/home/f/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-tile-aws5 {
+        width: 356px;
+        height: 324px;
+        background-size: 356px 324px;
+        background-image: url("https://www.apple.com/kr/home/f/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-tile-aws5 {
+        background-image: url("https://www.apple.com/kr/home/f/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_small_2x.jpg")
+    }
+}
+
+
+.logo-image-arcade-ultimate-arcade-logo {
+    width: 113px;
+    height: 25px;
+    background-size: 113px 25px;
+    background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/arcade_logo__d8sneywvzz42_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .logo-image-arcade-ultimate-arcade-logo {
+        background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/arcade_logo__d8sneywvzz42_large_2x.png")
+    }
+}
+
+.logo-image-arcade-ultimate-logo {
+    width: 152px;
+    height: 36px;
+    background-size: 152px 36px;
+    background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/logo__dcojfwkzna2q_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .logo-image-arcade-ultimate-logo {
+        background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/logo__dcojfwkzna2q_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .logo-image-arcade-ultimate-logo {
+        width: 120px;
+        height: 28px;
+        background-size: 120px 28px;
+        background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/logo__dcojfwkzna2q_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .logo-image-arcade-ultimate-logo {
+        background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/logo__dcojfwkzna2q_medium_2x.png")
+    }
+}
+
+[data-modal-from="promos-arcade-ultimate"] .modal-notify-content .logo-arcade-ultimate {
+    background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/arcade_logo__d8sneywvzz42_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    [data-modal-from="promos-arcade-ultimate"] .modal-notify-content .logo-arcade-ultimate {
+        background-image: url("https://www.apple.com/kr/home/f/images/logos/arcade-ultimate/arcade_logo__d8sneywvzz42_large_2x.png")
+    }
+}

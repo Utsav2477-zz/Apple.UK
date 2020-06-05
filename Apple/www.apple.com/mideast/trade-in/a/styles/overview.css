@@ -1,0 +1,1678 @@
+#ac-globalnav {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.tabnav {
+  margin: 30px auto;
+}
+
+.ac-gallery {
+  margin: 0 auto;
+}
+
+.gallery-container {
+  position: relative;
+  text-align: center;
+}
+
+.gallery-item {
+  background-color: #fff;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  max-width: 538px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .gallery-item {
+    max-width: 472px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .gallery-item {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .gallery-item {
+    padding: 0 30px;
+  }
+}
+
+.section-content-pricing {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
+
+@media only screen and (max-width: 1068px) and (max-width: 1068px) {
+  .section-content-pricing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-content-pricing {
+    width: 100%;
+  }
+}
+.pricing {
+  margin-top: 602px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .pricing {
+    margin-top: 460px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .pricing {
+    margin-top: 423px;
+  }
+}
+
+.pd-wrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  border-radius: 17px;
+  max-width: 900px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .pd-wrapper {
+    max-width: 693px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .pd-wrapper {
+    max-width: 100%;
+  }
+}
+
+.pd-billboard-info {
+  color: #ccc;
+  padding: 56px 44px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 735px) {
+  .pd-billboard-info {
+    padding: 56px 30px 0;
+  }
+}
+
+.pd-billboard-info .pd-billboard-headline {
+  margin: 0 auto 0.4em;
+  padding-top: 16px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .pd-billboard-info .pd-billboard-headline {
+    max-width: 12em;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .pd-billboard-info .pd-billboard-headline {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+.pd-billboard-info .pd-billboard-copy {
+  max-width: 30em;
+  margin: auto;
+}
+
+@media only screen and (max-width: 735px) {
+  .pd-billboard-info .pd-billboard-copy {
+    text-align: left;
+  }
+}
+
+.pd-billboard-info .pd-billboard-link {
+  padding: 15px 0 71px;
+}
+
+@media only screen and (max-width: 735px) {
+  .pd-billboard-info .pd-billboard-link {
+    padding-top: 0;
+    text-align: left;
+  }
+}
+
+.pd-billboard-table {
+  width: 100%;
+}
+
+.pd-billboard-table-headline {
+  display: table-cell;
+  padding: 0 0 19px 10px;
+  width: 200px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1068px) {
+  .pd-billboard-table-headline {
+    max-width: 12em;
+  }
+}
+
+.pd-billboard-table th {
+  padding-bottom: 11px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.pd-billboard-table th:first-child {
+  padding-left: 0;
+  text-align: left;
+}
+
+.pd-billboard-table tr:first-child td {
+  border-top: none;
+}
+
+.pd-billboard-table td {
+  border-top: 1px solid #d6d6d6;
+  padding: 19px 0;
+  text-align: right;
+  width: 179px;
+  font-weight: 500;
+}
+
+.pd-billboard-table td:first-child {
+  text-align: left;
+}
+
+.give-back-headline.pd-breakout {
+  padding: 0 0 120px;
+}
+
+.pricing-cta {
+  margin-top: 40px;
+}
+
+.image-recycle {
+  width: 46px;
+  height: 44px;
+  background-size: 46px 44px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/recycle_icon_large.png");
+  position: relative;
+  left: 50%;
+  margin-left: -23px;
+  margin-top: 34px;
+  margin-bottom: 17px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-recycle {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/recycle_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-recycle {
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-recycle {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+}
+
+.section-give-back {
+  background-color: #ffffff;
+}
+
+.section-give-back.section {
+  max-width: 100%;
+}
+
+.section-give-back .give-back-headline {
+  text-align: center;
+  padding: 120px 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .give-back-headline {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .give-back-headline {
+    padding: 94px 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .give-back-headline {
+    padding: 62px 0;
+  }
+}
+
+.section-give-back .select-device {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .select-device {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .select-device {
+    margin-top: 54px;
+  }
+}
+
+.section-give-back .contentnav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .contentnav {
+    margin-top: 32px;
+    margin-bottom: 38px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav {
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+.section-give-back .contentnav-content {
+  height: 100%;
+}
+
+.section-give-back .contentnav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav-items {
+    display: block;
+  }
+}
+
+.section-give-back .contentnav-item {
+  border-radius: 4px;
+  border: 1px solid rgba(214, 214, 214, 0.9);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.9);
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  height: 172px;
+  margin: 0 12px;
+  width: 152px;
+  height: 172px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .contentnav-item {
+    margin: 0 11px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav-item {
+    margin: 10px auto;
+    width: 100%;
+    height: 88px;
+  }
+}
+
+.section-give-back .contentnav-item:hover {
+  border-color: #c8c8c8;
+  background-color: #fff;
+}
+
+.section-give-back .image-mac {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mac_icon_large.png");
+  background-size: 65px 65px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-give-back .image-mac {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mac_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-mac {
+    background-size: 40px 40px;
+  }
+}
+
+.section-give-back .image-other_devices {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/other_devices_icon_large.png");
+  background-size: 44px 44px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-give-back .image-other_devices {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/other_devices_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-other_devices {
+    background-size: 30px 30px;
+  }
+}
+
+.section-give-back .image-smartphone {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/smartphone_icon_large.png");
+  background-size: 40px 40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-give-back .image-smartphone {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/smartphone_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-smartphone {
+    background-size: 33px 33px;
+  }
+}
+
+.section-give-back .image-tablet {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/tablet_icon_large.png");
+  background-size: 47px 47px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-give-back .image-tablet {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/tablet_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-tablet {
+    background-size: 35px 35px;
+  }
+}
+
+.section-give-back .image-watch {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/watch_icon_large.png");
+  background-size: 42px 42px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-give-back .image-watch {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/watch_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-watch {
+    background-size: 30px 30px;
+  }
+}
+
+.section-give-back .contentnav-icon {
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  width: 86px;
+  height: 86px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav-icon {
+    width: 62px;
+    height: 62px;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav-icon {
+    float: left;
+    margin-left: 12px;
+  }
+}
+
+.section-give-back .contentnav-cta {
+  color: #0070c9;
+  font-weight: 600;
+  margin: 6px 7px 0;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav-cta {
+    margin-top: 26px;
+    margin-left: 82px;
+    margin-right: 0;
+  }
+}
+
+.section-give-back .contentnav-copy {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .contentnav-copy {
+    margin-left: 82px;
+    margin-top: 2px;
+  }
+}
+
+.section-better-way {
+  background-color: #fafafa;
+}
+
+.section-better-way.section {
+  max-width: 1440px;
+}
+
+.section-better-way .section-content {
+  position: relative;
+  z-index: 10;
+}
+
+.section-better-way .typography-headline-elevated {
+  text-align: center;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-better-way .typography-headline-elevated {
+    text-align: left;
+  }
+}
+
+.section-better-way .callout-top {
+  padding-top: 100px;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-better-way .callout-top {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-better-way .callout-top {
+    padding-top: 40px;
+  }
+}
+
+.section-better-way .callout-bottom {
+  margin-top: -160px;
+  margin-top: -160px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-better-way .callout-bottom {
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-better-way .callout-bottom {
+    margin-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+.section-better-way .better-way-image {
+  width: 1440px;
+  height: 1592px;
+  background-size: 1440px 1592px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/better_way_large.jpg");
+  position: relative;
+  left: 50%;
+  margin-left: -720px;
+  margin-top: -184px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-better-way .better-way-image {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/better_way_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-better-way .better-way-image {
+    width: 1068px;
+    height: 1050px;
+    background-size: 1068px 1050px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/better_way_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-better-way .better-way-image {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/better_way_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-better-way .better-way-image {
+    width: 736px;
+    height: 751px;
+    background-size: 736px 751px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/better_way_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-better-way .better-way-image {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/better_way_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-better-way .better-way-image {
+    left: 50%;
+    margin-left: -534px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-better-way .better-way-image {
+    left: 50%;
+    margin-left: -368px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-better-way .better-way-image {
+    margin-top: -16px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-better-way .better-way-image {
+    margin-top: 88px;
+  }
+}
+
+.section-daisy {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-daisy {
+    text-align: left;
+  }
+}
+
+.section-daisy.section {
+  max-width: 1440px;
+}
+
+.section-daisy .link-padding-top {
+  margin-top: 1.2em;
+}
+
+.section-daisy .help-planet-image {
+  width: 1004px;
+  height: 997px;
+  background-size: 1004px 997px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/help_the_planet_large.jpg");
+  left: 50%;
+  position: relative;
+  margin-top: 52px;
+  margin-left: -169px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-daisy .help-planet-image {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/help_the_planet_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-daisy .help-planet-image {
+    width: 768px;
+    height: 698px;
+    background-size: 768px 698px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/help_the_planet_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-daisy .help-planet-image {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/help_the_planet_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-daisy .help-planet-image {
+    width: 524px;
+    height: 564px;
+    background-size: 524px 564px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/help_the_planet_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-daisy .help-planet-image {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/help_the_planet_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-daisy .help-planet-image {
+    margin-top: 38px;
+    margin-left: -105px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-daisy .help-planet-image {
+    margin-top: 20px;
+    margin-left: -100px;
+  }
+}
+
+.section-trade {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mail_it_large.jpg");
+  background-position: center bottom;
+  text-align: center;
+  background-size: 1440px 1134px;
+  background-color: #f6f6f6;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-trade {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mail_it_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-trade {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mail_it_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-trade {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mail_it_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-trade {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mail_it_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-trade {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mail_it_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-trade {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-trade {
+    background-size: 1068px 952px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-trade {
+    background-size: 736px 852px;
+    background-color: #fefefe;
+  }
+}
+
+.section-trade .section-content {
+  padding-bottom: 745px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-trade .section-content {
+    padding-bottom: 573px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-trade .section-content {
+    padding-bottom: 340px;
+  }
+}
+
+.section-trade .trade-in-headline {
+  padding-top: 142px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-trade .trade-in-headline {
+    padding-top: 110px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-trade .trade-in-headline {
+    padding-top: 79px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-trade .typography-intro {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-trade .typography-intro {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.section-trade.section {
+  max-width: 1440px;
+}
+
+.section-trade .link-padding-top {
+  margin-top: 1.2em;
+}
+
+.section-faqs .section-content {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 38px 22px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-faqs .section-content {
+    padding: 28px 16px;
+  }
+}
+
+.section-faqs #toggle-menu-faqs + label .typography-quote-reduced:after {
+  alt: "";
+  margin: 4px 20px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-faqs #toggle-menu-faqs + label .typography-quote-reduced:after {
+    margin: 2px 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-faqs #toggle-menu-faqs + label .typography-quote-reduced:after {
+    margin: 0;
+  }
+}
+
+.section-faqs .accordion-content {
+  width: 90%;
+}
+
+.section-faqs .accordion-content ol {
+  margin-left: 1.5em;
+}
+
+.section-faqs .link-list {
+  margin: 35px 0;
+}
+
+.section-faqs .link-list ul {
+  list-style: none;
+}
+
+.section-faqs .link-list ul li {
+  padding: 0 2px;
+}
+
+.section-faqs .link-list ul li a:focus {
+  outline-offset: -1px;
+}
+
+.section-faqs #toggle-menu-faqs {
+  display: none;
+}
+
+.section-faqs #toggle-menu-faqs ~ .accordion-content {
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.section-faqs #toggle-menu-faqs + label {
+  display: block;
+  position: relative;
+}
+
+.section-faqs #toggle-menu-faqs + label .typography-quote-reduced {
+  cursor: pointer;
+  padding-right: 30px;
+}
+
+.section-faqs #toggle-menu-faqs + label .typography-quote-reduced:after {
+  font-size: 22px;
+  color: #888888;
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.section-faqs #toggle-menu-faqs + label .btn {
+  margin: 0;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  z-index: -1;
+}
+
+.section-faqs #toggle-menu-faqs + label .btn:focus {
+  width: 25px;
+  height: 33px;
+  margin-right: 17px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-faqs #toggle-menu-faqs + label .btn:focus {
+    margin-right: -3px;
+  }
+}
+
+.section-faqs #toggle-menu-faqs + label .close-btn {
+  display: none;
+}
+
+.section-faqs :target ~ .accordion-content,
+.section-faqs #toggle-menu-faqs:checked ~ .accordion-content {
+  max-height: 12000px !important;
+  visibility: visible !important;
+  padding-bottom: 2px;
+}
+
+.section-faqs :target + label .close-btn,
+.section-faqs #toggle-menu-faqs:checked + label .close-btn {
+  display: block !important;
+}
+
+.section-faqs :target + label .open-btn,
+.section-faqs #toggle-menu-faqs:checked + label .open-btn {
+  display: none !important;
+}
+
+.section-faqs :target + label .typography-quote-reduced:after,
+.section-faqs
+  #toggle-menu-faqs:checked
+  + label
+  .typography-quote-reduced:after {
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+}
+
+.section-faqs .faq-item {
+  margin-top: 1.5em;
+}
+
+.section-recycle .section-content {
+  padding: 38px 22px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-recycle .section-content {
+    padding: 28px 16px;
+  }
+}
+
+.section-recycle .border-top-only {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #d6d6d6;
+}
+
+.section-recycle #toggle-menu + label .typography-quote-reduced:after {
+  alt: "";
+  margin: 4px 20px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-recycle #toggle-menu + label .typography-quote-reduced:after {
+    margin: 2px 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-recycle #toggle-menu + label .typography-quote-reduced:after {
+    margin: 0;
+  }
+}
+
+.section-recycle .accordion-content {
+  width: 90%;
+}
+
+.section-recycle .link-list {
+  margin: 35px 0;
+}
+
+.section-recycle .link-list ul {
+  list-style: none;
+}
+
+.section-recycle .link-list ul li {
+  padding: 0 2px;
+}
+
+.section-recycle .link-list ul li a:focus {
+  outline-offset: -1px;
+}
+
+.section-recycle #toggle-menu {
+  display: none;
+}
+
+.section-recycle #toggle-menu ~ .accordion-content {
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.section-recycle #toggle-menu + label {
+  display: block;
+  position: relative;
+}
+
+.section-recycle #toggle-menu + label .typography-quote-reduced {
+  cursor: pointer;
+  padding-right: 30px;
+}
+
+.section-recycle #toggle-menu + label .typography-quote-reduced:after {
+  font-size: 22px;
+  color: #888888;
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.section-recycle #toggle-menu + label .btn {
+  margin: 0;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  z-index: -1;
+}
+
+.section-recycle #toggle-menu + label .btn:focus {
+  width: 25px;
+  height: 33px;
+  margin-right: 17px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-recycle #toggle-menu + label .btn:focus {
+    margin-right: -3px;
+  }
+}
+
+.section-recycle #toggle-menu + label .close-btn {
+  display: none;
+}
+
+.section-recycle :target ~ .accordion-content,
+.section-recycle #toggle-menu:checked ~ .accordion-content {
+  max-height: 3000px !important;
+  visibility: visible !important;
+  padding-bottom: 2px;
+}
+
+.section-recycle :target + label .close-btn,
+.section-recycle #toggle-menu:checked + label .close-btn {
+  display: block !important;
+}
+
+.section-recycle :target + label .open-btn,
+.section-recycle #toggle-menu:checked + label .open-btn {
+  display: none !important;
+}
+
+.section-recycle :target + label .typography-quote-reduced:after,
+.section-recycle #toggle-menu:checked + label .typography-quote-reduced:after {
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+}
+
+.section-recycle .recycle-content {
+  margin-top: 2em;
+}
+
+.section-recycle .recycle-content ul {
+  list-style: none;
+}
+
+.section-give-back .image-hero {
+  width: 2560px;
+  height: 1530px;
+  background-size: 2560px 1530px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/hero_large.jpg");
+  position: relative;
+  left: 50%;
+  margin-left: -1280px;
+  position: absolute;
+  top: -46px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-give-back .image-hero {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/hero_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .image-hero {
+    width: 1068px;
+    height: 1163px;
+    background-size: 1068px 1163px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/hero_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-give-back .image-hero {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/hero_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-hero {
+    width: 736px;
+    height: 884px;
+    background-size: 736px 884px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/hero_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-give-back .image-hero {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/hero_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .image-hero {
+    left: 50%;
+    margin-left: -534px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-hero {
+    left: 50%;
+    margin-left: -368px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-give-back .image-hero {
+    top: -6px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-give-back .image-hero {
+    top: 0;
+  }
+}
+
+/*section gift-card*/
+.section-gift-card {
+  max-width: 1440px;
+  background: #f2f2f2;
+  padding-top: 100px;
+  padding-bottom: 114px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card {
+    padding-top: 77px;
+    padding-bottom: 83px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card {
+    padding-top: 45px;
+    padding-bottom: 47px;
+  }
+}
+
+.section-gift-card .gift-card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .gift-card-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.section-gift-card .gift-card-copy {
+  width: 50%;
+  text-align: left;
+  margin-left: 47px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .gift-card-copy {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin: 35px 0 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .gift-card-copy {
+    text-align: left;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .gift-card-headline {
+    max-width: 16em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .gift-card-headline {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.section-gift-card .gift-card-intro {
+  margin-top: 1em;
+  max-width: 21.1em;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .gift-card-intro {
+    margin: 1.2em auto 0;
+    max-width: 29em;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .gift-card-intro {
+    margin-top: 1.3em;
+    max-width: 100%;
+  }
+}
+
+.section-gift-card .image-gift-card {
+  width: 377px;
+  height: 246px;
+  background-size: 377px 246px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/apple_card_large.png");
+  position: relative;
+  margin-right: 23px;
+  top: 3px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-gift-card .image-gift-card {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/apple_card_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .image-gift-card {
+    width: 226px;
+    height: 148px;
+    background-size: 226px 148px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/apple_card_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-gift-card .image-gift-card {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/apple_card_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-gift-card {
+    width: 297px;
+    height: 196px;
+    background-size: 297px 196px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/apple_card_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-gift-card .image-gift-card {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/apple_card_small_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .image-gift-card {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    position: static;
+    margin: 0;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-gift-card {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 47px;
+  }
+}
+
+.section-gift-card .select-device {
+  margin-top: 87px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .select-device {
+    margin-top: 54px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .select-device {
+    margin-top: 44px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .select-device .select-device-label {
+    max-width: 11.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.section-gift-card .contentnav {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .contentnav {
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav {
+    margin-top: 39px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav {
+    text-align: left;
+  }
+}
+
+.section-gift-card .contentnav-content {
+  height: 100%;
+}
+
+.section-gift-card .contentnav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav-items {
+    display: block;
+  }
+}
+
+.section-gift-card .contentnav-item {
+  border-radius: 4px;
+  border: 1px solid rgba(214, 214, 214, 0.9);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.9);
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  height: 172px;
+  margin: 0 12px;
+  width: 152px;
+  height: 172px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-gift-card .contentnav-item {
+    margin: 0 11px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav-item {
+    margin: 10px auto;
+    width: 100%;
+    height: 88px;
+  }
+}
+
+.section-gift-card .contentnav-item:hover {
+  border-color: #c8c8c8;
+  background-color: #fff;
+}
+
+.section-gift-card .image-mac {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mac_icon_large.png");
+  background-size: 65px 65px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-gift-card .image-mac {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/mac_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-mac {
+    background-size: 40px 40px;
+  }
+}
+
+.section-gift-card .image-other_devices {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/other_devices_icon_large.png");
+  background-size: 44px 44px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-gift-card .image-other_devices {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/other_devices_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-other_devices {
+    background-size: 30px 30px;
+  }
+}
+
+.section-gift-card .image-smartphone {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/smartphone_icon_large.png");
+  background-size: 40px 40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-gift-card .image-smartphone {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/smartphone_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-smartphone {
+    background-size: 33px 33px;
+  }
+}
+
+.section-gift-card .image-tablet {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/tablet_icon_large.png");
+  background-size: 47px 47px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-gift-card .image-tablet {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/tablet_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-tablet {
+    background-size: 35px 35px;
+  }
+}
+
+.section-gift-card .image-watch {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/watch_icon_large.png");
+  background-size: 42px 42px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-gift-card .image-watch {
+    background-image: url("https://www.apple.com/mideast/trade-in/a/images/overview/trade-in/watch_icon_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .image-watch {
+    background-size: 30px 30px;
+  }
+}
+
+.section-gift-card .contentnav-icon {
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  width: 86px;
+  height: 86px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav-icon {
+    width: 62px;
+    height: 62px;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav-icon {
+    float: left;
+    margin-left: 12px;
+  }
+}
+
+.section-gift-card .contentnav-cta {
+  color: #0070c9;
+  font-weight: 600;
+  margin: 6px 7px 0;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav-cta {
+    margin-top: 26px;
+    margin-left: 82px;
+    margin-right: 0;
+  }
+}
+
+.section-gift-card .contentnav-copy {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-gift-card .contentnav-copy {
+    margin-left: 82px;
+    margin-top: 2px;
+  }
+}
+
+/*section gift-card end*/

@@ -1,0 +1,38 @@
+/*
+ * All Internet Explorer
+ */
+/*
+ * IE10 / 11
+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /*
+   * Forms
+   */
+  select {
+    background: none;
+    padding-right: 10px; }
+  a.drop-down-trigger {
+    background-size: 11px 6px; }
+  .component--map__regular,
+  .component--map__mobile {
+    display: none !important; }
+  .component--map__ie {
+    display: block !important; }
+  /*
+   * Cards
+   */
+  .card .button-section,
+  .card-content__mask {
+    display: none; }
+  .card-content {
+    display: block;
+    position: relative;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none; }
+  .card-content__inner {
+    padding-top: 2rem; } }
+
+/*
+ * IE10
+ */

@@ -1,0 +1,84 @@
+ /* ==========================================================================
+  Twitter Typeahead search
+========================================================================== */
+
+.twitter-typeahead {
+  width: 100%;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.tt-menu {
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  padding: 0 15px 15px;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tt-input {
+  background: #fff;
+  font-size: 1.8rem;
+  padding: 9px 0 6px;
+  text-align: left;
+  width: 100%;
+}
+
+.tt-dataset {
+  padding: 3px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.tt-dataset.tt-is-under-cursor {
+  color: #fff;
+  background-color: #0097cf;
+}
+
+.tt-dataset p {
+  margin: 0;
+}
+
+.tt-dataset a {
+  background: no-repeat 5px 8px;
+  background-image: url(https://www.apple.com/jobs/css/etc/designs/apple/images/icons/search-grey.svg);
+  background-size: 14px 14px;
+  color: #737373;
+  display: block;
+  margin: 3px 0;
+  padding: 4px 20px 1px 30px;
+}
+
+.tt-dataset a:hover {
+  background-color: #f8f8f8;
+  background-image: url(https://www.apple.com/jobs/css/etc/designs/apple/images/icons/search-blue.svg);
+  color: #08c;
+  text-decoration: none;
+}
+
+.tt-dataset a:visited {
+  color: #737373; }
+
+a.tt-cursor {
+  background-color: #f8f8f8;
+  color: #0070c9;
+  background-image: url(https://www.apple.com/jobs/css/etc/designs/apple/images/icons/search-blue.svg);
+}
+
+/* Autosuggest override. */
+.form-auto-suggest {
+  margin-bottom: 0px;
+}
+
+/* Autosuggest override. */
+.form-auto-suggest input[type="text"] {
+  background-image: none;
+}

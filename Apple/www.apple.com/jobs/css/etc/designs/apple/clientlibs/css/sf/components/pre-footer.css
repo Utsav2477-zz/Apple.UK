@@ -1,0 +1,217 @@
+/* ==========================================================================
+  Pre-Footer Component
+========================================================================== */
+.pre-footer {
+  margin-bottom: 2rem;
+  text-align: center; }
+  @media only screen and (max-width: 735px) {
+    .pre-footer {
+      margin-bottom: 0;
+      margin-left: -2.2rem;
+      margin-right: -2.2rem; } }
+
+@media only screen and (max-width: 735px) {
+  .pre-footer--mobile-bk {
+    padding: 4rem 2.2rem 0.1px; } }
+
+.pre-footer--mobile-bk.pre-footer--with-footer {
+  padding-bottom: 0; }
+
+@media only screen and (max-width: 735px) {
+  .pre-footer--text-only {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; } }
+
+.pre-footer--text-only.pre-footer--margin-top {
+  margin-top: 7rem; }
+
+.pre-footer--margin-top {
+  margin-top: 6rem; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer--margin-top {
+      margin-top: 9rem; } }
+@media only screen and (min-width: 736px) {
+	.theme-dark .pre-footer--margin-top {
+		margin-top: 9.7rem; } }
+
+.pre-footer > div {
+  margin: 3rem 2.2rem 7rem; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer > div {
+      margin: 7rem auto 7rem;
+      max-width: 580px; } }
+@media only screen and (min-width: 736px) {
+	.theme-dark .pre-footer > div {
+		max-width: 840px;
+		max-width: 84rem;
+		margin: 9.9rem auto 5.5rem; } }
+		
+@media only screen and (max-width: 735px) {
+  .pre-footer--text-only > div {
+    margin-left: 0;
+    margin-right: 0; } }
+
+.pre-footer--mobile-bk > div {
+  margin: 3rem 0 5.2rem; }
+  @media only screen and (max-width: 735px) {
+    .pre-footer--mobile-bk > div {
+      margin-top: 0; } }
+  @media only screen and (min-width: 736px) {
+    .pre-footer--mobile-bk > div {
+      margin-left: auto;
+      margin-right: auto; } }
+
+.pre-footer__icons {
+  bottom: 1.4rem;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  @media only screen and (max-width: 735px) {
+    .pre-footer__icons {
+      padding: 0 2rem; } }
+  .pre-footer__icons::before {
+    background: #333333;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%; }
+
+@supports (display: flex) {
+  .pre-footer__icons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .pre-footer__icons::after {
+      background: #333333;
+      content: "";
+      display: block;
+      height: 1px;
+      width: 100%; } }
+
+.pre-footer .pre-footer__icons + div {
+  margin-top: 3rem; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer .pre-footer__icons + div {
+      margin-top: 2rem; } }
+
+@media only screen and (max-width: 735px) {
+  .pre-footer--mobile-bk .pre-footer__icons {
+    display: none; } }
+
+.pre-footer__icons li {
+  bottom: 1.4rem;
+  display: inline-block;
+  font-size: 0px;
+  font-size: 0rem;
+  position: relative; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer__icons li {
+      bottom: 2rem; } }
+
+.pre-footer__icons li + li {
+  margin-left: -4px; }
+
+.pre-footer__icons li a {
+  background: #fff;
+  color: inherit;
+  display: inline-block;
+  padding: 0 .875rem;
+  font-size: 20px;
+  font-size: 2rem; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer__icons li a {
+      font-size: 27px;
+      font-size: 2.7rem;
+      padding: 0 1.25rem; } }
+
+.pre-footer__icons li:first-child a {
+  padding-left: 1.75rem; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer__icons li:first-child a {
+      padding-left: 2.5rem; } }
+
+.pre-footer__icons li:last-child a {
+  padding-right: 1.75rem; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer__icons li:last-child a {
+      padding-right: 2.5rem; } }
+
+.pre-footer p {
+  margin: 0;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.26; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer p {
+      font-size: 19px;
+      font-size: 1.9rem; } }
+.theme-dark .pre-footer p {
+	font-size: 17px;
+	font-size: 1.7rem;
+	font-weight: 600;
+	line-height: 23px;
+	color: #cccccc;
+	padding-bottom: 25px; }
+	@media only screen and (min-width: 736px) {
+		.theme-dark .pre-footer p {
+			font-size: 27px;
+			font-size: 2.7rem;
+			line-height: 30px;
+			letter-spacing: .03em; } }
+		
+@media only screen and (max-width: 735px) {
+  .pre-footer--mobile-bk div > p {
+    color: #fff; } }
+
+.pre-footer--normal p {
+  font-weight: 400; }
+  @media only screen and (min-width: 736px) {
+    .pre-footer--normal p {
+      font-size: 19px;
+      font-size: 1.9rem; } }
+
+.pre-footer--normal a {
+  display: inline-block;
+  margin-top: 10px; }
+
+.theme-dark .pre-footer p strong {
+	color: #ffffff; }
+
+@media only screen and (max-width: 735px) {
+  .pre-footer p strong.pre-footer__mobile-block,
+  .pre-footer p a {
+    display: block;
+    margin: 1rem 0; } }
+@media only screen and (max-width: 735px) {
+	.theme-dark .pre-footer p strong.pre-footer__mobile-block {
+		display: inline; } }
+
+@media only screen and (max-width: 735px) {
+	.theme-dark .pre-footer p a {
+		margin: 0; } }
+@media only screen and (min-width: 736px) {
+	.theme-dark .pre-footer p a {
+		line-height: 50px; } }	
+		
+@media only screen and (max-width: 735px) {
+  .pre-footer--mobile-bk div > p a {
+    color: inherit;
+    font-weight: 400; } }
+
+.pre-footer p + p {
+  margin-top: 3rem; }
+
+.pre-footer footer {
+  margin-top: 3rem; }
+  @media only screen and (max-width: 735px) {
+    .pre-footer footer {
+      margin: 4rem -2.2rem;
+      padding: 1.5rem 2.2rem 1rem; } }
+
+@media only screen and (max-width: 735px) {
+  .pre-footer footer p a {
+    margin: 0; } }

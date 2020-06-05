@@ -1,0 +1,125 @@
+.logos {
+	 margin-left:-20px;
+}
+
+html, body { background-color: #F5F6F7; }
+
+#productheader h1 a { background: url("https://www.apple.com/euro/cemea/buy/images/product_title20090909.png") no-repeat scroll 0 0 transparent;  height: 32px; width: 186px; }
+
+#main { margin: 0 auto -18px; min-width: 982px; overflow: hidden; position: static; width: 100%; }
+
+#buy #shop_online { height: 381px; margin: 2px auto 12px; overflow: hidden; padding: 0; position: relative; width: 980px; z-index: 1; }
+
+#shop_online .wheretobuy { margin: 106px 60px 0; width: 324px; font-size: 16px; line-height: 20px; color: #9c9c9c;}
+#shop_online h1 { margin-bottom: 10px; }
+.column.last { float: right !important; }
+#shop_online img.left { float: left; margin: 47px 34px 37px 59px; }
+
+#buy #bugs h1, h2 { margin-bottom: 5px; }
+
+#buy #bugs { margin: 0 auto 10px; padding: 0; width: 980px; font-size: 12px; }
+#buy #bugs .grid2col .column:nth-child(n) { border: medium none; }
+#buy #bugs .grid2col .column {-moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none;  -moz-border-top-colors: none; background: #FFFFFF; border-color: #E5E5E5 #DBDBDB #D2D2D2; border-radius: 5px 5px 5px 5px; border-style: solid; border-width: 1px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); margin-bottom: 1px; padding: 23px; position: relative; width: 438px; z-index: 0;  min-height: 464px; }
+
+#bugs #wtb ul.logos { margin-top: 10px; margin-left: 70px;}
+#bugs #wtb ul.logos li { display: inline-block; vertical-align: top; width: 160px; margin-right: 35px;}
+#bugs #wtb ul.logos li.copy { display: inline-block; vertical-align: top; width: 200px; margin-right: 0px;}
+
+#bugs #reseller { height:82px; }
+#bugs #reseller a#mylocation { font-size:11px; }
+#bugs #reseller #goBuy { display: inline; float: right; height: 20px; margin-right: -2px; margin-top: 9px; width: 34px; }
+#bugs #reseller #viaProduct { width:200px; margin-top:8px; }
+#bugs #reseller .first { float:left; margin: 10px 0px; width:170px; }
+#bugs #reseller .last { float:right; width:240px; margin: 8px 0px 12px 0; }
+#bugs #reseller img.mac { margin: 20px 0px 15px 0px; }
+#bugs #reseller ul.logos li { display: inline-block; vertical-align: top; padding-left:20px; }
+
+
+#bugs #iphone ul.logos li.first { display: inline-block; vertical-align: top; width: 80px; margin-left: -44px; margin:0px;}
+#bugs #iphone ul.logos li { display: inline-block; vertical-align: top; padding-left:20px; }
+#bugs #iphone ul.logos li.copy { display: inline-block; vertical-align: top; width: 200px; }
+#buy #contacts { margin: 0 auto; padding: 0; width: 980px; }
+#bugs #iphone img.iphone { margin: 12px 0px 23px 109px; }
+#bugs #iphone ul.logos li.logo1 { border-left:none; }
+#bugs #iphone ul.first { float: left; margin-right:65px; width: 120px; margin-top: 10px; }
+
+.reseller p { margin-top: 18px; }
+
+#bugs #iphone ul.logos li.logo1#zain { margin-top: -7px; }
+
+/*IE fix*/
+
+#buy #bugs .grid2col .column { *min-height: 480px; }
+#bugs #reseller #goBuy { *margin-top: -30px; *width: 34px; }
+#bugs #iphone ul.logos li { *display: inline; *margin-right: 0px;}
+#bugs #iphone ul.logos li.first, #bugs #reseller ul.logos li { *display: inline; *margin-left: 0px;}
+#bugs #iphone ul.logos li.copy { *display: inline; *width: 200px; }
+.search-wrapper input.prettysearch { *padding-left: 10px; }
+
+
+form#poiForm { width: 240px; height:200px; margin-top: 0px; margin-left: 0px; margin: 8px 20px 12px 0; _padding-left: 20px; *padding-left: 20px; _margin-left: 0px; *margin-left: 0px; }
+form#poiForm select { width: 200px; font-size: 11px; position: relative; margin: 10px 0;}
+
+input.prettysearch {
+    background-size: 20px 20px, 12px 20px, 180px 20px;
+    background-position: 0 0, 100% 1%, 48% 0;
+    height: 20px;
+    padding:﻿3px 10px 1px 20px;
+}
+input::-webkit-textfield-decoration-container {
+	display: block;
+    margin-left: 5px
+}
+input::-webkit-search-results-decoration {
+	display: none;
+}
+
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){  
+	input.prettysearch {
+		background-size: 20px 20px, 12px 20px, 180px 20px;
+		padding:﻿0px 10px 1px 20px;
+		width: 170px;
+	}
+	.left,
+	.right,
+	.reset{
+		display: none;
+	}
+	.search-wrapper input.prettysearch {
+		margin-left: 0;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+ 	input.prettysearch { padding: 10px 10px 9px 20px; border: none;}
+}
+
+
+
+@media only screen and (max-device-width: 768px) {
+    #bugs input#resellersearch.reseller.prettysearch {
+        padding: 10px 10px 10px 20px;
+        background-position: 0 0, 100% 0, 50% 0;
+        width: 200px;
+    }
+}
+/* FF fixes */
+@-moz-document url-prefix(){
+	.search-wrapper input.prettysearch{
+	margin-left: 0;
+	height: 16px;
+	}
+	input.prettysearch {
+    background-size: 20px 20px, 12px 20px, 180px 20px;
+    background-position: 0 0, 100% 1%, 48% 0;
+    height: 20px;
+    padding:﻿1px 10px 1px 20px;
+    width: 170px;
+}
+}
+
+
+/* end FF fixes */
+
+
+

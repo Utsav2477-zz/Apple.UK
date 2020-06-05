@@ -1,0 +1,507 @@
+/*Font-size fixed*/
+.main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper>*.subhead:lang(th) {
+	  font-size: 27px;
+    line-height: 1.25;
+}
+
+@media only screen and (max-width: 1068px) {
+	  .main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper>*.subhead:lang(th) {
+	      font-size:24px;
+        line-height: 1.25;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+	  .main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper>*.subhead:lang(th) {
+	      font-size:19px;
+        line-height: 1.25;
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .subhead:lang(th){
+	line-height: 1.3;
+}
+
+/*iphone 11 hero*/
+@media only screen and (max-width: 735px){
+.fixed-margin-top-small {
+	  margin-top: 11px !important;
+}
+}
+
+/* macOS tile START from /v/ version EJ */
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-macos-tile {
+	width: 1262px;
+	height: 580px;
+	background-size: 1262px 580px;
+	background-image: url("https://www.apple.com/th/home/images/promos/macos/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-macos-tile {
+		background-image: url("https://www.apple.com/th/home/images/promos/macos/tile__cauwwcyyn9hy_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-macos-tile {
+		width: 516px;
+		height: 490px;
+		background-size: 516px 490px;
+		background-image: url("https://www.apple.com/th/home/images/promos/macos/tile__cauwwcyyn9hy_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-macos-tile {
+		background-image: url("https://www.apple.com/th/home/images/promos/macos/tile__cauwwcyyn9hy_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-macos-tile {
+		width: 736px;
+		height: 500px;
+		background-size: 736px 500px;
+		background-image: url("https://www.apple.com/th/home/images/promos/macos/tile__cauwwcyyn9hy_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-macos-tile {
+		background-image: url("https://www.apple.com/th/home/images/promos/macos/tile__cauwwcyyn9hy_small_2x.jpg")
+	}
+}
+
+/* macOS tile END */
+/*Fixed hero height for trade-in copy*/
+@media screen and (max-height: 1442000px) and (max-width: 1442000px) and (min-height: 776px) and (min-width: 1442px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 748px;
+}
+}
+
+@media screen and (max-height: 775px) and (max-width: 1442000px) and (min-height: 0px) and (min-width: 1442px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 630px;
+}
+}
+
+@media screen and (max-height: 775px) and (max-width: 1441px) and (min-height: 0px) and (min-width: 1069px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 630px;
+}
+}
+
+@media screen and (max-height: 1442000px) and (max-width: 767px) and (min-height: 734px) and (min-width: 736px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 700px;
+}
+}
+
+@media screen and (max-height: 1442000px) and (max-width: 1441px) and (min-height: 776px) and (min-width: 1069px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 732px;
+}
+}
+
+@media screen and (max-height: 1442000px) and (max-width: 1068px) and (min-height: 734px) and (min-width: 768px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 700px;
+}
+}
+
+@media screen and (max-height: 733px) and (max-width: 1068px) and (min-height: 0px) and (min-width: 768px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+--content-height: 629px;
+}
+}
+
+@media screen and (max-height: 733px) and (max-width: 767px) and (min-height: 0px) and (min-width: 736px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"], .main [data-module-template="heroes"] [data-unit-id="iphone-11-pro"] {
+	  --content-height: 629px;
+}
+}
+
+@media screen and (max-height: 733px) and (max-width: 1068px) and (min-height: 0px) and (min-width: 768px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"] {
+--content-height: 629px;
+}
+}
+
+@media screen and (max-width: 735px) and (min-width: 0px){
+.main [data-module-template="heroes"] [data-unit-id="iphone-11"] {
+	  --content-height: 560px;
+}
+}
+
+/* End Fixed hero height for trade-in copy*/
+@media only screen and (max-width: 1068px){
+.main [data-module-template="promos"] [data-unit-id="apple-watch-studio"] .unit-copy-wrapper .subhead {
+	  width: 232px;
+}
+}
+
+@media only screen and (max-width: 1068px){
+.main [data-module-template="promos"] [data-unit-id="ipad"] .unit-copy-wrapper .subhead {
+	  max-width: 247px;
+}
+}
+
+@media only screen and (max-width: 374px) {
+.main [data-module-template="promos"] [data-unit-id="watch-series-5"] .unit-image-wrapper {
+	  height: 110%;
+}
+}
+
+.main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .headline, .main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .subhead, .main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .cta {
+	max-width: 440px;
+}
+
+@media only screen and (min-width: 1069px) {
+	.main [data-module-template="tv-plus-takeover"] .playing-everywhere .tv-plus-info .column .inner {
+		width: 375px;
+	}
+}
+
+.main [data-module-template="promos"] [data-unit-id="apple-watch-studio"] .unit-copy-wrapper .headline{
+	line-height: 1.3;
+}
+
+.main [data-module-template="heroes"] [data-unit-id="holiday-2019"] .unit-copy-wrapper .headline:lang(th) {
+	line-height: 1.0;
+}
+
+/* Privacy */
+.main
+  [data-module-template="promos"]
+  [data-unit-id="privacy"]
+  .unit-copy-wrapper {
+	height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.main
+  [data-module-template="promos"]
+  [data-unit-id="privacy"]
+  .unit-copy-wrapper
+  .headline:lang(th) {
+	font-size: 80px;
+  line-height: 1.05;
+  margin-top: 11px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.main
+    [data-module-template="promos"]
+    [data-unit-id="privacy"]
+    .unit-copy-wrapper
+    .headline:lang(th) {
+	  font-size: 64px;
+    line-height: 1.0625;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+	.main
+    [data-module-template="promos"]
+    [data-unit-id="privacy"]
+    .unit-copy-wrapper
+    .headline:lang(th) {
+	  font-size: 64px;
+    line-height: 1.0625;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+	.main
+    [data-module-template="promos"]
+    [data-unit-id="privacy"]
+    .unit-copy-wrapper
+    .headline {
+	  margin-top: 9px;
+  }
+}
+
+.main
+  [data-module-template="promos"]
+  [data-unit-id="privacy"]
+  .unit-copy-wrapper
+  .subhead {
+	color: #888;
+}
+
+.main
+  [data-module-template="promos"]
+  [data-unit-id="privacy"]
+  .unit-copy-wrapper
+  .subhead
+  br.large-hide {
+	display: none;
+}
+
+@media only screen and (max-width: 1068px) {
+	.main
+    [data-module-template="promos"]
+    [data-unit-id="privacy"]
+    .unit-copy-wrapper
+    .subhead
+    br.large-hide {
+	  display: block;
+  }
+}
+
+.main [data-module-template="promos"] [data-unit-id="privacy"] .unit-copy-wrapper .headline:lang(th) {
+	  font-size: 80px;
+    line-height: 1.05;
+    margin-top: 11px
+}
+
+@media only screen and (max-width: 1068px) {
+	  .main [data-module-template="promos"] [data-unit-id="privacy"] .unit-copy-wrapper .headline:lang(th) {
+	      font-size: 64px;
+        line-height: 1.0625;
+	}
+}
+
+.logo-image-privacy-logo {
+	width: 56px;
+	height: 75px;
+	background-size: 56px 75px;
+	background-repeat: no-repeat;
+	background-image: url("https://www.apple.com/v/home/eq/images/logos/privacy/logo__dcojfwkzna2q_large.png");
+	background-position: center;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx),
+	(-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi) {
+	.logo-image-privacy-logo {
+	  background-image: url("https://www.apple.com/v/home/eq/images/logos/privacy/logo__dcojfwkzna2q_large_2x.png");
+	}
+
+  }
+
+  @media only screen and (max-width: 1068px) {
+	.logo-image-privacy-logo {
+	  width: 45px;
+	  height: 61px;
+	  background-size: 45px 61px;
+	  background-repeat: no-repeat;
+	  background-image: url("https://www.apple.com/v/home/eq/images/logos/privacy/logo__dcojfwkzna2q_medium.png");
+	}
+
+  }
+
+  @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.logo-image-privacy-logo {
+	  background-image: url("https://www.apple.com/v/home/eq/images/logos/privacy/logo__dcojfwkzna2q_medium_2x.png");
+	}
+
+  }
+
+  @media only screen and (max-width: 735px) {
+	.logo-image-privacy-logo {
+	  width: 45px;
+	  height: 61px;
+	  background-size: 45px 61px;
+	  background-repeat: no-repeat;
+	  background-image: url("https://www.apple.com/v/home/eq/images/logos/privacy/logo__dcojfwkzna2q_small.png");
+	}
+
+  }
+
+  @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+	.logo-image-privacy-logo {
+	  background-image: url("https://www.apple.com/v/home/eq/images/logos/privacy/logo__dcojfwkzna2q_small_2x.png");
+	}
+
+  }
+
+[data-module-template] [data-unit-id="privacy"] .unit-wrapper.theme-dark {
+	  background:#000000
+}
+
+  /*END Privacy */
+@media only screen and (min-width: 1069px) {
+	  .main [data-module-template="promos"] [data-unit-id="tv-plus"] .unit-copy-wrapper .subhead {
+	    max-width: 455px;
+    }
+}
+
+
+/*WAD*/
+.main [data-module-template="heroes"] [data-unit-id="world-aids-day"] .unit-copy-wrapper>*.headline:lang(th) {
+    line-height: 1.1;
+}
+
+
+@media only screen and (max-width: 735px){
+.main [data-module-template="heroes"] [data-unit-id="world-aids-day"] .unit-copy-wrapper>*.subhead:lang(th) {
+    margin-top: 8px;
+}
+}
+
+/* =================== Best of 2019 ====================== */
+.logo-image-best-of-2019-logo {
+	width: 240px;
+  height: 72px;
+  background-size: 240px 72px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/th/home/images/logos/best-of-2019/logo__dcojfwkzna2q_large.png");
+  background-position:center
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+	.logo-image-best-of-2019-logo {
+	    background-image: url("https://www.apple.com/th/home/images/logos/best-of-2019/logo__dcojfwkzna2q_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+	.logo-image-best-of-2019-logo {
+	    width: 197px;
+      height: 57px;
+      background-size: 197px 57px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/th/home/images/logos/best-of-2019/logo__dcojfwkzna2q_medium.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.logo-image-best-of-2019-logo {
+	    background-image: url("https://www.apple.com/th/home/images/logos/best-of-2019/logo__dcojfwkzna2q_medium_2x.png")
+  }
+}
+
+@media only screen and (max-width: 734px) {
+	.logo-image-best-of-2019-logo {
+	    width: 192px;
+      height: 65px;
+      background-size: 192px 65px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/th/home/images/logos/best-of-2019/logo__dcojfwkzna2q_small.png")
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.logo-image-best-of-2019-logo {
+	    background-image: url("https://www.apple.com/th/home/images/logos/best-of-2019/logo__dcojfwkzna2q_small_2x.png")
+  }
+}
+
+/* =================== END Best of 2019 ====================== */
+
+/* pro-avail.built.inc */
+.main [data-module-template="promos"] [data-unit-id="holiday-tv"] .unit-copy-wrapper .headline {
+    margin-top: 15px;
+}
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="promos"] [data-unit-id="holiday-tv"] .unit-copy-wrapper .headline {
+		margin-top: 10px;
+	}
+}
+
+/* Woman Behind The Mac */
+.main [data-module-template="behind-the-mac-takeover"] [data-unit-id="more-programs"] .unit-wrapper .unit-copy-wrapper {
+	grid-template-columns: auto;
+}
+.main [data-module-template="behind-the-mac-takeover"] [data-unit-id="hero"] .unit-wrapper .unit-copy-wrapper .headline-sliding-text:lang(th) {
+	margin-top: 8px;
+}
+.theme-dark .modal.modal-full-viewport .modal-close {
+	padding-top: 2px;
+}
+i:lang(th) {
+	font-style: italic;
+}
+
+/* Asterisk footnote */
+.main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .cta-links a:not(:only-child):not(:first-child).footnote {
+	margin-left: 0;
+}
+
+/* Asterisk link color */
+.main [data-module-template="promos"] [data-unit-id="arcade-spyder"] .unit-copy-wrapper .cta-links a:not(:only-child):not(:first-child) {
+	display: inline;
+	color:#2997ff;
+}
+
+html.touch .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .module-content .ribbon-covid-19-desktop {
+    display: none;
+}
+
+html.no-touch .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .module-content .ribbon-covid-19-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 1069px) {
+	html .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .module-content .ribbon-covid-19-desktop {
+		display: block;
+	}
+
+	html .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .module-content .ribbon-covid-19-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	html .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .module-content .ribbon-covid-19-desktop {
+		display: none;
+	}
+
+	html .main [data-module-template="ribbon"] [data-unit-id="covid-19"] .module-content .ribbon-covid-19-mobile {
+		display: block;
+	}
+}
+
+/* Fix D79 logo */
+@media only screen and (min-width: 1069px) {
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-headline-line {
+		line-height: 84px;
+	}
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-pricing:lang(th) {
+		line-height: 36px;
+	}
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-cta:lang(th) {
+		line-height: 23px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-headline-line {
+		line-height: 60px;
+	}
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-pricing:lang(th) {
+		line-height: 36px;
+	}
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-cta:lang(th) {
+		line-height: 23px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-headline-line {
+		line-height: 52px;
+	}
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-pricing:lang(th) {
+		line-height: 36px;
+	}
+	.main [data-module-template="iphone-takeover"] .takeover-hero .takeover-cta:lang(th) {
+		line-height: 23px;
+	}
+}

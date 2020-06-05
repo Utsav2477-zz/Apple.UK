@@ -1,0 +1,1371 @@
+.section-cards .section-content .card-01 .replayButton {
+  top: 303px;
+}
+
+@media only screen and (min-width: 1800px) {
+  .section-cards .section-content .card-01 .replayButton {
+    top: 320px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-01 .replayButton {
+    top: 251px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-01 .replayButton {
+    top: 524px;
+  }
+}
+
+.section-hero .section-content .button,
+.section-color .section-content .copy-block .button {
+  padding-top: 4px;
+}
+
+.section-cards .section-content .card-01 .image-hardware {
+  left: 50%;
+  right: auto;
+  margin-left: -148px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-01 .image-hardware {
+    left: 50%;
+    right: auto;
+    margin-left: -117px;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-01 .image-hardware {
+    left: 50%;
+    right: auto;
+    margin-left: -130px;
+    margin-right: auto;
+  }
+}
+
+.section-cards .section-content .card-02 .replayButton .icon {
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-02 .replayButton {
+    top: 165px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-02 .replayButton {
+    top: 510px;
+  }
+}
+
+.section-cards .section-content .card-02 .image-hardware {
+  left: 50%;
+  right: auto;
+  margin-left: -148px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-02 .image-hardware {
+    margin-left: -117px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-02 .image-hardware {
+    margin-left: -130px;
+  }
+}
+
+.section-cards .section-content .card-03 .image-hardware {
+  left: 50%;
+  right: auto;
+  margin-left: -87.5px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-03 .image-hardware {
+    left: 50%;
+    right: auto;
+    margin-left: -65.5px;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-03 .image-hardware {
+    left: 50%;
+    right: auto;
+    margin-left: -60.5px;
+    margin-right: 0;
+  }
+}
+
+.section-cards .section-content .card-06 .image-hardware {
+  left: 50%;
+  right: auto;
+  margin-left: -237.5px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-06 .image-hardware {
+    margin-left: -185.5px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-06 .image-hardware {
+    margin-left: -131px;
+  }
+}
+
+.section-cards .section-content li.card-07 .card {
+  background: -webkit-linear-gradient(
+    130deg,
+    #69e7e3 0%,
+    #14bcf3 60%,
+    #1eb4e5 100%
+  );
+  background: linear-gradient(-40deg, #69e7e3 0%, #14bcf3 60%, #1eb4e5 100%);
+}
+.section-cards .section-content .card-07 .device-lockup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-plans .section-content .typography-headline-elevated:lang(ar) {
+  line-height: 1.40312;
+}
+
+@media only screen and (min-width: 1800px) {
+  .section-plans .section-content .typography-headline-elevated:lang(ar) {
+    line-height: 1.40312;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-plans .section-content .typography-headline-elevated:lang(ar) {
+    line-height: 1.40312;
+  }
+}
+
+.section-program-guide .paddlenav-arrow.paddlenav-arrow-next {
+  left: 0;
+  right: auto;
+}
+
+.section-program-guide .paddlenav-arrow.paddlenav-arrow-previous {
+  right: 0;
+  left: auto;
+}
+
+.section-program-guide #program-guide-gallery .gallery-item a .icon {
+  bottom: auto;
+  top: 150px;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-program-guide #program-guide-gallery .gallery-item a .icon {
+    bottom: auto;
+    top: 130px;
+  }
+}
+
+.section-program-guide #featured-playlist-gallery .gallery-item a .icon {
+  bottom: auto;
+  top: 90px;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-program-guide #featured-playlist-gallery .gallery-item a .icon {
+    bottom: auto;
+    top: 80px;
+  }
+}
+
+.section-program-guide .description,
+.section-program-guide .typography-body-reduced {
+  text-align: left;
+  direction: ltr;
+}
+.section-program-guide .description h3 {
+  font-size: 16px;
+}
+
+.section-program-guide .description {
+  margin-bottom: 14px;
+  margin-top: 0;
+  color: #000;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-program-guide .top-headline,
+  .section-program-guide .bot-headline {
+    right: 25px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-program-guide .top-headline,
+  .section-program-guide .bot-headline {
+    right: 10px;
+  }
+}
+
+.section-cards .section-content .card-02 .image-screen-left {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_left_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen-left {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_left_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-02 .image-screen-left {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_left_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen-left {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_left_medium_2x.jpg");
+  }
+}
+
+.section-cards .section-content .card-02 .image-screen-right {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_right_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen-right {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_right_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-02 .image-screen-right {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_right_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen-right {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/explore_new_artists_screen_right_medium_2x.jpg");
+  }
+}
+
+.section-cards .section-content .card-07 .image-hardware {
+  width: 681px;
+  height: 380px;
+  background-size: 681px 380px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/mideast/apple-music/l/images/overview/ar/siri_static_large.png);
+  position: relative;
+  right: 50%;
+  margin-right: -348px;
+  position: absolute;
+  top: 68px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-07 .image-hardware {
+    background-image: url(https://www.apple.com/mideast/apple-music/l/images/overview/ar/siri_static_large_2x.png);
+  }
+}
+
+.section-cards .section-content .card-05 .image-hardware {
+  left: 50%;
+  right: auto;
+  margin-left: -148px;
+  margin-right: 0;
+}
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-05 .image-hardware {
+    margin-left: -117px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-05 .image-hardware {
+    margin-left: -130px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-07 .image-hardware {
+    right: 50%;
+    margin-right: -271px;
+    top: 50px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-07 .image-hardware {
+    right: 50%;
+    margin-right: -290px;
+  }
+}
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-07 .image-hardware {
+    width: 530px;
+    height: 295px;
+    background-size: 530px 295px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/ar/siri_static_medium.png");
+  }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-07 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/ar/siri_static_medium_2x.png");
+  }
+}
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-07 .image-hardware {
+    width: 575px;
+    height: 320px;
+    background-size: 575px 320px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/ar/siri_static_small.png");
+  }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-07 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/ar/siri_static_small_2x.png");
+  }
+}
+
+.section-color .section-content .copy-block h3 {
+  margin-top: 3.6vh;
+}
+
+@media only screen and (max-width: 480px) {
+  .section-cards .section-content .card-03 .image-airpod-left {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-cards .section-content .card-03 .image-airpod-left {
+    left: -10px;
+  }
+}
+
+.section-cards .section-content .card-03 .image-hardware-alt {
+  width: 681px;
+  height: 380px;
+  background-size: 681px 380px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/image_siri_static_large.png");
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-03 .image-hardware-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/image_siri_static_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-03 .image-hardware-alt {
+    width: 530px;
+    height: 295px;
+    background-size: 530px 290px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/image_siri_static_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-03 .image-hardware-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/image_siri_static_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-03 .image-hardware-alt {
+    width: 575px;
+    height: 320px;
+    background-size: 575px 320px;
+    right: 50%;
+    margin-right: -287px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/image_siri_static_small.png");
+  }
+  .section-cards .section-content .card-03 .card {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-03 .image-hardware-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/image_siri_static_small_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  html.ios .section-program-guide #program-guide-gallery #gallery-0 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 0px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-1 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 304px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-2 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 608px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-3 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 912px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-4 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 1216px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-5 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 1520px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-6 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 1824px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-7 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 2128px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-8 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 2432px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-9 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 2736px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-10 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 3040px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-11 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 3344px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-12 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 3648px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-13 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 3952px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-14 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 4256px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-15 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 4560px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-16 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 4864px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-17 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 5168px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-18 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 5472px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-19 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 5776px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-20 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 6080px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-21 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 6384px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-22 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 6688px);
+  }
+  html.ios .section-program-guide #program-guide-gallery #gallery-23 {
+    position: absolute;
+    right: calc(50vw - 146.5px + 6992px);
+  }
+  html.ios
+    .section-program-guide
+    #program-guide-gallery
+    div[class="gallery-item"]:last-child {
+    padding-right: calc(50vw - 146.5px);
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-0 {
+    position: absolute;
+    right: 0px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-1 {
+    position: absolute;
+    right: 152px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-2 {
+    position: absolute;
+    right: 304px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-3 {
+    position: absolute;
+    right: 456px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-4 {
+    position: absolute;
+    right: 608px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-5 {
+    position: absolute;
+    right: 760px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-6 {
+    position: absolute;
+    right: 912px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-7 {
+    position: absolute;
+    right: 1064px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-8 {
+    position: absolute;
+    right: 1216px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-9 {
+    position: absolute;
+    right: 1368px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-10 {
+    position: absolute;
+    right: 1520px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-11 {
+    position: absolute;
+    right: 1672px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-12 {
+    position: absolute;
+    right: 1824px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-13 {
+    position: absolute;
+    right: 1976px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-14 {
+    position: absolute;
+    right: 2128px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-15 {
+    position: absolute;
+    right: 2280px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-16 {
+    position: absolute;
+    right: 2432px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-17 {
+    position: absolute;
+    right: 2584px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-18 {
+    position: absolute;
+    right: 2736px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-19 {
+    position: absolute;
+    right: 2888px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-20 {
+    position: absolute;
+    right: 3040px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-21 {
+    position: absolute;
+    right: 3192px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-22 {
+    position: absolute;
+    right: 3344px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-23 {
+    position: absolute;
+    right: 3496px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-24 {
+    position: absolute;
+    right: 3648px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-25 {
+    position: absolute;
+    right: 3800px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-26 {
+    position: absolute;
+    right: 3952px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-27 {
+    position: absolute;
+    right: 4104px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-28 {
+    position: absolute;
+    right: 4256px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-29 {
+    position: absolute;
+    right: 4408px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-30 {
+    position: absolute;
+    right: 4560px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-31 {
+    position: absolute;
+    right: 4712px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-32 {
+    position: absolute;
+    right: 4864px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-33 {
+    position: absolute;
+    right: 5016px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-34 {
+    position: absolute;
+    right: 5168px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-35 {
+    position: absolute;
+    right: 5320px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-36 {
+    position: absolute;
+    right: 5472px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-37 {
+    position: absolute;
+    right: 5624px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-38 {
+    position: absolute;
+    right: 5776px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-39 {
+    position: absolute;
+    right: 5928px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-40 {
+    position: absolute;
+    right: 6080px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-41 {
+    position: absolute;
+    right: 6232px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-42 {
+    position: absolute;
+    right: 6384px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-43 {
+    position: absolute;
+    right: 6536px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-44 {
+    position: absolute;
+    right: 6688px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-45 {
+    position: absolute;
+    right: 6840px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-46 {
+    position: absolute;
+    right: 6992px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-47 {
+    position: absolute;
+    right: 7144px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-48 {
+    position: absolute;
+    right: 7296px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-49 {
+    position: absolute;
+    right: 7448px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-50 {
+    position: absolute;
+    right: 7600px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-51 {
+    position: absolute;
+    right: 7752px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-52 {
+    position: absolute;
+    right: 7904px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-53 {
+    position: absolute;
+    right: 8056px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-54 {
+    position: absolute;
+    right: 8208px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-55 {
+    position: absolute;
+    right: 8360px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-56 {
+    position: absolute;
+    right: 8512px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-57 {
+    position: absolute;
+    right: 8664px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-58 {
+    position: absolute;
+    right: 8816px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios .section-program-guide #featured-playlist-gallery #gallery-59 {
+    position: absolute;
+    right: 8968px;
+    padding-right: calc(50vw - 146.5px);
+  }
+  html.ios
+    .section-program-guide
+    #featured-playlist-gallery
+    div[class="gallery-item"]:last-child {
+    padding-right: calc(50vw - 146.5px);
+  }
+}
+
+.section-cards .section-content li .card .music-violator {
+  -webkit-transform: translate(50%, -123%);
+  transform: translate(50%, -123%);
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content li .card .music-violator {
+    -webkit-transform: translateY(50%, -120%);
+    transform: translateY(50%, -120%);
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content li .card .music-violator {
+    -webkit-transform: translateY(50%, -120%);
+    transform: translateY(50%, -120%);
+  }
+}
+
+.section-cards .section-content .card-04 .image-dashboard {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay__c83mgc2l01aq_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-04 .image-dashboard {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay__c83mgc2l01aq_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-04 .image-dashboard {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay__c83mgc2l01aq_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-04 .image-dashboard {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay__c83mgc2l01aq_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-04 .image-dashboard {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay__c83mgc2l01aq_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-04 .image-dashboard {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay__c83mgc2l01aq_small_2x.png");
+  }
+}
+.section-cards .section-content .card-04 .image-dashboard.alt {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay_alt__c83mgc2l01aq_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-04 .image-dashboard.alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay_alt__c83mgc2l01aq_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-04 .image-dashboard.alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay_alt__c83mgc2l01aq_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-04 .image-dashboard.alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay_alt__c83mgc2l01aq_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-04 .image-dashboard.alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay_alt__c83mgc2l01aq_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-04 .image-dashboard.alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/carplay_alt__c83mgc2l01aq_small_2x.png");
+  }
+}
+.section-hero .image-hero {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_large_2x.jpg");
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_xlarge.jpg");
+  }
+}
+
+@media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-width: 1800px) and (min-resolution: 1.5dppx),
+  only screen and (min-width: 1800px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_xlarge_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_xsmall.jpg");
+  }
+}
+
+@media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 320px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 320px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_xsmall_2x.jpg");
+  }
+}
+
+.section-hero .image-hero.image-hero-alt {
+  height: 610px;
+  width: 2560px;
+  background-size: 2560px 610px;
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_xlarge.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-hero .image-hero.image-hero-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_xlarge_2x.jpg");
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .section-hero .image-hero.image-hero-alt {
+    height: 610px;
+    width: 2560px;
+    background-size: 2560px 610px;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_xlarge.jpg");
+  }
+}
+
+@media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-width: 1800px) and (min-resolution: 1.5dppx),
+  only screen and (min-width: 1800px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero.image-hero-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_xlarge_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-hero .image-hero.image-hero-alt {
+    height: 400px;
+    width: 1680px;
+    background-size: 1680px 400px;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero.image-hero-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-hero .image-hero.image-hero-alt {
+    height: 700px;
+    width: 736px;
+    background-size: 736px 700px;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero.image-hero-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-hero .image-hero.image-hero-alt {
+    height: 686px;
+    width: 736px;
+    background-size: 736px 686px;
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_xsmall.jpg");
+  }
+}
+
+@media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 320px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 320px) and (min-resolution: 144dpi) {
+  .section-hero .image-hero.image-hero-alt {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/hero__bope61zgz22u_no-watch_xsmall_2x.jpg");
+  }
+}
+
+.section-cards .section-content .card-06 .image-hardware {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/new_music__c9rdktnwjf2a_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-06 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/new_music__c9rdktnwjf2a_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-06 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/new_music__c9rdktnwjf2a_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-06 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/new_music__c9rdktnwjf2a_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-06 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/new_music__c9rdktnwjf2a_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-06 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/new_music__c9rdktnwjf2a_small_2x.png");
+  }
+}
+.section-cards .section-content .card-05 .image-screen {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/personalized_mixes_screen__eqeygbww7es2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-05 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/personalized_mixes_screen__eqeygbww7es2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-05 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/personalized_mixes_screen__eqeygbww7es2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-05 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/personalized_mixes_screen__eqeygbww7es2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-05 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/personalized_mixes_screen__eqeygbww7es2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-05 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/personalized_mixes_screen__eqeygbww7es2_small_2x.jpg");
+  }
+}
+.section-cards .section-content .card-02 .image-screen {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/radio_stations_screen__d2dq3hjcj3au_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/radio_stations_screen__d2dq3hjcj3au_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-02 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/radio_stations_screen__d2dq3hjcj3au_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/radio_stations_screen__d2dq3hjcj3au_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-02 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/radio_stations_screen__d2dq3hjcj3au_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-02 .image-screen {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/radio_stations_screen__d2dq3hjcj3au_small_2x.jpg");
+  }
+}
+
+.section-cards .section-content .card-03 .image-hardware {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/watch__fb9nl5ckkkae_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-cards .section-content .card-03 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/watch__fb9nl5ckkkae_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-cards .section-content .card-03 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/watch__fb9nl5ckkkae_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-03 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/watch__fb9nl5ckkkae_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-cards .section-content .card-03 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/watch__fb9nl5ckkkae_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-cards .section-content .card-03 .image-hardware {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/watch__fb9nl5ckkkae_small_2x.png");
+  }
+}
+
+.section-hero .image-hero.show {
+  direction: ltr;
+}
+
+.section-hero .image-hero.image-hero-alt .phone-lyrics {
+  left: 1148px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-hero .image-hero.image-hero-alt .phone-lyrics {
+    left: 737px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-hero .image-hero.image-hero-alt .phone-lyrics {
+    left: 283px;
+  }
+}
+
+.section-plans .cta-wrapper {
+  margin-top: 44px;
+}
+@media only screen and (max-width: 1068px) {
+  .section-plans .cta-wrapper {
+    margin-top: 40px;
+  }
+}
+.section-plans .cta-wrapper a {
+  color: #fff;
+}
+@media only screen and (max-width: 735px) {
+  .section-plans .cta-wrapper.typography-intro {
+    font-size: 17px;
+  }
+}
+
+[lang="en"] {
+  direction: ltr;
+  display: inline-block;
+}
+@media only screen and (min-width: 1069px) {
+  .section-apple-tv .copy-container {
+    text-align: right;
+  }
+}
+.section-apple-tv .section-content a {
+  color: #0067ca;
+}
+.section-apple-tv .copy-container .copy-color a {
+  color: #86868b;
+}
+
+.section-apple-tv.theme-dark .button {
+  background: #ff2f56;
+  border-color: #ff2f56;
+}
+
+.section-apple-tv .image-apple-tv-tile {
+  background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/apple_tv_plus__chns64utt56q_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-apple-tv .image-apple-tv-tile {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/apple_tv_plus__chns64utt56q_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-apple-tv .image-apple-tv-tile {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/apple_tv_plus__chns64utt56q_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-apple-tv .image-apple-tv-tile {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/apple_tv_plus__chns64utt56q_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-apple-tv .image-apple-tv-tile {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/apple_tv_plus__chns64utt56q_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-apple-tv .image-apple-tv-tile {
+    background-image: url("https://www.apple.com/mideast/apple-music/l/images/overview/apple_tv_plus__chns64utt56q_small_2x.jpg");
+  }
+}
+
+.section-apple-tv .section-content a.footnote {
+  color: #fff;
+}
+.section-apple-tv .section-content a.footnote:hover {
+  color: #2997ff;
+}

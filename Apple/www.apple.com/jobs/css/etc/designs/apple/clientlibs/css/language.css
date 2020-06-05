@@ -1,0 +1,369 @@
+/**
+ * China.
+ */
+
+:lang(zh-CN) body,
+:lang(zh-CN) table td,
+:lang(zh-CN) table td.table-col-heading,
+:lang(zh-CN) h1,
+:lang(zh-CN) h2,
+:lang(zh-CN) p.large-thin,
+:lang(zh-CN) strong,
+:lang(zh-CN) .banner-small,
+:lang(zh-CN) .banner-large,
+:lang(zh-CN) input[type=textfield],
+:lang(zh-CN) input[type=email],
+:lang(zh-CN) select,
+:lang(zh-CN) textarea,
+:lang(zh-CN) label,
+:lang(zh-CN) .section-nav-block li h3,
+:lang(zh-CN) .retail-opportunities h3,
+:lang(zh-CN) footer .breadcrumb li {
+  font-family: "PingHei", sans-serif;
+}
+
+@media only screen and (max-width: 749px) {
+  :lang(zh-CN) .local-nav ul li,
+  :lang(zh-CN) .students label[for="events_selector"],
+  :lang(zh-CN) .student-opportunities table td {
+    font-family: "PingHei", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  :lang(zh-CN) p.large-thin-portrait,
+  :lang(zh-CN) p.medium-thin-portrait,
+  :lang(zh-CN) .banner-title,
+  :lang(zh-CN) .local-nav h1,
+  :lang(zh-CN) .section-nav-block *,
+  :lang(zh-CN) .section-nav-block li h3,
+  :lang(zh-CN) .section-nav-block li p,
+  :lang(zh-CN) .retail-opportunities h3,
+  :lang(zh-CN) .aha .cta-banner a,
+  :lang(zh-CN) footer .breadcrumb li {
+    font-family: "PingHei", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  :lang(zh-CN) p.medium-thin-portrait {
+    font-family: "PingHei", sans-serif;
+  }
+}
+
+/**
+ * Hong Kong & Taiwan.
+ */
+
+:lang(zh-HK) body,
+:lang(zh-HK) table td,
+:lang(zh-HK) table td.table-col-heading,
+:lang(zh-HK) h1,
+:lang(zh-HK) h2,
+:lang(zh-HK) p.large-thin,
+:lang(zh-HK) strong,
+:lang(zh-HK) .banner-small,
+:lang(zh-HK) .banner-large,
+:lang(zh-HK) input[type=textfield],
+:lang(zh-HK) input[type=email],
+:lang(zh-HK) select,
+:lang(zh-HK) textarea,
+:lang(zh-HK) label,
+:lang(zh-HK) .section-nav-block li h3,
+:lang(zh-HK) .retail-opportunities h3,
+:lang(zh-HK) footer .breadcrumb li,
+:lang(zh-TW) body,
+:lang(zh-TW) table td,
+:lang(zh-TW) table td.table-col-heading,
+:lang(zh-TW) h1,
+:lang(zh-TW) h2,
+:lang(zh-TW) p.large-thin,
+:lang(zh-TW) strong,
+:lang(zh-TW) .banner-small,
+:lang(zh-TW) .banner-large,
+:lang(zh-TW) input[type=textfield],
+:lang(zh-TW) input[type=email],
+:lang(zh-TW) select,
+:lang(zh-TW) textarea,
+:lang(zh-TW) label,
+:lang(zh-TW) .section-nav-block li h3,
+:lang(zh-TW) .retail-opportunities h3,
+:lang(zh-TW) footer .breadcrumb li {
+  font-family: "MHei", sans-serif;
+}
+
+@media only screen and (max-width: 749px) {
+  :lang(zh-HK) .local-nav ul li,
+  :lang(zh-HK) .students label[for="events_selector"],
+  :lang(zh-HK) .student-opportunities table td,
+  :lang(zh-TW) .local-nav ul li,
+  :lang(zh-TW) .students label[for="events_selector"],
+  :lang(zh-TW) .student-opportunities table td {
+    font-family: "MHei", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  :lang(zh-HK) p.large-thin-portrait,
+  :lang(zh-HK) p.medium-thin-portrait,
+  :lang(zh-HK) .banner-title,
+  :lang(zh-HK) .local-nav h1,
+  :lang(zh-HK) .section-nav-block *,
+  :lang(zh-HK) .section-nav-block li h3,
+  :lang(zh-HK) .section-nav-block li p,
+  :lang(zh-HK) .retail-opportunities h3,
+  :lang(zh-HK) .aha .cta-banner a,
+  :lang(zh-HK) footer .breadcrumb li,
+  :lang(zh-TW) p.large-thin-portrait,
+  :lang(zh-TW) p.medium-thin-portrait,
+  :lang(zh-TW) .banner-title,
+  :lang(zh-TW) .local-nav h1,
+  :lang(zh-TW) .section-nav-block *,
+  :lang(zh-TW) .section-nav-block li h3,
+  :lang(zh-TW) .section-nav-block li p,
+  :lang(zh-TW) .retail-opportunities h3,
+  :lang(zh-TW) .aha .cta-banner a,
+  :lang(zh-TW) footer .breadcrumb li {
+    font-family: "MHei", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  :lang(zh-HK) p.medium-thin-portrait,
+  :lang(zh-TW) p.medium-thin-portrait {
+    font-family: "MHei", sans-serif;
+  }
+}
+
+/**
+ * Japan.
+ */
+
+:lang(ja-JP) body,
+:lang(ja-JP) table td,
+:lang(ja-JP) table td.table-col-heading,
+:lang(ja-JP) h1,
+:lang(ja-JP) h2,
+:lang(ja-JP) p.large-thin,
+:lang(ja-JP) strong,
+:lang(ja-JP) .banner-small,
+:lang(ja-JP) .banner-large,
+:lang(ja-JP) input[type=textfield],
+:lang(ja-JP) input[type=email],
+:lang(ja-JP) select,
+:lang(ja-JP) textarea,
+:lang(ja-JP) label,
+:lang(ja-JP) .section-nav-block li h3,
+:lang(ja-JP) .retail-opportunities h3,
+:lang(ja-JP) footer .breadcrumb li {
+  font-family: "Apple TP", sans-serif;
+}
+
+@media only screen and (max-width: 749px) {
+  :lang(ja-JP) .local-nav ul li,
+  :lang(ja-JP) .students label[for="events_selector"],
+  :lang(ja-JP) .student-opportunities table td {
+    font-family: "Apple TP", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  :lang(ja-JP) p.large-thin-portrait,
+  :lang(ja-JP) p.medium-thin-portrait,
+  :lang(ja-JP) .banner-title,
+  :lang(ja-JP) .local-nav h1,
+  :lang(ja-JP) .section-nav-block *,
+  :lang(ja-JP) .section-nav-block li h3,
+  :lang(ja-JP) .section-nav-block li p,
+  :lang(ja-JP) .retail-opportunities h3,
+  :lang(ja-JP) .aha .cta-banner a,
+  :lang(ja-JP) footer .breadcrumb li {
+    font-family: "Apple TP", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  :lang(ja-JP) p.medium-thin-portrait {
+    font-family: "Apple TP", sans-serif;
+  }
+}
+
+/**
+ * Korea.
+ */
+
+:lang(ko-KR) body,
+:lang(ko-KR) table td,
+:lang(ko-KR) table td.table-col-heading,
+:lang(ko-KR) h1,
+:lang(ko-KR) h2,
+:lang(ko-KR) p.large-thin,
+:lang(ko-KR) strong,
+:lang(ko-KR) .banner-small,
+:lang(ko-KR) .banner-large,
+:lang(ko-KR) input[type=textfield],
+:lang(ko-KR) input[type=email],
+:lang(ko-KR) select,
+:lang(ko-KR) textarea,
+:lang(ko-KR) label,
+:lang(ko-KR) .section-nav-block li h3,
+:lang(ko-KR) .retail-opportunities h3,
+:lang(ko-KR) footer .breadcrumb li {
+  font-family: "Yoon Gothic", sans-serif;
+}
+
+@media only screen and (max-width: 749px) {
+  :lang(ko-KR) .local-nav ul li,
+  :lang(ko-KR) .students label[for="events_selector"],
+  :lang(ko-KR) .student-opportunities table td {
+    font-family: "Yoon Gothic", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  :lang(ko-KR) p.large-thin-portrait,
+  :lang(ko-KR) p.medium-thin-portrait,
+  :lang(ko-KR) .banner-title,
+  :lang(ko-KR) .local-nav h1,
+  :lang(ko-KR) .section-nav-block *,
+  :lang(ko-KR) .section-nav-block li h3,
+  :lang(ko-KR) .section-nav-block li p,
+  :lang(ko-KR) .retail-opportunities h3,
+  :lang(ko-KR) .aha .cta-banner a,
+  :lang(ko-KR) footer .breadcrumb li {
+    font-family: "Yoon Gothic", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  :lang(ko-KR) p.medium-thin-portrait {
+    font-family: "Yoon Gothic", sans-serif;
+  }
+}
+
+#aha_apply .centerlink {
+  line-height: 1.3;
+}
+
+/**
+ * Japan retail hero background image.
+ */
+
+
+.hero-jp::before {
+  content: "";
+  display: block;
+  padding-top: 60%;
+}
+
+.hero-jp .cta-banner {
+  bottom: -2.9rem;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media only screen and (min-width: 374px) and (max-width: 749px) {
+  .hero-jp .cta-banner {
+    bottom: -2rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .hero-jp {
+    margin: 0 0 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .hero-jp .cta-banner a {
+    display: block;
+  }
+
+  .hero-jp {
+    margin: 0 0 4.4rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .hero-jp {
+    margin: -6.1rem auto 3.375rem;
+  }
+
+  .hero-jp::before {
+    padding-top: 50.3%;
+  }
+
+  .hero-jp .cta-banner {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: white;
+  }
+
+  .not-front .hero-jp .cta-banner a {
+    color: inherit;
+  }
+}
+
+
+/**
+ * China and Hong Kong (zh and en) retail hero background image.
+ */
+
+
+.hero-cn::before {
+  content: "";
+  display: block;
+  padding-top: 60%;
+}
+
+.hero-cn .cta-banner {
+  bottom: -2.9rem;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media only screen and (min-width: 374px) and (max-width: 749px) {
+  .hero-cn .cta-banner {
+    bottom: -2rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .hero-cn {
+    margin: 0 0 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .hero-cn .cta-banner a {
+    display: block;
+  }
+
+  .hero-cn {
+    margin: 0 0 4.4rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .hero-cn {
+    margin: -6.1rem auto 3.375rem;
+  }
+
+  .hero-cn::before {
+    padding-top: 50.3%;
+  }
+
+  .hero-cn .cta-banner {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: white;
+  }
+
+  .not-front .hero-cn .cta-banner a {
+    color: inherit;
+  }
+}
+
+

@@ -1,0 +1,1310 @@
+.main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .cta-links a.footnote:not(:only-child):not(:first-child) {
+    margin-left:0
+}
+
+
+.main [data-module-template="promos"] [data-unit-id="airpods-pro"] .unit-wrapper.background{
+	background:#fafafa;
+}
+
+
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-airpods-tile {
+	width: 1193px;
+	height: 354px;
+	background-size: 1193px 354px;
+	background-repeat: no-repeat;
+	background-image: url("https://www.apple.com/sg/home/images/promos/airpods-engraving/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx), (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-airpods-tile {
+		background-image: url("https://www.apple.com/sg/home/images/promos/airpods-engraving/tile__cauwwcyyn9hy_large_2x.jpg")
+	}
+
+}
+
+@media only screen and (max-width:1068px) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-airpods-tile {
+		width: 516px;
+		height: 290px;
+		background-size: 516px 290px;
+		background-repeat: no-repeat;
+		background-image: url("https://www.apple.com/sg/home/images/promos/airpods-engraving/tile__cauwwcyyn9hy_medium.jpg")
+	}
+
+}
+
+@media only screen and (max-width:1068px) and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px) and (min-resolution:1.5dppx), only screen and (max-width:1068px) and (min-resolution:144dpi) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-airpods-tile {
+		background-image: url("https://www.apple.com/sg/home/images/promos/airpods-engraving/tile__cauwwcyyn9hy_medium_2x.jpg")
+	}
+
+}
+
+@media only screen and (max-width:734px) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-airpods-tile {
+		width: 736px;
+		height: 314px;
+		background-size: 736px 314px;
+		background-repeat: no-repeat;
+		background-image: url("https://www.apple.com/sg/home/images/promos/airpods-engraving/tile__cauwwcyyn9hy_small.jpg")
+	}
+
+}
+
+@media only screen and (max-width:734px) and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px) and (min-resolution:1.5dppx), only screen and (max-width:734px) and (min-resolution:144dpi) {
+	.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-airpods-tile {
+		background-image: url("https://www.apple.com/sg/home/images/promos/airpods-engraving/tile__cauwwcyyn9hy_small_2x.jpg")
+	}
+
+}
+
+/*For CNY tile*/
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+    width: 2560px;
+    height: 624px;
+    background-size: 2560px 624px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        width: 1068px;
+        height: 617px;
+        background-size: 1068px 617px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        width: 736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_small_2x.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        width: 2560px;
+        height: 736px;
+        background-size: 2560px 736px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_largetall.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx),
+only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_largetall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        width: 1068px;
+        height: 698px;
+        background-size: 1068px 698px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_mediumtall.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-cny-2020-hero {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2020/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+    }
+}
+
+
+
+
+/******** CNY 2020 ********/
+
+.main [data-module-template="heroes"].collection-module [data-unit-id="cny-2020-film"]{
+    height: auto;
+    padding-bottom: 12px;
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper{
+    padding-top: 0;
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper{
+        margin-top: 0;
+        padding-top: 48px;
+        height: 100%;
+    }
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cny-film-content{
+    float:right;
+    width: 735px;
+}
+
+@media only screen and (max-width: 1068px){
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cny-film-content{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cny-film-content{
+        padding:0;
+    }
+
+}
+
+@media only screen and (max-width: 1068px){
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cny-film-intro{
+        width: 66%;
+        padding-right: 10px;
+        float: right;
+    }
+}
+
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cny-film-intro{
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+        float: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+
+    }
+
+}
+
+/*subhead*/
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 20px;
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.subhead:lang(zh) {
+    letter-spacing: 0em
+}
+
+.main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper *.subhead:lang(zh-CN) {
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.subhead:lang(zh-HK) {
+    font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.subhead:lang(zh-MO) {
+    font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.subhead:lang(zh-TW) {
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.subhead {
+        font-size:44px;
+        line-height: 1.09091;
+        font-weight: 600;
+        letter-spacing: -.002em;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.subhead {
+        font-size:32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+    }
+}
+
+/*cta links*/
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cta-links a{
+    color: #fff;
+}
+
+@media only screen and (max-width: 734px) {
+   .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .cta-links a{
+        display: block;
+    } 
+}
+
+
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta,.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 1em
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta:lang(zh-CN),.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links:lang(zh-CN) {
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta:lang(zh-HK),.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links:lang(zh-HK) {
+    font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta:lang(zh-MO),.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links:lang(zh-MO) {
+    font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta:lang(zh-TW),.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links:lang(zh-TW) {
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta,.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links {
+        font-size:19px;
+        line-height: 1.4211;
+        font-weight: 400;
+        letter-spacing: .012em;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta,.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links {
+        margin-top:.8em
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta,.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links {
+        margin-top:.6em
+    }
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links {
+    position: relative;
+    z-index: 4;
+    text-decoration: none
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links a:not(:only-child):not(:first-child) {
+    margin-left: 26px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links a:not(:only-child):not(:first-child) {
+        margin-left:20px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links a:not(:only-child):not(:first-child) {
+        margin-left:0px;
+        margin-top: 10px;
+    }
+}
+
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links a:hover {
+    text-decoration: underline
+}
+
+/*cta links end*/
+
+
+/*film detail*/
+.cny-film-title-card{
+    padding-top: 67px;
+    margin-bottom: 15px;
+}
+.cny-film-title-card:lang(zh) {
+    letter-spacing: 0em;
+}
+.cny-film-title-card:lang(zh-CN){
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+.cny-film-title-card:lang(zh-HK){
+    font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+.cny-film-title-card:lang(zh-MO){
+    font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+.cny-film-title-card:lang(zh-TW){
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.cny-film-title-card span.bold{
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 734px) {
+    .cny-film-title-card span.bold{
+        display: inline;
+        font-size: 11px;
+    }
+}
+
+
+.cny-film-title-card span.title{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2;
+    display: block;
+    line-height: 1.4
+}
+.cny-film-title-card span.name{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+    margin-bottom: 3px;
+}
+
+
+
+@media only screen and (max-width: 1068px) {
+    .cny-film-title-card{
+        margin-bottom: 80px;
+        padding-top:30px;
+    }
+
+}
+
+@media only screen and (max-width: 1068px) {
+    .cny-film-title-card span.name{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 734px) {
+    .cny-film-title-card{
+        margin-bottom: 0;
+        padding: 32px 0 0 0;
+    }
+
+
+    .cny-film-title-card span.title {
+        font-size:11px;
+    }
+    .cny-film-title-card span.name{
+        font-size: 19px;
+
+    }
+
+    .cny-film-title-card .column{
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .cny-film-title-card{
+        margin-bottom: 120px;
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) {
+    .cny-film-title-card{
+        margin-bottom: 126px;
+    }
+}
+
+/*.cny-film-title-card .col-2{
+    padding-left: 10px;
+}*/
+
+@media only screen and (max-width: 1068px) {
+    /*.cny-film-title-card .col-2{
+        padding-left: 20px;
+    }*/
+}
+
+@media only screen and (max-width: 734px) {
+    /*.cny-film-title-card .col-2{
+        padding-left: 0px;
+    }*/
+}
+
+/*small change height*/
+@media only screen and (max-width: 734px) {
+
+    .main [data-module-template="heroes"].collection-module [data-unit-id="cny-2020-film"] .module-content{
+        height: 742px;
+    }
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-wrapper{
+        height: 742px;
+    }
+
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image-wrapper{
+        height: 742px;
+    }
+
+}
+
+
+/*video end state */
+.ac-video-player .end-state-container .end-state-item .end-state-text-container{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.modal .modal-content .ac-player-container .ac-video-player .ac-video-poster{
+    display: none;
+}
+
+/* share button weibo qzone*/
+button.weibo-share {
+    width: 1.2em;
+    background-size: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 19.3 16' style='enable-background:new 0 0 19.3 16;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;%7D .st1%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cg id='layer_2' class='st0'%3E%3C/g%3E%3Cg id='layer_1'%3E%3Cpath class='st1' d='M14,8c0,0-0.5,0-0.2-0.6c0.4-0.8,0.5-2.9-1.6-2.7c-1.4,0.1-2.6,1-2.9,0.9C8.9,5.5,10,4.1,9.1,3.1 c-2.6-2.7-13,7.4-6.4,11.7c3.7,2.4,10.6,1,12.9-2.6C16.8,10.3,16.2,8.4,14,8z M7.9,15c-3,0.2-5.6-1.2-5.8-3.3 C2,9.7,4.3,7.8,7.3,7.6c3-0.2,5.6,1.2,5.8,3.3C13.3,12.9,10.9,14.8,7.9,15z'/%3E%3Cg%3E%3Cpath class='st1' d='M17.9,7.3c-0.1,0-0.1,0-0.2,0c-0.4-0.1-0.6-0.5-0.5-0.9c0.1-0.3,0.1-0.7,0.1-1.1c0-2.1-1.7-3.9-3.9-3.9 c-0.2,0-0.3,0-0.5,0c-0.4,0-0.7-0.2-0.8-0.6c0-0.4,0.2-0.7,0.6-0.8c0.2,0,0.4,0,0.7,0c2.9,0,5.3,2.4,5.3,5.3c0,0.5-0.1,1-0.2,1.5 C18.5,7.1,18.2,7.3,17.9,7.3L17.9,7.3z'/%3E%3Cpath class='st1' d='M15.6,6.5c-0.1,0-0.1,0-0.2,0C15.1,6.4,14.9,6,15,5.7C15,5.6,15,5.4,15,5.3c0-0.8-0.7-1.5-1.5-1.5 c-0.1,0-0.1,0-0.2,0c-0.3,0-0.7-0.2-0.7-0.6c0-0.3,0.2-0.7,0.6-0.7c0.1,0,0.2,0,0.3,0c1.5,0,2.8,1.2,2.8,2.8c0,0.3,0,0.5-0.1,0.8 C16.1,6.3,15.8,6.5,15.6,6.5L15.6,6.5z'/%3E%3C/g%3E%3Cpath class='st1' d='M10,11C9.7,9.7,8.2,8.8,6.6,9.2C5,9.6,3.9,11,4.2,12.3c0.3,1.4,1.9,2.2,3.5,1.8C9.3,13.8,10.4,12.4,10,11z M6.4,13c-0.5,0.2-1.1-0.1-1.2-0.6c-0.1-0.5,0.2-1,0.7-1.1c0.5-0.2,1.1,0.1,1.2,0.6C7.2,12.3,6.9,12.8,6.4,13z M7.9,11.6 c-0.2,0.1-0.4,0-0.5-0.2c-0.1-0.2,0.1-0.4,0.3-0.5c0.2-0.1,0.4,0,0.5,0.2C8.2,11.3,8.1,11.5,7.9,11.6z'/%3E%3C/g%3E%3C/svg%3E%0A")
+}
+
+button.qzone-share {
+    width: 1.2em;
+    background-size: 21px;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 17 16' style='enable-background:new 0 0 17 16;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath class='st0' d='M16.5,5.9l-4.9-0.5c-0.4,0-0.5-0.1-0.6-0.4L8.9,0.3c-0.2-0.4-0.5-0.4-0.7,0L5.9,5C5.7,5.3,5.7,5.3,5.3,5.3 L0.5,5.9C0.1,5.9,0,6.2,0.3,6.5L4,10c0.2,0.2,0.2,0.2,0.1,0.5l-1,5.1c-0.1,0.4,0.2,0.6,0.5,0.4l4.3-2.5c0.3-0.2,0.6-0.2,0.9,0 l4.3,2.5c0.4,0.2,0.6,0,0.6-0.4l-0.7-4c0.4-0.1,0.9-0.3,1.1-0.5l-0.1,0c-1.5,0.4-3.6,0.6-5.6,0.6c-0.7,0-1.4,0-2.1-0.1l0,0 c-0.6,0-1.2-0.1-1.7-0.2c-0.2,0,0-0.2,0-0.2l5.2-3.7c0,0,0.1-0.1,0-0.1C7.8,7,5.4,6.9,3.2,6.9c-0.1,0-0.1,0-0.2,0 c1.5-0.3,3.4-0.5,5.4-0.5c1.2,0,2.4,0.1,3.4,0.2c0,0,0.6,0.1,0.9,0.1c0.2,0,0,0.2,0,0.2l-5.2,3.6c0,0-0.1,0.1,0,0.1 c1.6,0.2,3.6,0.3,5.3,0.3l-0.1-0.4c0-0.3,0-0.3,0.2-0.5l3.7-3.4C17,6.2,16.9,5.9,16.5,5.9z'/%3E%3C/svg%3E%0A")
+}
+
+
+/* iPhone ended pop*/
+.video-films-pop{
+    display: none;
+}
+.modal .video-films-pop{
+    display: block;
+}
+
+.modal .video-films-pop .count-down{
+    color: #ddd;
+}
+.modal .video-films-pop .timer{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    z-index: 999;
+    border:0;
+    background: none;
+    width: auto;
+    max-width: 10px;
+}
+.modal.modal-full-viewport .modal-content{
+    position: relative;
+}
+.modal .modal-content .video-films-pop{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:0;
+    right:0;
+    margin: auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*.modal .modal-content .video-films-pop .headline{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+@media only screen and (max-width: 1068px) {
+    .modal .modal-content .video-films-pop .headline{
+        font-size:24px;
+        line-height: 1.16667;
+        font-weight: 400;
+        letter-spacing: .009em;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .modal .modal-content .video-films-pop .headline{
+        font-size:19px;
+        line-height: 1.4211;
+        font-weight: 400;
+        letter-spacing: .012em;
+    }
+}*/
+.modal .modal-content .video-films-pop .cta-links{
+    color: white;
+    padding-top: 30px;
+}
+.modal-full-viewport.modal-open a, .modal-full-viewport.modal-open .link{
+    color: white
+}
+
+.video-films-pop .button-wrapper{
+    margin-bottom: 20px;
+}
+
+.video-films-pop .end-state .ac-video-icon.controls-play-pause-button {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2086%2086%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M42.52%2C25.46l-3.68%2C4.12c-1.1%2C1.24-1%2C3.13%2C0.24%2C4.24l2.24%2C2c1.24%2C1.1%2C3.13%2C1%2C4.24-0.24l10.59-11.84%0A%09%09%09c0.53-0.65%2C0.82-1.39%2C0.82-2.2c0-0.88-0.34-1.69-0.9-2.29L45.46%2C7.49c-1.11-1.23-3.01-1.33-4.24-0.22l-2.23%2C2.01%0A%09%09%09c-1.23%2C1.11-1.33%2C3.01-0.22%2C4.24l2.74%2C3.04C26.74%2C17.32%2C15%2C29.55%2C15%2C44.51C15%2C59.97%2C27.53%2C72.5%2C42.99%2C72.5%0A%09%09%09c14.71%2C0%2C26.96-11.39%2C28-25.97c0.07-1.08-0.11-1.64-0.51-2.23c-0.4-0.6-1.27-1.3-2.41-1.3h-3.09c-1.43%2C0-2.8%2C1.23-2.89%2C2.71%0A%09%09%09c-0.63%2C10-9.03%2C17.85-19.1%2C17.85c-10.52%2C0-19.05-8.53-19.05-19.05C23.94%2C34.14%2C32.22%2C25.71%2C42.52%2C25.46z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2286%22%20height%3D%2286%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+.modal-full-viewport.modal-open.zIndex{
+    z-index:22222;
+}
+
+
+/* ------------------- cny 2020 -------------------*/
+/*hero bg*/
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+    width: 2560px;
+    height: 624px; 
+    background-size: 2560px 624px;
+    background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        width: 1068px;
+        height: 710px;
+        background-size: 1068px 710px;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_medium_2x.jpg");
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        width: 736px;
+        height: 742px;
+        background-size: 736px 742px;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_small_2x.jpg");
+    }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        width: 2560px;
+        height: 738px;
+        background-size: 2560px 738px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_largetall.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_largetall_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        width: 1068px;
+        height: 791px;
+        background-size: 1068px 791px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_mediumtall.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-image-wrapper .unit-image-cny {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_mediumtall_2x.jpg");
+
+    }
+}
+
+/*cny title*/
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+.main [data-module-template="heroes"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper *.cta-links a:not(:only-child):not(:first-child) {
+    margin-left: 0px;
+    display: block;
+    margin-top: 10px;
+}
+}
+
+
+
+
+
+.logo-image-cny-title {
+    width: 573px;
+    height: 178px; 
+    background-size: 573px 178px;
+    background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .logo-image-cny-title {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .logo-image-cny-title {
+        width: 481px;
+        height: 181px;
+        background-size: 481px 181px;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .logo-image-cny-title {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .logo-image-cny-title {
+        width: 320px;
+        height: 117px;
+        background-size: 320px 117px;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_small.png")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .logo-image-cny-title {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_small_2x.png")
+    }
+}
+
+
+/*xs*/
+@media only screen and (max-width: 320px) {
+    .logo-image-cny-title {
+        width: 300px;
+        height: 109px;
+        background-size: 300px 109px;
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_xsmall.png")
+    }
+}
+
+@media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 320px) and (min-resolution: 1.5dppx), only screen and (max-width: 320px) and (min-resolution: 144dpi) {
+    .logo-image-cny-title {
+        background-image: url("https://www.apple.com/sg/home/images/heroes/cny/cny_hero_title_xsmall_2x.png")
+    }
+}
+
+/* promo  Taday at Apple*/
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-taa-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/sg/home/images/promos/taa/totay_at_apple__e8kin2evo0ae_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-taa-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/taa/totay_at_apple__e8kin2evo0ae_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-taa-tile {
+        width:516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/taa/totay_at_apple__e8kin2evo0ae_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-taa-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/taa/totay_at_apple__e8kin2evo0ae_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-taa-tile {
+        width:736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/taa/totay_at_apple__e8kin2evo0ae_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-taa-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/taa/totay_at_apple__e8kin2evo0ae_small_2x.jpg")
+    }
+}
+
+
+/*cny gifts promo*/
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-tile {
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020/tile__cauwwcyyn9hy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-tile {
+        width: 516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020/tile__cauwwcyyn9hy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-tile {
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020/tile__cauwwcyyn9hy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-tile {
+        width: 736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020/tile__cauwwcyyn9hy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-tile {
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020/tile__cauwwcyyn9hy_small_2x.jpg")
+    }
+}
+
+
+/*==============End cny 2020==============*/
+
+
+/*pomo today at apple*/
+.main [data-module-template="promos"] [data-unit-id="taa"] .unit-copy-wrapper .eyebrow {
+    text-align: center;
+    margin-top: 27px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="taa"] .unit-copy-wrapper .eyebrow {
+        margin-top:17px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] [data-unit-id="taa"] .unit-copy-wrapper .eyebrow {
+        margin-top:12px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="taa"] .unit-copy-wrapper .headline {
+    margin-top: 0px
+}
+
+
+
+
+/*SOIP*/
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-iphone-soip-contest-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/sg/home/images/promos/iphone-soip-contest/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-iphone-soip-contest-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/iphone-soip-contest/tile__cauwwcyyn9hy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-iphone-soip-contest-tile {
+        width:516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/iphone-soip-contest/tile__cauwwcyyn9hy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-iphone-soip-contest-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/iphone-soip-contest/tile__cauwwcyyn9hy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-iphone-soip-contest-tile {
+        width:736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/iphone-soip-contest/tile__cauwwcyyn9hy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-iphone-soip-contest-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/iphone-soip-contest/tile__cauwwcyyn9hy_small_2x.jpg")
+    }
+}
+
+
+.main [data-module-template="promos"] [data-unit-id="iphone-soip-contest"] .unit-copy-wrapper .headline {
+    max-width: 330px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="iphone-soip-contest"] .unit-copy-wrapper .headline {
+        max-width:265px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="iphone-soip-contest"] .unit-copy-wrapper .subhead {
+    max-width: 330px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="iphone-soip-contest"] .unit-copy-wrapper .subhead {
+        max-width:265px
+    }
+}
+
+/*End SOIP*/
+
+
+/*Apple TV plus TBT*/
+.logo-image-tv-plus-tbt-logo {
+    width: 87px;
+    height: 38px;
+    background-size: 87px 38px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/logo__dcojfwkzna2q_large.png");
+    background-position: center
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .logo-image-tv-plus-tbt-logo {
+        background-image:url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/logo__dcojfwkzna2q_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .logo-image-tv-plus-tbt-logo {
+        width:75px;
+        height: 35px;
+        background-size: 75px 35px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/logo__dcojfwkzna2q_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .logo-image-tv-plus-tbt-logo {
+        background-image:url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/logo__dcojfwkzna2q_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .logo-image-tv-plus-tbt-logo {
+        width:77px;
+        height: 38px;
+        background-size: 77px 38px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/logo__dcojfwkzna2q_small.png")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .logo-image-tv-plus-tbt-logo {
+        background-image:url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/logo__dcojfwkzna2q_small_2x.png")
+    }
+}
+
+.logo-image-tv-plus-tbt-tbt-logo {
+    width: 334px;
+    height: 28px;
+    background-size: 334px 28px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/tbt_logo__bxuwyzlaxpci_large.png");
+    background-position: center
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .logo-image-tv-plus-tbt-tbt-logo {
+        background-image:url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/tbt_logo__bxuwyzlaxpci_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .logo-image-tv-plus-tbt-tbt-logo {
+        width:280px;
+        height: 24px;
+        background-size: 280px 24px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/tbt_logo__bxuwyzlaxpci_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .logo-image-tv-plus-tbt-tbt-logo {
+        background-image:url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/tbt_logo__bxuwyzlaxpci_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .logo-image-tv-plus-tbt-tbt-logo {
+        width:279px;
+        height: 23px;
+        background-size: 279px 23px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/tbt_logo__bxuwyzlaxpci_small.png")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .logo-image-tv-plus-tbt-tbt-logo {
+        background-image:url("https://www.apple.com/v/home/er/images/logos/tv-plus-tbt/tbt_logo__bxuwyzlaxpci_small_2x.png")
+    }
+}
+
+
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-tv-plus-tbt-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/er/images/promos/tv-plus-tbt/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-tv-plus-tbt-tile {
+        background-image:url("https://www.apple.com/v/home/er/images/promos/tv-plus-tbt/tile__cauwwcyyn9hy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-tv-plus-tbt-tile {
+        width:516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/er/images/promos/tv-plus-tbt/tile__cauwwcyyn9hy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-tv-plus-tbt-tile {
+        background-image:url("https://www.apple.com/v/home/er/images/promos/tv-plus-tbt/tile__cauwwcyyn9hy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-tv-plus-tbt-tile {
+        width:736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/er/images/promos/tv-plus-tbt/tile__cauwwcyyn9hy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-tv-plus-tbt-tile {
+        background-image:url("https://www.apple.com/v/home/er/images/promos/tv-plus-tbt/tile__cauwwcyyn9hy_small_2x.jpg")
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper .headline {
+    margin-top: 56px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper .headline {
+        margin-top:45px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper .headline {
+        margin-top:37px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper .subhead {
+    max-width: 330px;
+    margin-top: 6px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper .subhead {
+        margin-top:1px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="tv-plus-tbt"] .unit-copy-wrapper .tbt-logo {
+    margin-bottom: 31px
+}
+
+
+/*End Apple TV plus TBT*/
+
+
+/*cny-2020-film tile*/
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-film-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020-film/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-film-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/cny-2020-film/tile__cauwwcyyn9hy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-film-tile {
+        width:516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020-film/tile__cauwwcyyn9hy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-film-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/cny-2020-film/tile__cauwwcyyn9hy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-film-tile {
+        width:736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-position: center 30px;
+        background-image: url("https://www.apple.com/sg/home/images/promos/cny-2020-film/tile__cauwwcyyn9hy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-cny-2020-film-tile {
+        background-image:url("https://www.apple.com/sg/home/images/promos/cny-2020-film/tile__cauwwcyyn9hy_small_2x.jpg")
+    }
+}
+
+
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .theme-dark a {
+    color: #fff;
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .theme-dark a {
+    display:block;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 735px) {
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .theme-dark a {
+    display:block;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+}
+}
+
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    font-size: 34px;
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    font-size: 28px;
+}
+}
+
+@media only screen and (max-width: 735px) {
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    font-size: 28px;
+}
+ }
+
+
+
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .headline {
+    max-width: 330px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .headline {
+        max-width:265px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    max-width: 330px;
+}
+
+
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+        max-width:265px
+    }
+}
+
+
+@media only screen and (min-width: 1069px) {
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    margin-top: 455px;
+}
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+.main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper .subhead {
+    margin-top: 360px;
+}
+}
+
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-wrapper {
+    position:relative;
+}
+}
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="promos"] [data-unit-id="cny-2020-film"] .unit-copy-wrapper {
+    position:absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+}
+
+/*End cny-2020-film tile*/
+
+
+/*TV PLUS MQ TILE*/
+@media only screen and (min-width: 1069px) {
+.main [data-module-template="promos"] [data-unit-id="tv-plus-mq"] .unit-copy-wrapper .headline {
+    margin-top: 386px;
+}
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+.main [data-module-template="promos"] [data-unit-id="tv-plus-mq"] .unit-copy-wrapper .headline {
+    margin-top: 303px;
+}
+}
+
+@media only screen and (max-width: 735px) {
+.main [data-module-template="promos"] [data-unit-id="tv-plus-mq"] .unit-copy-wrapper .headline {
+    margin-top: 330px;
+}
+ }
+
+
+/*Malala fund tile starts*/
+.main [data-module-template="behind-the-mac-takeover"] [data-unit-id="more-programs"] .unit-wrapper .unit-copy-wrapper{
+    display: block;
+}
+
+.main [data-module-template="behind-the-mac-takeover"] [data-unit-id="more-programs"] .unit-wrapper .unit-copy-wrapper .unit-program{
+    margin:0 auto;
+}
+/*Malala fund tile ends*/
+
+
+
+/* Asterisk link color */
+.main [data-module-template="promos"] [data-unit-id="arcade-spyder"] .unit-copy-wrapper .cta-links a:not(:only-child):not(:first-child) {
+    display: inline;
+    color:#2997ff;
+}

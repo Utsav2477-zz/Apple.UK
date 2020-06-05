@@ -1,0 +1,23 @@
+/*  Fix for radar: 34217611 */
+.rs-giftcard-grid .rs-giftcard-image {
+    display: block;
+    margin: 2px auto;
+}
+
+.rs-giftcard-grid .form-choice-selector:active ~ .form-choice-selector-label {
+    padding: 1px;
+}
+
+@media only screen and (max-device-width: 768px) and (max-width: 736px) {
+    .rs-giftcard-grid .rs-giftcard-image {
+        margin: 1px auto;
+    }
+
+    .rs-giftcard-grid .form-choice-selector:active ~ .form-choice-selector-label {
+      padding: 0;
+    }
+}
+
+.us body #page div[role=main] {
+    visibility: visible;
+}

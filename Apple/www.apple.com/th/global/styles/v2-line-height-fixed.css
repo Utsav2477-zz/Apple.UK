@@ -1,0 +1,272 @@
+
+@media only screen and (min-width: 1069px) {
+	.typography-overview-hero-headline:lang(th) {
+		line-height: 1.1;
+	}
+
+
+	.typography-overview-intro:lang(th) {
+		line-height: 1.25;
+	}
+
+	.typography-overview-headline-elevated:lang(th) {
+		line-height: 1.15;
+	}
+	
+	.typography-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-subpage-intro:lang(th) {
+  		 line-height: 1.2;
+	}
+	
+	.typography-overview-intro:lang(th) {
+   		 line-height: 1.25;
+	}
+	
+	.typography-overview-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-subpage-hero-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	
+	.techspecs-rowheader:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-headline-super:lang(th) {
+  	     line-height: 1.2;
+	}
+	
+	.typography-headline-standalone:lang(th) {
+  		  line-height: 1.2;
+	}
+	
+	.typography-headline-elevated:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-eyebrow-super:lang(th) {
+  		  line-height: 1.25;
+	}
+	
+	.typography-eyebrow-elevated:lang(th) {
+   		 line-height: 1.25;
+	}
+	
+	
+	.typography-subpage-headline:lang(th) {
+        line-height: 1.2;
+    }
+    
+    .typography-subpage-intro:lang(th) {
+        line-height: 1.25;
+    }
+    
+    .typography-subpage-buystrip-hero-headline:lang(th) {
+    	line-height: 1.25;
+	}
+	
+	.typography-subpage-buystrip-hero-productname:lang(th) {
+   		line-height: 1.25;
+	}
+	
+	.typography-headline-reduced:lang(th) {
+  		  line-height: 1.2;
+	}
+	
+	.typography-hero-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-section-headline:lang(th){
+		line-height: 1.2;
+	}
+
+
+	
+	
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+	.typography-overview-hero-headline:lang(th) {
+   	    line-height: 1.1;
+	}
+
+	.typography-overview-intro:lang(th) {
+		line-height: 1.25;
+	}
+
+	.typography-overview-headline-elevated:lang(th) {
+		line-height: 1.15;
+	}
+	
+	.typography-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-subpage-intro:lang(th) {
+  		 line-height: 1.2;
+	}
+	
+	.typography-overview-intro:lang(th) {
+   		 line-height: 1.25;
+	}
+	
+	.typography-overview-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-subpage-hero-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	
+	.techspecs-rowheader:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-headline-super:lang(th) {
+  	     line-height: 1.2;
+	}
+	
+	.typography-headline-standalone:lang(th) {
+  		  line-height: 1.2;
+	}
+	
+	.typography-headline-elevated:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-eyebrow-super:lang(th) {
+  		  line-height: 1.25;
+	}
+	
+	.typography-eyebrow-elevated:lang(th) {
+   		 line-height: 1.25;
+	}
+	
+	
+	.typography-subpage-headline:lang(th) {
+        line-height: 1.2;
+    }
+    
+     .typography-subpage-intro:lang(th) {
+        line-height: 1.25;
+    }
+    
+    .typography-subpage-buystrip-hero-headline:lang(th) {
+    	line-height: 1.25;
+	}
+	
+	.typography-subpage-buystrip-hero-productname:lang(th) {
+   		line-height: 1.25;
+	}
+	
+	.typography-headline-reduced:lang(th) {
+  		  line-height: 1.2;
+	}
+	
+	.typography-hero-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-section-headline:lang(th){
+		line-height: 1.2;
+	}
+	
+}
+
+@media only screen and (max-width: 735px) {
+	.typography-overview-hero-headline:lang(th) {
+   	    line-height: 1.1;
+	}
+
+
+	.typography-overview-intro:lang(th) {
+		line-height: 1.25;
+	}
+
+	.typography-overview-headline-elevated:lang(th) {
+		line-height: 1.15;
+	}
+	
+	.typography-subpage-intro:lang(th) {
+  		 line-height: 1.2;
+	}
+	
+	.typography-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-overview-intro:lang(th) {
+   		 line-height: 1.25;
+	}
+	
+	.typography-overview-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-subpage-hero-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	
+	.techspecs-rowheader:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-headline-super:lang(th) {
+  	     line-height: 1.2;
+	}
+	
+	.typography-headline-standalone:lang(th) {
+  		  line-height: 1.2;
+	}
+	
+	.typography-headline-elevated:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-eyebrow-super:lang(th) {
+  		  line-height: 1.25;
+	}
+	
+	.typography-eyebrow-elevated:lang(th) {
+   		 line-height: 1.25;
+	}
+	
+	
+	.typography-subpage-headline:lang(th) {
+        line-height: 1.2;
+    }
+    
+     .typography-subpage-intro:lang(th) {
+        line-height: 1.25;
+    }
+    
+    .typography-subpage-buystrip-hero-headline:lang(th) {
+    	line-height: 1.25;
+	}
+	
+	.typography-subpage-buystrip-hero-productname:lang(th) {
+   		line-height: 1.25;
+	}
+	
+	.typography-headline-reduced:lang(th) {
+  		  line-height: 1.2;
+	}
+	
+	.typography-hero-headline:lang(th) {
+   		 line-height: 1.2;
+	}
+	
+	.typography-section-headline:lang(th){
+		line-height: 1.2;
+	}
+    
+}

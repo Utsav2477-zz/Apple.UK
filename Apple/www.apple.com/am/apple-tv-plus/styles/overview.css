@@ -1,0 +1,195 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+.image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+  .image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_small_2x.png"); }
+}
+.bg-image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .bg-image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .bg-image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .bg-image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+  .bg-image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .bg-image-helpsters-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/helpsters_logo__exkrhvdd7wya_small_2x.png"); }
+}
+.image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+  .image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_small_2x.png"); }
+}
+.bg-image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .bg-image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .bg-image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .bg-image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+  .bg-image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .bg-image-servant-logo { background-image:url("https://www.apple.com/euro/apple-tv-plus/b/screens_alt/images/overview/shows/servant_logo__e8fmbnihpuaa_small_2x.png"); }
+}
+
+
+
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/ 
+
+
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+.section-play-everywhere .illustration-caption {
+	margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 1441px) {
+	.section-play-everywhere .illustration-caption {
+		margin-bottom:70px
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-play-everywhere .illustration-caption {
+		margin-bottom:43px
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-play-everywhere .illustration-caption {
+		margin-bottom:30px
+	}
+}
+
+a.blurry-button {
+	margin: 24px auto;
+	pointer-events: auto;
+	z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background: #0071e3;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 26px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 22px;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.theme-dark a.blurry-button {
+    color: rgba(255,255,255,0.92);
+    text-decoration: none !important;
+}
+
+a.blurry-button:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.8);
+}
+
+#ac-localnav .ac-ln--button {
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	background: #0071e3;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.33337;
+	font-weight: 400;
+	letter-spacing: -.01em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	min-width: 23px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 12px;
+}
+
+#ac-localnav .ac-ln-action-button .ac-ln--button {
+	font-weight: 400;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e5e5e5));
+	background: -webkit-linear-gradient(#fff, #e5e5e5);
+	background: linear-gradient(#fff, #e5e5e5);
+	border-color: #fafafc;
+	color: #1d1d1f;
+}
+
+#ac-localnav .ac-ln-action-button .ac-ln--button:hover {
+	opacity: 0.95;
+}
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/ 

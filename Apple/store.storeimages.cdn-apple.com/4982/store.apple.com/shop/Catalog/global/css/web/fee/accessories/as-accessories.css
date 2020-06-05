@@ -1,0 +1,236 @@
+
+/*
+	ALP and AALP CSS
+	===============================================
+*/
+
+/* 30975146 */
+.mx .as-pinwheel11-tile1 .as-marketing-tile {
+    padding: 0 35px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1068px) {
+    .mx .as-pinwheel11-tile1 .as-marketing-tile {
+        padding: 16px 58px 23px;
+    }
+}
+
+/* 25022295 */
+@media only screen and (max-device-width:333px) and (max-width:333px) and (orientation:portrait) {
+    .de .as-accessories-search .as-srp-search .as-left-wrapper.as-line .field-with-placeholder span,
+    .fr .as-accessories-search .as-srp-search .as-left-wrapper.as-line .as-field-with-placeholder span,
+    .fr .as-accessories-search .as-srp-search .as-left-wrapper.as-line .field-with-placeholder span,
+    .hu .as-accessories-search .as-srp-search .as-left-wrapper.as-line .as-field-with-placeholder span,
+    .hu .as-accessories-search .as-srp-search .as-left-wrapper.as-line .field-with-placeholder span .de .as-accessories-search .as-srp-search .as-left-wrapper.as-line .as-field-with-placeholder span {
+        font-size: 17px;
+    }
+
+    .de .as-accessories-search .as-srp-search .as-left-wrapper.as-line .field-with-placeholder span,
+    .fr .as-accessories-search .as-srp-search .as-left-wrapper.as-line .as-field-with-placeholder span,
+    .fr .as-accessories-search .as-srp-search .as-left-wrapper.as-line .field-with-placeholder span .hu .as-accessories-search .as-srp-search .as-left-wrapper.as-line .as-field-with-placeholder span,
+    .hu .as-accessories-search .as-srp-search .as-left-wrapper.as-line .field-with-placeholder span .de .as-accessories-search .as-srp-search .as-left-wrapper.as-line .as-field-with-placeholder span {
+        padding-right: 20px;
+        text-align: left
+    }
+}
+
+
+/*
+	The following styles to be updated in RS:
+	rs-accessories/dist/accessories.css
+
+	Temp overrides..
+*/
+
+div+.as-pinwheel11 {
+	padding: 0;
+}
+.as-pinwheel11 {
+	padding: 0;
+}
+.as-pinwheel11 .as-pinwheel11-footer {
+	padding-bottom: 0;
+}
+.rs-alp-categories {
+	padding: 0;
+}
+.rs-alp-categories-list {
+	margin-bottom: 0;
+}
+.as-categories-alp .as-browser-contents {
+	padding-bottom: 0;
+}
+.as-pinwheel11.as-pinwheel11-isfooterlinkpresent + .as-pinwheel11 {
+	padding-bottom: 0;
+}
+
+.as-accessories-searchbox h2 {
+	padding: 57px 6.25% 26px;
+}
+
+
+.as-globalfooter .as-globalfooter-buystrip,
+.as-footnotes .as-globalfooter-buystrip {
+	padding-top: 0 !important;
+}
+.as-globalfooter .as-globalfooter-buystrip-content,
+.as-footnotes .as-globalfooter-buystrip-content {
+	padding-top: 52px !important;
+}
+.as-globalfooter-buystrip .icon-apple-store-app {
+    width: auto;
+    height: 56px;
+}
+
+/* end overrides */
+
+
+/*Fix for rdar://problem/33569092 Hiding ALP Paddle Nav*/
+.touch .with-paddlenav-onhover .paddlenav-arrow.paddlenav-arrow-previous,
+.touch .with-paddlenav-onhover .paddlenav-arrow.paddlenav-arrow-next {
+    display: none;
+}
+
+.as-pinwheel14.as-pinwheel-isfooterlinkpresent + .pd-backdrop,
+.as-pinwheel13.as-pinwheel-isfooterlinkpresent + .pd-backdrop,
+.as-pinwheel15.as-pinwheel-isfooterlinkpresent + .pd-backdrop
+{
+    margin-top: 65px;
+}
+
+.as-accessories-searchbox,
+.as-browser,
+.as-pinwheel11,
+.as-pinwheel13,
+.as-pinwheel14,
+.as-pinwheel15 {
+    max-width: 1070px;
+}
+
+.as-pinwheel15 .as-pinwheel-title,
+.as-pinwheel14 .as-pinwheel-title,
+.as-pinwheel13 .as-pinwheel-title {
+    font-size: 40px;
+    line-height: 1.05;
+    font-weight: 500;
+    letter-spacing: .008em;
+    padding: 0 0 20px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-pinwheel11 .as-pinwheel-title,
+    .as-pinwheel14 .as-pinwheel-title,
+    .as-pinwheel13 .as-pinwheel-title {
+        font-size: 28px;
+        line-height: 1.1073;
+        font-weight: 500;
+        letter-spacing: .012em;
+        padding: 17px 40px 23px;
+    }
+}
+
+.as-pinwheel-scrolleritems {
+    font-size: 0;
+}
+
+.ase-gallery-selected + .ase-gallery-item + .ase-gallery-item .as-pinwheel-tile {
+    border-right:0;
+}
+    
+.ase-gallery-selected .as-pinwheel-tile {
+    border-left: 0;
+}
+
+.as-pinwheel15,
+.as-pinwheel14 {
+    padding: 0;
+}
+
+.as-pinwheel15-footer {
+    padding-top: 24px;
+}
+
+.pd-header + .as-pinwheel.as-pinwheel15, 
+.pd-backdrop + .as-pinwheel.as-pinwheel15 {
+    margin-top: 75px;
+}
+
+.pd-aalp .as-categories-alp ~ .as-pinwheel.as-pinwheel15 {
+    margin-top: 48px;
+}
+
+.pd-aalp .as-categories-alp ~ .as-pinwheel.as-pinwheel15 + .as-pinwheel.as-pinwheel14,
+.as-pinwheel + .as-pinwheel14 {
+    margin-top: 60px;
+}
+
+.pd-aalp .as-categories-alp ~ .as-pinwheel.as-pinwheel15.as-pinwheel-isfooterlinkpresent + .as-pinwheel.as-pinwheel14,
+.pd-aalp .as-pinwheel11.as-pinwheel11-isfooterlinkpresent + .as-pinwheel14,
+.pd-aalp .as-pinwheel.as-pinwheel-isfooterlinkpresent + .as-pinwheel14 {
+    margin-top: 58px;
+}
+
+.as-pinwheel.as-pinwheel14 + .pd-backdrop {
+    margin-top: 59px;
+}
+
+.as-pinwheel.as-pinwheel14.as-pinwheel-isfooterlinkpresent + .pd-backdrop {
+    margin-top: 94px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .pd-aalp .as-categories-alp ~ .as-pinwheel11 + .as-pinwheel14,
+    .as-pinwheel + .as-pinwheel14 {
+        margin-top: 35px;
+    }
+
+    .as-pinwheel.as-pinwheel14 + .pd-backdrop {
+        margin-top: 3px;
+    }
+
+    .as-pinwheel.as-pinwheel14.as-pinwheel-isfooterlinkpresent + .pd-backdrop {
+		margin-top: 74px;
+	}
+}
+
+/* Adding top padding for chinese new year pinwheel desktop only */
+.as-pinwheel14-section .as-pinwheel-tile {
+    padding-top: 34px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-pinwheel14-section .as-pinwheel-tile {
+        padding-top: 50px;
+    }
+}
+
+.as-pinwheel15 .as-pinwheel-title:lang(th),
+.as-pinwheel14 .as-pinwheel-title:lang(th),
+.as-pinwheel13 .as-pinwheel-title:lang(th) {
+    padding-top: 10px;
+    line-height: 1.30556;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-pinwheel15 .as-pinwheel-title:lang(th),
+    .as-pinwheel14 .as-pinwheel-title:lang(th),
+    .as-pinwheel13 .as-pinwheel-title:lang(th) {
+        padding-top: 17px;
+        line-height: 1.1073;
+    }     
+
+    .it .as-pinwheel14-footer,
+    .de .as-pinwheel14-footer {
+        padding: 16px 16px 0;
+    }
+
+    .pt .as-pinwheel14-footer {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+.as-alp .as-price-savings {
+    padding: 7px;
+    margin: 0;
+}

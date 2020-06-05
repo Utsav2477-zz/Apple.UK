@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Profile Card Component
+========================================================================== */
+.profile-card {
+  position: relative; }
+
+.profile-card--white .profile-card__title {
+  color: #fff; }
+
+.profile-card__title {
+  color: #000;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 2;
+  -webkit-transition: margin 0.75s ease-in-out;
+  transition: margin 0.75s ease-in-out;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  will-change: margin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  @media only screen and (max-width: 1068px) {
+    .profile-card__title {
+      width: 100%; } }
+  @media only screen and (min-width: 1069px) {
+    .profile-card__title {
+      margin: 0 auto;
+      max-width: 980px;
+      max-width: 54.44444em; } }
+  @media only screen and (min-width: 1200px) {
+    .profile-card__title {
+      max-width: 1600px;
+      max-width: 88.88889em; } }
+
+h2.profile-card__title-main,
+h3.profile-card__title-main {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-size: 3.5rem; }
+
+.profile-card__title-main---mobile,
+h2.profile-card__title-main---mobile,
+h3.profile-card__title-main---mobile {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-size: 3.2rem; }
+
+.profile-card__title.animate {
+  margin-top: -5rem; }
+
+.profile-card__subtitle {
+  position: absolute;
+  width: 100%; }
+
+.profile-card-button {
+  z-index: 3;
+  width: 100%;
+  background: none;
+  margin-top: -100px; }
+
+.profile-card-button + .components-wrapper--white + .components-wrapper--white {
+  margin-top: -1px; }
+
+.profile-card__subtitle-content {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  font-size: 1.9rem;
+  line-height: 1.26;
+  padding-top: 2.5rem; }
+
+main a.profile-card__link {
+  color: #fff; }
+  main a.profile-card__link:hover {
+    color: #fff; }
+
+.profile-card__link .icon {
+  font-size: 22px;
+  font-size: 2.2rem; }

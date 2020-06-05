@@ -1,0 +1,392 @@
+/* Thai Breaking CSS */
+
+/* 
+
+v7 fluid wrapping.
+
+All break tags with the class 'thbr' will be disabled. 
+They can then be selectively enabled based on the below 
+css rules, generally specific to browser size.
+Initial project: WS-Sept15.
+
+Breakpoints:
+ - xlarge: 1442px and wider.
+ - large: 1069px and wider.
+ - medium: 1068px to 736px.
+ - small: 735px and thinner.
+
+Changelog:
+ - Fixed wrong font family issue when apply span.nowrap in headline in new SF PRO page.
+
+
+*/
+
+br.thbr {display: none;}
+
+br.small-viewport-only{
+	display:none;
+}
+
+/* Fluid Line Wrapping */
+
+/* enable breaks for xlarge layout */
+@media only screen and (min-width: 1442px) {
+	br.thbr.xlarge { display: inline; }
+}
+
+/* enable breaks for large layout */
+@media only screen and (min-width: 1069px) {
+	br.thbr.large { display: inline; }
+}
+
+/* enable breaks for medium layout */
+@media only screen and (max-width: 1068px) and (min-width: 736px) {
+	br.thbr.med { display: inline; }
+}
+
+/* enable breaks for small layout */
+@media only screen and (max-width: 735px) and (max-width: 768px) {
+br.small-viewport-only{
+	display:inline;
+	}
+}
+
+
+/* enable breaks for old IE7&8 */
+html.oldie br.thbr.ie { display: inline; }
+html.ie8 br.thbr.ie { display: inline; }
+
+
+
+
+/*
+    Line Height Class for TH
+
+    Usage:  ag-lh-{VIEWPORT}-{VALUE}
+            VIEWPORT = sm, md, lg, xl (Leave VIEWPORT blank for apply to all viewport)
+            VALUE = 08 to 20 (Meaning 0.8 to 2.0 of line-height)
+
+    Example
+        Code: ag-lh-md-12
+        Result: @media only screen and (max-width: 1068px) and (min-width: 736px) {
+                    .ag-lh-md-12:lang(th) {
+                        line-height: 1.2;
+                    }
+                }
+
+        Code: ag-lh-08
+        Result: .ag-lh-md-08:lang(th) {
+                    line-height: 0.8;
+                }
+    
+    Viewport guide:
+        @media only screen and (min-width: 1442px) {
+            Extra large
+        }
+        @media only screen and (min-width: 1069px) {
+            Large
+        }
+        @media only screen and (max-width: 1068px) and (min-width: 736px) {
+            Medium
+        }
+        @media only screen and (max-width: 735px) {
+            Small
+        }
+    }
+*/
+.ag-lh-08:lang(th) {
+  line-height: 0.8; }
+
+.ag-lh-085:lang(th) {
+  line-height: 0.85; }
+
+.ag-lh-09:lang(th) {
+  line-height: 0.9; }
+
+.ag-lh-095:lang(th) {
+  line-height: 0.95; }
+
+.ag-lh-10:lang(th) {
+  line-height: 1; }
+
+.ag-lh-105:lang(th) {
+  line-height: 1.05; }
+
+.ag-lh-11:lang(th) {
+  line-height: 1.1; }
+
+.ag-lh-115:lang(th) {
+  line-height: 1.15; }
+
+.ag-lh-12:lang(th) {
+  line-height: 1.2; }
+
+.ag-lh-125:lang(th) {
+  line-height: 1.25; }
+
+.ag-lh-13:lang(th) {
+  line-height: 1.3; }
+
+.ag-lh-135:lang(th) {
+  line-height: 1.35; }
+
+.ag-lh-14:lang(th) {
+  line-height: 1.4; }
+
+.ag-lh-145:lang(th) {
+  line-height: 1.45; }
+
+.ag-lh-15:lang(th) {
+  line-height: 1.5; }
+
+.ag-lh-155:lang(th) {
+  line-height: 1.55; }
+
+.ag-lh-16:lang(th) {
+  line-height: 1.6; }
+
+.ag-lh-165:lang(th) {
+  line-height: 1.65; }
+
+.ag-lh-17:lang(th) {
+  line-height: 1.7; }
+
+.ag-lh-175:lang(th) {
+  line-height: 1.75; }
+
+.ag-lh-18:lang(th) {
+  line-height: 1.8; }
+
+.ag-lh-185:lang(th) {
+  line-height: 1.85; }
+
+.ag-lh-19:lang(th) {
+  line-height: 1.9; }
+
+.ag-lh-195:lang(th) {
+  line-height: 1.95; }
+
+.ag-lh-20:lang(th) {
+  line-height: 2; }
+
+.ag-lh-205:lang(th) {
+  line-height: 2.05; }
+
+@media only screen and (min-width: 1442px) {
+  .ag-lh-xl-08:lang(th) {
+    line-height: 0.8; }
+  .ag-lh-xl-085:lang(th) {
+    line-height: 0.85; }
+  .ag-lh-xl-09:lang(th) {
+    line-height: 0.9; }
+  .ag-lh-xl-095:lang(th) {
+    line-height: 0.95; }
+  .ag-lh-xl-10:lang(th) {
+    line-height: 1; }
+  .ag-lh-xl-105:lang(th) {
+    line-height: 1.05; }
+  .ag-lh-xl-11:lang(th) {
+    line-height: 1.1; }
+  .ag-lh-xl-115:lang(th) {
+    line-height: 1.15; }
+  .ag-lh-xl-12:lang(th) {
+    line-height: 1.2; }
+  .ag-lh-xl-125:lang(th) {
+    line-height: 1.25; }
+  .ag-lh-xl-13:lang(th) {
+    line-height: 1.3; }
+  .ag-lh-xl-135:lang(th) {
+    line-height: 1.35; }
+  .ag-lh-xl-14:lang(th) {
+    line-height: 1.4; }
+  .ag-lh-xl-145:lang(th) {
+    line-height: 1.45; }
+  .ag-lh-xl-15:lang(th) {
+    line-height: 1.5; }
+  .ag-lh-xl-155:lang(th) {
+    line-height: 1.55; }
+  .ag-lh-xl-16:lang(th) {
+    line-height: 1.6; }
+  .ag-lh-xl-165:lang(th) {
+    line-height: 1.65; }
+  .ag-lh-xl-17:lang(th) {
+    line-height: 1.7; }
+  .ag-lh-xl-175:lang(th) {
+    line-height: 1.75; }
+  .ag-lh-xl-18:lang(th) {
+    line-height: 1.8; }
+  .ag-lh-xl-185:lang(th) {
+    line-height: 1.85; }
+  .ag-lh-xl-19:lang(th) {
+    line-height: 1.9; }
+  .ag-lh-xl-195:lang(th) {
+    line-height: 1.95; }
+  .ag-lh-xl-20:lang(th) {
+    line-height: 2; }
+  .ag-lh-xl-205:lang(th) {
+    line-height: 2.05; } }
+
+@media only screen and (min-width: 1069px) {
+  .ag-lh-lg-08:lang(th) {
+    line-height: 0.8; }
+  .ag-lh-lg-085:lang(th) {
+    line-height: 0.85; }
+  .ag-lh-lg-09:lang(th) {
+    line-height: 0.9; }
+  .ag-lh-lg-095:lang(th) {
+    line-height: 0.95; }
+  .ag-lh-lg-10:lang(th) {
+    line-height: 1; }
+  .ag-lh-lg-105:lang(th) {
+    line-height: 1.05; }
+  .ag-lh-lg-11:lang(th) {
+    line-height: 1.1; }
+  .ag-lh-lg-115:lang(th) {
+    line-height: 1.15; }
+  .ag-lh-lg-12:lang(th) {
+    line-height: 1.2; }
+  .ag-lh-lg-125:lang(th) {
+    line-height: 1.25; }
+  .ag-lh-lg-13:lang(th) {
+    line-height: 1.3; }
+  .ag-lh-lg-135:lang(th) {
+    line-height: 1.35; }
+  .ag-lh-lg-14:lang(th) {
+    line-height: 1.4; }
+  .ag-lh-lg-145:lang(th) {
+    line-height: 1.45; }
+  .ag-lh-lg-15:lang(th) {
+    line-height: 1.5; }
+  .ag-lh-lg-155:lang(th) {
+    line-height: 1.55; }
+  .ag-lh-lg-16:lang(th) {
+    line-height: 1.6; }
+  .ag-lh-lg-165:lang(th) {
+    line-height: 1.65; }
+  .ag-lh-lg-17:lang(th) {
+    line-height: 1.7; }
+  .ag-lh-lg-175:lang(th) {
+    line-height: 1.75; }
+  .ag-lh-lg-18:lang(th) {
+    line-height: 1.8; }
+  .ag-lh-lg-185:lang(th) {
+    line-height: 1.85; }
+  .ag-lh-lg-19:lang(th) {
+    line-height: 1.9; }
+  .ag-lh-lg-195:lang(th) {
+    line-height: 1.95; }
+  .ag-lh-lg-20:lang(th) {
+    line-height: 2; }
+  .ag-lh-lg-205:lang(th) {
+    line-height: 2.05; } }
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) {
+  .ag-lh-md-08:lang(th) {
+    line-height: 0.8; }
+  .ag-lh-md-085:lang(th) {
+    line-height: 0.85; }
+  .ag-lh-md-09:lang(th) {
+    line-height: 0.9; }
+  .ag-lh-md-095:lang(th) {
+    line-height: 0.95; }
+  .ag-lh-md-10:lang(th) {
+    line-height: 1; }
+  .ag-lh-md-105:lang(th) {
+    line-height: 1.05; }
+  .ag-lh-md-11:lang(th) {
+    line-height: 1.1; }
+  .ag-lh-md-115:lang(th) {
+    line-height: 1.15; }
+  .ag-lh-md-12:lang(th) {
+    line-height: 1.2; }
+  .ag-lh-md-125:lang(th) {
+    line-height: 1.25; }
+  .ag-lh-md-13:lang(th) {
+    line-height: 1.3; }
+  .ag-lh-md-135:lang(th) {
+    line-height: 1.35; }
+  .ag-lh-md-14:lang(th) {
+    line-height: 1.4; }
+  .ag-lh-md-145:lang(th) {
+    line-height: 1.45; }
+  .ag-lh-md-15:lang(th) {
+    line-height: 1.5; }
+  .ag-lh-md-155:lang(th) {
+    line-height: 1.55; }
+  .ag-lh-md-16:lang(th) {
+    line-height: 1.6; }
+  .ag-lh-md-165:lang(th) {
+    line-height: 1.65; }
+  .ag-lh-md-17:lang(th) {
+    line-height: 1.7; }
+  .ag-lh-md-175:lang(th) {
+    line-height: 1.75; }
+  .ag-lh-md-18:lang(th) {
+    line-height: 1.8; }
+  .ag-lh-md-185:lang(th) {
+    line-height: 1.85; }
+  .ag-lh-md-19:lang(th) {
+    line-height: 1.9; }
+  .ag-lh-md-195:lang(th) {
+    line-height: 1.95; }
+  .ag-lh-md-20:lang(th) {
+    line-height: 2; }
+  .ag-lh-md-205:lang(th) {
+    line-height: 2.05; } }
+
+@media only screen and (max-width: 735px) {
+  .ag-lh-sm-08:lang(th) {
+    line-height: 0.8; }
+  .ag-lh-sm-085:lang(th) {
+    line-height: 0.85; }
+  .ag-lh-sm-09:lang(th) {
+    line-height: 0.9; }
+  .ag-lh-sm-095:lang(th) {
+    line-height: 0.95; }
+  .ag-lh-sm-10:lang(th) {
+    line-height: 1; }
+  .ag-lh-sm-105:lang(th) {
+    line-height: 1.05; }
+  .ag-lh-sm-11:lang(th) {
+    line-height: 1.1; }
+  .ag-lh-sm-115:lang(th) {
+    line-height: 1.15; }
+  .ag-lh-sm-12:lang(th) {
+    line-height: 1.2; }
+  .ag-lh-sm-125:lang(th) {
+    line-height: 1.25; }
+  .ag-lh-sm-13:lang(th) {
+    line-height: 1.3; }
+  .ag-lh-sm-135:lang(th) {
+    line-height: 1.35; }
+  .ag-lh-sm-14:lang(th) {
+    line-height: 1.4; }
+  .ag-lh-sm-145:lang(th) {
+    line-height: 1.45; }
+  .ag-lh-sm-15:lang(th) {
+    line-height: 1.5; }
+  .ag-lh-sm-155:lang(th) {
+    line-height: 1.55; }
+  .ag-lh-sm-16:lang(th) {
+    line-height: 1.6; }
+  .ag-lh-sm-165:lang(th) {
+    line-height: 1.65; }
+  .ag-lh-sm-17:lang(th) {
+    line-height: 1.7; }
+  .ag-lh-sm-175:lang(th) {
+    line-height: 1.75; }
+  .ag-lh-sm-18:lang(th) {
+    line-height: 1.8; }
+  .ag-lh-sm-185:lang(th) {
+    line-height: 1.85; }
+  .ag-lh-sm-19:lang(th) {
+    line-height: 1.9; }
+  .ag-lh-sm-195:lang(th) {
+    line-height: 1.95; }
+  .ag-lh-sm-20:lang(th) {
+    line-height: 2; }
+  .ag-lh-sm-205:lang(th) {
+    line-height: 2.05; } }
+
+
+

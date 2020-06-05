@@ -1,0 +1,29 @@
+@media only screen and (max-width: 734px) {
+  .section-compare .wrapper .flex-row,
+  .section-compare .wrapper .table-container .column.cell-airpods,
+  .section-compare .wrapper .table-container .column.cell-airpods-pro {
+    text-align: right;
+  }
+  .section-compare .wrapper .compare-airpods,
+  .section-compare .wrapper .compare-airpods-pro {
+    margin-left: unset;
+    left: unset;
+    margin-right: 0;
+    right: 0;
+  }
+
+  .section-compare .wrapper .flex-row:nth-of-type(2) .column {
+    margin-right: unset;
+    margin-left: 35px;
+  }
+}
+
+.section-tiles .airpods-pro .tile-copy {
+  padding-top: 111px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-tiles .airpods-pro .tile-copy {
+    padding-top: 74px;
+  }
+}

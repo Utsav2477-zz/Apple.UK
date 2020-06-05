@@ -1,0 +1,54 @@
+.section-keyboard-details .hardware-birdseye figure.image {
+  margin-right: -100px;
+}
+
+.section-compare .compare-container {
+  flex-direction: row;
+}
+
+.main .section-compare .compare-container .ipad-mini figure {
+  width: 103px;
+  height: 155px;
+  background-size: 103px 155px;
+  background-image: url("https://www.apple.com/mideast/ipad/shared/compare/d/images/overview/ar/compare_ipad_mini__fo3g5w569h6y_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .main .section-compare .compare-container .ipad-mini figure {
+    background-image: url("https://www.apple.com/mideast/ipad/shared/compare/d/images/overview/ar/compare_ipad_mini__fo3g5w569h6y_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .main .section-compare .compare-container .ipad-mini figure {
+    width: 72px;
+    height: 109px;
+    background-size: 72px 109px;
+    background-image: url("https://www.apple.com/mideast/ipad/shared/compare/d/images/overview/ar/compare_ipad_mini__fo3g5w569h6y_small.png");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .main .section-compare .compare-container .ipad-mini figure {
+    background-image: url("https://www.apple.com/mideast/ipad/shared/compare/d/images/overview/ar/compare_ipad_mini__fo3g5w569h6y_small_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-compare .compare-container .product-column .cell-top,
+  .section-compare .compare-container .product-column .cell-bottom {
+    margin-left: auto;
+    margin-right: 20%;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .section-compare .compare-container .product-column .cell-top,
+  .section-compare .compare-container .product-column .cell-bottom {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,121 @@
+/* WEB FONT 2016.12.28 */
+
+html[lang=zh-MO] .more::after,
+html[lang=zh-MO] .more .icon-htc,
+html[lang=zh-MO] .icon-downloadsolid::before,
+html[lang=zh-MO] .icon-downloadsolid::after,
+html[lang=zh-MO] .icon-chevronright::before,
+html[lang=zh-MO] .icon-chevronright::after {
+    top: -1.5px;
+}
+
+.icon-playcircle:before,
+.icon-playcircle:after {
+    top: -1px;
+}
+
+html[lang=zh-MO] .more.arrowicon_top::before,
+html[lang=zh-MO] .more.arrowicon_top::after,
+html[lang=zh-MO] .more.arrowicon_top .icon-htc {
+    top: 0px;
+}
+html[lang=zh-MO] span.badge-half.seven{ margin-left:-0.1em; }
+
+
+html[lang=zh-MO] #ac-globalfooter .ac-gf-more::after,
+html[lang=zh-MO] #ac-globalfooter .ac-gf-more .icon-htc{top:-1px;}
+
+/* center align large and medium */
+html[lang=zh-MO] .centeralign { padding-left: 0.4em; }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centeralign { padding-left: 0; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-MO] .centeralign { padding-left: 0; } }
+
+/* center align all */
+html[lang=zh-MO] .centerall { padding-left: 0.4em; }
+
+/* center align medium  and small*/
+@media only screen and (max-width: 1068px) { html[lang=zh-MO] .centerms { padding-left: 0.4em; } }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centerms { padding-left: 0.4em; } }
+
+/* center align small only */
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centersmall { padding-left: 0.4em; } }
+
+/* center align , large and medium  0.4em , small 0.2*/
+html[lang=zh-MO] .centerall_43 { padding-left: 0.4em; }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centerall_43 { padding-left: 0.3em; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-MO] .centerall_43 { padding-left: 0.3em;  } }
+
+
+/* center align for bigger font-size large and medium  0.5em */
+html[lang=zh-MO] .centeralign_05 { padding-left: 0.5em; }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centeralign_05 { padding-left: 0; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-MO] .centeralign_05 { padding-left: 0; } }
+
+/* center align for bigger font-size large and medium  0.6em */
+html[lang=zh-MO] .centeralign_06 { padding-left: 0.6em; }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centeralign_06 { padding-left: 0; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-MO] .centeralign_06 { padding-left: 0; } }
+
+/* center align for all font-size large and medium small  0.6em */
+html[lang=zh-MO] .centerall_06 { padding-left: 0.6em; }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centerall_06 { padding-left: 0.4em; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-MO] .centerall_06 { padding-left: 0.4em; } }
+
+/* center align for bigger font-size large and medium  1em */
+html[lang=zh-MO] .centerall_09 { padding-left: 1em; }
+@media only screen and (max-width: 735px) { html[lang=zh-MO] .centerall_09 { padding-left: 0.9em;  } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-MO] .centerall_09 { padding-left: 0.9em;  } }
+
+/* <br> 在不同 viewport 的 换行 Show & Hide */
+@media only screen and (max-width: 735px) {html[lang=zh-MO] br.hide-for-small {display: none}}
+
+@media only screen and (max-width: 1024px) {html[lang=zh-MO] br.hide-for-medium {display: none}}
+
+html[lang=zh-MO] br.hide-for-large {display: none}
+@media only screen and (max-width: 1024px) {html[lang=zh-MO] br.hide-for-large {display: block}}
+
+
+@media only screen and (max-width: 735px) {html[lang=zh-MO] br.show-for-small {display: block}}
+
+@media only screen and (max-width: 320px) {html[lang=zh-MO] br.hide-for-xsmall {display: none}}
+
+@media only screen and (max-width: 1024px) {html[lang=zh-MO] br.show-for-medium {display: block}}
+
+html[lang=zh-MO] br.show-for-large {display: block}
+
+
+html[lang=zh-MO] br.show-only-for-small {display: none}
+@media only screen and (max-width: 735px) {html[lang=zh-MO] br.show-only-for-small {display: block}}
+
+html[lang=zh-MO] br.show-only-for-medium {display: none}
+@media only screen and (max-width: 1024px) {html[lang=zh-MO] br.show-only-for-medium {display: block}}
+@media only screen and (max-width: 1068px) {html[lang=zh-MO] br.show-only-for-medium {display: block}}
+@media only screen and (max-width: 735px) {html[lang=zh-MO] br.show-only-for-medium {display: none}}
+
+html[lang=zh-MO] br.show-only-for-large {display: block}
+@media only screen and (max-width: 1024px) {html[lang=zh-MO] br.show-only-for-large {display: none}}
+@media only screen and (max-width: 1068px) {html[lang=zh-MO] br.show-only-for-large {display: none}}
+@media only screen and (max-width: 735px) {html[lang=zh-MO] br.show-only-for-large {display: none}}
+
+br.show-only-for-xsmall {display: none}
+@media only screen and (max-width: 320px) and (max-device-width: 375px) {html[lang=zh-MO] br.show-only-for-xsmall {display: block}}
+
+
+html[lang=zh-MO] br.small-hide {display: none}
+html[lang=zh-MO] br.small-show {display: block}
+
+@media only screen and (min-width: 736px) {
+html[lang=zh-MO] br.medium-hide {display: none}
+html[lang=zh-MO] br.medium-show {display: block}}
+
+@media only screen and (min-width: 1069px) {
+html[lang=zh-MO] br.large-hide {display: none}
+html[lang=zh-MO] br.large-show {display: block}}
+
+@media only screen and (min-width: 1442px) {
+html[lang=zh-MO] br.xlarge-hide {display: none}
+html[lang=zh-MO] br.xlarge-show {display: block}}
+
+
+/* <br> 在不同 viewport 的 换行 Show & Hide End*/
+

@@ -1,0 +1,325 @@
+.section.section-hidden {
+  visibility: hidden;
+}
+
+.fp-tile-full.education {
+  background-size: 1380px 645px;
+  background-position: top;
+  background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/education__bqqx326n7hqu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .fp-tile-full.education {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/education__bqqx326n7hqu_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .fp-tile-full.education {
+    height: 400px;
+    background-size: 736px 400px;
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/education__bqqx326n7hqu_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .fp-tile-full.education {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/education__bqqx326n7hqu_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .fp-tile-full.education {
+    height: 500px;
+    background-size: 736px 500px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/education__bqqx326n7hqu_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .fp-tile-full.education {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/education__bqqx326n7hqu_small_2x.jpg");
+  }
+}
+
+.macos {
+  background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos__qprhm9n1t166_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos__qprhm9n1t166_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos__qprhm9n1t166_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos__qprhm9n1t166_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos__qprhm9n1t166_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos__qprhm9n1t166_small_2x.jpg");
+  }
+}
+
+.no-music .macos {
+  background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-music__qprhm9n1t166_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-music .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-music__qprhm9n1t166_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-music .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-music__qprhm9n1t166_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-music .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-music__qprhm9n1t166_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .no-music .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-music__qprhm9n1t166_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .no-music .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-music__qprhm9n1t166_small_2x.jpg");
+  }
+}
+
+.no-tv .macos {
+  background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-tv__qprhm9n1t166_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-tv .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-tv__qprhm9n1t166_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-tv .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-tv__qprhm9n1t166_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-tv .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-tv__qprhm9n1t166_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .no-tv .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-tv__qprhm9n1t166_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .no-tv .macos {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/en/macos_no-tv__qprhm9n1t166_small_2x.jpg");
+  }
+}
+@media only screen and (min-width: 736px) {
+  .promo-section .promo-tile.arcade-full .promo-copy-container {
+    padding-top: 0;
+  }
+}
+
+.arcade.arcade-full {
+  background-size: 1380px 500px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_large.jpg");
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 500px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .arcade.arcade-full {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .arcade.arcade-full {
+    background-size: 736px 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_medium.jpg");
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .arcade.arcade-full {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .arcade.arcade-full {
+    background-size: 736px 490px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_small.jpg");
+    height: 490px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .arcade.arcade-full {
+    background-image: url("https://www.apple.com/mideast/mac/home/ao/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_small_2x.jpg");
+  }
+}
+
+.fp-tile-full {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-left: 4.16667%;
+  padding-right: 4.16667%;
+  margin-left: 2.08333%;
+  margin-right: 2.08333%;
+}
+
+@media only screen and (max-width: 1068px) {
+  .fp-tile-full {
+    margin-bottom: 20px;
+    padding-left: 3.74532%;
+    padding-right: 3.74532%;
+    margin-left: 2.34082%;
+    margin-right: 2.34082%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .fp-tile-full {
+    margin-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
+.fp-tile-full .flex-copy.promo-copy-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media only screen and (max-width: 735px) {
+  .fp-tile-full .flex-copy.promo-copy-container {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+
+.availability-copy-wrapper {
+  color: #86868b;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.arcade {
+  min-height: 500px;
+}
+@media only screen and (max-width: 1068px) {
+  .arcade {
+    min-height: 400px;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .arcade {
+    min-height: 490px;
+  }
+}
+
+.available-copy {
+  color: #666666;
+}
+
+.section-buystrip .image-icon-financing {
+  width: 60px;
+  height: 60px;
+  background-size: 100% 60px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/ac/globalfooter/5/en_AE/assets/ac-buystrip/financing/aed/icon_large.svg);
+  top: -11px;
+  position: relative;
+  left: 50%;
+  background-position-y: unset;
+  margin-left: -32px;
+  margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-buystrip .image-icon-financing {
+    margin-bottom: 10px;
+    top: 10px;
+  }
+}

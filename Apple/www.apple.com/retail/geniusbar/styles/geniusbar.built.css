@@ -1,0 +1,207 @@
+
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-call { background-image:url("https://images.apple.com/retail/geniusbar/images/call_medium.png"); background-size:46px 43px; width:46px; height:43px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-call { background-image:url("https://images.apple.com/retail/geniusbar/images/call_medium_2x.png"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-call { background-image:url("https://images.apple.com/retail/geniusbar/images/call_small.png"); background-size:46px 43px; width:46px; height:43px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-call { background-image:url("https://images.apple.com/retail/geniusbar/images/call_small_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/genius_large.jpg"); background-size:980px 601px; width:980px; height:601px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/genius_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/genius_medium.jpg"); background-size:693px 425px; width:693px; height:425px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/genius_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/genius_small.jpg"); background-size:737px 452px; width:737px; height:452px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/genius_small_2x.jpg"); }
+}
+.page-geniusbar .image-retail-geniusbar-icon-call { background-image:url("https://www.apple.com/retail/geniusbar/images/icon_call_large.svg"); background-size:44px 42px; width:44px; height:42px; }
+html.no-svg .page-geniusbar .image-retail-geniusbar-icon-call { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_call_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-svg .page-geniusbar .image-retail-geniusbar-icon-call { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_call_large_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-icon-chat { background-image:url("https://www.apple.com/retail/geniusbar/images/icon_chat_community_large.svg"); background-size:53px 40px; width:53px; height:40px; }
+html.no-svg .page-geniusbar .image-retail-geniusbar-icon-chat { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_chat_community_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-svg .page-geniusbar .image-retail-geniusbar-icon-chat { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_chat_community_large_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-icon-email { background-image:url("https://www.apple.com/retail/geniusbar/images/icon_email_large.svg"); background-size:55px 39px; width:55px; height:39px; }
+html.no-svg .page-geniusbar .image-retail-geniusbar-icon-email { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_email_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-svg .page-geniusbar .image-retail-geniusbar-icon-email { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_email_large_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-icon-genius { background-image:url("https://www.apple.com/retail/geniusbar/images/icon_genius_bar_large.svg"); background-size:40px 44px; width:40px; height:44px; }
+html.no-svg .page-geniusbar .image-retail-geniusbar-icon-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_genius_bar_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-svg .page-geniusbar .image-retail-geniusbar-icon-genius { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_genius_bar_large_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-icon-mail { background-image:url("https://www.apple.com/retail/geniusbar/images/icon_shipping_large.svg"); background-size:40px 44px; width:40px; height:44px; }
+html.no-svg .page-geniusbar .image-retail-geniusbar-icon-mail { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_shipping_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-svg .page-geniusbar .image-retail-geniusbar-icon-mail { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_shipping_large_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-icon-service { background-image:url("https://www.apple.com/retail/geniusbar/images/icon_apple_store_large.svg"); background-size:38px 44px; width:38px; height:44px; }
+html.no-svg .page-geniusbar .image-retail-geniusbar-icon-service { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_apple_store_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-svg .page-geniusbar .image-retail-geniusbar-icon-service { background-image:url("https://images.apple.com/retail/geniusbar/images/icon_apple_store_large_2x.png"); }
+}
+.page-geniusbar .image-retail-geniusbar-it_deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_large.jpg"); background-size:1070px 439px; width:1070px; height:439px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-it_deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-it_deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_medium.jpg"); background-size:768px 318px; width:768px; height:318px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-it_deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-it_deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_small.jpg"); background-size:737px 452px; width:737px; height:452px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-it_deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_small_2x.jpg"); }
+}
+.page-geniusbar .image-retail-geniusbar-expect { background-image:url("https://images.apple.com/retail/geniusbar/images/expect_large.jpg"); background-size:572px 351px; width:572px; height:351px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-expect { background-image:url("https://images.apple.com/retail/geniusbar/images/expect_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-expect { background-image:url("https://images.apple.com/retail/geniusbar/images/expect_medium.jpg"); background-size:693px 426px; width:693px; height:426px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-expect { background-image:url("https://images.apple.com/retail/geniusbar/images/expect_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-expect { background-image:url("https://images.apple.com/retail/geniusbar/images/expect_small.jpg"); background-size:736px 415px; width:736px; height:415px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-expect { background-image:url("https://images.apple.com/retail/geniusbar/images/expect_small_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-mail { background-image:url("https://images.apple.com/retail/geniusbar/images/mail_medium.png"); background-size:44px 49px; width:44px; height:49px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-mail { background-image:url("https://images.apple.com/retail/geniusbar/images/mail_medium_2x.png"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-mail { background-image:url("https://images.apple.com/retail/geniusbar/images/mail_small.png"); background-size:44px 49px; width:44px; height:49px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-mail { background-image:url("https://images.apple.com/retail/geniusbar/images/mail_small_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-email { background-image:url("https://images.apple.com/retail/geniusbar/images/email_medium.png"); background-size:54px 38px; width:54px; height:38px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-email { background-image:url("https://images.apple.com/retail/geniusbar/images/email_medium_2x.png"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-email { background-image:url("https://images.apple.com/retail/geniusbar/images/email_small.png"); background-size:54px 38px; width:54px; height:38px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-email { background-image:url("https://images.apple.com/retail/geniusbar/images/email_small_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-service { background-image:url("https://images.apple.com/retail/geniusbar/images/service_medium.png"); background-size:47px 54px; width:47px; height:54px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-service { background-image:url("https://images.apple.com/retail/geniusbar/images/service_medium_2x.png"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-service { background-image:url("https://images.apple.com/retail/geniusbar/images/service_small.png"); background-size:47px 54px; width:47px; height:54px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-service { background-image:url("https://images.apple.com/retail/geniusbar/images/service_small_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-chat { background-image:url("https://images.apple.com/retail/geniusbar/images/chat_medium.png"); background-size:61px 46px; width:61px; height:46px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-chat { background-image:url("https://images.apple.com/retail/geniusbar/images/chat_medium_2x.png"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-chat { background-image:url("https://images.apple.com/retail/geniusbar/images/chat_small.png"); background-size:61px 46px; width:61px; height:46px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-chat { background-image:url("https://images.apple.com/retail/geniusbar/images/chat_small_2x.png"); }
+}
+.page-geniusbar .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_large.jpg"); background-size:1070px 439px; width:1070px; height:439px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_medium.jpg"); background-size:768px 318px; width:768px; height:318px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_small.jpg"); background-size:737px 452px; width:737px; height:452px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_small_2x.jpg"); }
+}
+.page-geniusbar .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_large.jpg"); background-size:1070px 439px; width:1070px; height:439px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-geniusbar .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_medium.jpg"); background-size:768px 318px; width:768px; height:318px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_small.jpg"); background-size:737px 452px; width:737px; height:452px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_small_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .section-deployment .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_large.jpg"); background-size:1070px 439px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .section-deployment .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_large_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) and (max-width: 1068px) {
+  .page-geniusbar .section-deployment .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_medium.jpg"); background-size:768px 318px; }
+}
+@media only screen and (max-width: 735px) and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .section-deployment .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) and (max-width: 735px) {
+  .page-geniusbar .section-deployment .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_small.jpg"); background-size:737px 452px; }
+}
+@media only screen and (max-width: 735px) and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .section-deployment .image-retail-retail-geniusbar-it-deployment { background-image:url("https://images.apple.com/retail/geniusbar/images/it_deployment_small_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-geniusbar .section-service .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_large.jpg"); background-size:1070px 439px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .section-service .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_large_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) and (max-width: 1068px) {
+  .page-geniusbar .section-service .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_medium.jpg"); background-size:768px 318px; }
+}
+@media only screen and (max-width: 735px) and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-geniusbar .section-service .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) and (max-width: 735px) {
+  .page-geniusbar .section-service .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_small.jpg"); background-size:737px 452px; }
+}
+@media only screen and (max-width: 735px) and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-geniusbar .section-service .image-retail-geniusbar-service-repair-raza { background-image:url("https://images.apple.com/retail/geniusbar/images/service_repair_raza_small_2x.jpg"); }
+}

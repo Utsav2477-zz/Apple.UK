@@ -1,0 +1,234 @@
+/**
+ * Overlay.
+ */
+
+.overlay {
+  background: white;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.overlay__inner {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  width: 100%;
+}
+
+.overlay__close {
+  display: block;
+  height: 44px;
+  left: 25px;
+  overflow: hidden;
+  position: absolute;
+  top: 25px;
+  width: 44px;
+  font-size: 32px;
+}
+
+.overlay__close .icon {
+  color: black;
+  display: block;
+}
+
+.overlay__close .icon:before {
+  font-size: 2rem;
+  line-height: 0;
+  top: 28px;
+}
+
+.icon_x:before, .icon_x:after {
+  content: "\F009";
+}
+
+.invisible {
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px; }
+/**
+ * IE Fixes.
+ */
+
+html[data-useragent*='Windows'] .overlay__close .icon:before {
+  top: 15px;
+}
+
+/**
+ * Firefox Fixes.
+ */
+
+@-moz-document url-prefix() {
+  .overlay__close .icon:before {
+    top: 15px;
+  }
+}
+
+.overlay__close:hover {
+  text-decoration: none;
+}
+
+.overlay__close:hover .icon {
+  color: black;
+}
+
+
+a.play-video.block-link:hover {
+  text-decoration: none;
+}
+
+a.play-video.block-link.profile-card__link {
+  color: #fff;
+  text-decoration: none; }
+
+a.play-video.block-link.profile-card__link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+/**
+ * Video.
+ */
+
+.video-wrapper {
+  margin: 0 auto 85px;
+  position: relative;
+}
+
+@media only screen and (min-width: 960px) {
+  .video-wrapper {
+    max-width: 960px; }}
+@media only screen and (min-width: 1280px) {
+  .video-wrapper {
+    max-width: 1280px; }}
+@media only screen and (min-width: 1920px) {
+  .video-wrapper {
+    max-width: 1920px; }}
+  
+.video-wrapper video {
+  margin: auto auto;
+  display: block;
+}
+
+/* video on R1 students page */
+p.medium-thin-portrait {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.main--teams-students .site-width.lr-90-portrait {
+  margin: 2rem 0 0;
+}
+
+@media only screen and (max-width: 735px) {
+  .main--teams-students .text-rail.row.remove-top-pad {
+    padding: 0;
+  }
+  p.medium-thin-portrait {
+    font-size: 16px;
+  }
+  .text-rail.row.remove-bottom-pad {
+    padding-bottom: 0;
+  }
+}
+
+.icon_chevron-right::after {
+  content: ""
+}
+
+.text-rail.row.remove-top-pad {
+  padding-top: 0;
+}
+
+.component--student-information .text-rail.row.remove-top-pad p + h3 {
+  margin-top: 5rem;
+}
+  @media only screen and (max-width: 735px) {
+    .component--student-information .text-rail.row.remove-top-pad p + h3 {
+      margin-top: 5rem; } }
+      
+.icon_play:before, .icon_play:after {
+  content: "" }
+
+a.play-video.block-link,
+a.play-video.block-link:hover {
+  color: #323232;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.45; }
+
+.main--teams-students a.play-video.block-link,
+.main--teams-students a.play-video.block-link:hover {
+  color: #0070c9;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.53; }
+  
+a.play-video.block-link.block-link--video-white,
+a.play-video.block-link.block-link--video-white:hover {
+  color: #fff;
+  font-size: 1.9rem;
+  line-height: 1.35; }
+
+a.play-video.block-link:hover {
+  text-decoration: underline; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+video.video-at-home-advisor {
+  height: auto !important;
+}
+
+div.video-wrapper.clearfix {
+  margin-top: 15rem !important;
+}
+
+/**
+ *  adjusment to fix issue with localnav after removing bundle.js 
+ */
+.localnav.localnav--dark {
+  background-color: rgba(255, 255, 255, .9); }
+
+/**
+ *	update to video play link for index, retail and team pages
+ */
+p.medium-thin-portrait.video-link-r1 {
+  font-size: 2.3rem;
+  font-weight: 300; }
+
+div.column.small-12.medium-8.large-7.small-offset-0.medium-offset-2.large-offset-1.text-rail__text.video-text-r1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+span.icon.icon_play.icon_video {
+  margin-left: 0;
+  font-size: 2.2rem;
+  line-height: 1.25; }
+
+.profile-card__subtitle-content.r0-video {
+  margin: 0; }
+
+.theme-dark .localnav.localnav--dark {
+	background-color: #000000; }
+.theme-dark a.play-video.block-link {
+	color: #0070c9;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: 500; }

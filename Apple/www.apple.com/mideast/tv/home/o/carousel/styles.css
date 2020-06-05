@@ -1,0 +1,629 @@
+.image-stories-see {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_see__glcocl2n746e_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-see {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_see__glcocl2n746e_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-see {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_see__glcocl2n746e_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-see {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_see__glcocl2n746e_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-see {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_see__glcocl2n746e_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-see {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_see__glcocl2n746e_small_2x.jpg");
+  }
+}
+
+.image-stories-dickinson {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_dickinson__d468vp4r3p26_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-dickinson {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_dickinson__d468vp4r3p26_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-dickinson {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_dickinson__d468vp4r3p26_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-dickinson {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_dickinson__d468vp4r3p26_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-dickinson {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_dickinson__d468vp4r3p26_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-dickinson {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_dickinson__d468vp4r3p26_small_2x.jpg");
+  }
+}
+
+.image-stories-the-morning-show {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_morning_show__bvqj8gzlpeia_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-the-morning-show {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_morning_show__bvqj8gzlpeia_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-the-morning-show {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_morning_show__bvqj8gzlpeia_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-the-morning-show {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_morning_show__bvqj8gzlpeia_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-the-morning-show {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_morning_show__bvqj8gzlpeia_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-the-morning-show {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_morning_show__bvqj8gzlpeia_small_2x.jpg");
+  }
+}
+
+.image-stories-servant {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_servant__eb9l57xdd2aa_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-servant {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_servant__eb9l57xdd2aa_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-servant {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_servant__eb9l57xdd2aa_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-servant {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_servant__eb9l57xdd2aa_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-servant {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_servant__eb9l57xdd2aa_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-servant {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_servant__eb9l57xdd2aa_small_2x.jpg");
+  }
+}
+
+.image-stories-the-elephant-queen {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_elephant_queen__da6d33jgpj6u_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-the-elephant-queen {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_elephant_queen__da6d33jgpj6u_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-the-elephant-queen {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_elephant_queen__da6d33jgpj6u_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-the-elephant-queen {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_elephant_queen__da6d33jgpj6u_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-the-elephant-queen {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_elephant_queen__da6d33jgpj6u_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-the-elephant-queen {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_elephant_queen__da6d33jgpj6u_small_2x.jpg");
+  }
+}
+
+.image-stories-for-all-mankind {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_for_all_mankind__gju81lxskzm2_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-for-all-mankind {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_for_all_mankind__gju81lxskzm2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-for-all-mankind {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_for_all_mankind__gju81lxskzm2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-for-all-mankind {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_for_all_mankind__gju81lxskzm2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-for-all-mankind {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_for_all_mankind__gju81lxskzm2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-for-all-mankind {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_for_all_mankind__gju81lxskzm2_small_2x.jpg");
+  }
+}
+
+.image-stories-truth-be-told {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_truth_be_told__diz6xkrgz8wi_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-truth-be-told {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_truth_be_told__diz6xkrgz8wi_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-truth-be-told {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_truth_be_told__diz6xkrgz8wi_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-truth-be-told {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_truth_be_told__diz6xkrgz8wi_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-truth-be-told {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_truth_be_told__diz6xkrgz8wi_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-truth-be-told {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_truth_be_told__diz6xkrgz8wi_small_2x.jpg");
+  }
+}
+
+.image-stories-mythic-quest {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_mythic_quest__bxh19v03efg2_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-mythic-quest {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_mythic_quest__bxh19v03efg2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-mythic-quest {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_mythic_quest__bxh19v03efg2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-mythic-quest {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_mythic_quest__bxh19v03efg2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-mythic-quest {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_mythic_quest__bxh19v03efg2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-mythic-quest {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_mythic_quest__bxh19v03efg2_small_2x.jpg");
+  }
+}
+
+.image-stories-little-america {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_little_america__d4elisklqh6q_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-little-america {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_little_america__d4elisklqh6q_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-little-america {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_little_america__d4elisklqh6q_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-little-america {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_little_america__d4elisklqh6q_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-little-america {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_little_america__d4elisklqh6q_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-little-america {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_little_america__d4elisklqh6q_small_2x.jpg");
+  }
+}
+
+.image-stories-snoopy-in-space {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_snoopy_in_space__ehrnnlgxhsgi_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-snoopy-in-space {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_snoopy_in_space__ehrnnlgxhsgi_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-snoopy-in-space {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_snoopy_in_space__ehrnnlgxhsgi_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-snoopy-in-space {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_snoopy_in_space__ehrnnlgxhsgi_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-snoopy-in-space {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_snoopy_in_space__ehrnnlgxhsgi_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-snoopy-in-space {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_snoopy_in_space__ehrnnlgxhsgi_small_2x.jpg");
+  }
+}
+
+.image-stories-helpsters {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_helpsters__e5yw71tgh6c2_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-helpsters {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_helpsters__e5yw71tgh6c2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-helpsters {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_helpsters__e5yw71tgh6c2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-helpsters {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_helpsters__e5yw71tgh6c2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-helpsters {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_helpsters__e5yw71tgh6c2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-helpsters {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_helpsters__e5yw71tgh6c2_small_2x.jpg");
+  }
+}
+
+.image-stories-ghostwriter {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_ghostwriter__d0ys7ehiiu4i_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-ghostwriter {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_ghostwriter__d0ys7ehiiu4i_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-ghostwriter {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_ghostwriter__d0ys7ehiiu4i_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-ghostwriter {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_ghostwriter__d0ys7ehiiu4i_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-ghostwriter {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_ghostwriter__d0ys7ehiiu4i_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-ghostwriter {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_ghostwriter__d0ys7ehiiu4i_small_2x.jpg");
+  }
+}
+
+.image-stories-hala {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_hala__gdsmxfvjq32i_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-hala {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_hala__gdsmxfvjq32i_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-hala {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_hala__gdsmxfvjq32i_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-hala {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_hala__gdsmxfvjq32i_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-hala {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_hala__gdsmxfvjq32i_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-hala {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_hala__gdsmxfvjq32i_small_2x.jpg");
+  }
+}
+
+.image-stories-the-banker {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_banker__exbujvftz9w2_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-stories-the-banker {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_banker__exbujvftz9w2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-stories-the-banker {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_banker__exbujvftz9w2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-stories-the-banker {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_banker__exbujvftz9w2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-stories-the-banker {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_banker__exbujvftz9w2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-stories-the-banker {
+    background-image: url("https://www.apple.com/mideast/tv/home/o/carousel/images/stories_the_banker__exbujvftz9w2_small_2x.jpg");
+  }
+}

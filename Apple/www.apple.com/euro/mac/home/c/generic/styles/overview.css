@@ -1,0 +1,239 @@
+/*------------------------------------*\
+   TV PLUS
+\*------------------------------------*/
+
+.tv-plus {
+    background-size: 1380px 600px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-tv-plus/alt_apple_tv_tile__esom37qe6lg2_large.jpg");
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 600px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .tv-plus {
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-tv-plus/alt_apple_tv_tile__esom37qe6lg2_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .tv-plus {
+        background-size: 736px 400px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-tv-plus/alt_apple_tv_tile__esom37qe6lg2_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .tv-plus {
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-tv-plus/alt_apple_tv_tile__esom37qe6lg2_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .tv-plus {
+        background-size: 736px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-tv-plus/alt_apple_tv_tile__esom37qe6lg2_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .tv-plus {
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-tv-plus/alt_apple_tv_tile__esom37qe6lg2_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .tv-plus {
+        height: 400px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .tv-plus {
+        height: 490px
+    }
+}
+
+
+.promo-section .tv-plus .promo-copy-wrapper {
+	left: 75%;
+	width: 80%;
+}
+
+@media only screen and (max-width: 1068px) {
+    .promo-section .tv-plus .promo-copy-wrapper {
+    	left: 62%;
+    	width: 45%
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .promo-section .tv-plus .promo-copy-wrapper {
+    	left: 0%;
+    	width: 90%;
+    }
+}
+
+.tv-plus .product-copy {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 382px
+}
+
+@media only screen and (max-width: 1068px) {
+    .tv-plus .product-copy {
+        max-width: 414px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .tv-plus .product-copy {
+        max-width: 321px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .tv-plus .typography-product-lockup:last-of-type {
+        max-width: 208px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .tv-plus.banner-promo .promo-copy-container {
+        padding-top: 40px; 
+    }
+}
+
+/*------------------------------------*\
+   END FULL WIDTH TV PLUS
+\*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+   APPLE-ARCADE
+\*------------------------------------*/
+
+.arcade {
+    background-size: 1380px 600px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_large.jpg");
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 600px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .arcade {
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .arcade {
+        background-size: 736px 400px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .arcade {
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .arcade {
+    	background-size: 736px 490px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .arcade {
+        background-image: url("https://www.apple.com/euro/mac/home/c/screens_alt/images/overview/apple-arcade/alt_apple_arcade_tile__e1315ks01hm6_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .arcade {
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .arcade {
+        min-height: 490px;
+    }
+}
+
+.arcade a span {
+    color: #fff;
+}
+
+.promo-section .arcade .promo-copy-wrapper {
+	left: -25%;
+}
+
+@media only screen and (max-width: 1068px) {
+    .promo-section .arcade .promo-copy-wrapper {
+    	left: 0%;
+    	width: 50%
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .promo-section .arcade .promo-copy-wrapper {
+    	left: 5%;
+    	width: 90%;
+    }
+}
+
+.arcade .product-copy {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 382px
+}
+
+@media only screen and (max-width: 1068px) {
+    .arcade .product-copy {
+        max-width: 414px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .arcade .product-copy {
+        max-width: 321px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+   .arcade.banner-promo .promo-copy-container {
+    	padding-top: 40px; 
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .arcade .typography-product-lockup:last-of-type {
+        max-width: 208px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .arcade .typography-product-lockup:last-of-type {
+    	margin-top: 20px;
+    }
+}
+
+/*------------------------------------*\
+   END FULL WIDTH APPLE-ARCADE
+\*------------------------------------*/

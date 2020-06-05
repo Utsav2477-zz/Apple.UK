@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Events Component
+========================================================================== */
+.events {
+  background: #d7dfe5;
+  margin: 1rem 0; }
+  @media only screen and (min-width: 736px) {
+    .events {
+      margin: 1.5rem 0;
+      padding: 0 2.2rem; } }
+  @media only screen and (min-width: 1069px) {
+    .events {
+      padding: 0; } }
+
+.events-content {
+  margin: 0 auto;
+  max-width: 980px;
+  max-width: 54.44444em; }
+
+.events-selector {
+  padding: 2rem 2.2rem 3rem; }
+  @media only screen and (min-width: 736px) {
+    .events-selector {
+      padding: 4rem 0 4.5rem 0; } }
+
+.events-selector .column-last {
+  text-align: right; }
+  @media only screen and (max-width: 735px) {
+    .events-selector .column-last {
+      margin-top: 1rem; } }
+
+.events-selector label {
+  display: inline-block;
+  font-size: 25px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 1rem; }
+  @media only screen and (min-width: 736px) {
+    .events-selector label {
+      font-size: 30px;
+      font-size: 3rem; } }
+
+.events-selector select {
+  font-family: "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  @media only screen and (max-width: 735px) {
+    .events-selector select {
+      width: 100%; } }
+  .events-selector select:invalid {
+    color: #999; }
+
+.events-results {
+  display: none;
+  padding: 0 0 2rem; }
+  @media only screen and (max-width: 735px) {
+    .events-results {
+      border-top: 1px solid #cccccc; } }
+  @media only screen and (min-width: 736px) {
+    .events-results {
+      padding: 1.5rem 0 3.5rem; } }
+  @media only screen and (min-width: 1069px) {
+    .events-results {
+      margin-left: 8.33333%; } }
+
+.events-results table {
+  width: 100%; }
+  @media only screen and (min-width: 736px) {
+    .events-results table {
+      width: 90%; } }
+
+.events-results table thead {
+  display: none; }
+  @media only screen and (min-width: 736px) {
+    .events-results table thead {
+      display: table-header-group; } }
+
+.events-results table tbody tr {
+  border-bottom: 1px solid #cccccc; }
+  .events-results table tbody tr:last-of-type {
+    border-bottom: none; }
+
+.events-results table thead tr {
+  border-bottom: 1px solid #cccccc; }
+
+.events-results table tr td {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 0 2.2rem; }
+  @media only screen and (max-width: 735px) {
+    .events-results table tr td {
+      display: block; }
+      .events-results table tr td:first-of-type {
+        padding-top: 2.2rem; }
+      .events-results table tr td:last-of-type {
+        padding-bottom: 1.7rem; } }
+  @media only screen and (min-width: 736px) {
+    .events-results table tr td {
+      padding: 2rem 1.6rem 1.6rem 0; }
+      .events-results table tr td:last-child {
+        padding-right: 0; } }
+
+.events-results table th {
+  font-size: 15px;
+  font-size: 1.5rem; }
+  @media only screen and (min-width: 736px) {
+    .events-results table th {
+      padding-bottom: .5rem; } }
+
+.events_results__team {
+  display: inline-block;
+  font-style: italic;
+  margin-top: .5rem;
+  opacity: 0.7; }
+

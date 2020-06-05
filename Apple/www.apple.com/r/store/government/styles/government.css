@@ -1,0 +1,18 @@
+html { background:#f2f2f2; }
+body { background:#fff; }
+
+#hero { position:relative; min-height:299px; _height:299px; padding-right:50px; margin:0 0 1.6em; background:#f4f4f4 url(https://www.apple.com/r/store/government/images/hero_bg20080804.gif) repeat-y 0 0;  }
+#hero .column { width:395px; }
+#hero .phone { display:block; font-size:1.5em; text-align:center; color:#303030; }
+#hero .cap { clear:both; position:absolute; width:980px; height:5px; left:0; font-size:1px; }
+#hero .cap.top { top:0; background:url(https://www.apple.com/r/store/government/images/hero_bgtop20080804.png) no-repeat 0 0; behavior:url(https://www.apple.com/global/scripts/lib/iepngfix.htc);  }
+#hero .cap.bottom { bottom:0; background:url(https://www.apple.com/r/store/government/images/hero_bgbottom20080804.png) no-repeat 0 0; behavior:url(https://www.apple.com/global/scripts/lib/iepngfix.htc); }
+
+#hero img.left { margin:0 0 1px 0; *margin-bottom:-17px; }
+#hero h1 { padding-top:90px; }
+
+#content { color:#555; padding-bottom:1px; }
+#main h2,
+#main h3 { color:#111; }
+
+#main ul { margin-bottom:18px; }

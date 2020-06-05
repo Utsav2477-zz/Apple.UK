@@ -1,0 +1,71 @@
+/*------------------------------------*\
+LOCAL SCREENS
+\*------------------------------------*/
+
+
+@media only screen and (min-width: 735px) {
+	.subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image:url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_large.jpg"); }
+}
+@media only screen and (min-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 735px) and (min-resolution: 1.5dppx), only screen and (min-width: 735px) and (min-resolution: 144dpi) {
+	.subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image:url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_large_2x.jpg"); }
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image:url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_medium.jpg"); }
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 735px) and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (min-width: 735px) and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image:url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_medium_2x.jpg"); }
+}
+@media only screen and (min-width: 735px) and (max-width: 734px) {
+	.subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image:url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_small.jpg"); }
+}
+@media only screen and (min-width: 735px) and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 735px) and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (min-width: 735px) and (max-width: 734px) and (min-resolution: 144dpi) {
+	.subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image:url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_small_2x.jpg"); }
+}
+@media only screen and (max-width: 734px) {
+   .subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image: url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_small.jpg"); }
+}
+@media only screen and (max-width: 734px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 734px) and(min-resolution: 1.5dppx), only screen and(max-width: 734px) and(min-resolution: 144dpi) {
+   .subsection-touch-bar-gallery .touchbar-gallery .item-container .image-keyboard-2 { background-image: url("https://www.apple.com/euro/macbook-pro-16/a/screens_alt/images/overview/keyboard_gallery_2__e75kxte8wsmm_small_2x.jpg"); }
+}
+
+
+/*------------------------------------*\
+  END LOCAL SCREENS
+\*------------------------------------*/ 
+
+
+
+
+/*------------------------------------*\
+  LOCAL FIXES
+\*------------------------------------*/
+
+html.classic-ar .quicklook-component .quicklook-cta.classic-ar {
+   display: inline;
+}
+
+html.modern-ar .quicklook-component .quicklook-cta.modern-ar {
+   display: inline;
+}
+
+@media only screen and (max-width: 734px) {
+   .section-hero .hero-headline {
+	   position: relative;
+	   width: 320px;
+	   left: -160px;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+   .section-graphics .section-sticky-hero .sticky-container.zoom .quote-text {
+	   font-size: 45px;
+   }
+}
+
+.typography-intro-cta.typography-intro {
+    color: #888;
+}
+
+/*------------------------------------*\
+  END LOCAL FIXES
+\*------------------------------------*/ 

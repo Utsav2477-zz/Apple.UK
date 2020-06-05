@@ -1,0 +1,1526 @@
+.large-hide {
+  display: none;
+  visibility: hidden;
+}
+
+html[lang="ar-EG"]
+  .page-overview
+  .callout-half.callout-copy-only.physical-and-motor-gestures,
+html[lang="ar-JO"]
+  .page-overview
+  .callout-half.callout-copy-only.physical-and-motor-gestures {
+  flex-basis: 100%;
+}
+
+.flex-full {
+  flex-basis: 100% !important;
+}
+
+@media only screen and (max-width: 1068px) {
+  .medium-hide {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .small-show {
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-hero .overview-hero-headline {
+    text-align: right;
+  }
+}
+
+.page-overview .section-hero .thumbnail {
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  right: 50%;
+}
+
+.page-overview .section-vision .callout.vision-zoom .callout-mediaobject {
+  text-align: right;
+}
+
+.page-overview
+  .section-physical-and-motor-skills
+  .callout.physical-and-motor-keyboard
+  .callout-mediaobject {
+  text-align: right;
+}
+
+.page-overview .callout-full-alt .callout-copy-wrapper {
+  padding: 40px 51px 40px 76px;
+}
+
+.page-overview .callout-full-right .callout-copy-wrapper {
+  padding: 40px 60px 40px 50px;
+}
+
+@media only screen and (min-width: 1068px) {
+  .page-overview .section-nextrouter .nextrouter-copy {
+    padding: 0 50px 55px 0;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-nextrouter .nextrouter-copy {
+    padding: 0 30px 38px 0;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-nextrouter .column-half .nextrouter-copy {
+    width: 89%;
+  }
+}
+
+.page-overview .section-nextrouter .nextrouter-section-learn {
+  background-color: #fff;
+}
+
+.page-overview
+  .section-learning-and-literacy
+  .callout.learning-and-literacy-safari
+  .mediaobject-startframe {
+  left: auto;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    left: 30px;
+    right: auto;
+  }
+}
+
+.page-overview
+  .section-learning-and-literacy
+  .callout.learning-and-literacy-safari
+  .callout-mediaobject {
+  text-align: right;
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .callout-mediaobject {
+    float: right;
+    margin-right: 25px;
+  }
+}
+
+.page-overview .block-router .block-router-headline {
+  text-align: right;
+}
+
+@media only screen and (min-width: 735px) {
+  .page-overview .block-router ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .page-overview .block-router .router-link,
+  .page-overview .block-router .router-link:nth-child(3n) {
+    margin: 0 10px 10px 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .block-router ul li {
+    float: right;
+  }
+
+  .page-overview .block-router .router-link,
+  .page-overview .block-router .router-link:nth-child(3n) {
+    margin: 0 0 4px 4px;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .page-overview .block-router.block-router-compact .router-link:first-child {
+    margin-right: 0;
+  }
+  .page-overview .block-router.block-router-compact .icon {
+    padding: 66px 0 20px 0;
+  }
+
+  .page-overview .section-hearing .section-content .callout-row {
+    margin-bottom: 0;
+  }
+
+  .page-overview .block-router.block-router-compact .link-item {
+    width: 237.5px;
+    height: 251px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+  .page-overview .block-router.block-router-compact .icon {
+    padding: 46px 0 20px 0;
+  }
+
+  .page-overview .block-router.block-router-compact .link-item {
+    width: 237.5px;
+    height: 211px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+}
+
+@media only screen and (min-width: 1068px) {
+  .typography-headline-elevated:lang(ar) {
+    line-height: 1.30312;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .callout .mac-hw {
+    float: left;
+  }
+}
+
+/*------------------------------------*\
+END LOCAL FIXES
+\*------------------------------------*/
+
+/*------------------------------------*\
+LOCAL SCREENS
+\*------------------------------------*/
+
+.page-overview .section-nextrouter.section-nextrouter-full .image-build {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/build_large.jpg");
+  background-size: 981px 573px;
+  width: 981px;
+  height: 573px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .section-nextrouter.section-nextrouter-full .image-build {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/build_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-nextrouter.section-nextrouter-full .image-build {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/build_medium.jpg");
+    background-size: 691px 500px;
+    width: 691px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .section-nextrouter.section-nextrouter-full .image-build {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/build_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-nextrouter.section-nextrouter-full .image-build {
+    width: 705px;
+    height: 450px;
+    background-size: 705px 450px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/accessibility/n/images/overview/build_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .section-nextrouter.section-nextrouter-full .image-build {
+    background-image: url("https://www.apple.com/v/accessibility/n/images/overview/build_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-learning-and-literacy
+  .callout.learning-and-literacy-guided-access
+  .media-object {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/guided_access__dlb45tyn8dyu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-guided-access
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/guided_access__dlb45tyn8dyu_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-guided-access
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/guided_access__dlb45tyn8dyu_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-guided-access
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/guided_access__dlb45tyn8dyu_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-guided-access
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/guided_access__dlb45tyn8dyu_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-guided-access
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/guided_access__dlb45tyn8dyu_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-physical-and-motor-skills
+  .callout.physical-and-motor-siri
+  .mediaobject-hardware {
+  width: 302px;
+  height: 528px;
+  background-size: 302px 528px;
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/homepod_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/homepod_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .mediaobject-hardware {
+    width: 251px;
+    height: 437px;
+    background-size: 251px 437px;
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/homepod_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/homepod_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .mediaobject-hardware {
+    width: 167px;
+    height: 332px;
+    background-size: 167px 332px;
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/homepod_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/homepod_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-learning-and-literacy
+  .callout.learning-and-literacy-safari
+  .mediaobject-hardware {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/ipad_hw_safari_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/ipad_hw_safari_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/ipad_hw_safari_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/ipad_hw_safari_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/ipad_hw_safari_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/ipad_hw_safari_small_2x.jpg");
+  }
+}
+
+.page-overview .section-vision .callout.vision-text .media-object {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_birthday__e21ukx2tnjma_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .section-vision .callout.vision-text .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_birthday__e21ukx2tnjma_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-vision .callout.vision-text .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_birthday__e21ukx2tnjma_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .section-vision .callout.vision-text .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_birthday__e21ukx2tnjma_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-vision .callout.vision-text .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_birthday__e21ukx2tnjma_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .section-vision .callout.vision-text .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_birthday__e21ukx2tnjma_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-learning-and-literacy
+  .callout.learning-and-literacy-speak
+  .media-object:before {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_speak__dbwfowk8dui6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-speak
+    .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_speak__dbwfowk8dui6_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-speak
+    .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_speak__dbwfowk8dui6_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-speak
+    .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_speak__dbwfowk8dui6_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-speak
+    .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_speak__dbwfowk8dui6_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-speak
+    .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/iphonex_speak__dbwfowk8dui6_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-physical-and-motor-skills
+  .callout.physical-and-motor-watch
+  .media-object {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/watch_activity__hwtli0884rqm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-watch
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/watch_activity__hwtli0884rqm_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-watch
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/watch_activity__hwtli0884rqm_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-watch
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/watch_activity__hwtli0884rqm_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-watch
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/watch_activity__hwtli0884rqm_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-watch
+    .media-object {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/watch_activity__hwtli0884rqm_small_2x.jpg");
+  }
+}
+
+.page-overview .section-vision .callout.vision-display .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-vision
+  .callout.vision-display
+  .mediaobject-startframe.alt {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_alt_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe.alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_alt_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe.alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_alt_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe.alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_alt_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe.alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_alt_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-vision
+    .callout.vision-display
+    .mediaobject-startframe.alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/display_startframe_alt_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-learning-and-literacy
+  .callout.learning-and-literacy-safari
+  .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/safari-reader_startframe_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/safari-reader_startframe_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/safari-reader_startframe_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/safari-reader_startframe_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/safari-reader_startframe_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/safari-reader_startframe_small_2x.jpg");
+  }
+}
+
+.page-overview .section-hearing .callout.hearing-siri .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_small_2x.jpg");
+  }
+}
+
+.page-overview
+  .section-hearing
+  .callout.hearing-siri
+  .mediaobject-startframe-alt {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_alt_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe-alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_alt_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe-alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_alt_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe-alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_alt_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe-alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_alt_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-hearing
+    .callout.hearing-siri
+    .mediaobject-startframe-alt {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/type-to-siri_startframe_alt_small_2x.jpg");
+  }
+}
+
+.page-overview .section-vision .callout.vision-zoom .mediaobject-startframe,
+html.js
+  .page-overview
+  .section-vision
+  .callout.vision-zoom
+  .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe__c10wnyu4vxyu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .section-vision .callout.vision-zoom .mediaobject-startframe,
+  html.js
+    .page-overview
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe__c10wnyu4vxyu_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-vision .callout.vision-zoom .mediaobject-startframe,
+  html.js
+    .page-overview
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe__c10wnyu4vxyu_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .section-vision .callout.vision-zoom .mediaobject-startframe,
+  html.js
+    .page-overview
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe__c10wnyu4vxyu_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-vision .callout.vision-zoom .mediaobject-startframe,
+  html.js
+    .page-overview
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe__c10wnyu4vxyu_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .section-vision .callout.vision-zoom .mediaobject-startframe,
+  html.js
+    .page-overview
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe__c10wnyu4vxyu_small_2x.jpg");
+  }
+}
+
+.page-overview.no-tv
+  .section-vision
+  .callout.vision-zoom
+  .mediaobject-startframe,
+html.js
+  .page-overview.no-tv
+  .section-vision
+  .callout.vision-zoom
+  .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe_no-tv__c10wnyu4vxyu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe,
+  html.js
+    .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe_no-tv__c10wnyu4vxyu_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe,
+  html.js
+    .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe_no-tv__c10wnyu4vxyu_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe,
+  html.js
+    .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe_no-tv__c10wnyu4vxyu_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe,
+  html.js
+    .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe_no-tv__c10wnyu4vxyu_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe,
+  html.js
+    .page-overview.no-tv
+    .section-vision
+    .callout.vision-zoom
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/zoom_startframe_no-tv__c10wnyu4vxyu_small_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1068px) {
+  .page-overview .section-hearing .callout.hearing-facetime .media-object {
+    left: unset;
+    right: 34px;
+  }
+
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-speak
+    .media-object {
+    left: unset;
+    right: 18px;
+  }
+
+  .page-overview .section-nextrouter .column-half .nextrouter-copy {
+    width: 82%;
+  }
+}
+
+@media only screen and (min-width: 735px) {
+  .page-overview .section-nextrouter .nextrouter-section-build {
+    float: left;
+  }
+  .column.column-half.nextrouter-section.nextrouter-section-shop {
+    float: right;
+  }
+
+  .page-overview .section-hearing .callout.hearing-facetime .media-object {
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .callout-full-alt .callout-copy-wrapper {
+    padding: 40px 32px 40px 31px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-hearing .callout.hearing-facetime .media-object {
+    right: -2px;
+  }
+
+  .page-overview .callout-full-right .callout-copy-wrapper {
+    padding: 40px 25px 0;
+  }
+
+  .page-overview .callout-full-alt .callout-copy-wrapper {
+    padding: 0 25px;
+  }
+  .page-overview .callout .callout-with-media {
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero-headline-super {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 736px) {
+  .page-overview .section-vision .callout.vision-zoom .callout-mediaobject,
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .callout-mediaobject,
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .callout-mediaobject {
+    margin-top: 74px;
+    width: 120%;
+    overflow: visible;
+  }
+
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .media-object {
+    margin-top: 76px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .media-object {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .callout-mediaobject {
+    position: relative;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-learning-and-literacy
+    .callout.learning-and-literacy-safari
+    .mediaobject-startframe {
+    left: 0;
+    right: 30px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-siri
+    .media-object {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-nextrouter.section-nextrouter-full
+    .nextrouter-section {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+  .page-overview .section-nextrouter.section-nextrouter-full .nextrouter-copy {
+    width: 100%;
+  }
+}
+
+.page-overview
+  .section-physical-and-motor-skills
+  .callout.physical-and-motor-keyboard
+  .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard__tf9vqmf118qe_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard__tf9vqmf118qe_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard__tf9vqmf118qe_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard__tf9vqmf118qe_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard__tf9vqmf118qe_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard__tf9vqmf118qe_small_2x.jpg");
+  }
+}
+
+.page-overview.no-tv
+  .section-physical-and-motor-skills
+  .callout.physical-and-motor-keyboard
+  .mediaobject-startframe {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard_no-tv__tf9vqmf118qe_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview.no-tv
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard_no-tv__tf9vqmf118qe_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview.no-tv
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard_no-tv__tf9vqmf118qe_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview.no-tv
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard_no-tv__tf9vqmf118qe_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview.no-tv
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard_no-tv__tf9vqmf118qe_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview.no-tv
+    .section-physical-and-motor-skills
+    .callout.physical-and-motor-keyboard
+    .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_keyboard_no-tv__tf9vqmf118qe_small_2x.jpg");
+  }
+}
+
+.page-overview .section-hearing .callout.hearing-watch .media-object:before {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/hearing_health_screen__ck4up9bnv3hy_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .section-hearing .callout.hearing-watch .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/hearing_health_screen__ck4up9bnv3hy_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-hearing .callout.hearing-watch .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/hearing_health_screen__ck4up9bnv3hy_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .section-hearing .callout.hearing-watch .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/hearing_health_screen__ck4up9bnv3hy_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-hearing .callout.hearing-watch .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/hearing_health_screen__ck4up9bnv3hy_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .section-hearing .callout.hearing-watch .media-object:before {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/hearing_health_screen__ck4up9bnv3hy_small_2x.jpg");
+  }
+}
+
+.page-overview .section-nextrouter .image-learn {
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/learn__fiwboycwuiaa_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .section-nextrouter .image-learn {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/learn__fiwboycwuiaa_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-nextrouter .image-learn {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/learn__fiwboycwuiaa_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .section-nextrouter .image-learn {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/learn__fiwboycwuiaa_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-nextrouter .image-learn {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/learn__fiwboycwuiaa_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .section-nextrouter .image-learn {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/learn__fiwboycwuiaa_small_2x.jpg");
+  }
+}
+
+.page-overview .hearing-facetime-macos .media-object {
+  margin-right: -39px;
+  margin-top: 74px;
+}
+
+@media only screen and (min-width: 736px) {
+  .page-overview .callout.vision-zoom {
+    flex-direction: row-reverse;
+  }
+
+  .page-overview.no-facetime .callout.hearing-facetime-macos {
+    flex-direction: row-reverse;
+  }
+  .page-overview .hearing-facetime-macos .callout-mediaobject {
+    overflow: visible;
+  }
+
+  .page-overview .hearing-facetime-macos .media-object {
+    margin-right: 0;
+  }
+}
+
+.page-overview .hearing-facetime-macos .mediaobject-hardware {
+  width: 536px;
+  height: 454px;
+  background-size: 536px 454px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/macbook_hw_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .hearing-facetime-macos .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/macbook_hw_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .hearing-facetime-macos .mediaobject-hardware {
+    width: 368px;
+    height: 354px;
+    background-size: 368px 354px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/macbook_hw_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .hearing-facetime-macos .mediaobject-hardware {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/ar/macbook_hw_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .hearing-facetime-macos .mediaobject-hardware {
+    width: 520px;
+    height: 298px;
+    background-size: 520px 298px;
+    background-image: url("https://www.apple.com/v/accessibility/n/images/overview/macbook_hw__czjr8pozstme_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .hearing-facetime-macos .mediaobject-hardware {
+    background-image: url("https://www.apple.com/v/accessibility/n/images/overview/macbook_hw__czjr8pozstme_small_2x.jpg");
+  }
+}
+
+.page-overview .hearing-facetime-macos .mediaobject-startframe {
+  width: 438px;
+  height: 368px;
+  background-size: 438px 368px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_facetime__tf9vqmf118qe_large.jpg");
+  position: absolute;
+  top: 34px;
+  right: 0;
+  z-index: 1;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .page-overview .hearing-facetime-macos .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_facetime__tf9vqmf118qe_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-overview .hearing-facetime-macos .mediaobject-startframe {
+    width: 290px;
+    height: 288px;
+    background-size: 290px 288px;
+    background-repeat: no-repeat;
+    top: 26px;
+    right: 6px;
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_facetime__tf9vqmf118qe_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .hearing-facetime-macos .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_facetime__tf9vqmf118qe_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .hearing-facetime-macos .mediaobject-startframe {
+    width: 392px;
+    height: 244px;
+    background-size: 392px 244px;
+    background-repeat: no-repeat;
+    top: 20px;
+    right: unset;
+    left: 66px;
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_facetime__tf9vqmf118qe_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .hearing-facetime-macos .mediaobject-startframe {
+    background-image: url("https://www.apple.com/mideast/accessibility/n/images/overview/macbook_screen_facetime__tf9vqmf118qe_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-overview .section-vision .callout.vision-zoom .callout-container {
+    margin-top: 2em;
+  }
+}

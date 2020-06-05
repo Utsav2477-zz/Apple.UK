@@ -1,0 +1,456 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+.image-overview-hero-ipad-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_startframe__fwapocthki2q_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-hero-ipad-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_startframe__fwapocthki2q_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-hero-ipad-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_startframe__fwapocthki2q_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-hero-ipad-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_startframe__fwapocthki2q_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-hero-ipad-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_startframe__fwapocthki2q_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-hero-ipad-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_startframe__fwapocthki2q_small_2x.jpg"); }
+}
+.image-overview-hero-ipad-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-hero-ipad-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-hero-ipad-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-hero-ipad-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-hero-ipad-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-hero-ipad-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_small_2x.jpg"); }
+}
+.image-shared-smartkeyboard-applepencil {  background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/shared/smartkeyboard_applepencil__b0hmtae2nvn6_large.jpg");
+} @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+ .image-shared-smartkeyboard-applepencil { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/shared/smartkeyboard_applepencil__b0hmtae2nvn6_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+ .image-shared-smartkeyboard { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/shared/smartkeyboard__deph54joisuq_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+ .image-shared-smartkeyboard { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/shared/smartkeyboard__deph54joisuq_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+ .image-shared-smartkeyboard { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/shared/smartkeyboard__deph54joisuq_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+ .image-shared-smartkeyboard { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/shared/smartkeyboard__deph54joisuq_small_2x.jpg"); }
+ }
+
+html.no-screen-animations-supported .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-screen-animations-supported .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_large_2x.jpg"); }
+}
+html.no-screen-animations-supported.css-mask .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  html.no-screen-animations-supported.css-mask .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  html.no-screen-animations-supported .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.no-screen-animations-supported .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  html.no-screen-animations-supported.css-mask .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.no-screen-animations-supported.css-mask .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  html.no-screen-animations-supported .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  html.no-screen-animations-supported .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_small_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  html.no-screen-animations-supported.css-mask .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  html.no-screen-animations-supported.css-mask .section-hero .video-container .inline-video-media { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/hero_ipad_screen_static__yu6ksam1aluu_small_2x.jpg"); }
+}
+.image-overview-accessibility-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/accessibility_hero__dq9dkh8d6eoi_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-accessibility-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/accessibility_hero__dq9dkh8d6eoi_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-accessibility-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/accessibility_hero__dq9dkh8d6eoi_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-accessibility-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/accessibility_hero__dq9dkh8d6eoi_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-accessibility-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/accessibility_hero__dq9dkh8d6eoi_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-accessibility-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/accessibility_hero__dq9dkh8d6eoi_small_2x.jpg"); }
+}
+.image-overview-appstore-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/appstore_hero__3hwb9uzvs8y6_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-appstore-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/appstore_hero__3hwb9uzvs8y6_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-appstore-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/appstore_hero__3hwb9uzvs8y6_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-appstore-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/appstore_hero__3hwb9uzvs8y6_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-appstore-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/appstore_hero__3hwb9uzvs8y6_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-appstore-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/appstore_hero__3hwb9uzvs8y6_small_2x.jpg"); }
+}
+.image-overview-recap-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/recap_hero__fciqbpx32o66_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-recap-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/recap_hero__fciqbpx32o66_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-recap-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/recap_hero__fciqbpx32o66_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-recap-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/recap_hero__fciqbpx32o66_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-recap-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/recap_hero__fciqbpx32o66_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-recap-hero { background-image:url("https://www.apple.com/euro/ipad-10.2/a/screens_alt/images/overview/recap_hero__fciqbpx32o66_small_2x.jpg"); }
+}
+
+.image-overview-photos-hero-2-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_startframe__5mg3562svgye_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-photos-hero-2-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_startframe__5mg3562svgye_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-photos-hero-2-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_startframe__5mg3562svgye_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-photos-hero-2-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_startframe__5mg3562svgye_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-photos-hero-2-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_startframe__5mg3562svgye_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-photos-hero-2-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_startframe__5mg3562svgye_small_2x.jpg"); }
+}
+.image-overview-photos-hero-2-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_static__fieobyzvhz6m_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-photos-hero-2-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_static__fieobyzvhz6m_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-photos-hero-2-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_static__fieobyzvhz6m_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-photos-hero-2-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_static__fieobyzvhz6m_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-photos-hero-2-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_static__fieobyzvhz6m_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-photos-hero-2-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/photos_hero_2_screen_static__fieobyzvhz6m_small_2x.jpg"); }
+}
+.image-overview-work-hero-1-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_startframe__dj6kbyr9sz2a_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-work-hero-1-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_startframe__dj6kbyr9sz2a_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-work-hero-1-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_startframe__dj6kbyr9sz2a_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-work-hero-1-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_startframe__dj6kbyr9sz2a_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-work-hero-1-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_startframe__dj6kbyr9sz2a_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-work-hero-1-screen-startframe { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_startframe__dj6kbyr9sz2a_small_2x.jpg"); }
+}
+.image-overview-work-hero-1-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_static__dclbc81efu6a_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-overview-work-hero-1-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_static__dclbc81efu6a_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-overview-work-hero-1-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_static__dclbc81efu6a_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-overview-work-hero-1-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_static__dclbc81efu6a_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-overview-work-hero-1-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_static__dclbc81efu6a_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-overview-work-hero-1-screen-static { background-image:url("https://www.apple.com/euro/ipad-10.2/b/screens_alt/images/overview/work_hero_1_screen_static__dclbc81efu6a_small_2x.jpg"); }
+}
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/  
+
+
+/*------------------------------------*\
+   LOCAL SNIPES
+\*------------------------------------*/
+
+.section-gaming .gaming-hero-2 .snipe-2 {
+    top: 316px;
+    left:152px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-gaming .gaming-hero-2 .snipe-2 {
+        top: 208px;
+        left:156px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-gaming .gaming-hero .snipe-2 {
+        top: 324px;
+        left:-18px
+    }
+}
+
+.image-overview-gaming-snipe-controller {
+    width: 241px;
+    height: 120px;
+    background-size: 241px 120px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/gaming_snipe_controller__fgr3feaqbgey_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-gaming-snipe-controller {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/gaming_snipe_controller__fgr3feaqbgey_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-gaming-snipe-controller {
+        width: 158px;
+        height: 120px;
+        background-size: 158px 120px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/gaming_snipe_controller__fgr3feaqbgey_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-gaming-snipe-controller {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/gaming_snipe_controller__fgr3feaqbgey_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .image-overview-gaming-snipe-controller {
+        width: 148px;
+        height: 102px;
+        background-size: 148px 102px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/gaming_snipe_controller__fgr3feaqbgey_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .image-overview-gaming-snipe-controller {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/gaming_snipe_controller__fgr3feaqbgey_small_2x.png")
+    }
+}
+
+.section-gaming .gaming-hero-2 .snipe-2-sprite {
+	top: -14px;
+	left: 22px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-gaming .gaming-hero-2 .snipe-2-sprite {
+        top: -14px;
+        left: 55px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-gaming .gaming-hero .snipe-3-sprite {
+        top: -12px;
+        left: 20px
+    }
+}
+
+.section-privacy .privacy-hero .snipe-2 {
+    top: 592px;
+    left:24px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-privacy .privacy-hero .snipe-2 {
+        position: relative;
+        top: 445px;
+        left: -2px;
+        margin-left: auto;
+        margin-right:auto
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-privacy .privacy-hero .snipe-2 {
+        top: 214px;
+        left:-23px
+    }
+}
+
+.image-overview-privacy-snipe-fingerprint {
+    width: 400px;
+    height: 122px;
+    background-size: 400px 122px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/privacy_snipe_fingerprint__du7cheggq9iu_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-privacy-snipe-fingerprint {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/privacy_snipe_fingerprint__du7cheggq9iu_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-privacy-snipe-fingerprint {
+        width: 620px;
+        height: 54px;
+        background-size: 620px 54px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/privacy_snipe_fingerprint__du7cheggq9iu_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-snipe-fingerprint {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/privacy_snipe_fingerprint__du7cheggq9iu_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .image-overview-privacy-snipe-fingerprint {
+        width: 280px;
+        height: 54px;
+        background-size: 280px 54px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/privacy_snipe_fingerprint__du7cheggq9iu_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-snipe-fingerprint {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_us/images/overview/privacy_snipe_fingerprint__du7cheggq9iu_small_2x.png")
+    }
+}
+
+.image-overview-portable-snipe-weight {
+    width: 140px;
+    height: 122px;
+    background-size: 140px 122px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_en/images/overview/portable_snipe_weight__dk0mkt0qp5ua_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-portable-snipe-weight {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_en/images/overview/portable_snipe_weight__dk0mkt0qp5ua_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-portable-snipe-weight {
+        width: 110px;
+        height: 96px;
+        background-size: 110px 96px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_en/images/overview/portable_snipe_weight__dk0mkt0qp5ua_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-portable-snipe-weight {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_en/images/overview/portable_snipe_weight__dk0mkt0qp5ua_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .image-overview-portable-snipe-weight {
+        width: 100px;
+        height: 96px;
+        background-size: 100px 96px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_en/images/overview/portable_snipe_weight__dk0mkt0qp5ua_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .image-overview-portable-snipe-weight {
+        background-image: url("https://www.apple.com/euro/ipad-10.2/a/titles_en/images/overview/portable_snipe_weight__dk0mkt0qp5ua_small_2x.png")
+    }
+}
+
+.section-portable .portable-hero .snipe-1-sprite {
+    top: 25px;
+    left: 48px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-portable .portable-hero .snipe-1-sprite {
+        top: 20px;
+        left: 38px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-portable .portable-hero .snipe-1-sprite {
+        top: 19px;
+        left: 18px
+    }
+}
+
+.section-portable .portable-hero .snipe-1 {
+    top:-152px;
+    left: 312px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-portable .portable-hero .snipe-1 {
+        top: -97px;
+        left: 204px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-portable .portable-hero .snipe-1 {
+        top: -100px;
+        left: 27px
+    }
+}
+/*------------------------------------*\
+   END LOCAL SNIPES
+\*------------------------------------*/ 
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/ 

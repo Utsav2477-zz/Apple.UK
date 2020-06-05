@@ -1,0 +1,10 @@
+/* Asterisk footnote */
+.main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .cta-links a:not(:only-child):not(:first-child).footnote {
+    margin-left: 0;
+}
+
+/* Asterisk link color */
+.main [data-module-template="promos"] [data-unit-id="arcade-spyder"] .unit-copy-wrapper .cta-links a:not(:only-child):not(:first-child) {
+    display: inline;
+    color: #2997ff;
+}

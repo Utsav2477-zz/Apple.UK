@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Slideshow Component
+========================================================================== */
+/*
+ * Dotnav
+ */
+.gallery--slideshow .dotnav-item:hover::after {
+  background: #cccccc; }
+
+.gallery--slideshow .dotnav-item::after {
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  will-change: background; }
+
+.gallery--slideshow .dotnav-item.current:hover::after {
+  background: #666666; }
+
+.gallery--slideshow .dotnav-item.current.active::after {
+  background: #cccccc; }
+
+.gallery--slideshow .dotnav-item .dotnav-item__timer {
+  background: #666666;
+  display: block;
+  height: .2rem;
+  left: 0;
+  margin-top: -0.1rem;
+  position: absolute;
+  top: 50%;
+  width: 0;
+  will-change: width;
+  z-index: 1;
+  visibility: hidden; }
+
+.gallery--slideshow .dotnav-item.active .dotnav-item__timer {
+  visibility: visible;
+  width: 100%; }

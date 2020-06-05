@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-HK" lang="zh-HK" prefix="og: http://ogp.me/ns#">
+
+<!-- Mirrored from www.apple.com/hk/retail/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 08:23:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8" />
+<link rel="canonical" href="https://www.apple.com/hk/retail/" />
+
+
+	
+	<!--no hreflang found-->
+
+
+	
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	
+	
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalnav/5/zh_HK/styles/ac-globalnav.built.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/localnav/3.0/styles/ac-localnav.built.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalfooter/5/zh_HK/styles/ac-globalfooter.built.css" />
+	
+
+
+	<title>Apple Store - 尋找零售店 - Apple (香港)</title>
+	<meta property="analytics-track" content="Apple Store - Find a Store - Apple" />
+	<meta property="analytics-s-channel" content="retailstore" />
+
+	<meta property="analytics-s-bucket-0" content="appleglobal,applestoreww" />
+	<meta property="analytics-s-bucket-1" content="apple{COUNTRY_CODE}global,applestoreww" />
+	<meta property="analytics-s-bucket-2" content="apple{COUNTRY_CODE}global,applestoreww" />
+
+
+	<meta name="Description" content="尋找 Apple Store，選購 Mac、iPhone、iPad、Apple Watch 及更多其他產品。你可報名參加 Today at Apple 的主題計劃，或於 Genius Bar 獲得支援服務。" />
+	
+	
+	
+	
+	<meta property="og:title" content="Apple Store - 尋找零售店" />
+	<meta property="og:description" content="尋找 Apple Store，選購 Mac、iPhone、iPad、Apple Watch 及更多其他產品。你可報名參加 Today at Apple 的主題計劃，或於 Genius Bar 獲得支援服務。" />
+	<meta property="og:url" content="https://www.apple.com/hk/retail/" />
+	
+	
+	
+	<meta property="og:image" content="https://www.apple.com/hk/home/images/og.jpg?201912182156" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="zh_HK" />
+	<meta property="og:site_name" content="Apple (香港)" />
+	<meta property="al:ios:app_name" content="Apple Store" />
+	<meta property="al:ios:app_store_id" content="375380948" />
+	<meta property="al:ios:url" content="https://www.apple.com/hk-zh/xc/stores" />
+	<script src="https://www.apple.com/v/retail/find-a-store/d/scripts/head.built.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" type="text/css" media="all">
+	<script src="https://www.apple.com/v/retail/l/scripts/util.js" charset="utf-8"></script>
+	<script src="https://cdn.apple-mapkit.com/mk/5.27.1/mapkit.js"></script>
+	<script src="https://www.apple.com/v/retail/locator/j/scripts/head.built.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://www.apple.com/v/retail/locator/j/styles/locator.built.css" type="text/css" />
+
+
+	<!-- retail locator view templates -->
+<script id="retail-locator-spinner" type="text/html">
+<img src="/global/elements/zoom_view/zoom-view-image-loading.gif" width="32" height="32" alt="正在載入" />
+</script>
+
+<script id="retail-locator-map-item-template" type="text/html">
+<div class="map-container">
+	<div class="close"></div>
+	<div class="map-overlay-box">
+	
+		<a href="{store_detail_link}" class="store-info selfclear">
+			<img src="{image_link}" width="150" height="100" alt="" />
+			<div class="column last store-address">
+				<h1 class="store-address-box">Apple Store <br />{store_name}</h1>
+				<h2><address>{address}<br />{city_state} {zip}</address>
+				{phone}</h2>
+				<span class="more">View store details</span>
+			</div>
+		</a>
+	
+		<div class="notch"></div>
+	</div>
+</div>
+</script>
+
+<script id="retail-locator-list-item-template" type="text/html">
+<div class="row">
+	<div class="list-store-address column large-8 medium-12 small-6 small-offset-0">
+		<h1>{store_name}</h1>
+		<address>
+			<div>{address1}</div>
+			<div>{address2}</div>
+			<div class="hide-for-large">{distance}</div>
+		</address>
+
+		
+		<a href="{store_detail_link}" class="more">View store details</a>
+		
+
+	</div>
+	<div class="column large-4 small-6 hide-for-medium align-center retail-small-thumb">
+		<span class="show-only-for-large">{distance}</span>
+		<img class="show-only-for-small center" src="{image_link}" width="108" height="72" alt="" />
+	</div>
+</div>
+</script>
+
+<script id="retail-locator-list-item-template-mobile" type="text/html">
+	<h1>{store_name}</h1>
+	<address>
+		<div>{address1}</div>
+		<div>{address2}</div>
+	</address>
+</script>
+
+<script id="retail-locator-list-empty" type="text/html">
+	<li class='default'>
+	<h1>Please enter a location.</h1>
+	We&rsquo;ll show you the nearest Apple Store.
+	</li>
+</script>
+
+<script id="retail-locator-views" type="text/html">
+<div class="grid2col retailLocatorView" data-hires="false">
+	<div class="column first listViewContainer">
+		<ul class="listView">
+		</ul>
+		<div class="nav">
+		<div class="column large-12 medium-6">
+			<a href="#" id="retail-map-list-prev" class="icon icon-chevronleft icon-before previous" rel="prev">Previous</a>
+		</div>
+		<div class="column medium-6 large-12 hide-for-small">
+			<a href="#" id="retail-map-list-next" class="more" rel="next">Next</a>
+		</div>
+		</div>
+	</div>
+	<div class="column last mapView" data-hires="false">
+	</div>
+</div>
+</script>
+
+
+
+
+<script src="https://www.apple.com/v/retail/locator/i/scripts/globalsearch.locator.built.js" charset="utf-8"></script>
+<script src="https://www.apple.com/v/retail/locator/i/scripts/globalsearch.core.built.js" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="https://www.apple.com/v/retail/find-a-store/d/styles/find-a-store.built.css" />
+	<link rel="stylesheet" href="https://www.apple.com/hk/retail/find-a-store/styles/find-a-store.built.css" />
+	<link rel="stylesheet" href="https://www.apple.com/hk/retail/find-a-store/styles/find-a-store.css" />
+	
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Pro+HK&amp;weights=200,300,400,500,600&amp;v=1" type="text/css">
+	<link rel="stylesheet" href="https://www.apple.com/hk/global/styles/sfpro-hk.css" />
+	<!--[if IE]>
+	<link rel="stylesheet" href="/wss/fonts?family=SF+Pro+HK&amp;weights=200,300,400,500,600&amp;v=1" type="text/css">
+	<link rel="stylesheet" href="/hk/global/styles/sfpro-hk-ie.css" />
+	<![endif]-->
+	
+	<link rel="stylesheet" href="https://www.apple.com/hk/retail/styles/font.css" type="text/css" />
+	<style>
+		.more:after {top: -2px;}
+	</style>
+</head>
+
+<body class="page-find-a-store">
+	
+<meta name="ac-gn-store-key" content="SFX9YPYY9PPXCU9KH" />
+<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="zh-HK" dir="ltr" data-strings="{ 'exit': '離開', 'view': '{%STOREFRONT%}商店首頁', 'segments': { 'smb': '', 'eduInd': '教育商店首頁', 'other': '商店首頁' } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="全網站" data-hires="false" data-analytics-region="global nav" lang="zh-HK" dir="ltr" data-www-domain="www.apple.com" data-store-locale="hk-zh" data-store-root-path="/hk-zh" data-store-api="/[storefront]/shop/bag/status" data-search-locale="zh_HK" data-search-locale="zh_HK" data-search-suggestions-api="/search-services/suggestions/" data-search-defaultlinks-api="/search-services/suggestions/defaultlinks/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Global Nav 開啟選單</span>
+				</a>
+				<a href="#" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Global Nav 關閉選單</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/hk/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/hk-zh/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="購物袋" data-string-badge="購物袋內嘅產品數量 :">
+						<span class="ac-gn-link-text">購物袋</span>
+					</a>
+					<span class="ac-gn-bag-badge">
+						<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<div class="ac-gn-search-placeholder-container" role="search">
+			<div class="ac-gn-search ac-gn-search-small">
+				<a id="ac-gn-link-search-small" class="ac-gn-link" href="https://www.apple.com/hk-zh/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="搜尋 apple.com">
+					<div class="ac-gn-search-placeholder-bar">
+						<div class="ac-gn-search-placeholder-input">
+							<div class="ac-gn-search-placeholder-input-text" aria-hidden="true">
+								<div class="ac-gn-link-search ac-gn-search-placeholder-input-icon"></div>
+								<span class="ac-gn-search-placeholder">搜尋 apple.com</span>
+							</div>
+						</div>
+						<div class="ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close">
+							<span class="ac-gn-searchview-close-cancel" aria-hidden="true">取消</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/hk/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+						<span class="ac-gn-link-text">Apple</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/hk/mac/" data-analytics-title="mac">
+						<span class="ac-gn-link-text">Mac</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/hk/ipad/" data-analytics-title="ipad">
+						<span class="ac-gn-link-text">iPad</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/hk/iphone/" data-analytics-title="iphone">
+						<span class="ac-gn-link-text">iPhone</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/hk/watch/" data-analytics-title="watch">
+						<span class="ac-gn-link-text">Watch</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/hk/tv/" data-analytics-title="tv">
+						<span class="ac-gn-link-text">TV</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/hk/music/" data-analytics-title="music">
+						<span class="ac-gn-link-text">Music</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/zh-hk" data-analytics-title="support">
+						<span class="ac-gn-link-text">支援服務</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="https://www.apple.com/hk-zh/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="搜尋 apple.com"></a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/hk-zh/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="購物袋" data-string-badge="購物袋內嘅產品數量 : {%BAGITEMCOUNT%}">
+							<span class="ac-gn-link-text">購物袋</span>
+						</a>
+					<span class="ac-gn-bag-badge" aria-hidden="true">
+								<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<div class="ac-gn-searchview-bar">
+					<div class="ac-gn-searchview-bar-wrapper">
+						<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/hk-zh/search" method="get">
+							<div class="ac-gn-searchform-wrapper">
+								<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="搜尋 apple.com" placeholder="搜尋 apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions" />
+								<input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
+								<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="送出搜尋"></button>
+								<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="清除搜尋">
+										<span class="ac-gn-searchform-reset-background"></span>
+									</button>
+							</div>
+						</form>
+						<button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="取消搜尋">
+								<span class="ac-gn-searchview-close-cancel" aria-hidden="true">
+									取消
+								</span>
+							</button>
+					</div>
+				</div>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="快速連結" data-string-suggestions="搜尋建議" data-string-noresults=""></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="取消搜尋">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div class="ac-gn-blur"></div>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+<script type="text/javascript" src="https://www.apple.com/ac/globalnav/5/zh_HK/scripts/ac-globalnav.built.js"></script>
+
+	
+
+
+
+<script src="https://www.apple.com/metrics/ac-analytics/2.9.0/scripts/ac-analytics.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://www.apple.com/metrics/ac-analytics/2.9.0/scripts/auto-init.js" type="text/javascript" charset="utf-8"></script>
+
+	<div id="main" class="main">
+		<section class="section section-nopad section-locator" data-analytics-section-engagement="name:locator">
+			<div class="section-content">
+				
+<div id="retail-nav-search" class="retail-locator row">
+	<figure class="image-find-hero"></figure>
+
+
+
+
+
+	<nav class="nav hero-search retail-locator-search geo-learn-locator" id="current_country" data-init-storeselector="Hong Kong - Chinese" data-feedurl="/autopush/hk/retail/storelist/stores.xml">
+		<div class="search first">
+			<h1 class="align-center typography-section-headline" name="ddoption" data-ddoption="尋找零售店">
+				
+					尋找零售店
+				
+			</h1>
+			
+			<div class="retail-input-wrapper center typography-body" >	
+				<form action="#" method="POST" accept-charset="utf-8" id="tripsignup">
+					<fieldset>
+						<div class="select-style select">
+							<select class="menu" name="storestate" id="tripsignup-location">
+								<option selected="selected" value="">載入中...</option>
+							</select>
+						</div>
+					</fieldset>
+				</form>
+													
+			</div>
+
+		</div>
+		<div class="store-list align-center last">
+			<a href="https://www.apple.com/hk/retail/storelist/" class="more typography-body underline" data-analytics-region="learn more">全部零售店列表</a>
+		</div>
+	</nav>
+</div>
+
+<div id="retail-locator-map-parent" class="row">
+	<div id="retail-locator-map-container" class="retail-locator-search"></div>
+</div>
+
+			</div>
+			<div class="section-content">
+				<link rel="stylesheet" type="text/css" href="https://www.apple.com/v/retail/includes/promo/c/built/styles/giveback.built.css">
+<link rel="stylesheet" type="text/css" href="https://www.apple.com/hk/retail/styles/retail-iphone.css" type="text/css" />
+<section class="section-giveback" data-analytics-section-engagement="name:giveback">
+	<div class="section">
+		<div class="section-content">
+			<div class="row">
+				<div class="column large-6 medium-offset-0 medium-7 small-12 giveback-text">
+					<h2 class="product-headline">把你現有的智能電話，<br />變成全新 iPhone 11。</h2>
+					<p class="product-body typography-body">到 Apple Store 以你的智能電話換購 iPhone 11，可享<span class="nowrap">優惠*。</span></p>
+					<ul class="check-items typography-body">
+						<li class="icon icon-before icon-checkcircle">向 Specialist 查詢，由專家為你解答一切<span class="nowrap">疑問。</span></li>
+						<li class="icon icon-before icon-checkcircle">獲取協助，快速將你的資料轉移至新 iPhone。</li>
+						<li class="icon icon-before icon-checkcircle">以你現有的 iPhone 換購新 iPhone，<br class="large-hide medium-hide small-show" />可享即時優惠。</li>
+						<li class="icon icon-before icon-checkcircle">AppleCare+ 服務計劃帶來一站式服務及<span class="nowrap">支援。</span></li>
+					</ul>
+					<div class="row ctas">
+						<a class="more" href="https://www.apple.com/hk-zh/shop/goto/buy_iphone/iphone_11">購買</a>
+						<a class="more" href="https://www.apple.com/hk/iphone-11/">進一步了解</a>
+					</div>
+					<div class="column large-6 medium-5 medium-offset-0 small-12 tradein-small">
+						<figure class="promo_giveback_banner"></figure>
+					</div>
+				</div>
+				<div class="column large-6 medium-5 medium-offset-0 tradein">
+					<figure class="promo_giveback_banner"></figure>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section-providers">
+		<div class="row">
+			<div class="column large-6 medium-offset-0  medium-7 small-12 provider-container">
+			</div>
+		</div>
+	</div>
+</section>
+			</div>
+			<div class="section-intro" data-analytics-section-engagement="name:intro">
+				<figure alt="Today at Apple" class="title image-retail-find-a-store-todayatapple-logo typography-subsection-headline" /></figure>
+				<p class="description">要來 Apple Store？<br>快來這裡創造無限精彩。</p>
+				<p class="link typography-intro"><a class="more" href="https://www.apple.com/hk/today/" data-analytics-region="learn more">尋找就近的 Today at Apple 課程 </a></p>
+			</div>
+		</section>
+				<section class="section-gallery" data-analytics-section-engagement="name:gallery">
+			<div class="gallery-container">
+				<div id="main-gallery" class="with-paddlenav" data-ac-gallery-slide>
+					<div class="with-paddlenav inner">
+						<nav class="paddlenav paddlenav-framed">
+							<ul>
+								<li><button class="paddlenav-arrow paddlenav-arrow-previous" data-ac-gallery-previous-trigger="main-gallery" aria-label="Previous"></button></li>
+								<li><button class="paddlenav-arrow paddlenav-arrow-next" data-ac-gallery-next-trigger="main-gallery" aria-label="Next"></button></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="gallery-item" id="gallery-item-1" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-1" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">激發靈感的課程，現正開課。</h3>
+								<p class="typography-body">來 Apple Store 參加免費課程，以你喜愛的產品創造更多精彩。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-item" id="gallery-item-2" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/calendar?topics=photography">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-2" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">攝影</h3>
+								<p class="typography-body">發掘各種攝影秘訣，拍出你想與人分享的相片。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/calendar?topics=photography">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-item" id="gallery-item-3" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/calendar?topics=video-passion">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-3" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">影片</h3>
+								<p class="typography-body">小貼士、小秘技，即可為你的影片錦上添花。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/calendar?topics=video-passion">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-item" id="gallery-item-4" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/calendar?topics=music-passion">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-4" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">音樂</h3>
+								<p class="typography-body">開始你的創作音樂之路，並進行各種聲音實驗。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/calendar?topics=music-passion">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-item" id="gallery-item-5" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/calendar?topics=coding-apps">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-5" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">編碼與 App</h3>
+								<p class="typography-body">編碼簡單易學，來一起探索。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/calendar?topics=coding-apps">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-item" id="gallery-item-6" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/calendar?topics=art-design">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-6" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">藝術與設計</h3>
+								<p class="typography-body">發揮想像，自信創作。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/calendar?topics=art-design">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-item" id="gallery-item-7" data-ac-gallery-item>
+						<div class="gallery-content">
+							<div class="gallery-image-scale gallery-round-corners">
+								<div class="image-loader-wrapper">
+									<a href="https://www.apple.com/hk/today/calendar?topics=health-fitness">
+									<figure class="gallery-image image-loader image-loader-fadein image-retail-find-a-store-event-7" ></figure>
+									</a>
+								</div>
+							</div>
+							<div class="gallery-item-desc">
+								<h3 class="typography-label">健康與健身</h3>
+								<p class="typography-body">探索生活上的小改變，如何令你的健康大改善。</p>
+								<a class="typography-body more" href="https://www.apple.com/hk/today/calendar?topics=health-fitness">查看所有課程</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="section section-locator-gallery" data-analytics-section-engagement="name:locator gallery">
+			
+			
+			<div id="store-gallery" class="gallery gallery-store with-paddlenav">
+	<div class="gallery-wrapper">
+		<div class="gallery-view">
+			<div id="gallery-storedetail-view-1" class="gallery-content gallery-storedetail-view-1 revealed">
+				<figure class="image-retail-find-a-store-hero-cantonroad">
+					<figcaption class="align-center typography-body"><a href="https://www.apple.com/hk/retail/causewaybay/">Apple Causeway Bay</a></figcaption>
+				</figure>
+			</div>
+
+			<div id="gallery-storedetail-view-2" class="gallery-content gallery-storedetail-view-2">
+				<figure class="image-retail-find-a-store-hero-parc66">
+					<figcaption class="align-center typography-body"><a href="https://www.apple.com/cn/retail/parc66jinan/">Apple Parc 66 Jinan</a></figcaption>
+				</figure>
+			</div>
+
+			<div id="gallery-storedetail-view-3" class="gallery-content gallery-storedetail-view-3">
+				<figure class="image-retail-find-a-store-hero-michiganave">
+					<figcaption class="align-center typography-body"><a href="https://www.apple.com/retail/michiganavenue/">Apple Michigan Avenue</a></figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<nav class="paddlenav paddlenav-onhover" aria-hidden="true">
+		<ul>
+			<li><a class="trigger paddlenav-arrow paddlenav-arrow-left disabled" data-method="showPrevious" aria-label="Previous"></a></li>
+			<li><a class="trigger paddlenav-arrow paddlenav-arrow-right" data-method="showNext" aria-label="Next"></a></li>
+		</ul>
+	</nav>
+	<nav class="dotnav" aria-hidden="true">
+		<ul>
+			<li><a href="#gallery-storedetail-view-1" class="trigger dotnav-item current"></a></li>
+			<li><a href="#gallery-storedetail-view-2" class="trigger dotnav-item"></a></li>
+		</ul>
+	</nav>
+</div>
+			
+		</section>
+		<section class="section section-geniusbar keyline" data-analytics-section-engagement="name:router">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-5 medium-6 small-12">
+						<figure class="image-retail-find-a-store-help-genius show-only-for-small center"></figure>
+						<h3 class="typography-subsection-headline">無論你有何需求，<br class="hide-for-small"/>我們總為你候<span class="nowrap">命。</span></h3>
+						<p class="typography-body">無論你是記不起 Apple ID，對 app 或服務有疑問，或要預約 Genius Bar 服務，我們都有各種方便的 Apple 支援服務選項，隨你選用。</p>
+						<a href="https://www.apple.com/hk/retail/geniusbar/" class="more typography-body" data-analytics-region="router">立即開始</a>
+					</div>
+					<div class="column large-6 large-push-1 medium-6 medium-push-0 small-12 small-0">
+						<figure class="image-retail-find-a-store-help-genius hide-for-small"></figure>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!--/main-->
+
+	<footer id="ac-globalfooter" class="no-js" lang="zh-HK" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+		<div class="ac-gf-content">
+			<h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
+			<section class="ac-gf-sosumi" aria-label="Footnotes">
+	<ul>
+		<li>* 換購價值視乎你用以換購的裝置狀況和型號而定。網上及店內提供的換購價值可能有所差異。你必須年滿 18 歲。優惠未必於所有零售店提供，並不是所有裝置均符合優惠資格。Apple 或 Apple 的換購活動合作夥伴保留以任何理由拒絕或限量接受換購交易的權利。店內換購須出示政府簽發的附相片有效身份證明文件方可享受此服務。你現有裝置的價值可能適用於購買新的 Apple 裝置。Apple 或 Apple 的換購活動合作夥伴可能有額外條款。詳情請參閱 <a href="https://www.apple.com/hk/trade-in/">apple.com/hk/trade-in</a>。</li>
+	</ul>
+</section>
+			<nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+				<a href="https://www.apple.com/hk/" class="home ac-gf-breadcrumbs-home">
+					<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+					<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+					<span class="ac-gf-breadcrumbs-home-chevron"></span>
+					<span class="ac-gf-breadcrumbs-home-mask"></span>
+				</a>
+				<div class="ac-gf-breadcrumbs-path">
+					<ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+						<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name">零售店</span>
+							<meta property="position" content="1" />
+						</li>
+					</ol>
+				</div>
+			</nav>
+			<nav class="ac-gf-directory with-5-columns" aria-label="Apple 指南" role="navigation">
+	<!--googleoff: all-->
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-products" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-products">
+		<h3 class="ac-gf-directory-column-section-title">選購與了解</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-products" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/mac/" data-analytics-title="mac">Mac</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/ipad/" data-analytics-title="ipad">iPad</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/iphone/" data-analytics-title="iphone">iPhone</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/watch/" data-analytics-title="watch">Watch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/tv/" data-analytics-title="tv">TV</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/music/" data-analytics-title="music">Music</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/airpods/" data-analytics-title="airpods">AirPods</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/homepod/" data-analytics-title="homepod">HomePod</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/ipod-touch/" data-analytics-title="ipod touch">iPod touch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/buy_accessories" data-analytics-title="accessories">配件</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/giftcards" data-analytics-title="gift cards">禮品卡</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-services" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-services">
+		<h3 class="ac-gf-directory-column-section-title">服務</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-services" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/apple-music/" data-analytics-title="apple music">Apple Music</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/apple-tv-plus/" data-analytics-title="apple tv plus">Apple TV+</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/icloud/" data-analytics-title="icloud">iCloud</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-accounts" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-accounts">
+		<h3 class="ac-gf-directory-column-section-title">帳戶</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-accounts" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://appleid.apple.com/hk/" data-analytics-title="manage your apple id" data-analytics-exit-link>管理你的 Apple ID</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/account" data-analytics-title="apple store account">Apple Store 帳戶</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.icloud.com/" data-analytics-title="icloud.com" data-analytics-exit-link>iCloud.com</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-storeservices" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-storeservices">
+		<h3 class="ac-gf-directory-column-section-title">Apple Store</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-storeservices" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/retail/" data-analytics-title="find a store">尋找零售店</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/retail/geniusbar/" data-analytics-title="genius bar">Genius Bar</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/today/" data-analytics-title="today at apple">Today at Apple</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/today/camp/" data-analytics-title="apple camp">Apple Camp</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/retail/fieldtrip/" data-analytics-title="field trip">Field Trip</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://itunes.apple.com/hk/app/apple-store/id375380948?pt=2003&amp;ct=footer&amp;mt=8" data-analytics-title="apple store app" data-analytics-exit-link>Apple Store App</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/special_deals" data-analytics-title="refurbished and clearance">翻新及清貨產品</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/trade-in/" data-analytics-title="apple trade in">Apple Trade In 換購計劃</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/order/list" data-analytics-title="order status">訂單狀態</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/help" data-analytics-title="shopping help">購物協助</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-business" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-business">
+		<h3 class="ac-gf-directory-column-section-title">商務應用</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-business" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/business/" data-analytics-title="apple and business">Apple 與商務</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/retail/business/" data-analytics-title="shop for business">商務選購</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-education" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-education">
+		<h3 class="ac-gf-directory-column-section-title">教育應用</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-education" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/education/" data-analytics-title="apple and education">Apple 與教育</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk-zh/shop/goto/educationrouting" data-analytics-title="shop for college">大專院校師生選購</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-healthcare" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-healthcare">
+		<h3 class="ac-gf-directory-column-section-title">醫療保健應用</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-healthcare" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/healthcare/" data-analytics-title="apple in healthcare">Apple 醫療保健應用</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/healthcare/apple-watch/" data-analytics-title="health on apple watch">Apple Watch 上的<span class="nowrap">健康功能</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-responsibility" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-responsibility">
+		<h3 class="ac-gf-directory-column-section-title">Apple 價值理念</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-responsibility" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/accessibility/" data-analytics-title="accessibility">輔助使用</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/environment/" data-analytics-title="environment">環境</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/privacy/" data-analytics-title="privacy">私隱</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/supplier-responsibility/" data-analytics-title="supplier responsibility">供應商責任</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-about" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-about">
+		<h3 class="ac-gf-directory-column-section-title">關於 Apple</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-about" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+		<span class="ac-gf-directory-column-section-anchor-label">打開選單</span>
+	</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+		<span class="ac-gf-directory-column-section-anchor-label">關閉選單</span>
+	</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/newsroom/" data-analytics-title="newsroom">Newsroom</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/leadership/" data-analytics-title="apple leadership">Apple 管理層</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/jobs/hk/" data-analytics-title="job opportunities">工作機會</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/apple-events/" data-analytics-title="events">活動</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.apple.com/hk/contact/" data-analytics-title="contact apple">聯絡 Apple</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--googleon: all-->
+</nav>
+
+<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		更多選購方式：<a href="https://www.apple.com/hk/retail/" data-analytics-title="find an apple store">尋找就近的 Apple Store</a> 或<a href="https://locate.apple.com/hk/zh/" data-analytics-title="other retailers or resellers" data-analytics-exit-link>其他零售商</a>，<span class="nowrap">或致電 800-908-988。</span>
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="https://www.apple.com/choose-country-region/" title="選擇你的國家或地區" aria-label="香港. 選擇你的國家或地區" data-analytics-title="choose your country"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>香港</a>
+		<a class="ac-gf-footer-locale-link ac-gf-footer-locale-lang" href="https://www.apple.com/hk/en/" title="[object Object]" aria-label="This page is available in English" data-locale-current="/hk/" data-analytics-title="switch language">English</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright ©
+			
+			2020
+			Apple Inc. 保留一切權利。</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/hk/privacy/privacy-policy/" data-analytics-title="privacy policy">私隱政策</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/hk/legal/terms/site.html" data-analytics-title="terms of use">使用條款</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/hk-zh/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">銷售條款</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/" data-analytics-title="legal">法律聲明</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/hk/sitemap/" data-analytics-title="site map">網站地圖</a>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript" src="https://www.apple.com/ac/globalfooter/5/zh_HK/scripts/ac-globalfooter.built.js"></script>
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@id": "https://www.apple.com/#organization",
+		"@type": "Organization",
+		"name": "Apple",
+		"url": "https://www.apple.com/",
+		"logo": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201912182156",
+		"subOrganization": {
+			"@type": "Organization",
+			"name": "Apple Support",
+			"url": "https://support.apple.com",
+	    "@id": "https://support.apple.com/#organization"
+		},
+		"contactPoint": [
+			{
+				"@type": "ContactPoint",
+				"telephone": "+1-800-692-7753",
+				"contactType": "sales",
+				"areaServed": "US"
+			},
+			{
+				"@type": "ContactPoint",
+				"telephone": "+1-800-275-2273",
+				"contactType": "technical support",
+				"areaServed": "US",
+				"availableLanguage": ["EN", "ES"]
+			},
+			{
+				"@type": "ContactPoint",
+				"telephone": "+1-800-275-2273",
+				"contactType": "customer support",
+				"areaServed": "US",
+				"availableLanguage": ["EN", "ES"]
+			}
+		],
+		"sameAs": [
+			"http://www.wikidata.org/entity/Q312",
+			"https://www.youtube.com/user/Apple",
+			"https://www.linkedin.com/company/apple",
+			"https://www.facebook.com/Apple",
+			"https://www.twitter.com/Apple"
+		]
+	}
+</script>
+
+<script type="text/javascript" src="https://www.apple.com/ac/localeswitcher/2/zh_HK/scripts/localeswitcher.built.js"></script>
+
+		</div>
+	</footer>
+	<script src="https://www.apple.com/v/retail/find-a-store/d/scripts/find-a-store.built.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+
+<!-- Mirrored from www.apple.com/hk/retail/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 08:23:46 GMT -->
+</html>

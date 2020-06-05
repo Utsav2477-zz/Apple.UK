@@ -1,0 +1,1135 @@
+.section-hero .small-flex-column {
+  direction: ltr;
+}
+
+.section-hero .typography-intro-elevated {
+  direction: rtl;
+}
+
+.section-storage .storage-table .column-price {
+  padding-right: 12.5px;
+  padding-left: 12.5px;
+}
+
+.section-hero .hero-background-hardware {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-hero .hero-background-hardware {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-hero .hero-background-hardware {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-hero .hero-background-hardware {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-hero .hero-background-hardware {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-hero .hero-background-hardware {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_small_2x.jpg");
+  }
+}
+
+.glass-apps-collaborate-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_collaborate_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-apps-collaborate-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_collaborate_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-apps-collaborate-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_collaborate_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-apps-collaborate-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_collaborate_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-apps-intro-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-apps-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-apps-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-apps-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-apps-intro-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-apps-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-apps-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-apps-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-apps-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-apps-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_intro_iphone_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-backup-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_hero_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-backup-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_hero_iphone_small_2x.jpg");
+  }
+}
+
+.glass-backup-intro-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_intro_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-backup-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_intro_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-backup-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_intro_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-backup-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_intro_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-backup-new-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_new_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-backup-new-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_new_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-backup-new-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_new_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-backup-new-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_new_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-backup-new-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_new_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-backup-new-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_new_iphone_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-drive-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_hero_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-drive-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_hero_iphone_small_2x.jpg");
+  }
+}
+
+.glass-drive-intro-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-drive-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-drive-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-drive-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-drive-share-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_share_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-drive-share-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_share_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-drive-share-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_share_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-drive-share-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_share_ipad_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-drive-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_share_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-drive-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_share_iphone_small_2x.jpg");
+  }
+}
+
+.glass-drive-updates-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-drive-updates-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-drive-updates-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-drive-updates-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-drive-updates-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-drive-updates-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_iphone_small_2x.jpg");
+  }
+}
+
+.glass-drive-updates-macbookpro .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_fallback_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-drive-updates-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_fallback_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-drive-updates-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_fallback_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-drive-updates-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_fallback_medium_2x.png");
+  }
+}
+
+html.clip-path .glass-drive-updates-macbookpro .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  html.clip-path .glass-drive-updates-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  html.clip-path .glass-drive-updates-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.clip-path .glass-drive-updates-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_updates_macbookpro_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-photos-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_hero_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-photos-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_hero_iphone_small_2x.jpg");
+  }
+}
+
+.glass-photos-intro-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-photos-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-photos-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-photos-intro-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-photos-intro-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-photos-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-photos-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-photos-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-photos-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-photos-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_intro_iphone_small_2x.jpg");
+  }
+}
+
+.glass-photos-share-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-photos-share-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-photos-share-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-photos-share-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-photos-share-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-photos-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-photos-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-photos-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-photos-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-photos-share-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_share_iphone_small_2x.jpg");
+  }
+}
+
+.glass-photos-store-ipad .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_ipad_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-photos-store-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_ipad_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-photos-store-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_ipad_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-photos-store-ipad .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_ipad_medium_2x.jpg");
+  }
+}
+
+.glass-photos-store-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-photos-store-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-photos-store-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-photos-store-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-photos-store-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-photos-store-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_photos_store_iphone_small_2x.jpg");
+  }
+}
+
+.glass-security-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-security-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-security-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-security-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-security-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-security-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_iphone_small_2x.jpg");
+  }
+}
+
+.glass-security-macbookpro .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_fallback_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_fallback_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_fallback_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_fallback_medium_2x.png");
+  }
+}
+
+html.clip-path .glass-security-macbookpro .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  html.clip-path .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  html.clip-path .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.clip-path .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_medium_2x.jpg");
+  }
+}
+
+html.clip-path .glass-security-macbookpro .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  html.clip-path .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  html.clip-path .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.clip-path .glass-security-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_security_macbookpro_medium_2x.jpg");
+  }
+}
+
+.glass-storage-iphone .glass-screen.t1 {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-storage-iphone .glass-screen.t1 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-storage-iphone .glass-screen.t1 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-storage-iphone .glass-screen.t1 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-storage-iphone .glass-screen.t1 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-storage-iphone .glass-screen.t1 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_small_2x.jpg");
+  }
+}
+
+.glass-storage-iphone .glass-screen.t2 {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_t2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-storage-iphone .glass-screen.t2 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_t2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-storage-iphone .glass-screen.t2 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_t2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-storage-iphone .glass-screen.t2 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_t2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-storage-iphone .glass-screen.t2 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_t2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-storage-iphone .glass-screen.t2 {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_storage_iphone_t2_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-apps-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_hero_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-apps-hero-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_hero_iphone_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-backup-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_intro_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-backup-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_backup_intro_iphone_small_2x.jpg");
+  }
+}
+
+.section-hero .hero-iphone {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_fallback_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_fallback_large_2x.png");
+  }
+}
+
+html.css-mask .section-hero .hero-iphone {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  html.css-mask .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_fallback_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_fallback_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  html.css-mask .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.css-mask .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_fallback_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_fallback_small_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  html.css-mask .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  html.css-mask .section-hero .hero-iphone {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/hero_iphone_small_2x.jpg");
+  }
+}
+
+.section-router .tile-family-sharing .tile-image {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/familysharing_hardware_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-router .tile-family-sharing .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/familysharing_hardware_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-router .tile-family-sharing .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/familysharing_hardware_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-router .tile-family-sharing .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/familysharing_hardware_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-router .tile-family-sharing .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/familysharing_hardware_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-router .tile-family-sharing .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/familysharing_hardware_small_2x.jpg");
+  }
+}
+
+.section-router .tile-privacy .tile-image {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/privacy_hardware_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-router .tile-privacy .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/privacy_hardware_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-router .tile-privacy .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/privacy_hardware_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-router .tile-privacy .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/privacy_hardware_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-router .tile-privacy .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/privacy_hardware_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-router .tile-privacy .tile-image {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/privacy_hardware_small_2x.jpg");
+  }
+}
+
+.glass-drive-intro-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-drive-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-drive-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-drive-intro-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_drive_intro_iphone_small_2x.jpg");
+  }
+}
+
+.glass-apps-messages-iphone .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_iphone_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .glass-apps-messages-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_iphone_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .glass-apps-messages-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_iphone_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .glass-apps-messages-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_iphone_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .glass-apps-messages-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_iphone_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .glass-apps-messages-iphone .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_iphone_small_2x.jpg");
+  }
+}
+
+html.clip-path .glass-apps-messages-macbookpro .glass-screen {
+  background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_macbookpro_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  html.clip-path .glass-apps-messages-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_macbookpro_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  html.clip-path .glass-apps-messages-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_macbookpro_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  html.clip-path .glass-apps-messages-macbookpro .glass-screen {
+    background-image: url("https://www.apple.com/mideast/icloud/u/images/overview/ar/screen_apps_messages_macbookpro_medium_2x.jpg");
+  }
+}
+.cta {
+  clear: both;
+  text-align: center;
+  margin-top: 75px;
+}
+@media only screen and (max-width: 1068px) {
+  .cta {
+    margin-top: 59px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .cta {
+    margin-top: 39px;
+  }
+}
+
+.noborder {
+  border: none;
+}

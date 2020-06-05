@@ -1,0 +1,95 @@
+/* ==========================================================================
+  Page Search
+========================================================================== */
+.page-search {
+  margin: 4rem 0 0;
+  text-align: center; }
+  @media only screen and (max-width: 768px) {
+    .page-search {
+      display: none; } }
+
+.page-search__form {
+  vertical-align: text-bottom; }
+
+.page-search__form {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative; }
+
+.page-search__form label[for='page-search__input'].a11y {
+  display: block;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0 50px 0 75px;
+  position: relative;
+  width: auto; }
+
+.form-auto-suggest {
+  -webkit-transition: margin 0.5s ease-in-out;
+  transition: margin 0.5s ease-in-out;
+  will-change: margin; }
+
+.form-auto-suggest.active {
+  margin-left: 0;
+  margin-right: 0; }
+
+.page-search__input,
+input.page-search__input.auto-suggest-input {
+  -webkit-transition: padding 300ms ease-in-out, background-position 300ms ease-in-out;
+  transition: padding 300ms ease-in-out, background-position 300ms ease-in-out; }
+
+.active .page-search__input,
+.active input.page-search__input.auto-suggest-input {
+  background-position-x: 15px;
+  padding: 15px 15px 15px 40px; }
+
+.form-auto-suggest .page-search__input.auto-suggest-input {
+  background-image: url(https://www.apple.com/jobs/css/etc/designs/apple/images/icons/mag.svg);
+  background-size: 15px 15px;
+  background-position-x: 50px;
+  border: 0 none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #333333;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.44;
+  padding: 15px 50px 15px 75px;
+  text-align: left; }
+.theme-light .form-auto-suggest .page-search__input.auto-suggest-input {
+	color: #000000; }
+	
+input.page-search__submit {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #333333;
+  color: #737373;
+  float: right;
+  font-family: "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 25px;
+  position: absolute;
+  right: -20%;
+  top: 1px;
+  text-align: center;
+  width: 20%; }
+  input.page-search__submit:focus {
+    background: #fff;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.4);
+    clip: auto;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    width: auto;
+    left: 100%;
+    right: auto;
+    border-radius: 0; }
+.auto-suggest .auto-suggest__list li a {
+  background-position: 2.5rem .8rem;
+  padding-left: 5rem; }

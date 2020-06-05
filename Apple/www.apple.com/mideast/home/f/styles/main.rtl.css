@@ -1,0 +1,32 @@
+.icon-after:not(.icon-external):not(.icon-playcircle)::after {
+  padding-left: 0.3em;
+  padding-right: 0;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.main
+  [data-module-template="heroes"]
+  [data-unit-id]
+  .unit-copy-wrapper
+  > *.cta-links
+  a:not(:only-child):not(:first-child) {
+  margin-right: 26px;
+  margin-left: 0;
+}
+
+.main
+  [data-module-template="promos"]
+  [data-unit-id]
+  .unit-copy-wrapper
+  .cta-links
+  a:not(:only-child):not(:first-child) {
+  margin-right: 26px;
+  margin-left: 0;
+}
+
+.main [data-module-template="promos"].collection-module {
+  left: unset;
+  right: var(--edge-border-width);
+}

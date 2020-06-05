@@ -1,0 +1,121 @@
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-ultralight.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-ultralight.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 100';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-ultralight.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-thin.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-thin.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 200';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-thin.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-thin.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-thin.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 300';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-thin.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-medium.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-medium.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 500';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-medium.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-semibold.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-semibold.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 600';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-semibold.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:700;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 700';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 800';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf 900';
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-bold.eot");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Gulf';
+	font-style:normal;
+	font-weight:400;
+	src:url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-regular.eot");
+	src:local('☺︎'), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-regular.woff") format("woff"), url("https://www.apple.com/wss/fonts/Gulf/v1/Gulf-regular.ttf") format("truetype");
+	/* © Copyright 2015 Apple Inc. All rights reserved. */
+}
+

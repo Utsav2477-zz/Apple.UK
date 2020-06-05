@@ -1,0 +1,68 @@
+/*
+ * css overrides for localnav menu li last of type (aka search button)
+ */
+
+ul.localnav-menu-items li:last-child a {
+  background: #595959;
+  border: #595959;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 3px 20px 1px;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-top: -3px; }
+
+ul.localnav-menu-items li:last-child a:hover, 
+ul.localnav-menu-items li:last-child a:active {
+  background: #333333;
+  border: #333333;
+  color: #fff;
+  text-decoration: none; }
+
+  @media only screen and (max-width: 479px) {
+    ul.localnav-menu-items li:last-child a {
+      font-size: 1.4rem;
+      padding: .1rem 1rem; } }
+  @media only screen and (max-width: 320px) {
+    ul.localnav-menu-items li:last-child a {
+      font-size: 1.2rem; } }
+  @media only screen and (max-width: 767px) {
+    a.localnav-button.button {
+      display: inline-block !important; }
+    ul.localnav-menu-items li:last-child {
+      display: none !important; } 
+    .localnav-button.button, .localnav-button.button: visited {
+      background: #595959;
+      border: #595959;
+      color: #fff;
+      font-size: inherit;
+      line-height: 1.6; }
+    .localnav-button.button: hover, 
+    .localnav-button.button: active {
+      background: #333333;
+      border: #333333;
+      color: #fff;
+      text-decoration: none; } }
+
+.aha .localnav-menu {
+  padding-top: 8px; }
+
+.localnav-content {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  position: relative;
+  z-index: 2; }
+
+.localnav-content:before, 
+.localnav-content:after {
+  content: ' ';
+  display: table; }
+
+.localnav-title:visited, 
+.localnav-title a:visited, 
+.localnav-title:hover, 
+.localnav-title a:hover {
+  color: #333333; }

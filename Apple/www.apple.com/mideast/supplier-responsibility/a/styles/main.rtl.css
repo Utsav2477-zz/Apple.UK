@@ -1,0 +1,21 @@
+.graph .year-group .performance-container {
+  height: auto;
+}
+.card-modal-fair-work .badge-1 .badge-caption--max-width {
+  padding-top: 15px;
+}
+.quote-copy > ::before {
+  margin-left: -1.5em;
+}
+.quote-copy > ::after {
+  margin-right: -1.5em;
+}
+.unit-currency-font {
+  font-size: 34px;
+}
+
+@media only screen and (max-width: 735px) {
+  .text-left-small {
+    text-align: right;
+  }
+}

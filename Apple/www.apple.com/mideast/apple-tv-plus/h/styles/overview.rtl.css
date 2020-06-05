@@ -1,0 +1,222 @@
+/* LOCAL SCREENS */
+
+.bg-image-tv-app-startframe {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/tv_app_startframe__ceq0tfdymkty_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .bg-image-tv-app-startframe {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/tv_app_startframe__ceq0tfdymkty_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .bg-image-tv-app-startframe {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/tv_app_startframe__ceq0tfdymkty_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .bg-image-tv-app-startframe {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/tv_app_startframe__ceq0tfdymkty_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .bg-image-tv-app-startframe {
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/tv_app_startframe__ceq0tfdymkty_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .bg-image-tv-app-startframe {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/tv_app_startframe__ceq0tfdymkty_small_2x.jpg");
+  }
+}
+
+.section-routers .image-router-airplay {
+  background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/air_play__f65lmnn7chea_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-routers .image-router-airplay {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/air_play__f65lmnn7chea_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-routers .image-router-airplay {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/air_play__f65lmnn7chea_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-routers .image-router-airplay {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/air_play__f65lmnn7chea_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-routers .image-router-airplay {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/air_play__f65lmnn7chea_small.png");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .section-routers .image-router-airplay {
+    background-image: url("https://www.apple.com/mideast/apple-tv-plus/h/images/overview/air_play__f65lmnn7chea_small_2x.png");
+  }
+}
+
+/* END LOCAL SCREENS */
+
+.section-hero .lockup {
+  left: unset;
+  right: 0;
+}
+
+.section-hero .watch-on-cta-wrapper {
+  left: unset;
+  right: 0;
+}
+
+.section-shows .paddlenav-arrow-previous:after {
+  left: unset;
+  right: 18px;
+}
+
+.section-shows .paddlenav-arrow-next:after {
+  left: 18px;
+  right: unset;
+}
+
+.section-shows .paddlenav-arrow-previous {
+  right: 0;
+  left: unset;
+}
+
+.section-shows .paddlenav-arrow-next {
+  right: unset;
+  left: 0;
+}
+
+.section-routers .student-plan-router .copy-container {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.section-shows .show-marquee {
+  direction: ltr;
+}
+
+.section-shows .typography-shows-eyebrow:lang(ar) {
+  text-align: left;
+}
+
+@media only screen and (max-width: 734px) {
+  .section-shows .typography-shows-eyebrow:lang(ar) {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-shows .slide-gallery .inner {
+    direction: ltr;
+  }
+}
+
+.controls {
+  right: unset;
+  left: 42px;
+}
+
+@media only screen and (max-width: 734px) {
+  .controls {
+    left: 20px;
+  }
+}
+
+.section-shows .cta-wrapper .controls {
+  right: unset;
+  left: 42px;
+}
+
+@media only screen and (max-width: 734px) {
+  .section-shows .cta-wrapper .controls {
+    left: 20px;
+  }
+}
+
+.controls .play-icon,
+.controls .pause-icon {
+  text-align: left;
+}
+
+.device-cta-wrapper .icon-after::after {
+  top: -2px;
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+  .section-shows #featured-the-banker .info-bottom p {
+    bottom: -10px;
+  }
+}
+
+.typography-hero-headline:lang(ar) {
+  line-height: 1.04167;
+}
+
+@media only screen and (max-width: 1068px) {
+  .typography-hero-headline:lang(ar) {
+    line-height: 1.05556;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .typography-hero-headline:lang(ar) {
+    line-height: 1.1;
+  }
+}
+
+.typography-app-headline:lang(ar) {
+  line-height: 1.05556;
+}
+
+@media only screen and (max-width: 1068px) {
+  .typography-app-headline:lang(ar) {
+    line-height: 1.1;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .typography-app-headline:lang(ar) {
+    line-height: 1.28583;
+  }
+}
+
+.section-apple-tv-app .icons .devices {
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 734px) {
+  .section-apple-tv-app .icons .devices {
+    justify-content: flex-start;
+  }
+}

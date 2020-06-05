@@ -1,0 +1,285 @@
+.no-joystick .section-trial .section-image {
+  background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-joystick__c4be03tewlea_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-joystick .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-joystick__c4be03tewlea_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-joystick .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-joystick__c4be03tewlea_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-joystick .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-joystick__c4be03tewlea_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .no-joystick .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-joystick__c4be03tewlea_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .no-joystick .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-joystick__c4be03tewlea_small_2x.jpg");
+  }
+}
+
+.no-tv .section-trial .section-image {
+  background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-tv__ea67hgq5thua_large.png");
+  margin-top: -130px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-tv .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-tv__ea67hgq5thua_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-tv .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-tv__ea67hgq5thua_medium.png");
+    margin-top: 65px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-tv .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-tv__ea67hgq5thua_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .no-tv .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-tv__ea67hgq5thua_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .no-tv .section-trial .section-image {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/ready_to_play_no-tv__ea67hgq5thua_small_2x.jpg");
+  }
+}
+
+.no-tv .lockup-transition-static .image-lockup-transition-static {
+  background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/lockup_transition_static_no_tv__csfxj89qrgya_large.jpg");
+  width: 1395px;
+  height: 737px;
+  background-size: 1395px 737px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .no-tv .lockup-transition-static .image-lockup-transition-static {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/lockup_transition_static_no_tv__csfxj89qrgya_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .no-tv .lockup-transition-static .image-lockup-transition-static {
+    width: 895px;
+    height: 471px;
+    background-size: 895px 471px;
+    margin-left: -470px;
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/lockup_transition_static_no_tv__csfxj89qrgya_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .no-tv .lockup-transition-static .image-lockup-transition-static {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/lockup_transition_static_no_tv__csfxj89qrgya_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .no-tv .lockup-transition-static .image-lockup-transition-static {
+    width: 390px;
+    height: 205px;
+    background-size: 390px 205px;
+    margin-left: -205px;
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/lockup_transition_static_no_tv__csfxj89qrgya_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .no-tv .lockup-transition-static .image-lockup-transition-static {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/overview/lockup_transition_static_no_tv__csfxj89qrgya_small_2x.jpg");
+  }
+}
+
+.section-app-store {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.section-app-store .theme-dark {
+  background-color: #111;
+}
+
+.typography-app-store-headline {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+@media only screen and (max-width: 1068px) {
+  .typography-app-store-headline {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .typography-app-store-headline {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+  }
+}
+
+.image-app-store {
+  width: 985px;
+  height: 536px;
+  margin-top: 36px;
+  background-size: 985px 536px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/redesigned_reminders__emb2qjqxk5si_large.jpg");
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-app-store {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/redesigned_reminders__emb2qjqxk5si_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-app-store {
+    width: 697px;
+    height: 382px;
+    background-size: 697px 382px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/redesigned_reminders__emb2qjqxk5si_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-app-store {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/redesigned_reminders__emb2qjqxk5si_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-app-store {
+    width: 225px;
+    height: 448px;
+    background-size: 225px 448px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/redesigned_reminders__emb2qjqxk5si_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-app-store {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/redesigned_reminders__emb2qjqxk5si_small_2x.jpg");
+  }
+}
+
+.section-app-store .app-store-cta {
+  color: #6bf;
+}
+
+.typography-app-store-copy {
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 0.8em;
+  display: inline-block;
+}
+
+.image-app-store-icon {
+  margin: 0 auto 36px;
+  width: 77px;
+  height: 77px;
+  background-size: 77px 77px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/icon_apple_arcade__r6w5tlvtr32a_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .image-app-store-icon {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/icon_apple_arcade__r6w5tlvtr32a_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-app-store-icon {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/icon_apple_arcade__r6w5tlvtr32a_small.png");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-app-store-icon {
+    background-image: url("https://www.apple.com/mideast/apple-arcade/f/images/app-store/icon_apple_arcade__r6w5tlvtr32a_small_2x.png");
+  }
+}
+.section-trial a.banner-cta {
+  display: inline-block;
+}

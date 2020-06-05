@@ -1,0 +1,92 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+.page-overview .section-hero .card-hero .image-music-hero { background-image:url("https://www.apple.com/euro/music/g/screens/images/overview/music_hero_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-overview .section-hero .card-hero .image-music-hero { background-image:url("https://www.apple.com/euro/music/g/screens/images/overview/music_hero_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .page-overview .section-hero .card-hero .image-music-hero { background-image:url("https://www.apple.com/euro/music/g/screens/images/overview/music_hero_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-overview .section-hero .card-hero .image-music-hero { background-image:url("https://www.apple.com/euro/music/g/screens/images/overview/music_hero_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .page-overview .section-hero .card-hero .image-music-hero { background-image:url("https://www.apple.com/euro/music/g/screens/images/overview/music_hero_small.jpg"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-overview .section-hero .card-hero .image-music-hero { background-image:url("https://www.apple.com/euro/music/g/screens/images/overview/music_hero_small_2x.jpg"); }
+}
+.img-hero { background-image:url("https://www.apple.com/euro/music/h/screens_alt/images/overview/hero__drdt6ucq1rqu_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+ .img-hero { background-image:url("https://www.apple.com/euro/music/h/screens_alt/images/overview/hero__drdt6ucq1rqu_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+ .img-hero { background-image:url("https://www.apple.com/euro/music/h/screens_alt/images/overview/hero__drdt6ucq1rqu_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+ .img-hero { background-image:url("https://www.apple.com/euro/music/h/screens_alt/images/overview/hero__drdt6ucq1rqu_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+ .img-hero { background-image:url("https://www.apple.com/euro/music/h/screens_alt/images/overview/hero__drdt6ucq1rqu_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+ .img-hero { background-image:url("https://www.apple.com/euro/music/h/screens_alt/images/overview/hero__drdt6ucq1rqu_small_2x.png"); }
+}
+
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+.chapternav .chapternav-items .chapternav-item-music {
+    padding: 0 20px
+}
+.chapternav .chapternav-items .chapternav-item-itunes .chapternav-icon {
+    background-size: auto auto
+}
+.chapternav .chapternav-items .chapternav-item-homepod {
+    padding: 0 20px
+}
+.chapternav .chapternav-items .chapternav-item-airpods {
+    padding: 0 20px
+}
+.chapternav .chapternav-items .chapternav-item-ipod {
+   padding: 0 20px
+}
+.chapternav .chapternav-items .chapternav-item-ipod-touch {
+   padding: 0 20px
+}
+.chapternav .chapternav-items .chapternav-item-accessories {
+    padding: 0 20px
+}
+.chapternav .chapternav-items .chapternav-item-cards {
+    padding: 0 20px
+}
+.chapternav-alt .chapternav-items .chapternav-item-itunes {
+    padding: 0 20px
+}
+.chapternav-alt .chapternav-items .chapternav-item-itunes {
+    padding: 0 20px
+}
+.chapternav-alt .chapternav-items .chapternav-item-itunes {
+    padding-right: 45px;
+}
+
+.page-overview .section-hero .card-hero {
+	background: #fafafa;
+}
+
+
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/
+

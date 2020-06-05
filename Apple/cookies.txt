@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.apple.com	TRUE	/	FALSE	1999999999	geo	IN
+.apple.com	TRUE	/	FALSE	1999999999	ccl	F6XyK/PrZhIXRHJI3tb0dA==
+apple.com	TRUE	/	FALSE	1999999999	as_xs	cr=&flc=
+apple.com	TRUE	/	FALSE	1999999999	higherEdSchool	400000324
+apple.com	TRUE	/	FALSE	1999999999	k12School	-1
+apple.com	TRUE	/	FALSE	1999999999	as_xsm	1&k941vgvv/ae-edu&k941vgvv/ae-edu&JQQ4Ntw6M0DYxEDiK5-ecg
+apple.com	TRUE	/	FALSE	1999999999	as_sfa	MnxhdHxhdHx8ZGVfQVR8Y29uc3VtZXJ8aW50ZXJuZXR8MHwwfDE
+apple.com	TRUE	/	FALSE	1999999999	dssid2	70946b5b-f348-4f67-9834-5ad2fa146c75
+apple.com	TRUE	/	FALSE	1999999999	dssf	1
+apple.com	TRUE	/	FALSE	1999999999	as_pcts	9KlKsz26gXZS9RgDr5p7DGtdkS_Br6p2iN7JXls-Mh:ni_OGSCaNxFT7uhsNUO_aVUa2
+apple.com	TRUE	/	FALSE	1999999999	as_dc	nwk
+

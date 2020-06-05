@@ -1,0 +1,49 @@
+
+.image-retail-fieldtrip-create-products { background-image:url("https://www.apple.com/retail/fieldtrip/images/create_products_large.jpg"); background-size:408px 265px; width:408px; height:265px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-create-products { background-image:url("https://www.apple.com/retail/fieldtrip/images/create_products_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-retail-fieldtrip-create-products { background-image:url("https://www.apple.com/retail/fieldtrip/images/create_products_medium.jpg"); background-size:317px 204px; width:317px; height:204px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-create-products { background-image:url("https://www.apple.com/retail/fieldtrip/images/create_products_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-retail-fieldtrip-create-products { background-image:url("https://www.apple.com/retail/fieldtrip/images/create_products_small.jpg"); background-size:736px 412px; width:736px; height:412px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-create-products { background-image:url("https://www.apple.com/retail/fieldtrip/images/create_products_small_2x.jpg"); }
+}
+.image-retail-fieldtrip-experience-teachers { background-image:url("https://www.apple.com/retail/fieldtrip/images/experience_teachers_large.jpg"); background-size:408px 265px; width:408px; height:265px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-experience-teachers { background-image:url("https://www.apple.com/retail/fieldtrip/images/experience_teachers_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-retail-fieldtrip-experience-teachers { background-image:url("https://www.apple.com/retail/fieldtrip/images/experience_teachers_medium.jpg"); background-size:317px 204px; width:317px; height:204px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-experience-teachers { background-image:url("https://www.apple.com/retail/fieldtrip/images/experience_teachers_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-retail-fieldtrip-experience-teachers { background-image:url("https://www.apple.com/retail/fieldtrip/images/experience_teachers_small.jpg"); background-size:736px 412px; width:736px; height:412px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-experience-teachers { background-image:url("https://www.apple.com/retail/fieldtrip/images/experience_teachers_small_2x.jpg"); }
+}
+.image-retail-fieldtrip-hero { background-image:url("https://www.apple.com/retail/fieldtrip/images/hero_large.jpg"); background-size:1440px 677px; width:1440px; height:677px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-hero { background-image:url("https://www.apple.com/retail/fieldtrip/images/hero_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .image-retail-fieldtrip-hero { background-image:url("https://www.apple.com/retail/fieldtrip/images/hero_medium.jpg"); background-size:1068px 655px; width:1068px; height:655px; }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-hero { background-image:url("https://www.apple.com/retail/fieldtrip/images/hero_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 735px) {
+  .image-retail-fieldtrip-hero { background-image:url("https://www.apple.com/retail/fieldtrip/images/hero_small.jpg"); background-size:736px 532px; width:736px; height:532px; }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-fieldtrip-hero { background-image:url("https://www.apple.com/retail/fieldtrip/images/hero_small_2x.jpg"); }
+}

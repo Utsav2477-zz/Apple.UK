@@ -1,0 +1,400 @@
+.hmc-standalone .hmc-table .hmc-section-content [role="rowheader"],
+.hmc-modal-content .hmc-table .hmc-section-content [role="rowheader"] {
+  padding-left: 50%;
+  padding-right: 0;
+}
+
+.hmc-standalone .colornav-items,
+.hmc-modal-content .colornav-items {
+  float: right;
+}
+
+.hmc-standalone .colornav-item,
+.hmc-modal-content .colornav-item {
+  float: right;
+}
+
+.hmc-standalone .hmc-table .hmc-tabnav,
+.hmc-modal-content .hmc-table .hmc-tabnav {
+  right: 0;
+  left: auto;
+}
+
+.hmc-standalone .hmc-table .hmc-tabnav .tabnav-item:first-of-type,
+.hmc-modal-content .hmc-table .hmc-tabnav .tabnav-item:first-of-type {
+  direction: ltr;
+  border-radius: 0 30px 30px 0;
+  border-left: none;
+  border-right: 1px solid #010101;
+}
+
+@media only screen and (max-width: 320px) {
+  .hmc-standalone .hmc-table .hmc-tabnav .tabnav-item:first-of-type,
+  .hmc-modal-content .hmc-table .hmc-tabnav .tabnav-item:first-of-type {
+    border: 1px solid #010101;
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+.hmc-standalone .hmc-table .hmc-tabnav .tabnav-item:last-of-type,
+.hmc-modal-content .hmc-table .hmc-tabnav .tabnav-item:last-of-type {
+  direction: ltr;
+  border-radius: 30px 0 0 30px;
+  border-right: none;
+  border-left: 1px solid #010101;
+}
+
+@media only screen and (max-width: 320px) {
+  .hmc-standalone .hmc-table .hmc-tabnav .tabnav-item:last-of-type,
+  .hmc-modal-content .hmc-table .hmc-tabnav .tabnav-item:last-of-type {
+    border: 1px solid #010101;
+    border-radius: 0 0 15px 15px;
+  }
+}
+
+.hmc-standalone .hmc-tile-wrapper-two-up:nth-of-type(even),
+.hmc-modal-content .hmc-tile-wrapper-two-up:nth-of-type(even) {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-tile-wrapper-two-up:nth-of-type(even),
+  .hmc-modal-content .hmc-tile-wrapper-two-up:nth-of-type(even) {
+    padding: 0;
+  }
+}
+
+.hmc-standalone .hmc-tile-wrapper-two-up:nth-of-type(odd),
+.hmc-modal-content .hmc-tile-wrapper-two-up:nth-of-type(odd) {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-tile-wrapper-two-up:nth-of-type(odd),
+  .hmc-modal-content .hmc-tile-wrapper-two-up:nth-of-type(odd) {
+    padding: 0;
+  }
+}
+
+.hmc-standalone
+  .hmc-subsection-buy
+  .hmc-tile-wrapper:nth-child(even)
+  .hmc-tile-content-wrapper,
+.hmc-modal-content
+  .hmc-subsection-buy
+  .hmc-tile-wrapper:nth-child(even)
+  .hmc-tile-content-wrapper {
+  padding-left: 80px;
+  padding-right: 70px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .hmc-standalone
+    .hmc-subsection-buy
+    .hmc-tile-wrapper:nth-child(even)
+    .hmc-tile-content-wrapper,
+  .hmc-modal-content
+    .hmc-subsection-buy
+    .hmc-tile-wrapper:nth-child(even)
+    .hmc-tile-content-wrapper {
+    padding-left: 80px;
+    padding-right: 70px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone
+    .hmc-subsection-buy
+    .hmc-tile-wrapper:nth-child(even)
+    .hmc-tile-content-wrapper,
+  .hmc-modal-content
+    .hmc-subsection-buy
+    .hmc-tile-wrapper:nth-child(even)
+    .hmc-tile-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-subsection-buy .hmc-tile-wrapper:nth-child(even),
+  .hmc-modal-content .hmc-subsection-buy .hmc-tile-wrapper:nth-child(even) {
+    padding-left: 0;
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-subsection-buy .hmc-tile-wrapper:nth-child(odd),
+  .hmc-modal-content .hmc-subsection-buy .hmc-tile-wrapper:nth-child(odd) {
+    padding-left: 6px;
+    padding-right: 0;
+  }
+}
+
+.hmc-standalone .colornav-logo-productred,
+.hmc-modal-content .colornav-logo-productred {
+  left: 50%;
+  margin-left: -23px;
+  right: auto;
+  margin-right: auto;
+}
+
+.hmc-section-display .hmc-cell .hmc-section-image {
+  direction: ltr;
+}
+
+.hmc-standalone .hmc-align-image-right,
+.hmc-modal-content .hmc-align-image-right {
+  float: left;
+}
+
+.hmc-standalone .hmc-align-image-left,
+.hmc-modal-content .hmc-align-image-left {
+  float: right;
+}
+
+/* 
+
+/\/\/\
+
+*/
+
+.hmc-standalone .hmc-image-iphone11-camera,
+.hmc-modal-content .hmc-image-iphone11-camera {
+  width: 322px;
+  height: 182px;
+  background-size: 322px 182px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_camera__d95fgah8v4ae_large.jpg");
+  position: relative;
+  right: 50%;
+  margin-right: -161px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_camera__d95fgah8v4ae_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    width: 288px;
+    height: 167px;
+    background-size: 288px 167px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_camera__d95fgah8v4ae_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_camera__d95fgah8v4ae_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    width: 152px;
+    height: 86px;
+    background-size: 152px 86px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_camera__d95fgah8v4ae_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_camera__d95fgah8v4ae_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    right: 50%;
+    margin-right: -144px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    right: 50%;
+    margin-right: -76px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera {
+    right: 45%;
+  }
+}
+
+.hmc-standalone .hmc-image-iphone11pro-camera,
+.hmc-modal-content .hmc-image-iphone11pro-camera {
+  width: 322px;
+  height: 182px;
+  background-size: 322px 182px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_pro_camera__3q5shracm7m2_large.jpg");
+  position: relative;
+  right: 50%;
+  margin-right: -161px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_pro_camera__3q5shracm7m2_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    width: 290px;
+    height: 167px;
+    background-size: 290px 167px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_pro_camera__3q5shracm7m2_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_pro_camera__3q5shracm7m2_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    width: 152px;
+    height: 86px;
+    background-size: 152px 86px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_pro_camera__3q5shracm7m2_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    background-image: url("https://www.apple.com/v/iphone/help-me-choose/c/images/shared/hmc_iphone_11_pro_camera__3q5shracm7m2_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    right: 50%;
+    margin-right: -145px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    right: 50%;
+    margin-right: -76px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    right: 55%;
+  }
+}
+
+.hmc-standalone .hmc-image-iphone11-camera,
+.hmc-standalone .hmc-image-iphone11pro-camera,
+.hmc-modal-content .hmc-image-iphone11-camera,
+.hmc-modal-content .hmc-image-iphone11pro-camera {
+  margin-top: 82px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    margin-top: 68px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .hmc-standalone .hmc-image-iphone11-camera,
+  .hmc-standalone .hmc-image-iphone11pro-camera,
+  .hmc-modal-content .hmc-image-iphone11-camera,
+  .hmc-modal-content .hmc-image-iphone11pro-camera {
+    margin-top: 62px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone #gallery-hmc-finishes-iphone11-purple,
+  .hmc-modal-content #gallery-hmc-finishes-iphone11-purple {
+    right: -16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone #gallery-hmc-finishes-iphone11-yellow,
+  .hmc-modal-content #gallery-hmc-finishes-iphone11-yellow {
+    right: -16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone #gallery-hmc-finishes-iphone11-green,
+  .hmc-modal-content #gallery-hmc-finishes-iphone11-green {
+    right: -16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone #gallery-hmc-finishes-iphone11-black,
+  .hmc-modal-content #gallery-hmc-finishes-iphone11-black {
+    right: -16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone #gallery-hmc-finishes-iphone11-white,
+  .hmc-modal-content #gallery-hmc-finishes-iphone11-white {
+    right: -16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hmc-standalone #gallery-hmc-finishes-iphone11-red,
+  .hmc-modal-content #gallery-hmc-finishes-iphone11-red {
+    right: -16px;
+  }
+}

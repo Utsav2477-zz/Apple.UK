@@ -1,0 +1,9 @@
+.section-tiles .airpods-pro .tile-copy {
+  padding-top: 111px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-tiles .airpods-pro .tile-copy {
+    padding-top: 74px;
+  }
+}
